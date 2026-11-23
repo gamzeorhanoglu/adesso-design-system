@@ -34,6 +34,13 @@ export type {
 } from "./components/Language/Language";
 export { CalendarItem } from "./components/CalendarItem/CalendarItem";
 export type { CalendarItemProps } from "./components/CalendarItem/CalendarItem";
+export { Calendar } from "./components/Calendar/Calendar";
+export type {
+  CalendarPeriod,
+  CalendarProps,
+  CalendarRange,
+  CalendarSelectionMode
+} from "./components/Calendar/Calendar";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

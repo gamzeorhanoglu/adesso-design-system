@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 6,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 22,
-    "missingNonIconSetCount": 35
+    "implementedNonIconSetCount": 24,
+    "missingNonIconSetCount": 33
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -301,9 +301,9 @@
       "name": "Calendar",
       "nodeType": "COMPONENT_SET",
       "variantCount": 2,
-      "status": "missing",
-      "phase": 2,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Calendar/Calendar.tsx"
     },
     {
       "page": "Calendar",

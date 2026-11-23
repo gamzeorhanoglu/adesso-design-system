@@ -22,7 +22,7 @@ akışı ve güvenlik kurallarını araç bazında açıklar.
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput,
-DropdownList, Dropdown, Language, CalendarItem, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -32,9 +32,9 @@ The complete ADS Figma file has been inventoried across all component pages:
 337 component sets, 37 standalone components, and 2,220 variants or standalone
 items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
-Outside icons, six Button families, Input, Input/Search, DropdownList, Dropdown, Language, Calendar-Item, Checkbox,
+Outside icons, six Button families, Input, Input/Search, DropdownList, Dropdown, Language, Calendar, Calendar-Item, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-and ListItem sets are implemented, leaving 35 component
+and ListItem sets are implemented, leaving 33 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -89,6 +89,7 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Dropdown template: `code-connect/Dropdown.figma.ts`
 - Language template: `code-connect/Language.figma.ts`
 - CalendarItem template: `code-connect/CalendarItem.figma.ts`
+- Calendar template: `code-connect/Calendar.figma.ts`
 - Checkbox template: `code-connect/Checkbox.figma.ts`
 - RadioButton template: `code-connect/RadioButton.figma.ts`
 - Desktop Switch template: `code-connect/DesktopSwitch.figma.ts`
@@ -135,6 +136,7 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Dropdown component set: `2172:1208`
 - Language component set: `2681:2229`
 - Calendar-Item component set: `2181:8155`
+- Calendar component set: `5386:1707`
 - Checkbox component set: `239:1178`
 - RadioButton component set: `239:1050`
 - Desktop Switch component set: `245:158`

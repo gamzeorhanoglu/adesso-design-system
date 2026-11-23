@@ -30,6 +30,8 @@ const requiredSelectors = [
   ".ads-language",
   ".ads-language-trigger",
   ".ads-calendar-item",
+  ".ads-calendar",
+  ".ads-calendar-nav",
   ".ads-icon",
   ".ads-field",
   ".ads-field-control",
@@ -91,7 +93,8 @@ const dropdownListStyles = await readFile(new URL("../packages/css/src/component
 const dropdownStyles = await readFile(new URL("../packages/css/src/components/dropdown.css", import.meta.url), "utf8");
 const languageStyles = await readFile(new URL("../packages/css/src/components/language.css", import.meta.url), "utf8");
 const calendarItemStyles = await readFile(new URL("../packages/css/src/components/calendar-item.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const calendarStyles = await readFile(new URL("../packages/css/src/components/calendar.css", import.meta.url), "utf8");
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -143,8 +146,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 309) {
-  errors.push("ads.config.json must record 309 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 310) {
+  errors.push("ads.config.json must record 310 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -154,16 +157,16 @@ if (
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
   parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 6 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 22 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 35
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 24 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 33
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 22 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 35
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 24 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 33
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -207,7 +210,8 @@ const additionalButtonTemplateContracts = [
   ["DropdownList", "DropdownList.figma.ts", "ads-dropdown-list"],
   ["Dropdown", "Dropdown.figma.ts", "ads-dropdown"],
   ["Language", "Language.figma.ts", "ads-language"],
-  ["CalendarItem", "CalendarItem.figma.ts", "ads-calendar-item"]
+  ["CalendarItem", "CalendarItem.figma.ts", "ads-calendar-item"],
+  ["Calendar", "Calendar.figma.ts", "ads-calendar"]
 ];
 for (const [name, file, id] of additionalButtonTemplateContracts) {
   const template = await readFile(new URL(`../code-connect/${file}`, import.meta.url), "utf8");
@@ -232,7 +236,7 @@ for (const file of flagAssetFiles) {
     errors.push(`Flag asset must not be empty: ${file}`);
   }
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "input", "searchInput", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "input", "searchInput", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -266,6 +270,9 @@ if (!parsedConfig.figma.components.language?.behaviors?.selection) {
 }
 if (!parsedConfig.figma.components.calendarItem?.behaviors?.selection) {
   errors.push("Missing approved CalendarItem selection behavior mapping.");
+}
+if (!parsedConfig.figma.components.calendar?.behaviors?.state) {
+  errors.push("Missing approved Calendar state behavior mapping.");
 }
 if (parsedConfig.name !== "Adesso Design System") {
   errors.push("ads.config.json must use the canonical Adesso Design System name.");

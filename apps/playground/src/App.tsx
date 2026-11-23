@@ -3,6 +3,7 @@ import { ChevronRightIcon, StarIcon } from "@ads/icons";
 import {
   Button,
   ButtonGroup,
+  Calendar,
   CalendarItem,
   Avatar,
   Checkbox,
@@ -188,6 +189,24 @@ export function App() {
           <CalendarItem aria-label="Range day 30" label={30} inRange />
           <CalendarItem aria-label="Disabled day 30" label={30} disabled />
           <CalendarItem aria-label="Hidden day 30" label={30} hidden />
+        </div>
+      </section>
+
+      <section aria-labelledby="calendar-title">
+        <h2 id="calendar-title">Calendar</h2>
+        <div className="showcase-row">
+          <Calendar
+            aria-label="Day calendar"
+            defaultValue={new Date(2025, 8, 9)}
+            defaultDisplayedMonth={new Date(2025, 8, 1)}
+          />
+          <Calendar
+            aria-label="Month calendar"
+            period="month"
+            locale="tr-TR"
+            defaultValue={new Date(2025, 7, 1)}
+            defaultDisplayedMonth={new Date(2025, 7, 1)}
+          />
         </div>
       </section>
 
