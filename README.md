@@ -2,17 +2,10 @@
 
 Production code counterpart of the ADS Figma library.
 
-## Agent onboarding
+## Implementation guideline
 
-Claude Code, Gemini CLI veya Codex ile ADS üzerinde çalışmaya başlamadan önce
-[ADS agent onboarding](docs/onboarding/README.md) rehberini izleyin. Rehber;
-repository kurulumu, Figma MCP bağlantısı, salt-okunur smoke test, branch/PR
-akışı ve güvenlik kurallarını araç bazında açıklar.
-
-- [Claude Code onboarding](docs/onboarding/claude-code.md)
-- [Gemini CLI onboarding](docs/onboarding/gemini-cli.md)
-- [Codex onboarding](docs/onboarding/codex.md)
-- [ADS'yi ürün projesinde kullanmak](docs/onboarding/using-ads-in-product.md)
+Product teams using Claude Code, Gemini CLI, or Codex should follow the private
+[ADS Implementation Guideline](https://github.com/gamzeorhanoglu/ads-implementation-guideline).
 
 ## Packages
 
