@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 6,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 19,
-    "missingNonIconSetCount": 38
+    "implementedNonIconSetCount": 20,
+    "missingNonIconSetCount": 37
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -884,9 +884,9 @@
       "name": "Language",
       "nodeType": "COMPONENT_SET",
       "variantCount": 3,
-      "status": "missing",
-      "phase": 1,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Language/Language.tsx"
     },
     {
       "page": "Switch",

@@ -22,6 +22,7 @@ export interface DropdownListProps
   multiple?: boolean;
   onValueChange?: (value: string[]) => void;
   options: readonly DropdownListOption[];
+  listboxId?: string;
   searchLabel?: string;
   searchPlaceholder?: string;
   searchable?: boolean;
@@ -41,6 +42,7 @@ export const DropdownList = forwardRef<HTMLDivElement, DropdownListProps>(
       multiple = true,
       onValueChange,
       options,
+      listboxId,
       searchLabel = "Search options",
       searchPlaceholder = "Placeholder",
       searchable = true,
@@ -83,6 +85,7 @@ export const DropdownList = forwardRef<HTMLDivElement, DropdownListProps>(
         ) : null}
 
         <div
+          id={listboxId}
           className="ads-dropdown-list-options"
           role="listbox"
           aria-label={ariaLabel}

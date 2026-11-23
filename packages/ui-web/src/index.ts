@@ -22,6 +22,11 @@ export type {
   DropdownListOption,
   DropdownListProps
 } from "./components/DropdownList/DropdownList";
+export { Language } from "./components/Language/Language";
+export type {
+  LanguageOption,
+  LanguageProps
+} from "./components/Language/Language";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

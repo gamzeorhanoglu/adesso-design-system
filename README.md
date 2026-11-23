@@ -10,7 +10,7 @@ Production code counterpart of the ADS Figma library.
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput,
-DropdownList, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Language, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -20,9 +20,9 @@ The complete ADS Figma file has been inventoried across all component pages:
 337 component sets, 37 standalone components, and 2,220 variants or standalone
 items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
-Outside icons, six Button families, Input, Input/Search, DropdownList, Checkbox,
+Outside icons, six Button families, Input, Input/Search, DropdownList, Language, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-and ListItem sets are implemented, leaving 38 component
+and ListItem sets are implemented, leaving 37 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -74,6 +74,7 @@ component sets are mapped to their named exports from `@ads/icons`.
 - ListItem template: `code-connect/ListItem.figma.ts`
 - Input templates: `code-connect/Input.figma.ts`, `code-connect/SearchInput.figma.ts`
 - DropdownList template: `code-connect/DropdownList.figma.ts`
+- Language template: `code-connect/Language.figma.ts`
 - Checkbox template: `code-connect/Checkbox.figma.ts`
 - RadioButton template: `code-connect/RadioButton.figma.ts`
 - Desktop Switch template: `code-connect/DesktopSwitch.figma.ts`
@@ -100,7 +101,8 @@ source-only mappings must be disconnected in Figma before their full templates
 can replace them.
 
 Input and SearchInput implement the approved clear, password-visibility, units,
-country-selection, and search contracts. DropdownList composes SearchInput,
+country-selection, and search contracts. Language composes Flag, DropdownList,
+and the canonical Chevron icons. DropdownList composes SearchInput,
 ListItem, ButtonGroup, and Button. Behavior lives in focused hooks; labels remain
 accessible, and visual decisions remain in ADS components and token CSS.
 
@@ -115,6 +117,7 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Input default instance: `228:2525`
 - Input/Search component set: `229:2793`
 - DropdownList component set: `2172:907`
+- Language component set: `2681:2229`
 - Checkbox component set: `239:1178`
 - RadioButton component set: `239:1050`
 - Desktop Switch component set: `245:158`

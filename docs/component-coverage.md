@@ -10,8 +10,8 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.220 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 19 (altı Button ailesi + Input + Input/Search + DropdownList + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
-- Eksik non-icon set: 38
+- Kod kapsamındaki non-icon set: 20 (altı Button ailesi + Input + Input/Search + DropdownList + Language + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
+- Eksik non-icon set: 37
 - Kod kapsamındaki standalone component: 6 (`SelectionItem`, `SelectionGroup`, `SwitchGroup` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
@@ -44,7 +44,7 @@ gelir. Ana Input ve Search hazırdır; TextArea ayrı komponent olarak eksiktir.
 | Selection | 2 | 2 | 16 | 4 | 0 |
 | Sidebar | 3 | 0 | 18 | 0 | 3 |
 | Stepper | 3 | 1 | 14 | 0 | 4 |
-| Switch | 3 | 1 | 16 | 3 | 1 |
+| Switch | 3 | 1 | 16 | 4 | 0 |
 | Tab | 2 | 2 | 26 | 0 | 4 |
 | Table | 6 | 1 | 23 | 0 | 7 |
 | Tags | 2 | 0 | 30 | 2 | 0 |
@@ -55,11 +55,11 @@ gelir. Ana Input ve Search hazırdır; TextArea ayrı komponent olarak eksiktir.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `DropdownList`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `DropdownList`, `Language`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
 
 ### 1. Temel primitives
 
-`Language`
+Tamamlandı.
 
 ### 2. Form kontrolleri
 
@@ -96,12 +96,7 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 
 ## İlk uygulama paketi
 
-Phase 1 aşağıdaki sırayla uygulanmalıdır:
-
-1. `Language` (`DropdownList` tamamlandıktan sonra)
-
-Bu sıra Dropdown, Table, Sidebar, Notification ve diğer composite komponentlerin
-gereksinim duyduğu primitives'i önce tamamlar.
+Phase 1 tamamlandı. Sıradaki çalışma Phase 2 form kontrolleridir.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 

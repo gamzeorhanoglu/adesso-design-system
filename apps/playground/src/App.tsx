@@ -7,6 +7,7 @@ import {
   Checkbox,
   Flag,
   Input,
+  Language,
   SearchInput,
   DropdownList,
   ListItem,
@@ -129,6 +130,20 @@ export function App() {
             { label: "Spain", value: "es" },
             { label: "Saudi Arabia", value: "sa" },
             { label: "United States", value: "us" }
+          ]}
+        />
+      </section>
+
+      <section aria-labelledby="language-title">
+        <h2 id="language-title">Language</h2>
+        <Language
+          aria-label="Language"
+          options={[
+            { country: "turkey", label: "Türkçe", value: "tr" },
+            { country: "usa", label: "English", value: "en" },
+            { country: "germany", label: "Deutsch", value: "de" },
+            { country: "spain", label: "Español", value: "es" },
+            { country: "saudi-arabia", label: "العربية", value: "ar" }
           ]}
         />
       </section>
