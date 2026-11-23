@@ -1,0 +1,102 @@
+.ads-progress-bar {
+  --ads-progress-color: var(--ads-component-color-progress-bar-icon-brand);
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: var(--ads-component-color-progress-bar-text-default);
+  font-family: var(--ads-font-family-primary);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+}
+
+.ads-progress-bar.type-neutral {
+  --ads-progress-color: var(--ads-component-color-progress-bar-icon-neutral);
+}
+
+.ads-progress-bar.type-green {
+  --ads-progress-color: var(--ads-component-color-progress-bar-icon-green);
+}
+
+.ads-progress-bar.type-orange {
+  --ads-progress-color: var(--ads-component-color-progress-bar-icon-orange);
+}
+
+.ads-progress-bar.type-red {
+  --ads-progress-color: var(--ads-component-color-progress-bar-icon-red);
+}
+
+.ads-progress-bar.size-small {
+  gap: var(--ads-layout-space-3xs);
+  font-size: var(--ads-font-size-label-sm);
+}
+
+.ads-progress-bar.size-medium,
+.ads-progress-bar.size-large {
+  gap: var(--layout-space-2xs);
+}
+
+.ads-progress-bar.size-medium {
+  font-size: var(--ads-font-size-label-md);
+}
+
+.ads-progress-bar.size-large {
+  font-size: var(--ads-font-size-label-lg);
+}
+
+.ads-progress-bar-header,
+.ads-progress-bar-label,
+.ads-progress-bar-info {
+  display: flex;
+  align-items: center;
+}
+
+.ads-progress-bar-header {
+  min-width: 0;
+  justify-content: space-between;
+  gap: var(--layout-space-sm);
+}
+
+.ads-progress-bar-label {
+  min-width: 0;
+  gap: var(--ads-layout-space-3xs);
+}
+
+.ads-progress-bar-info {
+  flex: 0 0 auto;
+  color: var(--ads-progress-color);
+}
+
+.ads-progress-bar-value {
+  flex: 0 0 auto;
+  color: var(--ads-component-color-progress-bar-text-default);
+}
+
+.ads-progress-bar-track {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-component-color-progress-bar-background-default);
+}
+
+.ads-progress-bar.size-small .ads-progress-bar-track {
+  height: var(--ads-layout-space-3xs);
+}
+
+.ads-progress-bar.size-medium .ads-progress-bar-track {
+  height: var(--layout-space-2xs);
+}
+
+.ads-progress-bar.size-large .ads-progress-bar-track {
+  height: var(--layout-space-xs);
+}
+
+.ads-progress-bar-fill {
+  width: var(--ads-progress-value);
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: var(--ads-progress-color);
+}

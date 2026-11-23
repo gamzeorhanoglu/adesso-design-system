@@ -1,0 +1,12 @@
+import { createAdsIcon } from "../createAdsIcon";
+
+const svgBySize = {
+  "xs": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3334 5.99996L10.0001 2.66663L6.66675 5.99996M10.0001 2.66663V10.6666C10.0001 11.3739 9.71913 12.0521 9.21903 12.5522C8.71893 13.0523 8.04066 13.3333 7.33341 13.3333H2.66675\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "sm": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.6666 7.50004L12.4999 3.33337L8.33325 7.50004M12.4999 3.33337V13.3334C12.4999 14.2174 12.1487 15.0653 11.5236 15.6904C10.8985 16.3155 10.0506 16.6667 9.16658 16.6667H3.33325\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "md": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 9L15 4L10 9M15 4V16C15 17.0609 14.5786 18.0783 13.8284 18.8284C13.0783 19.5786 12.0609 20 11 20H4\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "lg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M26.6666 12L19.9999 5.33337L13.3333 12M19.9999 5.33337V21.3334C19.9999 22.7479 19.438 24.1044 18.4378 25.1046C17.4376 26.1048 16.0811 26.6667 14.6666 26.6667H5.33325\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "xl": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M33.3334 15L25.0001 6.66663L16.6667 15M25.0001 6.66663V26.6666C25.0001 28.4347 24.2977 30.1304 23.0475 31.3807C21.7972 32.6309 20.1015 33.3333 18.3334 33.3333H6.66675\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "2xl": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40 18L30 8L20 18M30 8V32C30 34.1217 29.1571 36.1566 27.6569 37.6569C26.1566 39.1571 24.1217 40 22 40H8\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+} as const;
+
+export const CornerRightUpIcon = createAdsIcon("CornerRightUpIcon", svgBySize);

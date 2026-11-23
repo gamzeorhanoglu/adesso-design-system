@@ -1,0 +1,12 @@
+import { createAdsIcon } from "../createAdsIcon";
+
+const svgBySize = {
+  "xs": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_49)\">\n<path d=\"M8.00004 5.33333V7.99999M8.00004 10.6667H8.00671M5.24004 1.33333H10.76L14.6667 5.23999V10.76L10.76 14.6667H5.24004L1.33337 10.76V5.23999L5.24004 1.33333Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_49\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n",
+  "sm": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_51)\">\n<path d=\"M9.99996 6.66667V10M9.99996 13.3333H10.0083M6.54996 1.66667H13.45L18.3333 6.55V13.45L13.45 18.3333H6.54996L1.66663 13.45V6.55L6.54996 1.66667Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_51\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n",
+  "md": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 8V12M12 16H12.01M7.86 2H16.14L22 7.86V16.14L16.14 22H7.86L2 16.14V7.86L7.86 2Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "lg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 10.6667V16M16 21.3333H16.0133M10.48 2.66667H21.52L29.3333 10.48V21.52L21.52 29.3333H10.48L2.66663 21.52V10.48L10.48 2.66667Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "xl": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 13.3333V20M20 26.6667H20.0167M13.1 3.33334H26.9L36.6667 13.1V26.9L26.9 36.6667H13.1L3.33337 26.9V13.1L13.1 3.33334Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+  "2xl": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 16V24M24 32H24.02M15.72 4H32.28L44 15.72V32.28L32.28 44H15.72L4 32.28V15.72L15.72 4Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+} as const;
+
+export const AlertOctagonIcon = createAdsIcon("AlertOctagonIcon", svgBySize);

@@ -1,0 +1,57 @@
+@import "./generated/figma.css";
+
+:root {
+  --ads-color-blue-10: #eef7ff;
+  --ads-color-blue-20: #d9edff;
+  --ads-color-blue-40: #73c2ff;
+  --ads-color-blue-70: #087edb;
+  --ads-color-blue-80: #006ec7;
+  --ads-color-blue-90: #004f91;
+  --ads-color-blue-100: #003661;
+
+  --ads-color-neutral-0: #ffffff;
+  --ads-color-neutral-10: #f6f5f5;
+  --ads-color-neutral-20: #ecebea;
+  --ads-color-neutral-40: #d7d5d3;
+  --ads-color-neutral-50: #b4aeab;
+  --ads-color-neutral-70: #887d75;
+  --ads-color-neutral-80: #564f4a;
+  --ads-color-neutral-100: #181614;
+
+  --ads-color-danger-surface: #fdf2f3;
+  --ads-color-danger-default: #e62837;
+  --ads-color-danger-hover: #cf2432;
+  --ads-color-danger-pressed: #b8202c;
+
+  --ads-color-action-primary-default: #006ec7;
+  --ads-color-action-primary-hover: #5184cd;
+  --ads-color-action-primary-pressed: #7297d3;
+  --ads-color-action-primary-disabled: #d5def0;
+  --ads-color-action-primary-on-color: #ffffff;
+
+  --ads-space-0: 0px;
+  --ads-space-4: 4px;
+  --ads-space-8: 8px;
+  --ads-space-12: 12px;
+  --ads-space-16: 16px;
+
+  --ads-radius-none: 0px;
+  --ads-radius-full: 9999px;
+
+  --ads-size-control-sm: 32px;
+  --ads-size-control-md: 48px;
+  --ads-size-control-lg: 64px;
+  --ads-size-icon-xs: 16px;
+  --ads-size-icon-sm: 20px;
+  --ads-size-icon-md: 24px;
+  --ads-size-icon-lg: 32px;
+
+  --ads-font-family-primary: "Klavika", "Helvetica Neue", Arial, sans-serif;
+  --ads-font-size-label-sm: 14px;
+  --ads-font-size-label-md: 16px;
+  --ads-font-size-label-lg: 20px;
+  --ads-font-weight-regular: 400;
+
+  --ads-focus-ring: 0 0 4px rgb(0 110 199 / 64%);
+}
+

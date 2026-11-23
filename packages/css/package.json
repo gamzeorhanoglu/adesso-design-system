@@ -1,0 +1,26 @@
+{
+  "name": "@ads/css",
+  "version": "0.1.0",
+  "private": true,
+  "files": ["src"],
+  "dependencies": {
+    "@ads/tokens": "0.1.0"
+  },
+  "exports": {
+    ".": "./src/index.css",
+    "./icon": "./src/components/icon.css",
+    "./button": "./src/components/button.css",
+    "./button-group": "./src/components/button-group.css",
+    "./flag": "./src/components/flag.css",
+    "./list-item": "./src/components/list-item.css",
+    "./input": "./src/components/input.css",
+    "./selection": "./src/components/selection.css",
+    "./switch": "./src/components/switch.css",
+    "./groups": "./src/components/groups.css",
+    "./avatar": "./src/components/avatar.css",
+    "./tag": "./src/components/tag.css",
+    "./tooltip": "./src/components/tooltip.css",
+    "./progress-bar": "./src/components/progress-bar.css"
+  }
+}
+

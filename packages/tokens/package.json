@@ -1,0 +1,22 @@
+{
+  "name": "@ads/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "files": ["src", "dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./css": "./src/index.css",
+    "./json": "./src/tokens.json",
+    "./figma": "./src/figma.tokens.json",
+    "./figma.css": "./src/generated/figma.css",
+    "./figma-resolved": "./src/generated/figma.resolved.json"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}
+

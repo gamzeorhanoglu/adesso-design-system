@@ -1,0 +1,28 @@
+.ads-button-group {
+  width: min(408px, 100%);
+  display: flex;
+  gap: var(--layout-space-sm);
+}
+
+.ads-button-group.orientation-horizontal {
+  flex-direction: row;
+  align-items: center;
+}
+
+.ads-button-group.orientation-horizontal > .ads-btn {
+  min-width: 0;
+  flex: 1 1 0;
+}
+
+.ads-button-group.orientation-horizontal > .ads-btn.icon-only {
+  flex: 0 0 auto;
+}
+
+.ads-button-group.orientation-vertical {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.ads-button-group.orientation-vertical > .ads-btn {
+  width: 100%;
+}

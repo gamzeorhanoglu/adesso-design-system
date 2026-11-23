@@ -1,0 +1,89 @@
+.ads-search-input {
+  width: min(408px, 100%);
+  height: var(--ads-size-control-md);
+  padding: var(--ads-space-8) var(--ads-space-16);
+  display: flex;
+  align-items: center;
+  gap: var(--ads-space-8);
+  border: 1px solid var(--ads-component-color-input-border-default);
+  border-radius: var(--ads-radius-full);
+  color: var(--ads-component-color-input-text-primary);
+  background: var(--ads-component-color-input-background-default);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-search-input-icon {
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+  flex: 0 0 auto;
+  display: inline-flex;
+}
+
+.ads-search-input-control {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  padding: var(--ads-space-4) 0;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  font-size: var(--ads-font-size-label-md);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+  appearance: none;
+}
+
+.ads-search-input-control::placeholder {
+  color: var(--ads-component-color-input-text-placeholder);
+  opacity: 1;
+}
+
+.ads-search-input-control::-webkit-search-cancel-button {
+  display: none;
+}
+
+.ads-search-input-clear {
+  width: var(--ads-size-icon-sm);
+  height: var(--ads-size-icon-sm);
+  padding: 0;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ads-search-input-clear:focus-visible {
+  outline: 2px solid var(--ads-component-color-input-border-focus);
+  outline-offset: 2px;
+}
+
+.ads-search-input[data-state="focus"] {
+  border-color: var(--ads-component-color-input-border-focus);
+  box-shadow: var(--ads-focus-ring);
+}
+
+.ads-search-input[data-state="disabled"] {
+  border-color: var(--ads-component-color-input-border-disabled);
+  color: var(--ads-component-color-input-text-disabled);
+  background: var(--ads-component-color-input-background-disabled);
+}
+
+.ads-search-input[data-state="disabled"] .ads-search-input-control {
+  cursor: not-allowed;
+}
+
+.ads-search-input[data-state="error"] {
+  border-color: var(--ads-component-color-input-border-error);
+  color: var(--ads-component-color-input-text-error);
+  background: var(--ads-component-color-input-background-error);
+}
+
+.ads-search-input[data-state="error"] .ads-search-input-control::placeholder {
+  color: var(--ads-component-color-input-text-error);
+}

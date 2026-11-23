@@ -1,0 +1,1130 @@
+{
+  "source": {
+    "fileKey": "amS8gweXJwZXhCNWE8tB1o",
+    "pageId": "2020:844",
+    "pageName": "Icons"
+  },
+  "icons": [
+    {
+      "setId": "2135:1816",
+      "setKey": "1ee44317c042de4b7438820ed52373e027547418",
+      "name": "icon/Layout",
+      "description": "Layout icon for representing the layout action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1804",
+          "key": "b01d57bdb2e2f548519fd44ad61705346508a072",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 6H14M6 14V6M3.33333 2H12.6667C13.403 2 14 2.59695 14 3.33333V12.6667C14 13.403 13.403 14 12.6667 14H3.33333C2.59695 14 2 13.403 2 12.6667V3.33333C2 2.59695 2.59695 2 3.33333 2Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1806",
+          "key": "e75950d4297e552fa99b44a9898c7b78ebc79137",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.5 7.5H17.5M7.5 17.5V7.5M4.16667 2.5H15.8333C16.7538 2.5 17.5 3.24619 17.5 4.16667V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H4.16667C3.24619 17.5 2.5 16.7538 2.5 15.8333V4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1808",
+          "key": "f0c24d47d98e2299675a1e970cd53613771a6393",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 9H21M9 21V9M5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1810",
+          "key": "c2af785fd7098f02e0abe290dabae2e0415626a1",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4 12H28M12 28V12M6.66667 4H25.3333C26.8061 4 28 5.19391 28 6.66667V25.3333C28 26.8061 26.8061 28 25.3333 28H6.66667C5.19391 28 4 26.8061 4 25.3333V6.66667C4 5.19391 5.19391 4 6.66667 4Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1812",
+          "key": "c76451039ec1cc07625b9d63ae8ed3ef800360e5",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5 15H35M15 35V15M8.33333 5H31.6667C33.5076 5 35 6.49238 35 8.33333V31.6667C35 33.5076 33.5076 35 31.6667 35H8.33333C6.49238 35 5 33.5076 5 31.6667V8.33333C5 6.49238 6.49238 5 8.33333 5Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1814",
+          "key": "d99a32b2f62bdc91e4ecf52c3372995c77e438c0",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 18H42M18 42V18M10 6H38C40.2091 6 42 7.79086 42 10V38C42 40.2091 40.2091 42 38 42H10C7.79086 42 6 40.2091 6 38V10C6 7.79086 7.79086 6 10 6Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1829",
+      "setKey": "7ff9d6a86731c849c691ef102beea467f23b73b3",
+      "name": "icon/Life buoy",
+      "description": "Life buoy icon for representing the life buoy action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1817",
+          "key": "9720b663e9d36a7a1635e8a5af5f04f156eaadae",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1817)\">\n<path d=\"M3.28671 3.28658L6.11337 6.11325M9.88671 9.88659L12.7134 12.7133M12.7134 3.28658L9.88671 6.11325L12.24 3.75992M3.28671 12.7133L6.11337 9.88659M14.6667 7.99992C14.6667 11.6818 11.6819 14.6666 8.00004 14.6666C4.31814 14.6666 1.33337 11.6818 1.33337 7.99992C1.33337 4.31802 4.31814 1.33325 8.00004 1.33325C11.6819 1.33325 14.6667 4.31802 14.6667 7.99992ZM10.6667 7.99992C10.6667 9.47268 9.4728 10.6666 8.00004 10.6666C6.52728 10.6666 5.33337 9.47268 5.33337 7.99992C5.33337 6.52716 6.52728 5.33325 8.00004 5.33325C9.4728 5.33325 10.6667 6.52716 10.6667 7.99992Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1817\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1819",
+          "key": "72b2bbd708bf5ba52bdd2db3ab46440857abc82a",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1819)\">\n<path d=\"M4.10829 4.10841L7.64163 7.64175M12.3583 12.3584L15.8916 15.8917M15.8916 4.10841L12.3583 7.64175L15.3 4.70008M4.10829 15.8917L7.64163 12.3584M18.3333 10.0001C18.3333 14.6025 14.6023 18.3334 9.99996 18.3334C5.39759 18.3334 1.66663 14.6025 1.66663 10.0001C1.66663 5.39771 5.39759 1.66675 9.99996 1.66675C14.6023 1.66675 18.3333 5.39771 18.3333 10.0001ZM13.3333 10.0001C13.3333 11.841 11.8409 13.3334 9.99996 13.3334C8.15901 13.3334 6.66663 11.841 6.66663 10.0001C6.66663 8.15913 8.15901 6.66675 9.99996 6.66675C11.8409 6.66675 13.3333 8.15913 13.3333 10.0001Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1819\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1821",
+          "key": "6ab60022c388e622008c3ff940d0511c966ad95d",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.93 4.93L9.17 9.17M14.83 14.83L19.07 19.07M19.07 4.93L14.83 9.17L18.36 5.64M4.93 19.07L9.17 14.83M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1823",
+          "key": "bdd55a95664904d14f72064b03d2f532fb412cb6",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.57329 6.57341L12.2266 12.2267M19.7733 19.7734L25.4266 25.4267M25.4266 6.57341L19.7733 12.2267L24.48 7.52008M6.57329 25.4267L12.2266 19.7734M29.3333 16.0001C29.3333 23.3639 23.3638 29.3334 16 29.3334C8.63616 29.3334 2.66663 23.3639 2.66663 16.0001C2.66663 8.63628 8.63616 2.66675 16 2.66675C23.3638 2.66675 29.3333 8.63628 29.3333 16.0001ZM21.3333 16.0001C21.3333 18.9456 18.9455 21.3334 16 21.3334C13.0544 21.3334 10.6666 18.9456 10.6666 16.0001C10.6666 13.0546 13.0544 10.6667 16 10.6667C18.9455 10.6667 21.3333 13.0546 21.3333 16.0001Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1825",
+          "key": "c1684de202218e8996836a9e008c7227c98b4697",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.21671 8.21658L15.2834 15.2833M24.7167 24.7166L31.7834 31.7833M31.7834 8.21658L24.7167 15.2833L30.6 9.39992M8.21671 31.7833L15.2834 24.7166M36.6667 19.9999C36.6667 29.2047 29.2048 36.6666 20 36.6666C10.7953 36.6666 3.33337 29.2047 3.33337 19.9999C3.33337 10.7952 10.7953 3.33325 20 3.33325C29.2048 3.33325 36.6667 10.7952 36.6667 19.9999ZM26.6667 19.9999C26.6667 23.6818 23.6819 26.6666 20 26.6666C16.3181 26.6666 13.3334 23.6818 13.3334 19.9999C13.3334 16.318 16.3181 13.3333 20 13.3333C23.6819 13.3333 26.6667 16.318 26.6667 19.9999Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1827",
+          "key": "c63bb67d41b4453bc1256fdc88024198ad1d6422",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.86 9.86L18.34 18.34M29.66 29.66L38.14 38.14M38.14 9.86L29.66 18.34L36.72 11.28M9.86 38.14L18.34 29.66M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24ZM32 24C32 28.4183 28.4183 32 24 32C19.5817 32 16 28.4183 16 24C16 19.5817 19.5817 16 24 16C28.4183 16 32 19.5817 32 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1842",
+      "setKey": "7ed6b14ee5068b2236d3e90a6e148768ddac508e",
+      "name": "icon/Link",
+      "description": "Link icon for representing the link action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1830",
+          "key": "2ba10e74f98fe3309f142a0b05a8314e21f6fd75",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1830)\">\n<path d=\"M6.66668 8.66673C6.95298 9.04948 7.31825 9.36618 7.73771 9.59535C8.15717 9.82452 8.62102 9.9608 9.09778 9.99495C9.57454 10.0291 10.0531 9.9603 10.5009 9.79325C10.9487 9.62619 11.3554 9.36477 11.6933 9.02673L13.6933 7.02673C14.3005 6.39805 14.6365 5.55604 14.6289 4.68205C14.6213 3.80806 14.2708 2.97202 13.6527 2.354C13.0347 1.73597 12.1987 1.38541 11.3247 1.37781C10.4507 1.37022 9.60868 1.7062 8.98001 2.31339L7.83334 3.45339M9.33334 7.33339C9.04704 6.95064 8.68177 6.63394 8.26231 6.40477C7.84285 6.17559 7.37901 6.03931 6.90224 6.00517C6.42548 5.97102 5.94695 6.03981 5.49911 6.20687C5.05127 6.37393 4.6446 6.63535 4.30668 6.97339L2.30668 8.97339C1.69948 9.60206 1.3635 10.4441 1.3711 11.3181C1.37869 12.1921 1.72926 13.0281 2.34728 13.6461C2.96531 14.2641 3.80135 14.6147 4.67534 14.6223C5.54933 14.6299 6.39134 14.2939 7.02001 13.6867L8.16001 12.5467\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1830\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1832",
+          "key": "e61cd594e94a848f767a50472d36b8e31f8fbba7",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1832)\">\n<path d=\"M8.33338 10.8332C8.69125 11.3117 9.14784 11.7075 9.67217 11.994C10.1965 12.2805 10.7763 12.4508 11.3723 12.4935C11.9682 12.5362 12.5664 12.4502 13.1262 12.2414C13.686 12.0326 14.1943 11.7058 14.6167 11.2832L17.1167 8.78322C17.8757 7.99738 18.2957 6.94487 18.2862 5.85238C18.2767 4.7599 17.8385 3.71485 17.066 2.94231C16.2934 2.16978 15.2484 1.73157 14.1559 1.72208C13.0634 1.71259 12.0109 2.13256 11.225 2.89156L9.79171 4.31656M11.6667 9.16656C11.3088 8.68812 10.8522 8.29224 10.3279 8.00577C9.80359 7.71931 9.22379 7.54896 8.62784 7.50628C8.03188 7.4636 7.43372 7.54958 6.87392 7.7584C6.31412 7.96723 5.80578 8.294 5.38338 8.71656L2.88338 11.2166C2.12439 12.0024 1.70441 13.0549 1.7139 14.1474C1.7234 15.2399 2.1616 16.2849 2.93413 17.0575C3.70667 17.83 4.75172 18.2682 5.84421 18.2777C6.93669 18.2872 7.9892 17.8672 8.77504 17.1082L10.2 15.6832\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1832\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1834",
+          "key": "95302f7844279c1294d607eea277e9ce3296521a",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.99996 13C10.4294 13.5741 10.9773 14.0491 11.6065 14.3929C12.2357 14.7367 12.9315 14.9411 13.6466 14.9923C14.3617 15.0435 15.0795 14.9403 15.7513 14.6897C16.4231 14.4392 17.0331 14.047 17.54 13.54L20.54 10.54C21.4507 9.59695 21.9547 8.33394 21.9433 7.02296C21.9319 5.71198 21.4061 4.45791 20.479 3.53087C19.552 2.60383 18.2979 2.07799 16.987 2.0666C15.676 2.0552 14.413 2.55918 13.47 3.46997L11.75 5.17997M14 11C13.5705 10.4258 13.0226 9.95078 12.3934 9.60703C11.7642 9.26327 11.0684 9.05885 10.3533 9.00763C9.63816 8.95641 8.92037 9.0596 8.24861 9.31018C7.57685 9.56077 6.96684 9.9529 6.45996 10.46L3.45996 13.46C2.54917 14.403 2.04519 15.666 2.05659 16.977C2.06798 18.288 2.59382 19.542 3.52086 20.4691C4.4479 21.3961 5.70197 21.9219 7.01295 21.9333C8.32393 21.9447 9.58694 21.4408 10.53 20.53L12.24 18.82\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1836",
+          "key": "471a3598580b4571c9215bc308a4e75d2d381868",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3334 17.3335C13.906 18.099 14.6365 18.7324 15.4754 19.1907C16.3143 19.649 17.242 19.9216 18.1956 19.9899C19.1491 20.0582 20.1061 19.9206 21.0018 19.5865C21.8975 19.2524 22.7108 18.7295 23.3867 18.0535L27.3867 14.0535C28.6011 12.7961 29.273 11.1121 29.2579 9.36411C29.2427 7.61613 28.5415 5.94405 27.3055 4.70799C26.0694 3.47194 24.3973 2.77081 22.6494 2.75562C20.9014 2.74043 19.2174 3.4124 17.96 4.62678L15.6667 6.90678M18.6667 14.6668C18.0941 13.9013 17.3635 13.2679 16.5246 12.8095C15.6857 12.3512 14.758 12.0786 13.8045 12.0103C12.851 11.942 11.8939 12.0796 10.9982 12.4137C10.1025 12.7479 9.2892 13.2707 8.61336 13.9468L4.61336 17.9468C3.39897 19.2041 2.72701 20.8881 2.7422 22.6361C2.75738 24.3841 3.45851 26.0562 4.69457 27.2922C5.93062 28.5283 7.6027 29.2294 9.35068 29.2446C11.0987 29.2598 12.7827 28.5878 14.04 27.3735L16.32 25.0935\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1838",
+          "key": "e28465cffcda21d9157c7079fcfd1ca1328b9bf1",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.6666 21.6667C17.3824 22.6236 18.2956 23.4153 19.3442 23.9883C20.3929 24.5612 21.5525 24.9019 22.7444 24.9872C23.9363 25.0726 25.1326 24.9006 26.2522 24.483C27.3718 24.0653 28.3885 23.4118 29.2333 22.5667L34.2333 17.5667C35.7513 15.995 36.5912 13.89 36.5723 11.705C36.5533 9.52004 35.6769 7.42994 34.1318 5.88487C32.5867 4.3398 30.4966 3.46339 28.3116 3.44441C26.1267 3.42542 24.0217 4.26537 22.45 5.78336L19.5833 8.63336M23.3333 18.3334C22.6175 17.3765 21.7044 16.5847 20.6557 16.0118C19.6071 15.4389 18.4475 15.0982 17.2555 15.0128C16.0636 14.9274 14.8673 15.0994 13.7477 15.5171C12.6281 15.9347 11.6114 16.5882 10.7666 17.4334L5.76663 22.4334C4.24865 24.005 3.4087 26.1101 3.42768 28.295C3.44667 30.48 4.32308 32.5701 5.86815 34.1152C7.41321 35.6602 9.50332 36.5367 11.6883 36.5556C13.8733 36.5746 15.9783 35.7347 17.55 34.2167L20.4 31.3667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1840",
+          "key": "1806f8c848db5712910bf4c63ea9414626744e78",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.9999 25.9999C20.8588 27.1482 21.9546 28.0983 23.213 28.7858C24.4714 29.4733 25.8629 29.8822 27.2932 29.9846C28.7235 30.087 30.1591 29.8807 31.5026 29.3795C32.8461 28.8783 34.0661 28.0941 35.0799 27.0799L41.0799 21.0799C42.9015 19.1939 43.9094 16.6679 43.8867 14.0459C43.8639 11.424 42.8122 8.91583 40.9581 7.06175C39.104 5.20766 36.5959 4.15597 33.9739 4.13319C31.352 4.11041 28.8259 5.11835 26.9399 6.93993L23.4999 10.3599M27.9999 21.9999C27.141 20.8517 26.0452 19.9016 24.7868 19.2141C23.5284 18.5265 22.1369 18.1177 20.7066 18.0153C19.2763 17.9128 17.8407 18.1192 16.4972 18.6204C15.1537 19.1215 13.9337 19.9058 12.9199 20.9199L6.91991 26.9199C5.09833 28.806 4.09039 31.332 4.11317 33.9539C4.13596 36.5759 5.18764 39.084 7.04173 40.9381C8.89581 42.7922 11.4039 43.8439 14.0259 43.8667C16.6479 43.8895 19.1739 42.8815 21.0599 41.0599L24.4799 37.6399\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1855",
+      "setKey": "7879ea5c827e8066da5257589971c18325a85afe",
+      "name": "icon/Linkedin",
+      "description": "Brand icon representing Linkedin. Use only when linking to or identifying the corresponding service, and follow its current brand and legal guidelines. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1843",
+          "key": "392f917536c05510583e48fad194adfb205cecd3",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.6667 5.33325C11.7275 5.33325 12.745 5.75468 13.4951 6.50482C14.2452 7.25497 14.6667 8.27239 14.6667 9.33325V13.9999H12V9.33325C12 8.97963 11.8595 8.64049 11.6095 8.39044C11.3594 8.14039 11.0203 7.99992 10.6667 7.99992C10.313 7.99992 9.97391 8.14039 9.72386 8.39044C9.47381 8.64049 9.33334 8.97963 9.33334 9.33325V13.9999H6.66667V9.33325C6.66667 8.27239 7.0881 7.25497 7.83824 6.50482C8.58839 5.75468 9.6058 5.33325 10.6667 5.33325Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M4 5.99992H1.33334V13.9999H4V5.99992Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M2.66667 3.99992C3.40305 3.99992 4 3.40296 4 2.66659C4 1.93021 3.40305 1.33325 2.66667 1.33325C1.93029 1.33325 1.33334 1.93021 1.33334 2.66659C1.33334 3.40296 1.93029 3.99992 2.66667 3.99992Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1845",
+          "key": "f8a7355dbad40b49cab0b561a5e85d69a1c8c04e",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3333 6.66675C14.6594 6.66675 15.9312 7.19353 16.8689 8.13121C17.8066 9.0689 18.3333 10.3407 18.3333 11.6667V17.5001H15V11.6667C15 11.2247 14.8244 10.8008 14.5118 10.4882C14.1993 10.1757 13.7754 10.0001 13.3333 10.0001C12.8913 10.0001 12.4674 10.1757 12.1548 10.4882C11.8423 10.8008 11.6667 11.2247 11.6667 11.6667V17.5001H8.33334V11.6667C8.33334 10.3407 8.86012 9.0689 9.7978 8.13121C10.7355 7.19353 12.0073 6.66675 13.3333 6.66675Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M5.00001 7.50008H1.66667V17.5001H5.00001V7.50008Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.33334 5.00008C4.25381 5.00008 5.00001 4.25389 5.00001 3.33341C5.00001 2.41294 4.25381 1.66675 3.33334 1.66675C2.41286 1.66675 1.66667 2.41294 1.66667 3.33341C1.66667 4.25389 2.41286 5.00008 3.33334 5.00008Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1847",
+          "key": "7b6a68f17d0cfb6a7f16f3aede7d76d815d16cd7",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M6 9H2V21H6V9Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1849",
+          "key": "ca02e5ef632095d1ea0481d131bebbeb1366e69a",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21.3333 10.6667C23.4551 10.6667 25.4899 11.5096 26.9902 13.0099C28.4905 14.5102 29.3333 16.545 29.3333 18.6667V28.0001H24V18.6667C24 17.9595 23.7191 17.2812 23.219 16.7811C22.7189 16.281 22.0406 16.0001 21.3333 16.0001C20.6261 16.0001 19.9478 16.281 19.4477 16.7811C18.9476 17.2812 18.6667 17.9595 18.6667 18.6667V28.0001H13.3333V18.6667C13.3333 16.545 14.1762 14.5102 15.6765 13.0099C17.1768 11.5096 19.2116 10.6667 21.3333 10.6667Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M8.00001 12.0001H2.66667V28.0001H8.00001V12.0001Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M5.33334 8.00008C6.8061 8.00008 8.00001 6.80617 8.00001 5.33341C8.00001 3.86066 6.8061 2.66675 5.33334 2.66675C3.86058 2.66675 2.66667 3.86066 2.66667 5.33341C2.66667 6.80617 3.86058 8.00008 5.33334 8.00008Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1851",
+          "key": "446ceef94dbb5191fed61d4632b53be04f469273",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M26.6667 13.3333C29.3188 13.3333 31.8624 14.3868 33.7377 16.2622C35.6131 18.1375 36.6667 20.6811 36.6667 23.3333V34.9999H30V23.3333C30 22.4492 29.6488 21.6014 29.0237 20.9762C28.3986 20.3511 27.5507 19.9999 26.6667 19.9999C25.7826 19.9999 24.9348 20.3511 24.3097 20.9762C23.6845 21.6014 23.3333 22.4492 23.3333 23.3333V34.9999H16.6667V23.3333C16.6667 20.6811 17.7202 18.1375 19.5956 16.2622C21.471 14.3868 24.0145 13.3333 26.6667 13.3333Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M10 14.9999H3.33334V34.9999H10V14.9999Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M6.66668 9.99992C8.50763 9.99992 10 8.50753 10 6.66659C10 4.82564 8.50763 3.33325 6.66668 3.33325C4.82573 3.33325 3.33334 4.82564 3.33334 6.66659C3.33334 8.50753 4.82573 9.99992 6.66668 9.99992Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1853",
+          "key": "57823ef0810908a99d033d92157891fd991614fc",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M32 16C35.1826 16 38.2348 17.2643 40.4853 19.5147C42.7357 21.7652 44 24.8174 44 28V42H36V28C36 26.9391 35.5786 25.9217 34.8284 25.1716C34.0783 24.4214 33.0609 24 32 24C30.9391 24 29.9217 24.4214 29.1716 25.1716C28.4214 25.9217 28 26.9391 28 28V42H20V28C20 24.8174 21.2643 21.7652 23.5147 19.5147C25.7652 17.2643 28.8174 16 32 16Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M12 18H4V42H12V18Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1868",
+      "setKey": "ce7431d8160027ffae5969bd3eaecf53a76b21f1",
+      "name": "icon/List",
+      "description": "List icon for representing the list action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1856",
+          "key": "62119d11d6dfdfe3fac8e8278b5c571fd1994a39",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5.33333 4H14M5.33333 8H14M5.33333 12H14M2 4H2.00667M2 8H2.00667M2 12H2.00667\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1858",
+          "key": "5066cd1a57ba997be3f75fe5a8c1be926628f6e4",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.66667 5H17.5M6.66667 10H17.5M6.66667 15H17.5M2.5 5H2.50833M2.5 10H2.50833M2.5 15H2.50833\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1860",
+          "key": "93209828a6bdc517821cc64f0afab778242a7189",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 6H21M8 12H21M8 18H21M3 6H3.01M3 12H3.01M3 18H3.01\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1862",
+          "key": "dbff70852c392ee434c104abc500bd9bcff55f50",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.6667 8H28M10.6667 16H28M10.6667 24H28M4 8H4.01333M4 16H4.01333M4 24H4.01333\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1864",
+          "key": "00fe06cbb380e66778fca1e745c180460fe3bfae",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3333 10H35M13.3333 20H35M13.3333 30H35M5 10H5.01667M5 20H5.01667M5 30H5.01667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1866",
+          "key": "3a09495f786885485bca91da99a4de841db77462",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 12H42M16 24H42M16 36H42M6 12H6.02M6 24H6.02M6 36H6.02\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1881",
+      "setKey": "fc297cbce746457a48405a4d8313dcf43d6d40dd",
+      "name": "icon/Loader",
+      "description": "Loading indicator icon for showing an in-progress operation. Pair with status text for longer waits. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1869",
+          "key": "9d3f8666f673fd82aecee29a468e11e05c1f2af6",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1869)\">\n<path d=\"M7.99998 1.33325V3.99992M7.99998 11.9999V14.6666M3.28665 3.28658L5.17331 5.17325M10.8266 10.8266L12.7133 12.7133M1.33331 7.99992H3.99998M12 7.99992H14.6666M3.28665 12.7133L5.17331 10.8266M10.8266 5.17325L12.7133 3.28658\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1869\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1871",
+          "key": "6484119c10e676db8a5152971e7c4ef9552aa55f",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1871)\">\n<path d=\"M10 1.66675V5.00008M10 15.0001V18.3334M4.10835 4.10841L6.46669 6.46675M13.5334 13.5334L15.8917 15.8917M1.66669 10.0001H5.00002M15 10.0001H18.3334M4.10835 15.8917L6.46669 13.5334M13.5334 6.46675L15.8917 4.10841\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1871\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1873",
+          "key": "bae57a457f7296f636a25c25066d8026f2199b15",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 2V6M12 18V22M4.93 4.93L7.76 7.76M16.24 16.24L19.07 19.07M2 12H6M18 12H22M4.93 19.07L7.76 16.24M16.24 7.76L19.07 4.93\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1875",
+          "key": "c84707399c2da59e1dca926fb5636faa1b8734b4",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 2.66675V8.00008M16 24.0001V29.3334M6.57329 6.57341L10.3466 10.3467M21.6533 21.6534L25.4266 25.4267M2.66663 16.0001H7.99996M24 16.0001H29.3333M6.57329 25.4267L10.3466 21.6534M21.6533 10.3467L25.4266 6.57341\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1877",
+          "key": "fed9d8a80adeae9e894fca3b7d0660f8727cc388",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 3.33325V9.99992M20 29.9999V36.6666M8.21671 8.21658L12.9334 12.9333M27.0667 27.0666L31.7834 31.7833M3.33337 19.9999H10M30 19.9999H36.6667M8.21671 31.7833L12.9334 27.0666M27.0667 12.9333L31.7834 8.21658\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1879",
+          "key": "60e184be57aa76014a78c56508c9fffad2884f11",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 4V12M24 36V44M9.86 9.86L15.52 15.52M32.48 32.48L38.14 38.14M4 24H12M36 24H44M9.86 38.14L15.52 32.48M32.48 15.52L38.14 9.86\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1894",
+      "setKey": "92839cfafb70f12afe5652708aee0c92fb8abbbf",
+      "name": "icon/Lock",
+      "description": "Lock icon for representing the lock action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1882",
+          "key": "83cff60ee6f96f1e968dd47a0a2a025a4f415792",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.66667 7.33325V4.66659C4.66667 3.78253 5.01786 2.93468 5.64298 2.30956C6.2681 1.68444 7.11595 1.33325 8 1.33325C8.88406 1.33325 9.7319 1.68444 10.357 2.30956C10.9821 2.93468 11.3333 3.78253 11.3333 4.66659V7.33325M3.33333 7.33325H12.6667C13.403 7.33325 14 7.93021 14 8.66659V13.3333C14 14.0696 13.403 14.6666 12.6667 14.6666H3.33333C2.59695 14.6666 2 14.0696 2 13.3333V8.66659C2 7.93021 2.59695 7.33325 3.33333 7.33325Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1884",
+          "key": "1c999255b39f1cfa3a6f5e30762f10c3e96dccc8",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5.83333 9.16675V5.83341C5.83333 4.72835 6.27232 3.66854 7.05372 2.88714C7.83512 2.10573 8.89493 1.66675 10 1.66675C11.1051 1.66675 12.1649 2.10573 12.9463 2.88714C13.7277 3.66854 14.1667 4.72835 14.1667 5.83341V9.16675M4.16667 9.16675H15.8333C16.7538 9.16675 17.5 9.91294 17.5 10.8334V16.6667C17.5 17.5872 16.7538 18.3334 15.8333 18.3334H4.16667C3.24619 18.3334 2.5 17.5872 2.5 16.6667V10.8334C2.5 9.91294 3.24619 9.16675 4.16667 9.16675Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1886",
+          "key": "2a0e608ad6b6e2afbfc5694820b0e5ffdedc4302",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7 11V7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7V11M5 11H19C20.1046 11 21 11.8954 21 13V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V13C3 11.8954 3.89543 11 5 11Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1888",
+          "key": "c17c3a4e7c35eeb0d67ae77689f4606e85bb7e0a",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.33333 14.6667V9.33342C9.33333 7.5653 10.0357 5.86961 11.286 4.61937C12.5362 3.36913 14.2319 2.66675 16 2.66675C17.7681 2.66675 19.4638 3.36913 20.714 4.61937C21.9643 5.86961 22.6667 7.5653 22.6667 9.33342V14.6667M6.66667 14.6667H25.3333C26.8061 14.6667 28 15.8607 28 17.3334V26.6667C28 28.1395 26.8061 29.3334 25.3333 29.3334H6.66667C5.19391 29.3334 4 28.1395 4 26.6667V17.3334C4 15.8607 5.19391 14.6667 6.66667 14.6667Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1890",
+          "key": "7ba05f301fb12f2c4f8c201c11c3595b48ef3940",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.6667 18.3333V11.6666C11.6667 9.45645 12.5446 7.33683 14.1074 5.77403C15.6702 4.21123 17.7899 3.33325 20 3.33325C22.2101 3.33325 24.3298 4.21123 25.8926 5.77403C27.4554 7.33683 28.3333 9.45645 28.3333 11.6666V18.3333M8.33333 18.3333H31.6667C33.5076 18.3333 35 19.8256 35 21.6666V33.3333C35 35.1742 33.5076 36.6666 31.6667 36.6666H8.33333C6.49238 36.6666 5 35.1742 5 33.3333V21.6666C5 19.8256 6.49238 18.3333 8.33333 18.3333Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1892",
+          "key": "8cd0f4d1f2a67640725e392c5db87e9404ae2c15",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 22V14C14 11.3478 15.0536 8.8043 16.9289 6.92893C18.8043 5.05357 21.3478 4 24 4C26.6522 4 29.1957 5.05357 31.0711 6.92893C32.9464 8.8043 34 11.3478 34 14V22M10 22H38C40.2091 22 42 23.7909 42 26V40C42 42.2091 40.2091 44 38 44H10C7.79086 44 6 42.2091 6 40V26C6 23.7909 7.79086 22 10 22Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1907",
+      "setKey": "12d93ce3c6f86bbeb68b8a4eb4452838fb44637c",
+      "name": "icon/Log in",
+      "description": "Log in icon for representing the log in action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1895",
+          "key": "ff66f1f4d2ca444ba45f6845f2810ad26ea4a80c",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 2H12.6667C13.0203 2 13.3594 2.14048 13.6095 2.39052C13.8595 2.64057 14 2.97971 14 3.33333V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H10M6.66667 4.66667L10 8L6.66667 11.3333M10 8H2\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1897",
+          "key": "0643c204682029c7f7641aeda1760b7223da736a",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.5 2.5H15.8333C16.2754 2.5 16.6993 2.67559 17.0118 2.98816C17.3244 3.30072 17.5 3.72464 17.5 4.16667V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H12.5M8.33333 5.83333L12.5 10L8.33333 14.1667M12.5 10H2.5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1899",
+          "key": "6a118eda318efa8136c1a44d3e04ffa6fbbf9f68",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15M10 7L15 12L10 17M15 12H3\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1901",
+          "key": "7e44494734047aa89591221f075e24d444872d42",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 4H25.3333C26.0406 4 26.7189 4.28095 27.219 4.78105C27.719 5.28115 28 5.95942 28 6.66667V25.3333C28 26.0406 27.719 26.7189 27.219 27.219C26.7189 27.719 26.0406 28 25.3333 28H20M13.3333 9.33333L20 16L13.3333 22.6667M20 16H4\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1903",
+          "key": "6113fbdfea9dd15440d8c3037c5731dc5d9a9829",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25 5H31.6667C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H25M16.6667 11.6667L25 20L16.6667 28.3333M25 20H5\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1905",
+          "key": "8d589bea4ab20959579afcb47258fbe7607366b9",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M30 6H38C39.0609 6 40.0783 6.42143 40.8284 7.17157C41.5786 7.92172 42 8.93913 42 10V38C42 39.0609 41.5786 40.0783 40.8284 40.8284C40.0783 41.5786 39.0609 42 38 42H30M20 14L30 24L20 34M30 24H6\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1920",
+      "setKey": "4b46eae82ad4ad66e67fe6ae448c5b9c22ccf4d7",
+      "name": "icon/Log out",
+      "description": "Log out icon for representing the log out action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1908",
+          "key": "09d6aaa55f29ea1a201a1544672cd018faf259dc",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V3.33333C2 2.97971 2.14048 2.64057 2.39052 2.39052C2.64057 2.14048 2.97971 2 3.33333 2H6M10.6667 4.66667L14 8L10.6667 11.3333M14 8H6\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1910",
+          "key": "c72b5f07e5206868ec6d33f036f418e9f99a068e",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.5 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V4.16667C2.5 3.72464 2.67559 3.30072 2.98816 2.98816C3.30072 2.67559 3.72464 2.5 4.16667 2.5H7.5M13.3333 5.83333L17.5 10L13.3333 14.1667M17.5 10H7.5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1912",
+          "key": "016bad48c883f63b52974f961beb2cc68344f935",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9M16 7L21 12L16 17M21 12H9\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1914",
+          "key": "c9da304a3ebe9af8f94d8d2dce3d74bc135ebba0",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 28H6.66667C5.95942 28 5.28115 27.719 4.78105 27.219C4.28095 26.7189 4 26.0406 4 25.3333V6.66667C4 5.95942 4.28095 5.28115 4.78105 4.78105C5.28115 4.28095 5.95942 4 6.66667 4H12M21.3333 9.33333L28 16L21.3333 22.6667M28 16H12\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1916",
+          "key": "e4302af1e00786fb1d292c6d9824e68a860d2520",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M15 35H8.33333C7.44928 35 6.60143 34.6488 5.97631 34.0237C5.35119 33.3986 5 32.5507 5 31.6667V8.33333C5 7.44928 5.35119 6.60143 5.97631 5.97631C6.60143 5.35119 7.44928 5 8.33333 5H15M26.6667 11.6667L35 20L26.6667 28.3333M35 20H15\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1918",
+          "key": "7fc9f43494f9c823f589dfea97e48baa124d3273",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18 42H10C8.93913 42 7.92172 41.5786 7.17157 40.8284C6.42143 40.0783 6 39.0609 6 38V10C6 8.93913 6.42143 7.92172 7.17157 7.17157C7.92172 6.42143 8.93913 6 10 6H18M32 14L42 24L32 34M42 24H18\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1933",
+      "setKey": "76e712c0525558da409e1b74708021213051cd75",
+      "name": "icon/Mail",
+      "description": "Mail icon for representing the mail action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1921",
+          "key": "b743535d594e9dd6d339a5c0a2705a1002862902",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.6667 4.00008C14.6667 3.26675 14.0667 2.66675 13.3333 2.66675H2.66667C1.93334 2.66675 1.33334 3.26675 1.33334 4.00008M14.6667 4.00008V12.0001C14.6667 12.7334 14.0667 13.3334 13.3333 13.3334H2.66667C1.93334 13.3334 1.33334 12.7334 1.33334 12.0001V4.00008M14.6667 4.00008L8 8.66675L1.33334 4.00008\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1923",
+          "key": "d117fda26256dd637b0c3ceff5e4e88357d0aa69",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18.3333 4.99992C18.3333 4.08325 17.5833 3.33325 16.6667 3.33325H3.33334C2.41667 3.33325 1.66667 4.08325 1.66667 4.99992M18.3333 4.99992V14.9999C18.3333 15.9166 17.5833 16.6666 16.6667 16.6666H3.33334C2.41667 16.6666 1.66667 15.9166 1.66667 14.9999V4.99992M18.3333 4.99992L10 10.8333L1.66667 4.99992\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1925",
+          "key": "9678d96254fb55111874dd8bce577666b240fea9",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6M22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6M22 6L12 13L2 6\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1927",
+          "key": "67249c2f06a78ba99bfc559de966fdfb90fb6d40",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M29.3333 7.99992C29.3333 6.53325 28.1333 5.33325 26.6667 5.33325H5.33334C3.86667 5.33325 2.66667 6.53325 2.66667 7.99992M29.3333 7.99992V23.9999C29.3333 25.4666 28.1333 26.6666 26.6667 26.6666H5.33334C3.86667 26.6666 2.66667 25.4666 2.66667 23.9999V7.99992M29.3333 7.99992L16 17.3333L2.66667 7.99992\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1929",
+          "key": "aa75e5882a004da81e015a503b6a390e56a1b703",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M36.6667 10.0001C36.6667 8.16675 35.1667 6.66675 33.3333 6.66675H6.66668C4.83334 6.66675 3.33334 8.16675 3.33334 10.0001M36.6667 10.0001V30.0001C36.6667 31.8334 35.1667 33.3334 33.3333 33.3334H6.66668C4.83334 33.3334 3.33334 31.8334 3.33334 30.0001V10.0001M36.6667 10.0001L20 21.6667L3.33334 10.0001\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1931",
+          "key": "599d13d015f89b5866e73bf2f61de2c3c47c5454",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M44 12C44 9.8 42.2 8 40 8H8C5.8 8 4 9.8 4 12M44 12V36C44 38.2 42.2 40 40 40H8C5.8 40 4 38.2 4 36V12M44 12L24 26L4 12\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "5384:630",
+      "setKey": "b266ff60e4d655f3a87bcda9b4fa09233e4b4cfd",
+      "name": "icon/Mail-open",
+      "description": "Mail icon for representing the mail action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "5384:631",
+          "key": "13e577c446a09dc0181df28871cb4e217ca8587d",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M1 7.3993C0.99998 6.94911 1.10851 6.50555 1.3164 6.10622C1.52429 5.7069 1.8254 5.36359 2.1942 5.1054L6.3942 2.1654C6.86485 1.83591 7.42547 1.65918 8 1.65918C8.57453 1.65918 9.13514 1.83591 9.6058 2.1654L13.8058 5.1054C14.1746 5.36359 14.4757 5.7069 14.6836 6.10622C14.8915 6.50555 15 6.94911 15 7.3993V12.9412C15 13.3125 14.8525 13.6686 14.5899 13.9312C14.3274 14.1937 13.9713 14.3412 13.6 14.3412H2.4C2.0287 14.3412 1.6726 14.1937 1.41005 13.9312C1.1475 13.6686 1 13.3125 1 12.9412V7.3993Z\" stroke=\"#181614\" stroke-width=\"0.98\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M1.35 6.29126L6.2507 10.142C6.7472 10.5392 7.36413 10.7556 8 10.7556C8.63587 10.7556 9.2528 10.5392 9.7493 10.142L14.65 6.29126\" stroke=\"#181614\" stroke-width=\"0.98\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "5384:633",
+          "key": "d9ed68369590072b78f402876d7194f8bcaa21ef",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M1 9.22733C0.999974 8.64851 1.13952 8.07821 1.4068 7.56479C1.67408 7.05138 2.06123 6.60998 2.5354 6.27803L7.9354 2.49803C8.54053 2.0744 9.26132 1.84717 10 1.84717C10.7387 1.84717 11.4595 2.0744 12.0646 2.49803L17.4646 6.27803C17.9388 6.60998 18.3259 7.05138 18.5932 7.56479C18.8605 8.07821 19 8.64851 19 9.22733V16.3526C19 16.83 18.8104 17.2879 18.4728 17.6254C18.1352 17.963 17.6774 18.1526 17.2 18.1526H2.8C2.32261 18.1526 1.86477 17.963 1.52721 17.6254C1.18964 17.2879 1 16.83 1 16.3526V9.22733Z\" stroke=\"#181614\" stroke-width=\"1.26\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M1.45 7.80273L7.7509 12.7536C8.38926 13.2644 9.18245 13.5427 10 13.5427C10.8175 13.5427 11.6107 13.2644 12.2491 12.7536L18.55 7.80273\" stroke=\"#181614\" stroke-width=\"1.26\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "5384:635",
+          "key": "cc44624c6fdedc75ceca4324c4dadf0ab439ca33",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 11.2002C1.99997 10.557 2.15502 9.92338 2.452 9.35292C2.74898 8.78246 3.17914 8.29202 3.706 7.92318L9.706 3.72318C10.3784 3.25248 11.1792 3 12 3C12.8208 3 13.6216 3.25248 14.294 3.72318L20.294 7.92318C20.8209 8.29202 21.251 8.78246 21.548 9.35292C21.845 9.92338 22 10.557 22 11.2002V19.1172C22 19.6476 21.7893 20.1563 21.4142 20.5314C21.0391 20.9065 20.5304 21.1172 20 21.1172H4C3.46957 21.1172 2.96086 20.9065 2.58579 20.5314C2.21071 20.1563 2 19.6476 2 19.1172V11.2002Z\" stroke=\"#181614\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M2.5 9.61719L9.501 15.1182C10.2103 15.6857 11.0916 15.9949 12 15.9949C12.9084 15.9949 13.7897 15.6857 14.499 15.1182L21.5 9.61719\" stroke=\"#181614\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "5384:637",
+          "key": "e17073c5131cc912e2b84523263c90c98904e5c0",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 14.8841C2.99996 14.048 3.20153 13.2243 3.5876 12.4827C3.97368 11.7411 4.53288 11.1035 5.2178 10.624L13.0178 5.16401C13.8919 4.5521 14.933 4.22388 16 4.22388C17.067 4.22388 18.1081 4.5521 18.9822 5.16401L26.7822 10.624C27.4671 11.1035 28.0263 11.7411 28.4124 12.4827C28.7985 13.2243 29 14.048 29 14.8841V25.1762C29 25.8658 28.7261 26.5271 28.2385 27.0147C27.7509 27.5023 27.0896 27.7762 26.4 27.7762H5.6C4.91044 27.7762 4.24912 27.5023 3.76152 27.0147C3.27393 26.5271 3 25.8658 3 25.1762V14.8841Z\" stroke=\"#181614\" stroke-width=\"1.82\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.64999 12.8262L12.7513 19.9775C13.6734 20.7152 14.8191 21.1172 16 21.1172C17.1809 21.1172 18.3266 20.7152 19.2487 19.9775L28.35 12.8262\" stroke=\"#181614\" stroke-width=\"1.82\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "5384:639",
+          "key": "6df5efa500c76c4e40973cf5f55ca9d189e90b6b",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3.5 18.5838C3.49995 17.5226 3.75578 16.477 4.2458 15.5358C4.73582 14.5945 5.44558 13.7853 6.3149 13.1767L16.2149 6.24671C17.3243 5.47005 18.6458 5.05347 20 5.05347C21.3542 5.05347 22.6757 5.47005 23.7851 6.24671L33.6851 13.1767C34.5544 13.7853 35.2642 14.5945 35.7542 15.5358C36.2442 16.477 36.5 17.5226 36.5 18.5838V31.6468C36.5 32.522 36.1523 33.3614 35.5335 33.9803C34.9146 34.5991 34.0752 34.9468 33.2 34.9468H6.8C5.92479 34.9468 5.08542 34.5991 4.46655 33.9803C3.84768 33.3614 3.5 32.522 3.5 31.6468V18.5838Z\" stroke=\"#181614\" stroke-width=\"2.31\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M4.32498 15.9717L15.8766 25.0483C17.047 25.9847 18.5012 26.4949 20 26.4949C21.4988 26.4949 22.953 25.9847 24.1233 25.0483L35.675 15.9717\" stroke=\"#181614\" stroke-width=\"2.31\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "5384:641",
+          "key": "9d5c251d45d4836be40a37e154829b6f61762784",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4 22.2832C3.99994 20.9969 4.31004 19.7296 4.904 18.5886C5.49797 17.4477 6.35828 16.4668 7.412 15.7292L19.412 7.32917C20.7567 6.38777 22.3585 5.88281 24 5.88281C25.6415 5.88281 27.2433 6.38777 28.588 7.32917L40.588 15.7292C41.6417 16.4668 42.502 17.4477 43.096 18.5886C43.69 19.7296 44.0001 20.9969 44 22.2832V38.1172C44 39.178 43.5786 40.1954 42.8284 40.9456C42.0783 41.6957 41.0609 42.1172 40 42.1172H8C6.93913 42.1172 5.92172 41.6957 5.17157 40.9456C4.42143 40.1954 4 39.178 4 38.1172V22.2832Z\" stroke=\"#181614\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M4.99997 19.1169L19.002 30.1189C20.4205 31.254 22.1832 31.8723 24 31.8723C25.8167 31.8723 27.5794 31.254 28.998 30.1189L43 19.1169\" stroke=\"#181614\" stroke-width=\"2.8\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1946",
+      "setKey": "2478272203fb656c424e33465211e7e7a367bb01",
+      "name": "icon/Map",
+      "description": "Map icon for representing the map action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1934",
+          "key": "e560aab16c283cbf6dd0ce30c0aebcc66d8bb1a3",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1934)\">\n<path d=\"M10.6667 3.99992L5.33335 1.33325L0.666687 3.99992V14.6666L5.33335 11.9999M10.6667 3.99992L15.3334 1.33325V11.9999L10.6667 14.6666L5.33335 11.9999M5.33335 11.9999V1.33325M10.6667 14.6666V3.99992\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1934\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1936",
+          "key": "a8901f3752dbdc8a45501c19ae4107c74d63334a",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1936)\">\n<path d=\"M13.3333 5.00008L6.66665 1.66675L0.833313 5.00008V18.3334L6.66665 15.0001M13.3333 5.00008L19.1666 1.66675V15.0001L13.3333 18.3334L6.66665 15.0001M6.66665 15.0001V1.66675M13.3333 18.3334V5.00008\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1936\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1938",
+          "key": "f41ec4ef43514b771fa32b3f2713c202ce092e46",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 6L8 2L1 6V22L8 18M16 6L23 2V18L16 22L8 18M8 18V2M16 22V6\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1940",
+          "key": "06dc9e6acb825f6bb5ba00195dd561ce97cbee3c",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21.3333 8.00008L10.6666 2.66675L1.33331 8.00008V29.3334L10.6666 24.0001M21.3333 8.00008L30.6666 2.66675V24.0001L21.3333 29.3334L10.6666 24.0001M10.6666 24.0001V2.66675M21.3333 29.3334V8.00008\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1942",
+          "key": "266bc7fb8552a9d2b467987cff36711a2f17eeed",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M26.6667 9.99992L13.3334 3.33325L1.66669 9.99992V36.6666L13.3334 29.9999M26.6667 9.99992L38.3334 3.33325V29.9999L26.6667 36.6666L13.3334 29.9999M13.3334 29.9999V3.33325M26.6667 36.6666V9.99992\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1944",
+          "key": "1aaeba09941209b7a0ceb6eb6d988e7e1963b319",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M32 12L16 4L2 12V44L16 36M32 12L46 4V36L32 44L16 36M16 36V4M32 44V12\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1959",
+      "setKey": "03f3d8d9ccb4bf3b82c78225680575c726df1bd0",
+      "name": "icon/Map pin",
+      "description": "Map pin icon for representing the map pin action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1947",
+          "key": "88743edf51b2872fe9b5c5554687606d8b171569",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 6.66675C14 11.3334 8 15.3334 8 15.3334C8 15.3334 2 11.3334 2 6.66675C2 5.07545 2.63214 3.54933 3.75736 2.42411C4.88258 1.29889 6.4087 0.666748 8 0.666748C9.5913 0.666748 11.1174 1.29889 12.2426 2.42411C13.3679 3.54933 14 5.07545 14 6.66675Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M8 8.66675C9.10457 8.66675 10 7.77132 10 6.66675C10 5.56218 9.10457 4.66675 8 4.66675C6.89543 4.66675 6 5.56218 6 6.66675C6 7.77132 6.89543 8.66675 8 8.66675Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1949",
+          "key": "60569b5fd1f646ff49e2560f878bd8a8b7f49c5d",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.5 8.33325C17.5 14.1666 10 19.1666 10 19.1666C10 19.1666 2.5 14.1666 2.5 8.33325C2.5 6.34413 3.29018 4.43647 4.6967 3.02995C6.10322 1.62343 8.01088 0.833252 10 0.833252C11.9891 0.833252 13.8968 1.62343 15.3033 3.02995C16.7098 4.43647 17.5 6.34413 17.5 8.33325Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M10 10.8333C11.3807 10.8333 12.5 9.71396 12.5 8.33325C12.5 6.95254 11.3807 5.83325 10 5.83325C8.61929 5.83325 7.5 6.95254 7.5 8.33325C7.5 9.71396 8.61929 10.8333 10 10.8333Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1951",
+          "key": "f10ba04dd024621cd711d876867e0d6b419e241b",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1953",
+          "key": "4c0e86ef6f235b0feb5a955b04d169689801ae06",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28 13.3333C28 22.6666 16 30.6666 16 30.6666C16 30.6666 4 22.6666 4 13.3333C4 10.1507 5.26428 7.09841 7.51472 4.84797C9.76516 2.59753 12.8174 1.33325 16 1.33325C19.1826 1.33325 22.2348 2.59753 24.4853 4.84797C26.7357 7.09841 28 10.1507 28 13.3333Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M16 17.3333C18.2091 17.3333 20 15.5424 20 13.3333C20 11.1241 18.2091 9.33325 16 9.33325C13.7909 9.33325 12 11.1241 12 13.3333C12 15.5424 13.7909 17.3333 16 17.3333Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1955",
+          "key": "29765e57b1259fd508e59bbc132bf647b5c24481",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35 16.6667C35 28.3334 20 38.3334 20 38.3334C20 38.3334 5 28.3334 5 16.6667C5 12.6885 6.58035 8.87319 9.3934 6.06015C12.2064 3.2471 16.0218 1.66675 20 1.66675C23.9782 1.66675 27.7936 3.2471 30.6066 6.06015C33.4196 8.87319 35 12.6885 35 16.6667Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M20 21.6667C22.7614 21.6667 25 19.4282 25 16.6667C25 13.9053 22.7614 11.6667 20 11.6667C17.2386 11.6667 15 13.9053 15 16.6667C15 19.4282 17.2386 21.6667 20 21.6667Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1957",
+          "key": "58a087d511056853b91534ae3d3a6ac729295505",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 20C42 34 24 46 24 46C24 46 6 34 6 20C6 15.2261 7.89642 10.6477 11.2721 7.27208C14.6477 3.89642 19.2261 2 24 2C28.7739 2 33.3523 3.89642 36.7279 7.27208C40.1036 10.6477 42 15.2261 42 20Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M24 26C27.3137 26 30 23.3137 30 20C30 16.6863 27.3137 14 24 14C20.6863 14 18 16.6863 18 20C18 23.3137 20.6863 26 24 26Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1972",
+      "setKey": "1c9979cb69fa104cce9de387eddd449987e76c99",
+      "name": "icon/Maximize",
+      "description": "Maximize icon for representing the maximize action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1960",
+          "key": "2d2419335ecf4061c11d82a968dc322b55bd49ab",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5.33333 2H3.33333C2.97971 2 2.64057 2.14048 2.39052 2.39052C2.14048 2.64057 2 2.97971 2 3.33333V5.33333M14 5.33333V3.33333C14 2.97971 13.8595 2.64057 13.6095 2.39052C13.3594 2.14048 13.0203 2 12.6667 2H10.6667M10.6667 14H12.6667C13.0203 14 13.3594 13.8595 13.6095 13.6095C13.8595 13.3594 14 13.0203 14 12.6667V10.6667M2 10.6667V12.6667C2 13.0203 2.14048 13.3594 2.39052 13.6095C2.64057 13.8595 2.97971 14 3.33333 14H5.33333\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1962",
+          "key": "fb185196c5470ca44a950d6615585c5d2a54dbe0",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.66667 2.5H4.16667C3.72464 2.5 3.30072 2.67559 2.98816 2.98816C2.67559 3.30072 2.5 3.72464 2.5 4.16667V6.66667M17.5 6.66667V4.16667C17.5 3.72464 17.3244 3.30072 17.0118 2.98816C16.6993 2.67559 16.2754 2.5 15.8333 2.5H13.3333M13.3333 17.5H15.8333C16.2754 17.5 16.6993 17.3244 17.0118 17.0118C17.3244 16.6993 17.5 16.2754 17.5 15.8333V13.3333M2.5 13.3333V15.8333C2.5 16.2754 2.67559 16.6993 2.98816 17.0118C3.30072 17.3244 3.72464 17.5 4.16667 17.5H6.66667\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1964",
+          "key": "a0e75ea74779cff5debd3d862b08375b6c625fee",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 3H5C4.46957 3 3.96086 3.21071 3.58579 3.58579C3.21071 3.96086 3 4.46957 3 5V8M21 8V5C21 4.46957 20.7893 3.96086 20.4142 3.58579C20.0391 3.21071 19.5304 3 19 3H16M16 21H19C19.5304 21 20.0391 20.7893 20.4142 20.4142C20.7893 20.0391 21 19.5304 21 19V16M3 16V19C3 19.5304 3.21071 20.0391 3.58579 20.4142C3.96086 20.7893 4.46957 21 5 21H8\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1966",
+          "key": "384154aad82baaa875c813c2ab93fa8ad01b1063",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.6667 4H6.66667C5.95942 4 5.28115 4.28095 4.78105 4.78105C4.28095 5.28115 4 5.95942 4 6.66667V10.6667M28 10.6667V6.66667C28 5.95942 27.719 5.28115 27.219 4.78105C26.7189 4.28095 26.0406 4 25.3333 4H21.3333M21.3333 28H25.3333C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V21.3333M4 21.3333V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28H10.6667\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1968",
+          "key": "521b6e8106642bce3c9c2606bad888919466adc2",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3333 5H8.33333C7.44928 5 6.60143 5.35119 5.97631 5.97631C5.35119 6.60143 5 7.44928 5 8.33333V13.3333M35 13.3333V8.33333C35 7.44928 34.6488 6.60143 34.0237 5.97631C33.3986 5.35119 32.5507 5 31.6667 5H26.6667M26.6667 35H31.6667C32.5507 35 33.3986 34.6488 34.0237 34.0237C34.6488 33.3986 35 32.5507 35 31.6667V26.6667M5 26.6667V31.6667C5 32.5507 5.35119 33.3986 5.97631 34.0237C6.60143 34.6488 7.44928 35 8.33333 35H13.3333\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1970",
+          "key": "a4019a1a96b088d397b40a577695f2ebe1610bba",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 6H10C8.93913 6 7.92172 6.42143 7.17157 7.17157C6.42143 7.92172 6 8.93913 6 10V16M42 16V10C42 8.93913 41.5786 7.92172 40.8284 7.17157C40.0783 6.42143 39.0609 6 38 6H32M32 42H38C39.0609 42 40.0783 41.5786 40.8284 40.8284C41.5786 40.0783 42 39.0609 42 38V32M6 32V38C6 39.0609 6.42143 40.0783 7.17157 40.8284C7.92172 41.5786 8.93913 42 10 42H16\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1985",
+      "setKey": "756003859c4e8b44b74ff9e14685eceb2a9d54e7",
+      "name": "icon/Meh",
+      "description": "Meh icon for representing the meh action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1973",
+          "key": "b576d3e3f91b3a8ed0671d1a376da948a5028078",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1973)\">\n<path d=\"M5.33325 9.99992H10.6666M5.99992 5.99992H6.00659M9.99992 5.99992H10.0066M14.6666 7.99992C14.6666 11.6818 11.6818 14.6666 7.99992 14.6666C4.31802 14.6666 1.33325 11.6818 1.33325 7.99992C1.33325 4.31802 4.31802 1.33325 7.99992 1.33325C11.6818 1.33325 14.6666 4.31802 14.6666 7.99992Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1973\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1975",
+          "key": "33ba826eb1f409c0bf57266cec44eb8774fc8436",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_1975)\">\n<path d=\"M6.66675 12.5001H13.3334M7.50008 7.50008H7.50841M12.5001 7.50008H12.5084M18.3334 10.0001C18.3334 14.6025 14.6025 18.3334 10.0001 18.3334C5.39771 18.3334 1.66675 14.6025 1.66675 10.0001C1.66675 5.39771 5.39771 1.66675 10.0001 1.66675C14.6025 1.66675 18.3334 5.39771 18.3334 10.0001Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_1975\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:1977",
+          "key": "70bb595690c16bac1c1e57f1a9d05efd750e1ba4",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 15H16M9 9H9.01M15 9H15.01M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1979",
+          "key": "a225ba5714a5cdabae32c6fd83103f8371d8f95c",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.6667 20.0001H21.3334M12.0001 12.0001H12.0134M20.0001 12.0001H20.0134M29.3334 16.0001C29.3334 23.3639 23.3639 29.3334 16.0001 29.3334C8.63628 29.3334 2.66675 23.3639 2.66675 16.0001C2.66675 8.63628 8.63628 2.66675 16.0001 2.66675C23.3639 2.66675 29.3334 8.63628 29.3334 16.0001Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1981",
+          "key": "ac373e420eb059bc52fb3102ad9d64d7b8782623",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.3333 24.9999H26.6666M14.9999 14.9999H15.0166M24.9999 14.9999H25.0166M36.6666 19.9999C36.6666 29.2047 29.2047 36.6666 19.9999 36.6666C10.7952 36.6666 3.33325 29.2047 3.33325 19.9999C3.33325 10.7952 10.7952 3.33325 19.9999 3.33325C29.2047 3.33325 36.6666 10.7952 36.6666 19.9999Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1983",
+          "key": "b6834c48df0abf4b5e6006a09aaaa3a18ebde5c5",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 30H32M18 18H18.02M30 18H30.02M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:1998",
+      "setKey": "371d08f06d9bd9bda66573d07cbad226f3543fcb",
+      "name": "icon/Menu",
+      "description": "Menu icon for opening a navigation or actions menu. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1986",
+          "key": "0c261c267f5cfef3d4fe95b8913cfed501f71678",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 8H14M2 4H14M2 12H14\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1988",
+          "key": "93672d8d08b4e63d5b920a448b2abc93b20be85a",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.5 10H17.5M2.5 5H17.5M2.5 15H17.5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1990",
+          "key": "9f35a1859176a9f27bd13c1eb7410e8784e5abe6",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 12H21M3 6H21M3 18H21\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1992",
+          "key": "9808f63753c5a38ef52432443095230f982f4494",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4 16H28M4 8H28M4 24H28\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1994",
+          "key": "0da2c2dad5966ff8d339d3287d3defa432d256a4",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5 20H35M5 10H35M5 30H35\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:1996",
+          "key": "f3612f04340bb9be20092604ed725a7c3460fdca",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 24H42M6 12H42M6 36H42\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:2011",
+      "setKey": "620b9f3d163f5083f9646bf7286a3e56ef771149",
+      "name": "icon/Message circle",
+      "description": "Message circle icon for representing the message circle action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:1999",
+          "key": "6c89635ee9d643c7a69c7eec892663b418d5e1d5",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 7.66669C14.0023 8.5466 13.7967 9.41461 13.4 10.2C12.9296 11.1412 12.2065 11.9328 11.3116 12.4862C10.4168 13.0396 9.3855 13.3329 8.33333 13.3334C7.45342 13.3356 6.58541 13.1301 5.8 12.7334L2 14L3.26667 10.2C2.86995 9.41461 2.66437 8.5466 2.66667 7.66669C2.66707 6.61452 2.96041 5.58325 3.51381 4.68839C4.06722 3.79352 4.85884 3.0704 5.8 2.60002C6.58541 2.20331 7.45342 1.99772 8.33333 2.00002H8.66667C10.0562 2.07668 11.3687 2.66319 12.3528 3.64726C13.3368 4.63132 13.9233 5.94379 14 7.33335V7.66669Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2001",
+          "key": "a2057f7903a846b940996d7a43aa36bb3911842e",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.5 9.58336C17.5029 10.6832 17.2459 11.7683 16.75 12.75C16.162 13.9265 15.2581 14.916 14.1395 15.6078C13.021 16.2995 11.7319 16.6662 10.4167 16.6667C9.31678 16.6696 8.23176 16.4126 7.25 15.9167L2.5 17.5L4.08333 12.75C3.58744 11.7683 3.33047 10.6832 3.33333 9.58336C3.33384 8.26815 3.70051 6.97907 4.39227 5.86048C5.08402 4.7419 6.07355 3.838 7.25 3.25002C8.23176 2.75413 9.31678 2.49716 10.4167 2.50002H10.8333C12.5703 2.59585 14.2109 3.32899 15.441 4.55907C16.671 5.78915 17.4042 7.42973 17.5 9.16669V9.58336Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2003",
+          "key": "caeec56adaa28054826d538cb271ea85e373fbe3",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2005",
+          "key": "06a0a7dd85d50a0ea00486cce209d501e0b40dcb",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28 15.3334C28.0046 17.0932 27.5934 18.8292 26.8 20.4C25.8592 22.2824 24.413 23.8656 22.6233 24.9724C20.8335 26.0792 18.771 26.6659 16.6667 26.6667C14.9068 26.6713 13.1708 26.2601 11.6 25.4667L4 28L6.53333 20.4C5.73991 18.8292 5.32875 17.0932 5.33333 15.3334C5.33415 13.229 5.92082 11.1665 7.02763 9.37677C8.13444 7.58704 9.71767 6.14079 11.6 5.20004C13.1708 4.40661 14.9068 3.99545 16.6667 4.00004H17.3333C20.1125 4.15336 22.7374 5.32639 24.7055 7.29452C26.6737 9.26265 27.8467 11.8876 28 14.6667V15.3334Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2007",
+          "key": "0c46ba26017ff72a5d9f73e43069327e27985920",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35 19.1667C35.0057 21.3665 34.4918 23.5365 33.5 25.5C32.3241 27.853 30.5162 29.832 28.2791 31.2155C26.0419 32.599 23.4637 33.3324 20.8333 33.3334C18.6336 33.3391 16.4635 32.8252 14.5 31.8334L5 35L8.16667 25.5C7.17489 23.5365 6.66093 21.3665 6.66667 19.1667C6.66768 16.5363 7.40102 13.9581 8.78453 11.721C10.168 9.4838 12.1471 7.67599 14.5 6.50005C16.4635 5.50827 18.6336 4.99431 20.8333 5.00005H21.6667C25.1406 5.1917 28.4217 6.65798 30.8819 9.11815C33.3421 11.5783 34.8083 14.8595 35 18.3334V19.1667Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2009",
+          "key": "4fee2bdb11284bd37c28b31e14ba7b1e8a65047b",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 23.0001C42.0069 25.6398 41.3901 28.2438 40.2 30.6001C38.7889 33.4235 36.6195 35.7984 33.9349 37.4586C31.2503 39.1188 28.1565 39.9988 25 40.0001C22.3603 40.0069 19.7562 39.3902 17.4 38.2001L6 42.0001L9.8 30.6001C8.60986 28.2438 7.99312 25.6398 8 23.0001C8.00122 19.8436 8.88122 16.7498 10.5414 14.0652C12.2017 11.3806 14.5765 9.21119 17.4 7.80006C19.7562 6.60992 22.3603 5.99317 25 6.00006H26C30.1687 6.23004 34.1061 7.98958 37.0583 10.9418C40.0105 13.894 41.77 17.8314 42 22.0001V23.0001Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:2024",
+      "setKey": "33ed0584ce7191a1addc441dfd380822f7754838",
+      "name": "icon/Message square",
+      "description": "Message square icon for representing the message square action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:2012",
+          "key": "a59737551cad588d9d4601776196d6d0c07075c5",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 10C14 10.3536 13.8595 10.6928 13.6095 10.9428C13.3594 11.1929 13.0203 11.3333 12.6667 11.3333H4.66667L2 14V3.33333C2 2.97971 2.14048 2.64057 2.39052 2.39052C2.64057 2.14048 2.97971 2 3.33333 2H12.6667C13.0203 2 13.3594 2.14048 13.6095 2.39052C13.8595 2.64057 14 2.97971 14 3.33333V10Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2014",
+          "key": "c925659de47edd8dc5cef5c29e3e429b7fd58a2b",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.5 12.5C17.5 12.942 17.3244 13.366 17.0118 13.6785C16.6993 13.9911 16.2754 14.1667 15.8333 14.1667H5.83333L2.5 17.5V4.16667C2.5 3.72464 2.67559 3.30072 2.98816 2.98816C3.30072 2.67559 3.72464 2.5 4.16667 2.5H15.8333C16.2754 2.5 16.6993 2.67559 17.0118 2.98816C17.3244 3.30072 17.5 3.72464 17.5 4.16667V12.5Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2016",
+          "key": "32851a03f7828adb3d09d286730e7228796dc3c6",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2018",
+          "key": "5711f05b7908f737e03d2c15de0b5a3343dc2d41",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28 20C28 20.7072 27.719 21.3855 27.219 21.8856C26.7189 22.3857 26.0406 22.6667 25.3333 22.6667H9.33333L4 28V6.66667C4 5.95942 4.28095 5.28115 4.78105 4.78105C5.28115 4.28095 5.95942 4 6.66667 4H25.3333C26.0406 4 26.7189 4.28095 27.219 4.78105C27.719 5.28115 28 5.95942 28 6.66667V20Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2020",
+          "key": "9c65dcc506eabbb7ae9b3a3b5e0f5a910d41a489",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35 25C35 25.8841 34.6488 26.7319 34.0237 27.357C33.3986 27.9821 32.5507 28.3333 31.6667 28.3333H11.6667L5 35V8.33333C5 7.44928 5.35119 6.60143 5.97631 5.97631C6.60143 5.35119 7.44928 5 8.33333 5H31.6667C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V25Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2022",
+          "key": "e91f3b221c25481e85fd0e6e93ee5086a423f510",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 30C42 31.0609 41.5786 32.0783 40.8284 32.8284C40.0783 33.5786 39.0609 34 38 34H14L6 42V10C6 8.93913 6.42143 7.92172 7.17157 7.17157C7.92172 6.42143 8.93913 6 10 6H38C39.0609 6 40.0783 6.42143 40.8284 7.17157C41.5786 7.92172 42 8.93913 42 10V30Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:2037",
+      "setKey": "0bc3b98e6454bf75571a3648452119d0a55755ac",
+      "name": "icon/Mic",
+      "description": "Mic icon for representing the mic action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:2025",
+          "key": "108e6fb17e60f99a8b17811051c11ce424cff9d0",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3.33337 6.66675V8.00008C3.33337 9.23776 3.82504 10.4247 4.70021 11.2999C5.57538 12.1751 6.76236 12.6667 8.00004 12.6667C9.23772 12.6667 10.4247 12.1751 11.2999 11.2999C12.175 10.4247 12.6667 9.23776 12.6667 8.00008V6.66675M8.00004 12.6667V15.3334M5.33337 15.3334H10.6667M8.00004 0.666748C7.46961 0.666748 6.9609 0.877462 6.58583 1.25253C6.21075 1.62761 6.00004 2.13632 6.00004 2.66675V8.00008C6.00004 8.53051 6.21075 9.03922 6.58583 9.4143C6.9609 9.78937 7.46961 10.0001 8.00004 10.0001C8.53047 10.0001 9.03918 9.78937 9.41425 9.4143C9.78933 9.03922 10 8.53051 10 8.00008V2.66675C10 2.13632 9.78933 1.62761 9.41425 1.25253C9.03918 0.877462 8.53047 0.666748 8.00004 0.666748Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2027",
+          "key": "40337f161a6df4d55835d1df7ae458804bbc7c79",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.16663 8.33325V9.99992C4.16663 11.547 4.78121 13.0307 5.87517 14.1247C6.96913 15.2187 8.45286 15.8333 9.99996 15.8333C11.5471 15.8333 13.0308 15.2187 14.1247 14.1247C15.2187 13.0307 15.8333 11.547 15.8333 9.99992V8.33325M9.99996 15.8333V19.1666M6.66663 19.1666H13.3333M9.99996 0.833252C9.33692 0.833252 8.70103 1.09664 8.23219 1.56548C7.76335 2.03433 7.49996 2.67021 7.49996 3.33325V9.99992C7.49996 10.663 7.76335 11.2988 8.23219 11.7677C8.70103 12.2365 9.33692 12.4999 9.99996 12.4999C10.663 12.4999 11.2989 12.2365 11.7677 11.7677C12.2366 11.2988 12.5 10.663 12.5 9.99992V3.33325C12.5 2.67021 12.2366 2.03433 11.7677 1.56548C11.2989 1.09664 10.663 0.833252 9.99996 0.833252Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2029",
+          "key": "78ab90946dc482ef98abc4c97156b889e5a7aafb",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5 10V12C5 13.8565 5.7375 15.637 7.05025 16.9497C8.36301 18.2625 10.1435 19 12 19C13.8565 19 15.637 18.2625 16.9497 16.9497C18.2625 15.637 19 13.8565 19 12V10M12 19V23M8 23H16M12 1C11.2044 1 10.4413 1.31607 9.87868 1.87868C9.31607 2.44129 9 3.20435 9 4V12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12V4C15 3.20435 14.6839 2.44129 14.1213 1.87868C13.5587 1.31607 12.7956 1 12 1Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2031",
+          "key": "7cd9710d429f5b70d563a0963dc8712a687c1690",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.66663 13.3333V15.9999C6.66663 18.4753 7.64996 20.8492 9.4003 22.5996C11.1506 24.3499 13.5246 25.3333 16 25.3333C18.4753 25.3333 20.8493 24.3499 22.5996 22.5996C24.35 20.8492 25.3333 18.4753 25.3333 15.9999V13.3333M16 25.3333V30.6666M10.6666 30.6666H21.3333M16 1.33325C14.9391 1.33325 13.9217 1.75468 13.1715 2.50482C12.4214 3.25497 12 4.27239 12 5.33325V15.9999C12 17.0608 12.4214 18.0782 13.1715 18.8283C13.9217 19.5785 14.9391 19.9999 16 19.9999C17.0608 19.9999 18.0782 19.5785 18.8284 18.8283C19.5785 18.0782 20 17.0608 20 15.9999V5.33325C20 4.27239 19.5785 3.25497 18.8284 2.50482C18.0782 1.75468 17.0608 1.33325 16 1.33325Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2033",
+          "key": "22f1fed5bf3abcd534aa44b4b9335de0bfaa039d",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.33337 16.6667V20.0001C8.33337 23.0943 9.56254 26.0617 11.7505 28.2497C13.9384 30.4376 16.9058 31.6667 20 31.6667C23.0942 31.6667 26.0617 30.4376 28.2496 28.2497C30.4375 26.0617 31.6667 23.0943 31.6667 20.0001V16.6667M20 31.6667V38.3334M13.3334 38.3334H26.6667M20 1.66675C18.674 1.66675 17.4022 2.19353 16.4645 3.13121C15.5268 4.0689 15 5.34067 15 6.66675V20.0001C15 21.3262 15.5268 22.5979 16.4645 23.5356C17.4022 24.4733 18.674 25.0001 20 25.0001C21.3261 25.0001 22.5979 24.4733 23.5356 23.5356C24.4733 22.5979 25 21.3262 25 20.0001V6.66675C25 5.34067 24.4733 4.0689 23.5356 3.13121C22.5979 2.19353 21.3261 1.66675 20 1.66675Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:2035",
+          "key": "7649e208e4f6ce038b35c8360ae71d0086462a18",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 20V24C10 27.713 11.475 31.274 14.1005 33.8995C16.726 36.525 20.287 38 24 38C27.713 38 31.274 36.525 33.8995 33.8995C36.525 31.274 38 27.713 38 24V20M24 38V46M16 46H32M24 2C22.4087 2 20.8826 2.63214 19.7574 3.75736C18.6321 4.88258 18 6.4087 18 8V24C18 25.5913 18.6321 27.1174 19.7574 28.2426C20.8826 29.3679 22.4087 30 24 30C25.5913 30 27.1174 29.3679 28.2426 28.2426C29.3679 27.1174 30 25.5913 30 24V8C30 6.4087 29.3679 4.88258 28.2426 3.75736C27.1174 2.63214 25.5913 2 24 2Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:2050",
+      "setKey": "b667fa79cc3168c5764e6ac43c4b1723cd9d4ca7",
+      "name": "icon/Mic off",
+      "description": "Mic off icon for representing the mic off action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:2038",
+          "key": "16406930e257cefef02f3635af03db27855f9a44",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2038)\">\n<path d=\"M0.666626 0.666565L15.3333 15.3332M5.99996 5.9999V7.9999C6.00031 8.39521 6.11779 8.78154 6.33758 9.11012C6.55737 9.43869 6.86959 9.69477 7.23483 9.846C7.60007 9.99723 8.00193 10.0368 8.38966 9.95981C8.77739 9.88278 9.13359 9.69258 9.41329 9.41323M9.99996 6.22657V2.66657C10.0005 2.17058 9.81665 1.69211 9.48421 1.32403C9.15177 0.955952 8.69443 0.724526 8.20096 0.674681C7.70749 0.624835 7.2131 0.760127 6.81377 1.05429C6.41444 1.34845 6.13866 1.7805 6.03996 2.26657M11.3333 11.2999C10.6825 11.9642 9.84804 12.4189 8.93703 12.6056C8.02602 12.7924 7.07998 12.7027 6.22029 12.3481C5.3606 11.9935 4.62647 11.3901 4.11207 10.6153C3.59768 9.84059 3.32649 8.92983 3.33329 7.9999V6.66657M12.6666 6.66657V7.9999C12.6664 8.27486 12.6418 8.54926 12.5933 8.8199M7.99996 12.6666V15.3332M5.33329 15.3332H10.6666\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2038\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:2040",
+          "key": "677b6789d1f49614a62cab063feabc66f35dc404",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2040)\">\n<path d=\"M0.833374 0.833329L19.1667 19.1667M7.50004 7.5V10C7.50048 10.4941 7.64733 10.9771 7.92207 11.3878C8.1968 11.7985 8.58708 12.1186 9.04363 12.3076C9.50017 12.4967 10.0025 12.5462 10.4872 12.4499C10.9718 12.3536 11.4171 12.1158 11.7667 11.7667M12.5 7.78333V3.33333C12.5007 2.71335 12.2709 2.11526 11.8554 1.65516C11.4398 1.19506 10.8681 0.90578 10.2513 0.843473C9.63445 0.781166 9.01647 0.95028 8.5173 1.31799C8.01814 1.68569 7.67341 2.22575 7.55004 2.83333M14.1667 14.125C13.3532 14.9553 12.3101 15.5237 11.1714 15.7572C10.0326 15.9906 8.85007 15.8785 7.77545 15.4352C6.70084 14.992 5.78317 14.2377 5.14018 13.2693C4.49719 12.3009 4.1582 11.1624 4.16671 10V8.33333M15.8334 8.33333V10C15.8331 10.3437 15.8024 10.6867 15.7417 11.025M10 15.8333V19.1667M6.66671 19.1667H13.3334\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2040\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:2042",
+          "key": "cce63d9643e777c8e46e69a3553e79fa1086f5a4",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2042)\">\n<path d=\"M1 1.00009L23 23.0001M9 9.00009V12.0001C9.00052 12.5931 9.17675 13.1726 9.50643 13.6654C9.83611 14.1583 10.3045 14.5424 10.8523 14.7692C11.4002 14.9961 12.0029 15.0555 12.5845 14.94C13.1661 14.8244 13.7005 14.5391 14.12 14.1201M15 9.34009V4.00009C15.0007 3.25612 14.725 2.53841 14.2264 1.98629C13.7277 1.43417 13.0417 1.08703 12.3015 1.01227C11.5613 0.937497 10.8197 1.14043 10.2207 1.58168C9.62172 2.02293 9.20805 2.671 9.06 3.40009M17 16.9501C16.0238 17.9465 14.7721 18.6285 13.4056 18.9087C12.0391 19.1888 10.62 19.0543 9.3305 18.5224C8.04096 17.9904 6.93976 17.0854 6.16817 15.9232C5.39658 14.7611 4.98979 13.395 5 12.0001V10.0001M19 10.0001V12.0001C18.9996 12.4125 18.9628 12.8241 18.89 13.2301M12 19.0001V23.0001M8 23.0001H16\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2042\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:2044",
+          "key": "43f5782b583134891f0c99d470bf4396393c0d43",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2044)\">\n<path d=\"M1.33337 1.33337L30.6667 30.6667M12 12V16C12.0007 16.7907 12.2357 17.5633 12.6753 18.2205C13.1149 18.8776 13.7393 19.3898 14.4698 19.6922C15.2003 19.9947 16.004 20.0739 16.7794 19.9199C17.5549 19.7658 18.2673 19.3854 18.8267 18.8267M20 12.4534V5.33337C20.001 4.34141 19.6334 3.38447 18.9685 2.64831C18.3037 1.91215 17.389 1.4493 16.402 1.34961C15.4151 1.24992 14.4263 1.5205 13.6277 2.10883C12.829 2.69715 12.2774 3.56125 12.08 4.53337M22.6667 22.6C21.3651 23.9286 19.6962 24.838 17.8742 25.2115C16.0522 25.585 14.1601 25.4057 12.4407 24.6964C10.7213 23.9872 9.25305 22.7804 8.22427 21.2309C7.19548 19.6814 6.6531 17.8599 6.66671 16V13.3334M25.3334 13.3334V16C25.3329 16.55 25.2838 17.0988 25.1867 17.64M16 25.3334V30.6667M10.6667 30.6667H21.3334\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2044\">\n<rect width=\"32\" height=\"32\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:2046",
+          "key": "3d2d002db2816c12faba2d6e6186f79663fef34f",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2046)\">\n<path d=\"M1.66663 1.66666L38.3333 38.3333M15 15V20C15.0008 20.9883 15.2945 21.9541 15.844 22.7755C16.3935 23.597 17.174 24.2372 18.0871 24.6152C19.0002 24.9933 20.0049 25.0923 20.9742 24.8998C21.9435 24.7072 22.834 24.2317 23.5333 23.5333M25 15.5667V6.66666C25.0012 5.42671 24.5417 4.23052 23.7106 3.31032C22.8795 2.39012 21.7361 1.81156 20.5025 1.68695C19.2688 1.56233 18.0328 1.90056 17.0345 2.63597C16.0362 3.37138 15.3467 4.4515 15.1 5.66666M28.3333 28.25C26.7063 29.9107 24.6202 31.0474 22.3426 31.5143C20.0651 31.9812 17.7 31.757 15.5508 30.8705C13.4016 29.9839 11.5662 28.4754 10.2802 26.5386C8.99426 24.6017 8.31628 22.3248 8.33329 20V16.6667M31.6666 16.6667V20C31.666 20.6874 31.6047 21.3734 31.4833 22.05M20 31.6667V38.3333M13.3333 38.3333H26.6666\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2046\">\n<rect width=\"40\" height=\"40\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:2048",
+          "key": "a63d10860f23c99cebae935aacf1a36483aa68df",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_2048)\">\n<path d=\"M2 1.99994L46 45.9999M18 17.9999V23.9999C18.001 25.1859 18.3535 26.3449 19.0129 27.3306C19.6722 28.3163 20.6089 29.0845 21.7046 29.5382C22.8003 29.9919 24.0059 30.1107 25.1691 29.8797C26.3323 29.6486 27.4009 29.078 28.24 28.2399M30 18.6799V7.99994C30.0015 6.512 29.4501 5.07658 28.4528 3.97234C27.4554 2.8681 26.0834 2.17382 24.603 2.02429C23.1226 1.87475 21.6394 2.28062 20.4414 3.16312C19.2434 4.04561 18.4161 5.34176 18.12 6.79994M34 33.8999C32.0476 35.8928 29.5443 37.2568 26.8112 37.8171C24.0782 38.3774 21.2401 38.1084 18.661 37.0445C16.0819 35.9806 13.8795 34.1705 12.3363 31.8463C10.7932 29.522 9.97959 26.7897 10 23.9999V19.9999M38 19.9999V23.9999C37.9993 24.8248 37.9257 25.648 37.78 26.4599M24 37.9999V45.9999M16 45.9999H32\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_2048\">\n<rect width=\"48\" height=\"48\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,107 @@
+# ADS component coverage
+
+Bu envanter, ADS Figma dosyasının tüm gerçek component sayfalarının programatik
+taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içermez.
+
+## Özet
+
+- 337 component seti
+- 37 standalone component
+- 2.220 varyant veya standalone öğe
+- 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
+- İkonlar dışında 57 component seti
+- Kod kapsamındaki non-icon set: 19 (altı Button ailesi + Input + Input/Search + DropdownList + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
+- Eksik non-icon set: 38
+- Kod kapsamındaki standalone component: 6 (`SelectionItem`, `SelectionGroup`, `SwitchGroup` ve üç Button Group kompozisyonu)
+
+Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
+gelir. Ana Input ve Search hazırdır; TextArea ayrı komponent olarak eksiktir.
+
+## Sayfa bazında kapsam
+
+| Sayfa | Set | Standalone | Varyant/öğe | Kod kapsamı | Eksik |
+|---|---:|---:|---:|---:|---:|
+| Icons | 281 | 0 | 1.690 | 281 | 0 |
+| Accordion | 1 | 0 | 6 | 0 | 1 |
+| Avatar | 1 | 0 | 12 | 1 | 0 |
+| Brand | 0 | 8 | 8 | 0 | 8 |
+| Breadcrumb | 1 | 1 | 5 | 0 | 2 |
+| Buttons | 6 | 5 | 197 | 9 | 0 |
+| Calendar | 2 | 0 | 8 | 0 | 2 |
+| Cards | 4 | 1 | 15 | 0 | 5 |
+| Carousel | 0 | 2 | 2 | 0 | 2 |
+| Chips | 1 | 1 | 13 | 0 | 2 |
+| Date Picker | 1 | 0 | 6 | 0 | 1 |
+| Dialog | 2 | 0 | 8 | 0 | 2 |
+| Dropdown | 3 | 0 | 13 | 2 | 1 |
+| Icons | 1 | 0 | 10 | 1 | 0 |
+| Inputs | 3 | 0 | 20 | 2 | 1 |
+| Navigation | 2 | 8 | 15 | 0 | 10 |
+| Notification | 2 | 1 | 13 | 0 | 3 |
+| Pagination | 2 | 1 | 11 | 0 | 3 |
+| Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
+| Progress Bar | 1 | 0 | 15 | 1 | 0 |
+| Selection | 2 | 2 | 16 | 4 | 0 |
+| Sidebar | 3 | 0 | 18 | 0 | 3 |
+| Stepper | 3 | 1 | 14 | 0 | 4 |
+| Switch | 3 | 1 | 16 | 3 | 1 |
+| Tab | 2 | 2 | 26 | 0 | 4 |
+| Table | 6 | 1 | 23 | 0 | 7 |
+| Tags | 2 | 0 | 30 | 2 | 0 |
+| Toasts | 1 | 0 | 8 | 0 | 1 |
+| Tooltip | 1 | 0 | 8 | 1 | 0 |
+
+## Aktarım sırası
+
+### 0. Hazır kapsam
+
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `DropdownList`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+
+### 1. Temel primitives
+
+`Language`
+
+### 2. Form kontrolleri
+
+`Calendar`, `Calendar-Item`, `Chips-Filter`, `chipsgroup/filter`, `DatePicker`, `Dropdown`, `Input/TextArea`
+
+### 3. Navigasyon
+
+`Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Dots`, `Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Mobile/Top-Navigation`, `Navigation-Item`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+
+### 4. Feedback ve overlays
+
+`Accordion`, `Desktop/Dialog`, `Mobile/Dialog`, `Notification/List`, `Notification/Message`, `notificationgroup`, `Messages`
+
+### 5. Data ve composites
+
+`Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Card-Stats`, `Desktop/Carousel`, `Mobile/Carousel`, `Logo Asset / Akbank`, `Logo Tile`, `Partner Logo Grid/6`, `Header`, `Table`, `Table/Cell`, `Table/Empty`, `Table/Footer`, `Table/Header Cell`, `Table/Row`
+
+### 6. Brand ve shell
+
+`favicon/original`, `favicon/white`, `Footer`, `Header`, `lime/original`, `lime/white`, `logo/original`, `logo/white`
+
+## Her komponent için zorunlu teslim kriteri
+
+Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayılır:
+
+1. Figma component property ve varyant sözleşmesi kaydedilir.
+2. `ads.config.json` node eşleşmesi eklenir.
+3. React API ve ADS token tabanlı CSS uygulanır.
+4. Etkileşim gerekiyorsa odaklı hook oluşturulur.
+5. Erişilebilirlik ve davranış testleri yazılır.
+6. Parserless `.figma.ts` Code Connect şablonu eklenir.
+7. Playground örneği ve kullanım dokümantasyonu güncellenir.
+8. `npm run check` ve ADS audit geçer.
+
+## İlk uygulama paketi
+
+Phase 1 aşağıdaki sırayla uygulanmalıdır:
+
+1. `Language` (`DropdownList` tamamlandıktan sonra)
+
+Bu sıra Dropdown, Table, Sidebar, Notification ve diğer composite komponentlerin
+gereksinim duyduğu primitives'i önce tamamlar.
+
+Makine-okunur kaynak: `docs/figma-component-inventory.json`.
+

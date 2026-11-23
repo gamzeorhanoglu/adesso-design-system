@@ -1,0 +1,1130 @@
+{
+  "source": {
+    "fileKey": "amS8gweXJwZXhCNWE8tB1o",
+    "pageId": "2020:844",
+    "pageName": "Icons"
+  },
+  "icons": [
+    {
+      "setId": "2135:22",
+      "setKey": "1d3afad85a4c403eeb7cf1fd364d5148556c9679",
+      "name": "icon/Activity",
+      "description": "Activity icon for representing the activity action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:10",
+          "key": "4b89364ad70194bac45490a9a95e584c2c4b065c",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.6667 8H12L9.99999 14L5.99999 2L3.99999 8H1.33333\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:12",
+          "key": "bf3b0a271e7e07f8a459cd9aa00a6cb785be99ab",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18.3333 10H15L12.5 17.5L7.49999 2.5L4.99999 10H1.66666\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:14",
+          "key": "e5514e39265231724ae381126540f45571502ad7",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M22 12H18L15 21L9 3L6 12H2\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:16",
+          "key": "a764f071f1d50a5d2593f31857f9e032e82cd878",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M29.3333 16H24L20 28L12 4L8.00001 16H2.66667\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:18",
+          "key": "6166e751677ab5257776be468ddb228cd117230f",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M36.6667 20H30L25 35L15 5L10 20H3.33334\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:20",
+          "key": "d9f33ab85d232efb50aff9b650d3fa4b99c2f4b5",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M44 24H36L30 42L18 6L12 24H4\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:35",
+      "setKey": "12050505006b0642ed4269f137262e5ff5dad3b9",
+      "name": "icon/Airplay",
+      "description": "Airplay icon for representing the airplay action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:23",
+          "key": "af077c851f0e9d9c965f96733e6d1f3edfcd78b5",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3.33331 11.3333H2.66665C2.31302 11.3333 1.97389 11.1929 1.72384 10.9428C1.47379 10.6928 1.33331 10.3536 1.33331 10V3.33333C1.33331 2.97971 1.47379 2.64057 1.72384 2.39052C1.97389 2.14048 2.31302 2 2.66665 2H13.3333C13.6869 2 14.0261 2.14048 14.2761 2.39052C14.5262 2.64057 14.6666 2.97971 14.6666 3.33333V10C14.6666 10.3536 14.5262 10.6928 14.2761 10.9428C14.0261 11.1929 13.6869 11.3333 13.3333 11.3333H12.6666M7.99998 10L11.3333 14H4.66665L7.99998 10Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:25",
+          "key": "637f8d94d62f7d2c671072567d186921bd904852",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.16669 14.1667H3.33335C2.89133 14.1667 2.4674 13.9911 2.15484 13.6785C1.84228 13.366 1.66669 12.942 1.66669 12.5V4.16667C1.66669 3.72464 1.84228 3.30072 2.15484 2.98816C2.4674 2.67559 2.89133 2.5 3.33335 2.5H16.6667C17.1087 2.5 17.5326 2.67559 17.8452 2.98816C18.1578 3.30072 18.3334 3.72464 18.3334 4.16667V12.5C18.3334 12.942 18.1578 13.366 17.8452 13.6785C17.5326 13.9911 17.1087 14.1667 16.6667 14.1667H15.8334M10 12.5L14.1667 17.5H5.83335L10 12.5Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:27",
+          "key": "25fdb4323c16b13855fda4ec5b33943b229d8a6e",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5 17H4C3.46957 17 2.96086 16.7893 2.58579 16.4142C2.21071 16.0391 2 15.5304 2 15V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V15C22 15.5304 21.7893 16.0391 21.4142 16.4142C21.0391 16.7893 20.5304 17 20 17H19M12 15L17 21H7L12 15Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:29",
+          "key": "34423704c6b539435e02c841a0254a1359404011",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.66669 22.6667H5.33335C4.62611 22.6667 3.94783 22.3857 3.44774 21.8856C2.94764 21.3855 2.66669 20.7072 2.66669 20V6.66667C2.66669 5.95942 2.94764 5.28115 3.44774 4.78105C3.94783 4.28095 4.62611 4 5.33335 4H26.6667C27.3739 4 28.0522 4.28095 28.5523 4.78105C29.0524 5.28115 29.3334 5.95942 29.3334 6.66667V20C29.3334 20.7072 29.0524 21.3855 28.5523 21.8856C28.0522 22.3857 27.3739 22.6667 26.6667 22.6667H25.3334M16 20L22.6667 28H9.33335L16 20Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:31",
+          "key": "4cab8f686ad79b1f3b76ac1aa74db760ca7b3f04",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.33331 28.3333H6.66665C5.78259 28.3333 4.93474 27.9821 4.30962 27.357C3.6845 26.7319 3.33331 25.8841 3.33331 25V8.33333C3.33331 7.44928 3.6845 6.60143 4.30962 5.97631C4.93474 5.35119 5.78259 5 6.66665 5H33.3333C34.2174 5 35.0652 5.35119 35.6903 5.97631C36.3155 6.60143 36.6666 7.44928 36.6666 8.33333V25C36.6666 25.8841 36.3155 26.7319 35.6903 27.357C35.0652 27.9821 34.2174 28.3333 33.3333 28.3333H31.6666M20 25L28.3333 35H11.6666L20 25Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:33",
+          "key": "19bc0c84033c45a7964c5e16e6c761d8ddc42693",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 34H8C6.93913 34 5.92172 33.5786 5.17157 32.8284C4.42143 32.0783 4 31.0609 4 30V10C4 8.93913 4.42143 7.92172 5.17157 7.17157C5.92172 6.42143 6.93913 6 8 6H40C41.0609 6 42.0783 6.42143 42.8284 7.17157C43.5786 7.92172 44 8.93913 44 10V30C44 31.0609 43.5786 32.0783 42.8284 32.8284C42.0783 33.5786 41.0609 34 40 34H38M24 30L34 42H14L24 30Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:48",
+      "setKey": "4c8311534d1b88db3f46052ec019c03564828fb1",
+      "name": "icon/Alert circle",
+      "description": "Alert circle status icon for communicating feedback, validation, or system state. Do not rely on the icon alone to convey critical meaning. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:36",
+          "key": "647458df6f303216a0783901d7283505f9a98529",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_36)\">\n<path d=\"M7.99998 5.33333V7.99999M7.99998 10.6667H8.00665M14.6666 7.99999C14.6666 11.6819 11.6819 14.6667 7.99998 14.6667C4.31808 14.6667 1.33331 11.6819 1.33331 7.99999C1.33331 4.3181 4.31808 1.33333 7.99998 1.33333C11.6819 1.33333 14.6666 4.3181 14.6666 7.99999Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_36\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:38",
+          "key": "366211fab9c038d750ed4ae5865d3f21f93148a4",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_38)\">\n<path d=\"M10 6.66667V10M10 13.3333H10.0084M18.3334 10C18.3334 14.6024 14.6024 18.3333 10 18.3333C5.39765 18.3333 1.66669 14.6024 1.66669 10C1.66669 5.39763 5.39765 1.66667 10 1.66667C14.6024 1.66667 18.3334 5.39763 18.3334 10Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_38\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:40",
+          "key": "00d494f5a30bb19084302f4b410a4b3e5c1c3ffa",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 8V12M12 16H12.01M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:42",
+          "key": "51a742fc5a930a52bdbb1cdd861762953dff186c",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 10.6667V16M16 21.3333H16.0133M29.3333 16C29.3333 23.3638 23.3638 29.3333 16 29.3333C8.63616 29.3333 2.66663 23.3638 2.66663 16C2.66663 8.63621 8.63616 2.66667 16 2.66667C23.3638 2.66667 29.3333 8.63621 29.3333 16Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:44",
+          "key": "2cb987124628bd2197965dc8c35c815e2e64f825",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 13.3333V20M20 26.6667H20.0167M36.6667 20C36.6667 29.2047 29.2048 36.6667 20 36.6667C10.7953 36.6667 3.33337 29.2047 3.33337 20C3.33337 10.7953 10.7953 3.33334 20 3.33334C29.2048 3.33334 36.6667 10.7953 36.6667 20Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:46",
+          "key": "e5aac2da0d8b7901c5fc833e571e5f59d14ea761",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 16V24M24 32H24.02M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:61",
+      "setKey": "e4c9c25f2e2969f2892bb15c951df6065aa51691",
+      "name": "icon/Alert octagon",
+      "description": "Alert octagon status icon for communicating feedback, validation, or system state. Do not rely on the icon alone to convey critical meaning. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:49",
+          "key": "eff41c96526387b71f44d9c7970cd77e2f1cdc06",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_49)\">\n<path d=\"M8.00004 5.33333V7.99999M8.00004 10.6667H8.00671M5.24004 1.33333H10.76L14.6667 5.23999V10.76L10.76 14.6667H5.24004L1.33337 10.76V5.23999L5.24004 1.33333Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_49\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:51",
+          "key": "d5178e49a6dc330b58e720dca66c14214bb0a323",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_51)\">\n<path d=\"M9.99996 6.66667V10M9.99996 13.3333H10.0083M6.54996 1.66667H13.45L18.3333 6.55V13.45L13.45 18.3333H6.54996L1.66663 13.45V6.55L6.54996 1.66667Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_51\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:53",
+          "key": "b47880393ab016c4f3a957ec91b7f8586aa0e044",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 8V12M12 16H12.01M7.86 2H16.14L22 7.86V16.14L16.14 22H7.86L2 16.14V7.86L7.86 2Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:55",
+          "key": "e27e32f7e4b1c2161a48765415a898ddb5ae7ea4",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 10.6667V16M16 21.3333H16.0133M10.48 2.66667H21.52L29.3333 10.48V21.52L21.52 29.3333H10.48L2.66663 21.52V10.48L10.48 2.66667Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:57",
+          "key": "40365fc2ad9c40651968727963403f2ac571a8dc",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 13.3333V20M20 26.6667H20.0167M13.1 3.33334H26.9L36.6667 13.1V26.9L26.9 36.6667H13.1L3.33337 26.9V13.1L13.1 3.33334Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:59",
+          "key": "02f00245fbf2086ca3dbcf763161a6a90c17c144",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 16V24M24 32H24.02M15.72 4H32.28L44 15.72V32.28L32.28 44H15.72L4 32.28V15.72L15.72 4Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:74",
+      "setKey": "e6fcfa6ebcaf785236a44eedc803f3dafee99fb3",
+      "name": "icon/Alert triangle",
+      "description": "Alert triangle status icon for communicating feedback, validation, or system state. Do not rely on the icon alone to convey critical meaning. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:62",
+          "key": "175744c8a6db2c7a21897d0e19a518ba25c1d7b1",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.00001 6V8.66667M8.00001 11.3333H8.00668M6.86001 2.57333L1.21335 12C1.09693 12.2016 1.03533 12.4302 1.03467 12.663C1.03402 12.8958 1.09434 13.1248 1.20963 13.327C1.32492 13.5293 1.49116 13.6978 1.69182 13.8159C1.89247 13.934 2.12055 13.9974 2.35335 14H13.6467C13.8795 13.9974 14.1076 13.934 14.3082 13.8159C14.5089 13.6978 14.6751 13.5293 14.7904 13.327C14.9057 13.1248 14.966 12.8958 14.9654 12.663C14.9647 12.4302 14.9031 12.2016 14.7867 12L9.14001 2.57333C9.02117 2.3774 8.85383 2.21541 8.65414 2.10299C8.45446 1.99056 8.22917 1.9315 8.00001 1.9315C7.77086 1.9315 7.54557 1.99056 7.34588 2.10299C7.1462 2.21541 6.97886 2.3774 6.86001 2.57333Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:64",
+          "key": "6618baaafe71f86b49ed5b906d0e053a9bed34d8",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 7.5V10.8333M10 14.1667H10.0084M8.57502 3.21667L1.51668 15C1.37116 15.252 1.29416 15.5378 1.29334 15.8288C1.29253 16.1198 1.36793 16.4059 1.51204 16.6588C1.65615 16.9116 1.86396 17.1223 2.11477 17.2699C2.36559 17.4175 2.65068 17.4968 2.94168 17.5H17.0583C17.3494 17.4968 17.6344 17.4175 17.8853 17.2699C18.1361 17.1223 18.3439 16.9116 18.488 16.6588C18.6321 16.4059 18.7075 16.1198 18.7067 15.8288C18.7059 15.5378 18.6289 15.252 18.4834 15L11.425 3.21667C11.2765 2.97176 11.0673 2.76927 10.8177 2.62874C10.5681 2.48821 10.2865 2.41438 10 2.41438C9.71357 2.41438 9.43196 2.48821 9.18235 2.62874C8.93275 2.76927 8.72358 2.97176 8.57502 3.21667Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:66",
+          "key": "68d2ffe92a4142166a14db836b51d711fcb6493a",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 9.00001V13M12 17H12.01M10.29 3.86001L1.82002 18C1.64539 18.3024 1.55299 18.6453 1.55201 18.9945C1.55103 19.3437 1.64151 19.6871 1.81445 19.9905C1.98738 20.2939 2.23675 20.5468 2.53773 20.7239C2.83871 20.901 3.18082 20.9962 3.53002 21H20.47C20.8192 20.9962 21.1613 20.901 21.4623 20.7239C21.7633 20.5468 22.0127 20.2939 22.1856 19.9905C22.3585 19.6871 22.449 19.3437 22.448 18.9945C22.4471 18.6453 22.3547 18.3024 22.18 18L13.71 3.86001C13.5318 3.56611 13.2807 3.32313 12.9812 3.15449C12.6817 2.98585 12.3438 2.89726 12 2.89726C11.6563 2.89726 11.3184 2.98585 11.0188 3.15449C10.7193 3.32313 10.4683 3.56611 10.29 3.86001Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:68",
+          "key": "33283f95bb6389b5da0f7d1c3b9ca83637444908",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 12V17.3333M16 22.6667H16.0134M13.72 5.14667L2.42669 24C2.19385 24.4032 2.07065 24.8604 2.06935 25.326C2.06804 25.7917 2.18868 26.2495 2.41926 26.654C2.64984 27.0586 2.98233 27.3957 3.38364 27.6318C3.78495 27.8679 4.24109 27.9949 4.70669 28H27.2934C27.759 27.9949 28.2151 27.8679 28.6164 27.6318C29.0177 27.3957 29.3502 27.0586 29.5808 26.654C29.8114 26.2495 29.932 25.7917 29.9307 25.326C29.9294 24.8604 29.8062 24.4032 29.5734 24L18.28 5.14667C18.0423 4.75481 17.7077 4.43082 17.3083 4.20598C16.9089 3.98113 16.4583 3.86301 16 3.86301C15.5417 3.86301 15.0911 3.98113 14.6918 4.20598C14.2924 4.43082 13.9577 4.75481 13.72 5.14667Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:70",
+          "key": "cf7eed9efd3e082a082cc47458dd7433500a9546",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 15V21.6667M20 28.3333H20.0167M17.15 6.43334L3.03337 30C2.74231 30.504 2.58831 31.0755 2.58668 31.6575C2.58505 32.2396 2.73585 32.8119 3.02408 33.3175C3.31231 33.8232 3.72791 34.2446 4.22955 34.5398C4.73118 34.8349 5.30137 34.9936 5.88337 35H34.1167C34.6987 34.9936 35.2689 34.8349 35.7705 34.5398C36.2722 34.2446 36.6878 33.8232 36.976 33.3175C37.2642 32.8119 37.415 32.2396 37.4134 31.6575C37.4118 31.0755 37.2578 30.504 36.9667 30L22.85 6.43334C22.5529 5.94352 22.1346 5.53854 21.6354 5.25748C21.1362 4.97642 20.5729 4.82877 20 4.82877C19.4271 4.82877 18.8639 4.97642 18.3647 5.25748C17.8655 5.53854 17.4472 5.94352 17.15 6.43334Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:72",
+          "key": "c613f1943841dec0395f7443279d226879a03ef6",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 18V26M24 34H24.02M20.58 7.72L3.64004 36C3.29078 36.6048 3.10598 37.2906 3.10402 37.989C3.10206 38.6875 3.28302 39.3743 3.62889 39.981C3.97477 40.5878 4.47349 41.0935 5.07546 41.4477C5.67742 41.8019 6.36164 41.9923 7.06004 42H40.94C41.6384 41.9923 42.3227 41.8019 42.9246 41.4477C43.5266 41.0935 44.0253 40.5878 44.3712 39.981C44.7171 39.3743 44.898 38.6875 44.8961 37.989C44.8941 37.2906 44.7093 36.6048 44.36 36L27.42 7.72C27.0635 7.13221 26.5615 6.64624 25.9624 6.30897C25.3634 5.97169 24.6875 5.79451 24 5.79451C23.3126 5.79451 22.6367 5.97169 22.0377 6.30897C21.4386 6.64624 20.9366 7.13221 20.58 7.72Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:87",
+      "setKey": "d9cb2b98ad8edb8d957707c1f42d01dfb18a4d7b",
+      "name": "icon/Align center",
+      "description": "Align center icon for representing the align center action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:75",
+          "key": "0b0615083ed7022d0e6d42e17a87b65411d5ceba",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 6.66667H4M14 4H2M14 9.33333H2M12 12H4\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:77",
+          "key": "acfe74f3e1ed2ac375ad09527cb5f310d665d539",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M15 8.33333H5M17.5 5H2.5M17.5 11.6667H2.5M15 15H5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:79",
+          "key": "ef9a16c0a0e95275d3af672f05d50f41603162a1",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M18 10H6M21 6H3M21 14H3M18 18H6\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:81",
+          "key": "b13e4e702af5f794865c464b4b7487eba1724d78",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 13.3333H8M28 8H4M28 18.6667H4M24 24H8\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:83",
+          "key": "5636178918fd93108687cf06beff4d7fd99ec23e",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M30 16.6667H10M35 10H5M35 23.3333H5M30 30H10\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:85",
+          "key": "a9a019d4e88a833f199b834858a964b158d198bb",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M36 20H12M42 12H6M42 28H6M36 36H12\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:100",
+      "setKey": "08610068b90b9379881a377ec97d2f91ae86e718",
+      "name": "icon/Align justify",
+      "description": "Align justify icon for representing the align justify action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:88",
+          "key": "df7d448a9e239eb712165bea1867468d972a7c02",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 6.66667H2M14 4H2M14 9.33333H2M14 12H2\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:90",
+          "key": "603ab4b934ef820a228922f6691ceb6a7822218a",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.5 8.33333H2.5M17.5 5H2.5M17.5 11.6667H2.5M17.5 15H2.5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:92",
+          "key": "0d412b41ef9d7e980644cdaa2cf8c6686684fb9d",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 10H3M21 6H3M21 14H3M21 18H3\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:94",
+          "key": "0faea8a5fd844d85b766093b53795e446ab90e53",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28 13.3333H4M28 8H4M28 18.6667H4M28 24H4\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:96",
+          "key": "e26c9bcb119757aee1d814a30723201c2142e26a",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35 16.6667H5M35 10H5M35 23.3333H5M35 30H5\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:98",
+          "key": "4ed3e8859e2901f501e418f62c440f1b69558d54",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 20H6M42 12H6M42 28H6M42 36H6\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:113",
+      "setKey": "2bda656cd46281c2176c3e944ef089244d95e386",
+      "name": "icon/Align left",
+      "description": "Align left icon for representing the align left action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:101",
+          "key": "ee932ffcb04e8bce51f8b61d12dc5df731d8b0dd",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.3333 6.66667H2M14 4H2M14 9.33333H2M11.3333 12H2\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:103",
+          "key": "cfe90b9f2a6a933c7a616a43737330414c151da4",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.1667 8.33333H2.5M17.5 5H2.5M17.5 11.6667H2.5M14.1667 15H2.5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:105",
+          "key": "9be950ae592080ebb458bcabdfb6f77d8b74606c",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17 10H3M21 6H3M21 14H3M17 18H3\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:107",
+          "key": "dfee8539236e71434100a9acdae93d609b615f0d",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M22.6667 13.3333H4M28 8H4M28 18.6667H4M22.6667 24H4\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:109",
+          "key": "8efe9d57349ec2a4fb027b035576674b24e98e25",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28.3333 16.6667H5M35 10H5M35 23.3333H5M28.3333 30H5\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:111",
+          "key": "acca82a5450a1ad46a8bffebc6786cffb638456b",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M34 20H6M42 12H6M42 28H6M34 36H6\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:126",
+      "setKey": "b11e3e0ad834128bdf88eeb6341d7a23dfb13043",
+      "name": "icon/Align right",
+      "description": "Align right icon for representing the align right action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:114",
+          "key": "688de9a8af247ee603eb5f9c75171f7349e18083",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 6.66667H4.66667M14 4H2M14 9.33333H2M14 12H4.66667\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:116",
+          "key": "4dbddafaf705940c1b3dd76a2b74413c1103c97c",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.5 8.33333H5.83333M17.5 5H2.5M17.5 11.6667H2.5M17.5 15H5.83333\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:118",
+          "key": "2b69cb35163cf9e4dd8a3fa33356d5bc40233a4e",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 10H7M21 6H3M21 14H3M21 18H7\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:120",
+          "key": "2f2860d5a261e6147dce061866f3851358df7a2a",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28 13.3333H9.33333M28 8H4M28 18.6667H4M28 24H9.33333\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:122",
+          "key": "839dcfc6c18101ae44a532c517318767cbdf7b5e",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35 16.6667H11.6667M35 10H5M35 23.3333H5M35 30H11.6667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:124",
+          "key": "e65d1c54b87c7bb33ad9825999822027328f71dd",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 20H14M42 12H6M42 28H6M42 36H14\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:139",
+      "setKey": "374e4f0c04ce785ff890b3d1e5448812cbaf960d",
+      "name": "icon/Anchor",
+      "description": "Anchor icon for representing the anchor action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:127",
+          "key": "1af4f4f276293e0d009f1df5b11bacc0fd41d9e5",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_127)\">\n<path d=\"M8.00004 5.33334C9.10461 5.33334 10 4.43791 10 3.33334C10 2.22877 9.10461 1.33334 8.00004 1.33334C6.89547 1.33334 6.00004 2.22877 6.00004 3.33334C6.00004 4.43791 6.89547 5.33334 8.00004 5.33334ZM8.00004 5.33334V14.6667M8.00004 14.6667C6.23193 14.6667 4.53624 13.9643 3.286 12.7141C2.03575 11.4638 1.33337 9.76812 1.33337 8.00001H3.33337M8.00004 14.6667C9.76815 14.6667 11.4638 13.9643 12.7141 12.7141C13.9643 11.4638 14.6667 9.76812 14.6667 8.00001H12.6667\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_127\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:129",
+          "key": "366f83f1e252217ed6ac23706fa419730e4480f5",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_129)\">\n<path d=\"M9.99996 6.66666C11.3807 6.66666 12.5 5.54737 12.5 4.16666C12.5 2.78594 11.3807 1.66666 9.99996 1.66666C8.61925 1.66666 7.49996 2.78594 7.49996 4.16666C7.49996 5.54737 8.61925 6.66666 9.99996 6.66666ZM9.99996 6.66666V18.3333M9.99996 18.3333C7.78982 18.3333 5.67021 17.4553 4.1074 15.8925C2.5446 14.3297 1.66663 12.2101 1.66663 9.99999H4.16663M9.99996 18.3333C12.2101 18.3333 14.3297 17.4553 15.8925 15.8925C17.4553 14.3297 18.3333 12.2101 18.3333 9.99999H15.8333\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_129\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:131",
+          "key": "a59a0be8a32aea41885215b462e4aa3322f94c3f",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 8V22M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12H5M12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12H19\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:133",
+          "key": "5f925684022643f8b11c1aa4b5c7b98e172d6b0f",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 10.6667C18.2091 10.6667 20 8.8758 20 6.66666C20 4.45752 18.2091 2.66666 16 2.66666C13.7908 2.66666 12 4.45752 12 6.66666C12 8.8758 13.7908 10.6667 16 10.6667ZM16 10.6667V29.3333M16 29.3333C12.4637 29.3333 9.07235 27.9286 6.57187 25.4281C4.07138 22.9276 2.66663 19.5362 2.66663 16H6.66663M16 29.3333C19.5362 29.3333 22.9276 27.9286 25.4281 25.4281C27.9285 22.9276 29.3333 19.5362 29.3333 16H25.3333\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:135",
+          "key": "5dc7b452676709a00ba294766a77bcaf9d1ad315",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 13.3333C22.7615 13.3333 25 11.0948 25 8.33334C25 5.57192 22.7615 3.33334 20 3.33334C17.2386 3.33334 15 5.57192 15 8.33334C15 11.0948 17.2386 13.3333 20 13.3333ZM20 13.3333V36.6667M20 36.6667C15.5798 36.6667 11.3405 34.9107 8.21493 31.7851C5.08932 28.6595 3.33337 24.4203 3.33337 20H8.33337M20 36.6667C24.4203 36.6667 28.6595 34.9107 31.7852 31.7851C34.9108 28.6595 36.6667 24.4203 36.6667 20H31.6667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:137",
+          "key": "54693589abd96bb556b2af4775509e10225ca43e",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 16C27.3137 16 30 13.3137 30 10C30 6.68629 27.3137 4 24 4C20.6863 4 18 6.68629 18 10C18 13.3137 20.6863 16 24 16ZM24 16V44M24 44C18.6957 44 13.6086 41.8929 9.85786 38.1421C6.10714 34.3914 4 29.3043 4 24H10M24 44C29.3043 44 34.3914 41.8929 38.1421 38.1421C41.8929 34.3914 44 29.3043 44 24H38\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:152",
+      "setKey": "720c1df4ff84834b4833c7e11b383aa062b8282f",
+      "name": "icon/Aperture",
+      "description": "Aperture icon for representing the aperture action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:140",
+          "key": "b5e1136e12fa061e547f4b2e2be28182e0a858d1",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_140)\">\n<path d=\"M9.54004 5.33334L13.3667 11.96M6.46004 5.33334H14.1134M4.92004 8.00001L8.74671 1.37334M6.46004 10.6667L2.63337 4.04001M9.54004 10.6667H1.88671M11.08 8.00001L7.25337 14.6267M14.6667 8.00001C14.6667 11.6819 11.6819 14.6667 8.00004 14.6667C4.31814 14.6667 1.33337 11.6819 1.33337 8.00001C1.33337 4.31811 4.31814 1.33334 8.00004 1.33334C11.6819 1.33334 14.6667 4.31811 14.6667 8.00001Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_140\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:142",
+          "key": "ff7b7945df3b1a624e4f93e3c6200b0c9b0d78c2",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_142)\">\n<path d=\"M11.925 6.66666L16.7083 14.95M8.07496 6.66666H17.6416M6.14996 9.99999L10.9333 1.71666M8.07496 13.3333L3.29163 5.04999M11.925 13.3333H2.35829M13.85 9.99999L9.06663 18.2833M18.3333 9.99999C18.3333 14.6024 14.6023 18.3333 9.99996 18.3333C5.39759 18.3333 1.66663 14.6024 1.66663 9.99999C1.66663 5.39762 5.39759 1.66666 9.99996 1.66666C14.6023 1.66666 18.3333 5.39762 18.3333 9.99999Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_142\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:144",
+          "key": "76f6e95936acaef944e7fd523233007a19512c78",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.31 8L20.05 17.94M9.69 8H21.17M7.38 12L13.12 2.06M9.69 16L3.95 6.06M14.31 16H2.83M16.62 12L10.88 21.94M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:146",
+          "key": "cb2fa289a129f2051d1ed932e2068d999d989f22",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.08 10.6667L26.7333 23.92M12.92 10.6667H28.2266M9.83996 16L17.4933 2.74666M12.92 21.3333L5.26663 8.07999M19.08 21.3333H3.77329M22.16 16L14.5066 29.2533M29.3333 16C29.3333 23.3638 23.3638 29.3333 16 29.3333C8.63616 29.3333 2.66663 23.3638 2.66663 16C2.66663 8.63619 8.63616 2.66666 16 2.66666C23.3638 2.66666 29.3333 8.63619 29.3333 16Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:148",
+          "key": "7f4fc4c69c97567bb3e485d3e0cc89d052ed0ec1",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M23.85 13.3333L33.4167 29.9M16.15 13.3333H35.2834M12.3 20L21.8667 3.43334M16.15 26.6667L6.58337 10.1M23.85 26.6667H4.71671M27.7 20L18.1334 36.5667M36.6667 20C36.6667 29.2048 29.2048 36.6667 20 36.6667C10.7953 36.6667 3.33337 29.2048 3.33337 20C3.33337 10.7953 10.7953 3.33334 20 3.33334C29.2048 3.33334 36.6667 10.7953 36.6667 20Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:150",
+          "key": "ab544ef9f4863b810d9c2aa5c0d3671a60c904c9",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28.62 16L40.1 35.88M19.38 16H42.34M14.76 24L26.24 4.12M19.38 32L7.9 12.12M28.62 32H5.66M33.24 24L21.76 43.88M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:165",
+      "setKey": "06f01c94890d5a943b8df63642befae53c71a608",
+      "name": "icon/Archive",
+      "description": "Archive icon for representing the archive action, object, or concept. Use only where the symbol&#39;s meaning is clear. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:153",
+          "key": "b0c0dc5cf2cb01b27a5da3ae06fdc063d735e0c7",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.0001 5.33333V14H2.00008V5.33333M6.66675 8H9.33341M0.666748 2H15.3334V5.33333H0.666748V2Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:155",
+          "key": "e10bbafde10207be963a5fdfcca816881e4cd51f",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17.4999 6.66667V17.5H2.49992V6.66667M8.33325 10H11.6666M0.833252 2.5H19.1666V6.66667H0.833252V2.5Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:157",
+          "key": "fac892903119a054632b1f4e6328e54de6a9d97e",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21 8V21H3V8M10 12H14M1 3H23V8H1V3Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:159",
+          "key": "baf4e9fac9f1bd9aa0693f5adeea59023444825e",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M27.9999 10.6667V28H3.99992V10.6667M13.3333 16H18.6666M1.33325 4H30.6666V10.6667H1.33325V4Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:161",
+          "key": "4e1a104455fa4a75567119a0654e6d45bd7dd922",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M35.0001 13.3333V35H5.00008V13.3333M16.6667 20H23.3334M1.66675 5H38.3334V13.3333H1.66675V5Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:163",
+          "key": "65d924b3507847d91dbfc0aa5cda93473eace19a",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M42 16V42H6V16M20 24H28M2 6H46V16H2V6Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:178",
+      "setKey": "3553cf1c7e68bafc159c50b4422d32e22f22b0a9",
+      "name": "icon/Arrow down",
+      "description": "Arrow down directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:166",
+          "key": "186960bbad44f9aa8e0927b47b7a32df56c8ed84",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 3.33334V12.6667M3.33334 8.00001L8 12.6667L12.6667 8.00001\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:168",
+          "key": "57a877d7f27595a505c0111e63899052cb3b9881",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 4.16666V15.8333M4.16667 9.99999L10 15.8333L15.8333 9.99999\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:170",
+          "key": "da13ed479e99a057dddd4073e9a544cfce72d46c",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 5V19M5 12L12 19L19 12\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:172",
+          "key": "dfae97132a4fd960e62addb6e31ed469a3803d90",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 6.66666V25.3333M6.66666 16L16 25.3333L25.3333 16\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:174",
+          "key": "47e9ac8099fb34cce51371147c78b366522ec6dc",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 8.33334V31.6667M8.33334 20L20 31.6667L31.6667 20\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:176",
+          "key": "c6821b0fce84423916662314ba2b9fec7d056993",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 10V38M10 24L24 38L38 24\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:191",
+      "setKey": "b32db2d2a1370cf270a0d8bac343b25819ef8131",
+      "name": "icon/Arrow down-circle",
+      "description": "Arrow down-circle directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:179",
+          "key": "d45b5e90c91e35e34205bafe7684cd1a3d41674f",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_179)\">\n<path d=\"M10.6666 8.00001L7.99998 10.6667L5.33331 8.00001M7.99998 10.6667V5.33334M14.6666 8.00001C14.6666 11.6819 11.6819 14.6667 7.99998 14.6667C4.31808 14.6667 1.33331 11.6819 1.33331 8.00001C1.33331 4.31811 4.31808 1.33334 7.99998 1.33334C11.6819 1.33334 14.6666 4.31811 14.6666 8.00001Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_179\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:181",
+          "key": "e654d34660563fd54650c2a5ca5ae7f0aab4699c",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_181)\">\n<path d=\"M13.3334 9.99999L10 13.3333L6.66669 9.99999M10 13.3333V6.66666M18.3334 9.99999C18.3334 14.6024 14.6024 18.3333 10 18.3333C5.39765 18.3333 1.66669 14.6024 1.66669 9.99999C1.66669 5.39762 5.39765 1.66666 10 1.66666C14.6024 1.66666 18.3334 5.39762 18.3334 9.99999Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_181\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:183",
+          "key": "42b5bb944a3d8be5297a0a03677f9a489a4b29e1",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 12L12 16L8 12M12 16V8M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:185",
+          "key": "509f88e530c2605ec4c899d71405dbd6fe7f1c54",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21.3334 16L16 21.3333L10.6667 16M16 21.3333L16 10.6667M29.3334 16C29.3334 23.3638 23.3638 29.3333 16 29.3333C8.63622 29.3333 2.66669 23.3638 2.66669 16C2.66669 8.63619 8.63622 2.66666 16 2.66666C23.3638 2.66666 29.3334 8.63619 29.3334 16Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:187",
+          "key": "fbe7f5b2bd278c82d72bc186726b35ad764cf9c6",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M26.6666 20L20 26.6667L13.3333 20M20 26.6667V13.3333M36.6666 20C36.6666 29.2048 29.2047 36.6667 20 36.6667C10.7952 36.6667 3.33331 29.2048 3.33331 20C3.33331 10.7953 10.7952 3.33334 20 3.33334C29.2047 3.33334 36.6666 10.7953 36.6666 20Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:189",
+          "key": "337f6f5ec32b582ee6e5da25805e339d8b0d5868",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M32 24L24 32L16 24M24 32V16M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:204",
+      "setKey": "25148f3e8c0f9c542178c5369750cd5f4c3da593",
+      "name": "icon/Arrow down-left",
+      "description": "Arrow down-left directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:192",
+          "key": "67d19dacdf3b70180596bf7b491d5cee44383b19",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.3334 4.66666L4.66669 11.3333M4.66669 4.66666V11.3333H11.3334\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:194",
+          "key": "61608658aa362b6a472cc561546b28d8ed4e1130",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.1666 5.83334L5.83331 14.1667M5.83331 5.83334V14.1667H14.1666\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:196",
+          "key": "22b5931994b027ec29f38d3f6815d5cca2e83b6b",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M17 7L7 17M7 7V17H17\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:198",
+          "key": "9c4c3879270d673a44305225af7423db7c3b6671",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M22.6667 9.33334L9.33337 22.6667M9.33337 9.33334V22.6667H22.6667\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:200",
+          "key": "b9216b14ce1a22fcc51796eb90311cddc245a35e",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28.3333 11.6667L11.6666 28.3333M11.6666 11.6667V28.3333H28.3333\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:202",
+          "key": "246b3f98470e8e7d9e87c5b4e5f3577ffa739507",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M34 14L14 34M14 14V34H34\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:217",
+      "setKey": "ada772fc69bac651b0ebad26ae8cf3cbb32906a8",
+      "name": "icon/Arrow down-right",
+      "description": "Arrow down-right directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:205",
+          "key": "9e6a620ff3d552862b51d5b1678cc075e7a61bcd",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.66663 4.66666L11.3333 11.3333M4.66663 11.3333H11.3333V4.66666\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:207",
+          "key": "873d23a270195ae74aa2f94214cab016de3c8fa1",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5.83337 5.83334L14.1667 14.1667M5.83337 14.1667H14.1667V5.83334\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:209",
+          "key": "9386488ad26ac7c317c826b7b69a522058e6235f",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7 7L17 17M7 17H17V7\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:211",
+          "key": "c4a4110a4b18e63ed307072ebc65c1ba76e6e371",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.33337 9.33334L22.6667 22.6667M9.33337 22.6667H22.6667V9.33334\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:213",
+          "key": "42f0ca8e31b84c6bcd676e526f488d8cdc9a8b0b",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.6666 11.6667L28.3333 28.3333M11.6666 28.3333H28.3333V11.6667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:215",
+          "key": "9e01f7a1773eb9d2b83e43569adf21675e0eecdb",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14 14L34 34M14 34H34V14\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:230",
+      "setKey": "25b6decc0b657202275f6360ba14519045dd9330",
+      "name": "icon/Arrow left",
+      "description": "Arrow left directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:218",
+          "key": "061e259c7e15d53219c75082db2f8a13704e6587",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.6667 8.00001H3.33337M8.00004 3.33334L3.33337 8.00001L8.00004 12.6667\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:220",
+          "key": "99be0d61ee4280f01c472f4b10a2e856bf56f6a6",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M15.8333 9.99999H4.16663M9.99996 4.16666L4.16663 9.99999L9.99996 15.8333\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:222",
+          "key": "2de09ae140b708adaa171f01cb99e5753d9c6ce9",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19 12H5M12 5L5 12L12 19\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:224",
+          "key": "a25af0196e4f9131fdd5e4d3b772cd3ce627701a",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.3333 16H6.66663M16 6.66666L6.66663 16L16 25.3333\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:226",
+          "key": "d8cdc813da022f7ee9d3de7f96166e9a7dfd8dae",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M31.6667 20H8.33337M20 8.33334L8.33337 20L20 31.6667\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:228",
+          "key": "df3e80e95bc984c06bea88ac289f1c344c46489f",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M38 24H10M24 10L10 24L24 38\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:243",
+      "setKey": "5146a70e5e6239b7786d93e60f89dd77e3092142",
+      "name": "icon/Arrow left-circle",
+      "description": "Arrow left-circle directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:231",
+          "key": "af11376d68ab6dea9dc12bdba8fc7512d3cccdaa",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_231)\">\n<path d=\"M7.99992 10.6667L5.33325 8.00001L7.99992 5.33334M5.33325 8.00001H10.6666M14.6666 8.00001C14.6666 11.6819 11.6818 14.6667 7.99992 14.6667C4.31802 14.6667 1.33325 11.6819 1.33325 8.00001C1.33325 4.31811 4.31802 1.33334 7.99992 1.33334C11.6818 1.33334 14.6666 4.31811 14.6666 8.00001Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_231\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:233",
+          "key": "4191d97206444fc0221501bbe095773c44af2a20",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_233)\">\n<path d=\"M10.0001 13.3333L6.66675 9.99999L10.0001 6.66666M6.66675 9.99999H13.3334M18.3334 9.99999C18.3334 14.6024 14.6025 18.3333 10.0001 18.3333C5.39771 18.3333 1.66675 14.6024 1.66675 9.99999C1.66675 5.39762 5.39771 1.66666 10.0001 1.66666C14.6025 1.66666 18.3334 5.39762 18.3334 9.99999Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_233\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:235",
+          "key": "76541b679497cc75c83e046887e2282787c6577a",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 16L8 12L12 8M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:237",
+          "key": "cbe562b58648a127546cd25a02602f1ba01ee998",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0001 21.3333L10.6667 16L16.0001 10.6667M10.6667 16L21.3334 16M29.3334 16C29.3334 23.3638 23.3639 29.3333 16.0001 29.3333C8.63628 29.3333 2.66675 23.3638 2.66675 16C2.66675 8.63619 8.63628 2.66666 16.0001 2.66666C23.3639 2.66666 29.3334 8.63619 29.3334 16Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:239",
+          "key": "0689b23658a579b3fd148916fda85eb7431700af",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.9999 26.6667L13.3333 20L19.9999 13.3333M13.3333 20H26.6666M36.6666 20C36.6666 29.2048 29.2047 36.6667 19.9999 36.6667C10.7952 36.6667 3.33325 29.2048 3.33325 20C3.33325 10.7953 10.7952 3.33334 19.9999 3.33334C29.2047 3.33334 36.6666 10.7953 36.6666 20Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:241",
+          "key": "e8189cd5d279865b921f06cdaa6208008d6da268",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 32L16 24L24 16M16 24H32M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:256",
+      "setKey": "6224a8818fb44a134993ea4228a3d1b87977e0ce",
+      "name": "icon/Arrow right",
+      "description": "Arrow right directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:244",
+          "key": "895105a4c5f7601a2b89885661beb054a79414e9",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3.33334 7.99998H12.6667M8 12.6666L12.6667 7.99998L8 3.33331\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:246",
+          "key": "edf3d99c6370eef07154a5a521aba21ca6ef8ee2",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.16667 10H15.8333M10 15.8334L15.8333 10L10 4.16669\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:248",
+          "key": "2dcaaf2b9d26e03ae2133985ffd367ac5d45e810",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M5 12H19M12 19L19 12L12 5\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:250",
+          "key": "6bee802662c83899a80c4008a53a6e214cdef6c0",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.66666 16H25.3333M16 25.3334L25.3333 16L16 6.66669\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:252",
+          "key": "7ec0ef033064dc0ca8b0a93d7185565f4b05cea5",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.33334 20H31.6667M20 31.6666L31.6667 20L20 8.33331\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:254",
+          "key": "d9d72c25a13ea4df8f481deb7a3d7a79009ba22a",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10 24H38M24 38L38 24L24 10\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    },
+    {
+      "setId": "2135:269",
+      "setKey": "0eeafb462d5c540b3e359885ee0d87deef9385d3",
+      "name": "icon/Arrow right-circle",
+      "description": "Arrow right-circle directional icon for navigation, movement, or disclosure in the indicated direction. Available in XS–2XL sizes; use the matching size token and provide an accessible label when the icon is the only control affordance.",
+      "variants": [
+        {
+          "id": "2135:257",
+          "key": "6270a3180451cb1badb363ead7ddb1d1e85fada7",
+          "size": "xs",
+          "width": 16,
+          "height": 16,
+          "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_257)\">\n<path d=\"M7.99998 5.33331L10.6666 7.99998L7.99998 10.6666M10.6666 7.99998H5.33331M14.6666 7.99998C14.6666 11.6819 11.6819 14.6666 7.99998 14.6666C4.31808 14.6666 1.33331 11.6819 1.33331 7.99998C1.33331 4.31808 4.31808 1.33331 7.99998 1.33331C11.6819 1.33331 14.6666 4.31808 14.6666 7.99998Z\" stroke=\"#181614\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_257\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:259",
+          "key": "f17a5885a613c8b4b3ad826c649fa4371f102172",
+          "size": "sm",
+          "width": 20,
+          "height": 20,
+          "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2135_259)\">\n<path d=\"M10 6.66669L13.3334 10L10 13.3334M13.3334 10H6.66669M18.3334 10C18.3334 14.6024 14.6024 18.3334 10 18.3334C5.39765 18.3334 1.66669 14.6024 1.66669 10C1.66669 5.39765 5.39765 1.66669 10 1.66669C14.6024 1.66669 18.3334 5.39765 18.3334 10Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2135_259\">\n<rect width=\"20\" height=\"20\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+        },
+        {
+          "id": "2135:261",
+          "key": "3c1b09817ab67ebfd26aaac2897230580ddab8cb",
+          "size": "md",
+          "width": 24,
+          "height": 24,
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12 8L16 12L12 16M16 12H8M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z\" stroke=\"#181614\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:263",
+          "key": "1cc03494a33ff013f088b71fa7e473dec1104496",
+          "size": "lg",
+          "width": 32,
+          "height": 32,
+          "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16 10.6667L21.3334 16L16 21.3334M21.3334 16L10.6667 16M29.3334 16C29.3334 23.3638 23.3638 29.3334 16 29.3334C8.63622 29.3334 2.66669 23.3638 2.66669 16C2.66669 8.63622 8.63622 2.66669 16 2.66669C23.3638 2.66669 29.3334 8.63622 29.3334 16Z\" stroke=\"#181614\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:265",
+          "key": "2fdaf47fad2b7a0db2f54c71afe270abd8c8d9e4",
+          "size": "xl",
+          "width": 40,
+          "height": 40,
+          "svg": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M20 13.3333L26.6666 20L20 26.6666M26.6666 20H13.3333M36.6666 20C36.6666 29.2047 29.2047 36.6666 20 36.6666C10.7952 36.6666 3.33331 29.2047 3.33331 20C3.33331 10.7952 10.7952 3.33331 20 3.33331C29.2047 3.33331 36.6666 10.7952 36.6666 20Z\" stroke=\"#181614\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        },
+        {
+          "id": "2135:267",
+          "key": "6499392ccb322b84c285c4dfefe25ab03f15bdd6",
+          "size": "2xl",
+          "width": 48,
+          "height": 48,
+          "svg": "<svg width=\"48\" height=\"48\" viewBox=\"0 0 48 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 16L32 24L24 32M32 24H16M44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C35.0457 4 44 12.9543 44 24Z\" stroke=\"#181614\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+        }
+      ]
+    }
+  ]
+}
+

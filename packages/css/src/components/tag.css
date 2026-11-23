@@ -1,0 +1,119 @@
+.ads-tag {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: var(--ads-font-family-primary);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.ads-tag.size-large {
+  min-height: var(--ads-layout-layout-scale-lg);
+  padding-inline: var(--layout-space-xs);
+  gap: var(--ads-space-8);
+  border-radius: var(--layout-radius-md);
+  font-size: var(--ads-font-size-label-lg);
+}
+
+.ads-tag.size-medium {
+  min-height: var(--ads-layout-layout-scale-md);
+  padding-inline: var(--ads-space-8);
+  gap: var(--ads-layout-space-3xs);
+  border-radius: var(--layout-radius-sm);
+  font-size: var(--ads-font-size-label-md);
+}
+
+.ads-tag.size-small {
+  min-height: var(--ads-layout-layout-scale-sm);
+  padding-inline: var(--ads-space-8);
+  gap: var(--ads-layout-space-3xs);
+  border-radius: var(--layout-radius-xs);
+  font-size: var(--ads-font-size-label-sm);
+}
+
+.ads-tag-icon,
+.ads-tag-icon .ads-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: inherit;
+}
+
+.ads-tag.size-large .ads-tag-icon,
+.ads-tag.size-large .ads-tag-icon .ads-icon {
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+}
+
+.ads-tag.size-medium .ads-tag-icon,
+.ads-tag.size-medium .ads-tag-icon .ads-icon {
+  width: var(--ads-size-icon-sm);
+  height: var(--ads-size-icon-sm);
+}
+
+.ads-tag.size-small .ads-tag-icon,
+.ads-tag.size-small .ads-tag-icon .ads-icon {
+  width: var(--ads-size-icon-xs);
+  height: var(--ads-size-icon-xs);
+}
+
+.ads-tag.variant-soft {
+  border: var(--ads-layout-layout-stroke-weight-sm) solid currentColor;
+}
+
+.ads-tag.variant-soft.color-brand {
+  color: var(--ads-component-color-tags-text-soft-brand);
+  border-color: var(--ads-component-color-tags-border-brand);
+  background: var(--ads-component-color-tags-background-soft-brand);
+}
+
+.ads-tag.variant-soft.color-neutral {
+  color: var(--ads-component-color-tags-text-soft-neutral);
+  border-color: var(--ads-component-color-tags-border-neutral);
+  background: var(--ads-component-color-tags-background-soft-neutral);
+}
+
+.ads-tag.variant-soft.color-green {
+  color: var(--ads-component-color-tags-text-soft-green);
+  border-color: var(--ads-component-color-tags-border-green);
+  background: var(--ads-component-color-tags-background-soft-green);
+}
+
+.ads-tag.variant-soft.color-orange {
+  color: var(--ads-component-color-tags-text-soft-orange);
+  border-color: var(--ads-component-color-tags-border-orange);
+  background: var(--ads-component-color-tags-background-soft-orange);
+}
+
+.ads-tag.variant-soft.color-red {
+  color: var(--ads-component-color-tags-text-soft-red);
+  border-color: var(--ads-component-color-tags-border-red);
+  background: var(--ads-component-color-tags-background-soft-red);
+}
+
+.ads-tag.variant-solid {
+  color: var(--ads-component-color-tags-text-solid-default);
+  border: 0;
+}
+
+.ads-tag.variant-solid.color-brand {
+  background: var(--ads-component-color-tags-background-solid-brand);
+}
+
+.ads-tag.variant-solid.color-neutral {
+  background: var(--ads-component-color-tags-background-solid-neutral);
+}
+
+.ads-tag.variant-solid.color-green {
+  background: var(--ads-component-color-tags-background-solid-green);
+}
+
+.ads-tag.variant-solid.color-orange {
+  background: var(--ads-component-color-tags-background-solid-orange);
+}
+
+.ads-tag.variant-solid.color-red {
+  background: var(--ads-component-color-tags-background-solid-red);
+}

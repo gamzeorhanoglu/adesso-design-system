@@ -1,0 +1,112 @@
+.ads-switch {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.ads-switch.size-desktop {
+  height: var(--ads-primitives-size-40);
+  aspect-ratio: 5 / 3;
+}
+
+.ads-switch.size-mobile {
+  height: var(--ads-primitives-size-32);
+  aspect-ratio: 5 / 3;
+}
+
+.ads-switch-native {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ads-switch-track {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border: var(--ads-layout-layout-stroke-weight-md) solid
+    var(--ads-component-color-switch-border-default);
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-component-color-switch-background-inactive-default);
+}
+
+.ads-switch.size-desktop .ads-switch-track {
+  padding: calc(var(--ads-primitives-size-10) / 2);
+}
+
+.ads-switch.size-mobile .ads-switch-track {
+  padding: var(--ads-primitives-size-4);
+}
+
+.ads-switch-knob {
+  display: block;
+  flex: 0 0 auto;
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-component-color-switch-icon-primary-default);
+}
+
+.ads-switch.size-desktop .ads-switch-knob {
+  width: calc(var(--ads-primitives-size-40) - var(--ads-primitives-size-10));
+  height: calc(var(--ads-primitives-size-40) - var(--ads-primitives-size-10));
+}
+
+.ads-switch.size-mobile .ads-switch-knob {
+  width: var(--ads-primitives-size-24);
+  height: var(--ads-primitives-size-24);
+}
+
+.ads-switch-native:checked + .ads-switch-track {
+  justify-content: flex-end;
+  border-color: var(--ads-component-color-switch-border-active);
+  background: var(--ads-component-color-switch-background-active-default);
+}
+
+.ads-switch-native:checked + .ads-switch-track .ads-switch-knob {
+  background: var(--ads-component-color-switch-icon-primary-inverse);
+}
+
+.ads-switch:hover .ads-switch-native:not(:disabled) + .ads-switch-track {
+  background: var(--ads-component-color-switch-background-inactive-hover);
+}
+
+.ads-switch:hover .ads-switch-native:checked:not(:disabled) + .ads-switch-track {
+  border-color: var(--ads-component-color-switch-border-hover);
+  background: var(--ads-component-color-switch-background-active-hover);
+}
+
+.ads-switch-native:focus-visible + .ads-switch-track {
+  outline: var(--ads-layout-layout-stroke-weight-lg) solid
+    var(--ads-component-color-switch-border-active);
+  outline-offset: var(--ads-layout-layout-stroke-weight-lg);
+}
+
+.ads-switch-native:disabled + .ads-switch-track {
+  border-color: var(--ads-component-color-switch-border-disabled);
+  background: var(--ads-component-color-switch-background-inactive-disabled);
+}
+
+.ads-switch-native:disabled + .ads-switch-track .ads-switch-knob {
+  background: var(--ads-component-color-switch-icon-primary-disabled);
+}
+
+.ads-switch-native:checked:disabled + .ads-switch-track {
+  background: var(--ads-component-color-switch-background-active-disabled);
+}
+
+.ads-switch-native:checked:disabled + .ads-switch-track .ads-switch-knob {
+  background: var(--ads-component-color-switch-icon-primary-inverse);
+}
+
+.ads-switch:has(.ads-switch-native:disabled) {
+  cursor: not-allowed;
+}

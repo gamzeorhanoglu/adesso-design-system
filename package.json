@@ -1,0 +1,39 @@
+{
+  "name": "adesso-design-system",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "tsc -b && node scripts/copy-ui-assets.mjs",
+    "code-connect:build": "node scripts/build-code-connect-icons.mjs",
+    "code-connect:check": "node scripts/build-code-connect-icons.mjs --check && tsc -p tsconfig.figma.json --pretty false",
+    "code-connect:publish": "figma connect publish --config figma.config.json --skip-update-check --exit-on-unreadable-files",
+    "guard:ads": "node scripts/guard-ads-boundaries.mjs",
+    "icons:build": "node scripts/build-figma-icons.mjs",
+    "icons:check": "node scripts/build-figma-icons.mjs --check",
+    "tokens:build": "node scripts/build-figma-tokens.mjs",
+    "tokens:check": "node scripts/build-figma-tokens.mjs --check",
+    "check:contracts": "node scripts/validate-contracts.mjs",
+    "check:types": "tsc -b --pretty false",
+    "test": "vitest run",
+    "check": "npm run guard:ads && npm run tokens:check && npm run icons:check && npm run code-connect:check && npm run check:contracts && npm run check:types && npm test",
+    "dev": "vite --config apps/playground/vite.config.ts"
+  },
+  "devDependencies": {
+    "@figma/code-connect": "^2.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^5.1.1"
+  }
+}

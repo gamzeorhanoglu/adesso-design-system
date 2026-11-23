@@ -1,0 +1,92 @@
+.ads-avatar {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: visible;
+  color: var(--ads-component-color-avatar-text-primary);
+  background: var(--ads-color-avatar-background);
+  font-family: var(--ads-font-family-primary);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+}
+
+.ads-avatar.size-large {
+  width: var(--ads-layout-layout-scale-lg);
+  height: var(--ads-layout-layout-scale-lg);
+  font-size: var(--ads-font-size-label-lg);
+}
+
+.ads-avatar.size-medium {
+  width: var(--ads-layout-layout-scale-md);
+  height: var(--ads-layout-layout-scale-md);
+  font-size: var(--ads-font-size-label-md);
+}
+
+.ads-avatar.size-small {
+  width: var(--ads-layout-layout-scale-sm);
+  height: var(--ads-layout-layout-scale-sm);
+  font-size: var(--ads-font-size-label-sm);
+}
+
+.ads-avatar.shape-circle,
+.ads-avatar.shape-circle .ads-avatar-image {
+  border-radius: var(--ads-layout-layout-radius-full);
+}
+
+.ads-avatar.shape-square.size-large,
+.ads-avatar.shape-square.size-medium,
+.ads-avatar.shape-square.size-large .ads-avatar-image,
+.ads-avatar.shape-square.size-medium .ads-avatar-image {
+  border-radius: var(--layout-radius-xs);
+}
+
+.ads-avatar.shape-square.size-small,
+.ads-avatar.shape-square.size-small .ads-avatar-image {
+  border-radius: var(--layout-radius-2xs);
+}
+
+.ads-avatar-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.ads-avatar-initials {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.ads-avatar-badge {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: var(--ads-color-color-border-neutral-inverse);
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-color-color-icon-success-primary);
+}
+
+.ads-avatar.size-large .ads-avatar-badge {
+  width: 14px;
+  height: 14px;
+  border-width: var(--ads-layout-layout-stroke-weight-xl);
+}
+
+.ads-avatar.size-medium .ads-avatar-badge {
+  width: 10px;
+  height: 10px;
+  border-width: var(--ads-layout-layout-stroke-weight-lg);
+}
+
+.ads-avatar.size-small .ads-avatar-badge {
+  width: 8px;
+  height: 8px;
+  border-width: var(--ads-layout-layout-stroke-weight-md);
+}

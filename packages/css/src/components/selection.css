@@ -1,0 +1,156 @@
+.ads-selection {
+  position: relative;
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+  display: inline-flex;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.ads-selection-native {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ads-selection-control {
+  position: relative;
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: var(--ads-layout-layout-stroke-weight-md) solid
+    var(--ads-component-color-selection-border-default);
+  background: var(--ads-component-color-selection-background-default);
+}
+
+.ads-checkbox .ads-selection-control {
+  border-radius: var(--layout-radius-2xs);
+}
+
+.ads-radio .ads-selection-control,
+.ads-radio-dot {
+  border-radius: var(--ads-layout-layout-radius-full);
+}
+
+.ads-selection:hover .ads-selection-native:not(:disabled) + .ads-selection-control {
+  border-color: var(--ads-component-color-selection-border-hover);
+  background: var(--ads-component-color-selection-background-hover);
+}
+
+.ads-selection-native:focus-visible + .ads-selection-control {
+  outline: var(--ads-layout-layout-stroke-weight-lg) solid
+    var(--ads-component-color-selection-border-selected);
+  outline-offset: var(--ads-layout-layout-stroke-weight-lg);
+}
+
+.ads-selection-native:disabled + .ads-selection-control {
+  border-width: 1px;
+  border-color: var(--ads-component-color-selection-border-disabled);
+  background: var(--ads-component-color-selection-background-disabled);
+}
+
+.ads-selection:has(.ads-selection-native:disabled) {
+  cursor: not-allowed;
+}
+
+.ads-selection[data-error="true"] .ads-selection-control {
+  border-color: var(--ads-component-color-selection-border-error);
+  background: var(--ads-component-color-selection-background-error);
+}
+
+.ads-checkbox .ads-selection-native:checked + .ads-selection-control,
+.ads-checkbox .ads-selection-native:indeterminate + .ads-selection-control {
+  border-width: var(--ads-layout-layout-stroke-weight-lg);
+  border-color: var(--ads-component-color-selection-border-selected);
+  background: var(--ads-component-color-selection-background-selected);
+  color: var(--ads-component-color-selection-icon-inverse);
+}
+
+.ads-checkbox:hover .ads-selection-native:checked:not(:disabled) + .ads-selection-control,
+.ads-checkbox:hover .ads-selection-native:indeterminate:not(:disabled) + .ads-selection-control {
+  border-color: var(--ads-component-color-selection-border-selected-hover);
+  background: var(--ads-component-color-selection-background-selected-hover);
+}
+
+.ads-checkbox .ads-selection-native:disabled + .ads-selection-control {
+  color: var(--ads-component-color-selection-icon-disabled);
+}
+
+.ads-checkbox[data-error="true"] .ads-selection-control {
+  color: var(--ads-component-color-selection-icon-error);
+}
+
+.ads-selection-mark {
+  position: absolute;
+  inset: 2px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.ads-selection-mark .ads-icon {
+  color: inherit;
+}
+
+.ads-checkbox .ads-selection-native:checked:not(:indeterminate)
+  + .ads-selection-control
+  .ads-checkbox-check,
+.ads-checkbox .ads-selection-native:indeterminate
+  + .ads-selection-control
+  .ads-checkbox-minus {
+  display: inline-flex;
+}
+
+.ads-radio .ads-selection-native:checked + .ads-selection-control {
+  border-width: var(--ads-layout-layout-stroke-weight-lg);
+  border-color: var(--ads-component-color-selection-border-selected);
+  background: var(--ads-component-color-selection-background-default);
+}
+
+.ads-radio-dot {
+  width: var(--ads-size-icon-xs);
+  height: var(--ads-size-icon-xs);
+  display: none;
+  background: var(--ads-component-color-selection-icon-default);
+}
+
+.ads-radio .ads-selection-native:checked + .ads-selection-control .ads-radio-dot {
+  display: block;
+}
+
+.ads-radio:hover .ads-selection-native:checked:not(:disabled) + .ads-selection-control {
+  border-color: var(--ads-component-color-selection-border-selected-hover);
+  background: var(--ads-component-color-selection-background-default);
+}
+
+.ads-radio:hover
+  .ads-selection-native:checked:not(:disabled)
+  + .ads-selection-control
+  .ads-radio-dot {
+  background: var(--ads-component-color-selection-icon-hover);
+}
+
+.ads-radio .ads-selection-native:disabled + .ads-selection-control .ads-radio-dot {
+  background: var(--ads-component-color-selection-icon-disabled);
+}
+
+.ads-radio[data-error="true"] .ads-selection-control .ads-radio-dot {
+  background: var(--ads-component-color-selection-icon-error);
+}
+
+.ads-selection[data-error="true"]
+  .ads-selection-native:not(:disabled)
+  + .ads-selection-control {
+  border-width: var(--ads-layout-layout-stroke-weight-md);
+  border-color: var(--ads-component-color-selection-border-error);
+  background: var(--ads-component-color-selection-background-error);
+}

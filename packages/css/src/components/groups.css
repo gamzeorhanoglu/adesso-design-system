@@ -1,0 +1,59 @@
+.ads-selection-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-selection-item-content,
+.ads-switch-group-content {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ads-layout-space-3xs);
+}
+
+.ads-selection-item-label,
+.ads-switch-group-label {
+  color: var(--color-text-default-primary);
+  font-size: var(--ads-font-size-label-lg);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: normal;
+  cursor: pointer;
+}
+
+.ads-selection-item-description,
+.ads-switch-group-description {
+  color: var(--ads-color-color-text-default-subtle);
+  font-size: var(--ads-font-size-label-md);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: normal;
+}
+
+.ads-selection-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-sm);
+}
+
+.ads-switch-group {
+  width: min(408px, 100%);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-switch-group-content {
+  flex: 1 1 auto;
+  color: var(--ads-component-color-switch-text-primary);
+}
+
+.ads-switch-group-label {
+  color: var(--ads-component-color-switch-text-primary);
+}
+
+.ads-switch-group-description {
+  color: var(--ads-component-color-switch-text-secondary);
+}

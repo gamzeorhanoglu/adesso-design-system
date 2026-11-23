@@ -1,0 +1,196 @@
+{
+  "$schemaVersion": 1,
+  "name": "Adesso Design System",
+  "figma": {
+    "fileKey": "amS8gweXJwZXhCNWE8tB1o",
+    "inventory": {
+      "manifest": "docs/figma-component-inventory.json",
+      "coverage": "docs/component-coverage.md",
+      "componentSetCount": 337,
+      "standaloneComponentCount": 37,
+      "implementedIconSetCount": 281,
+      "implementedNonIconSetCount": 19,
+      "missingNonIconSetCount": 38
+    },
+    "codeConnect": {
+      "config": "figma.config.json",
+      "label": "React",
+      "parserlessTemplateCount": 306,
+      "iconMappingCount": 280,
+      "buttonTemplate": "code-connect/Button.figma.ts",
+      "inputTemplate": "code-connect/Input.figma.ts",
+      "searchInputTemplate": "code-connect/SearchInput.figma.ts",
+      "dropdownListTemplate": "code-connect/DropdownList.figma.ts",
+      "inputStatus": "approved-and-mapped",
+      "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
+    },
+    "variables": {
+      "manifest": "packages/tokens/src/figma.tokens.json",
+      "generatedCss": "packages/tokens/src/generated/figma.css",
+      "resolvedJson": "packages/tokens/src/generated/figma.resolved.json",
+      "localVariableCount": 891,
+      "dependencyCount": 7,
+      "collections": {
+        "Primitives": 226,
+        "Layout": 42,
+        "Component": 372,
+        "Typography": 140,
+        "Color": 111
+      },
+      "themes": ["Light", "Dark"],
+      "themeAttribute": "data-ads-theme"
+    },
+    "icons": {
+      "pageNodeId": "2020:844",
+      "manifestDirectory": "packages/icons/src/figma",
+      "componentSetCount": 280,
+      "variantCount": 1680,
+      "sizes": {
+        "xs": 16,
+        "sm": 20,
+        "md": 24,
+        "lg": 32,
+        "xl": 40,
+        "2xl": 48
+      },
+      "code": "packages/icons/src/generated"
+    },
+    "components": {
+      "button": {
+        "componentSetNodeId": "140:28279",
+        "defaultNodeId": "140:28280",
+        "secondaryComponentSetNodeId": "146:721",
+        "outlineComponentSetNodeId": "146:884",
+        "ghostComponentSetNodeId": "146:1046",
+        "destructiveComponentSetNodeId": "223:1365",
+        "iconOnlyComponentSetNodeId": "223:2525",
+        "code": "packages/ui-web/src/components/Button/Button.tsx",
+        "codeConnect": [
+          "code-connect/Button.figma.ts",
+          "code-connect/SecondaryButton.figma.ts",
+          "code-connect/OutlineButton.figma.ts",
+          "code-connect/GhostButton.figma.ts",
+          "code-connect/DestructiveButton.figma.ts",
+          "code-connect/IconOnlyButton.figma.ts"
+        ]
+      },
+      "buttonGroup": {
+        "componentNodeId": "225:476",
+        "horizontalComponentNodeId": "224:401",
+        "verticalComponentNodeId": "225:477",
+        "code": "packages/ui-web/src/components/ButtonGroup/ButtonGroup.tsx",
+        "codeConnect": [
+          "code-connect/ButtonGroupIconAction.figma.ts",
+          "code-connect/ButtonGroupHorizontal.figma.ts",
+          "code-connect/ButtonGroupVertical.figma.ts"
+        ]
+      },
+      "flag": {
+        "componentSetNodeId": "2181:5614",
+        "code": "packages/ui-web/src/components/Flag/Flag.tsx",
+        "codeConnect": "code-connect/Flag.figma.ts",
+        "countries": ["turkey", "saudi-arabia", "usa", "spain", "germany"],
+        "sizes": ["md", "lg"]
+      },
+      "listItem": {
+        "componentSetNodeId": "2172:851",
+        "code": "packages/ui-web/src/components/ListItem/ListItem.tsx",
+        "codeConnect": "code-connect/ListItem.figma.ts",
+        "behaviors": {
+          "selection": "packages/ui-web/src/hooks/useListItemSelection.ts"
+        }
+      },
+      "dropdownList": {
+        "componentSetNodeId": "2172:907",
+        "code": "packages/ui-web/src/components/DropdownList/DropdownList.tsx",
+        "codeConnect": "code-connect/DropdownList.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useDropdownListState.ts"
+        }
+      },
+      "input": {
+        "componentSetNodeId": "228:2526",
+        "defaultNodeId": "228:2525",
+        "code": "packages/ui-web/src/components/Input/Input.tsx",
+        "codeConnect": "code-connect/Input.figma.ts",
+        "behaviors": {
+          "clear": "packages/ui-web/src/hooks/useInputClear.ts",
+          "passwordVisibility": "packages/ui-web/src/hooks/usePasswordVisibility.ts",
+          "countrySelection": "packages/ui-web/src/hooks/useCountrySelection.ts"
+        }
+      },
+      "searchInput": {
+        "componentSetNodeId": "229:2793",
+        "code": "packages/ui-web/src/components/SearchInput/SearchInput.tsx",
+        "codeConnect": "code-connect/SearchInput.figma.ts",
+        "behaviors": {
+          "clear": "packages/ui-web/src/hooks/useInputClear.ts",
+          "state": "packages/ui-web/src/hooks/useInputState.ts"
+        }
+      },
+      "checkbox": {
+        "componentSetNodeId": "239:1178",
+        "code": "packages/ui-web/src/components/Checkbox/Checkbox.tsx",
+        "codeConnect": "code-connect/Checkbox.figma.ts",
+        "behaviors": {
+          "indeterminate": "packages/ui-web/src/hooks/useCheckboxIndeterminate.ts"
+        }
+      },
+      "radioButton": {
+        "componentSetNodeId": "239:1050",
+        "code": "packages/ui-web/src/components/RadioButton/RadioButton.tsx",
+        "codeConnect": "code-connect/RadioButton.figma.ts"
+      },
+      "switch": {
+        "componentSetNodeId": "245:158",
+        "mobileComponentSetNodeId": "2690:177",
+        "code": "packages/ui-web/src/components/Switch/Switch.tsx",
+        "codeConnect": [
+          "code-connect/DesktopSwitch.figma.ts",
+          "code-connect/MobileSwitch.figma.ts"
+        ]
+      },
+      "selectionItem": {
+        "componentNodeId": "244:1236",
+        "code": "packages/ui-web/src/components/SelectionItem/SelectionItem.tsx",
+        "codeConnect": "code-connect/SelectionItem.figma.ts"
+      },
+      "selectionGroup": {
+        "componentNodeId": "244:1325",
+        "code": "packages/ui-web/src/components/SelectionGroup/SelectionGroup.tsx",
+        "codeConnect": "code-connect/SelectionGroup.figma.ts"
+      },
+      "switchGroup": {
+        "componentNodeId": "246:798",
+        "code": "packages/ui-web/src/components/SwitchGroup/SwitchGroup.tsx",
+        "codeConnect": "code-connect/SwitchGroup.figma.ts"
+      },
+      "avatar": {
+        "componentSetNodeId": "2759:256",
+        "code": "packages/ui-web/src/components/Avatar/Avatar.tsx",
+        "codeConnect": "code-connect/Avatar.figma.ts"
+      },
+      "tag": {
+        "componentSetNodeId": "2768:2266",
+        "solidComponentSetNodeId": "2779:2953",
+        "code": "packages/ui-web/src/components/Tag/Tag.tsx",
+        "codeConnect": [
+          "code-connect/TagSoft.figma.ts",
+          "code-connect/TagSolid.figma.ts"
+        ]
+      },
+      "tooltip": {
+        "componentSetNodeId": "2896:555",
+        "code": "packages/ui-web/src/components/Tooltip/Tooltip.tsx",
+        "codeConnect": "code-connect/Tooltip.figma.ts"
+      },
+      "progressBar": {
+        "componentSetNodeId": "2787:2475",
+        "code": "packages/ui-web/src/components/ProgressBar/ProgressBar.tsx",
+        "codeConnect": "code-connect/ProgressBar.figma.ts"
+      }
+    }
+  },
+  "packages": ["@ads/tokens", "@ads/css", "@ads/icons", "@ads/ui-web"]
+}
+

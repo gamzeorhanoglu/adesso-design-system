@@ -1,0 +1,15 @@
+.ads-flag {
+  display: block;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.ads-flag.size-md {
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+}
+
+.ads-flag.size-lg {
+  width: var(--ads-size-icon-lg);
+  height: var(--ads-size-icon-lg);
+}

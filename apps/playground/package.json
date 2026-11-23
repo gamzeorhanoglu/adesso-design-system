@@ -1,0 +1,14 @@
+{
+  "name": "@ads/playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ads/css": "0.1.0",
+    "@ads/icons": "0.1.0",
+    "@ads/ui-web": "0.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
+

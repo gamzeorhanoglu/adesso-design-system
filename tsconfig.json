@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["@figma/code-connect/figma-types"]
+  },
+  "files": [],
+  "references": [
+    { "path": "./packages/tokens" },
+    { "path": "./packages/icons" },
+    { "path": "./packages/ui-web" },
+    { "path": "./apps/playground" }
+  ]
+}
+
