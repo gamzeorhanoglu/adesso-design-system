@@ -10,8 +10,8 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.220 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 20 (altı Button ailesi + Input + Input/Search + DropdownList + Language + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
-- Eksik non-icon set: 37
+- Kod kapsamındaki non-icon set: 21 (altı Button ailesi + Input + Input/Search + DropdownList + Language + Calendar-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
+- Eksik non-icon set: 36
 - Kod kapsamındaki standalone component: 6 (`SelectionItem`, `SelectionGroup`, `SwitchGroup` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
@@ -27,7 +27,7 @@ gelir. Ana Input ve Search hazırdır; TextArea ayrı komponent olarak eksiktir.
 | Brand | 0 | 8 | 8 | 0 | 8 |
 | Breadcrumb | 1 | 1 | 5 | 0 | 2 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
-| Calendar | 2 | 0 | 8 | 0 | 2 |
+| Calendar | 2 | 0 | 8 | 1 | 1 |
 | Cards | 4 | 1 | 15 | 0 | 5 |
 | Carousel | 0 | 2 | 2 | 0 | 2 |
 | Chips | 1 | 1 | 13 | 0 | 2 |
@@ -55,7 +55,7 @@ gelir. Ana Input ve Search hazırdır; TextArea ayrı komponent olarak eksiktir.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `DropdownList`, `Language`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `DropdownList`, `Language`, `Calendar-Item`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
 
 ### 1. Temel primitives
 
@@ -63,7 +63,7 @@ Tamamlandı.
 
 ### 2. Form kontrolleri
 
-`Calendar`, `Calendar-Item`, `Chips-Filter`, `chipsgroup/filter`, `DatePicker`, `Dropdown`, `Input/TextArea`
+`Calendar`, `Chips-Filter`, `chipsgroup/filter`, `DatePicker`, `Dropdown`, `Input/TextArea`
 
 ### 3. Navigasyon
 

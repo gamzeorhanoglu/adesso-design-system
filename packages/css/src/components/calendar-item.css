@@ -1,0 +1,51 @@
+.ads-calendar-item {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  padding: var(--layout-space-2xs);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 0;
+  color: var(--ads-component-color-calendar-text-default);
+  background: var(--ads-component-color-calendar-background-default);
+  font-family: var(--ads-font-family-primary);
+  font-size: var(--ads-font-size-label-md);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ads-calendar-item:hover:not(:disabled),
+.ads-calendar-item:focus-visible:not(:disabled) {
+  color: var(--ads-component-color-calendar-text-hover);
+  background: var(--ads-component-color-calendar-background-hover);
+  box-shadow: inset 0 0 0 var(--ads-layout-layout-stroke-weight-sm)
+    var(--ads-component-color-calendar-border-hover);
+  outline: 0;
+}
+
+.ads-calendar-item[data-state="selected"] {
+  color: var(--ads-component-color-calendar-text-selected);
+  background: var(--ads-component-color-calendar-background-selected);
+  box-shadow: none;
+}
+
+.ads-calendar-item[data-state="range"] {
+  color: var(--ads-component-color-calendar-text-range);
+  background: var(--ads-component-color-calendar-background-range);
+  box-shadow: none;
+}
+
+.ads-calendar-item[data-state="disabled"] {
+  color: var(--ads-component-color-calendar-text-disabled);
+  background: var(--ads-component-color-calendar-background-disabled);
+  cursor: not-allowed;
+}
+
+.ads-calendar-item[data-state="hidden"] {
+  visibility: hidden;
+  pointer-events: none;
+}

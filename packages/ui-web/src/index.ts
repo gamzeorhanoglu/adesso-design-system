@@ -27,6 +27,8 @@ export type {
   LanguageOption,
   LanguageProps
 } from "./components/Language/Language";
+export { CalendarItem } from "./components/CalendarItem/CalendarItem";
+export type { CalendarItemProps } from "./components/CalendarItem/CalendarItem";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

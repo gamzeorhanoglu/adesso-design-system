@@ -9,19 +9,20 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 20,
-      "missingNonIconSetCount": 37
+      "implementedNonIconSetCount": 21,
+      "missingNonIconSetCount": 36
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 307,
+      "parserlessTemplateCount": 308,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
       "searchInputTemplate": "code-connect/SearchInput.figma.ts",
       "dropdownListTemplate": "code-connect/DropdownList.figma.ts",
       "languageTemplate": "code-connect/Language.figma.ts",
+      "calendarItemTemplate": "code-connect/CalendarItem.figma.ts",
       "inputStatus": "approved-and-mapped",
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
     },
@@ -117,6 +118,15 @@
           "selection": "packages/ui-web/src/hooks/useLanguageSelector.ts"
         },
         "primitives": ["Flag", "DropdownList", "ChevronDownIcon", "ChevronUpIcon"]
+      },
+      "calendarItem": {
+        "componentSetNodeId": "2181:8155",
+        "code": "packages/ui-web/src/components/CalendarItem/CalendarItem.tsx",
+        "codeConnect": "code-connect/CalendarItem.figma.ts",
+        "behaviors": {
+          "selection": "packages/ui-web/src/hooks/useCalendarItemSelection.ts"
+        },
+        "states": ["default", "hover", "selected", "hidden", "disabled", "range"]
       },
       "input": {
         "componentSetNodeId": "228:2526",
