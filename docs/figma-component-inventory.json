@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2220,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 6,
+    "implementedStandaloneComponentCount": 7,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 24,
-    "missingNonIconSetCount": 33
+    "implementedNonIconSetCount": 25,
+    "missingNonIconSetCount": 32
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -400,9 +400,9 @@
       "name": "Chips-Filter",
       "nodeType": "COMPONENT_SET",
       "variantCount": 12,
-      "status": "missing",
-      "phase": 2,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Chip/Chip.tsx"
     },
     {
       "page": "Chips",
@@ -411,9 +411,9 @@
       "name": "chipsgroup/filter",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 2,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/ChipGroup/ChipGroup.tsx"
     },
     {
       "page": "Date Picker",

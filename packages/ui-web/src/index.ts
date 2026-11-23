@@ -41,6 +41,10 @@ export type {
   CalendarRange,
   CalendarSelectionMode
 } from "./components/Calendar/Calendar";
+export { Chip } from "./components/Chip/Chip";
+export type { ChipProps, ChipSize } from "./components/Chip/Chip";
+export { ChipGroup } from "./components/ChipGroup/ChipGroup";
+export type { ChipGroupProps } from "./components/ChipGroup/ChipGroup";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

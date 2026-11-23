@@ -5,6 +5,8 @@ import {
   ButtonGroup,
   Calendar,
   CalendarItem,
+  Chip,
+  ChipGroup,
   Avatar,
   Checkbox,
   Flag,
@@ -207,6 +209,25 @@ export function App() {
             defaultValue={new Date(2025, 7, 1)}
             defaultDisplayedMonth={new Date(2025, 7, 1)}
           />
+        </div>
+      </section>
+
+      <section aria-labelledby="chips-title">
+        <h2 id="chips-title">Chips</h2>
+        <div className="component-grid">
+          <div className="showcase-row">
+            <Chip size="large" icon={<StarIcon size="md" />}>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />} defaultSelected>Filter</Chip>
+            <Chip size="small" icon={<StarIcon size="xs" />}>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />} disabled>Filter</Chip>
+          </div>
+          <ChipGroup aria-label="Content filters">
+            <Chip size="medium" icon={<StarIcon size="sm" />} defaultSelected>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />}>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />}>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />}>Filter</Chip>
+            <Chip size="medium" icon={<StarIcon size="sm" />}>Filter</Chip>
+          </ChipGroup>
         </div>
       </section>
 
