@@ -9,18 +9,19 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 21,
-      "missingNonIconSetCount": 36
+      "implementedNonIconSetCount": 22,
+      "missingNonIconSetCount": 35
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 308,
+      "parserlessTemplateCount": 309,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
       "searchInputTemplate": "code-connect/SearchInput.figma.ts",
       "dropdownListTemplate": "code-connect/DropdownList.figma.ts",
+      "dropdownTemplate": "code-connect/Dropdown.figma.ts",
       "languageTemplate": "code-connect/Language.figma.ts",
       "calendarItemTemplate": "code-connect/CalendarItem.figma.ts",
       "inputStatus": "approved-and-mapped",
@@ -109,6 +110,15 @@
         "behaviors": {
           "state": "packages/ui-web/src/hooks/useDropdownListState.ts"
         }
+      },
+      "dropdown": {
+        "componentSetNodeId": "2172:1208",
+        "code": "packages/ui-web/src/components/Dropdown/Dropdown.tsx",
+        "codeConnect": "code-connect/Dropdown.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useDropdownState.ts"
+        },
+        "primitives": ["DropdownList", "InfoIcon", "AlertTriangleIcon", "ChevronDownIcon", "ChevronUpIcon"]
       },
       "language": {
         "componentSetNodeId": "2681:2229",

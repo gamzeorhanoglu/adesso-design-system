@@ -25,6 +25,8 @@ const requiredSelectors = [
   ".ads-search-input-control",
   ".ads-dropdown-list",
   ".ads-dropdown-list-options",
+  ".ads-dropdown",
+  ".ads-dropdown-trigger",
   ".ads-language",
   ".ads-language-trigger",
   ".ads-calendar-item",
@@ -86,9 +88,10 @@ const flagStyles = await readFile(new URL("../packages/css/src/components/flag.c
 const listItemStyles = await readFile(new URL("../packages/css/src/components/list-item.css", import.meta.url), "utf8");
 const searchInputStyles = await readFile(new URL("../packages/css/src/components/search-input.css", import.meta.url), "utf8");
 const dropdownListStyles = await readFile(new URL("../packages/css/src/components/dropdown-list.css", import.meta.url), "utf8");
+const dropdownStyles = await readFile(new URL("../packages/css/src/components/dropdown.css", import.meta.url), "utf8");
 const languageStyles = await readFile(new URL("../packages/css/src/components/language.css", import.meta.url), "utf8");
 const calendarItemStyles = await readFile(new URL("../packages/css/src/components/calendar-item.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${dropdownListStyles}\n${languageStyles}\n${calendarItemStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -140,8 +143,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 308) {
-  errors.push("ads.config.json must record 308 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 309) {
+  errors.push("ads.config.json must record 309 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -151,16 +154,16 @@ if (
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
   parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 6 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 21 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 36
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 22 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 35
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 21 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 36
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 22 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 35
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -202,6 +205,7 @@ const additionalButtonTemplateContracts = [
   ["ListItem", "ListItem.figma.ts", "ads-list-item"],
   ["SearchInput", "SearchInput.figma.ts", "ads-search-input"],
   ["DropdownList", "DropdownList.figma.ts", "ads-dropdown-list"],
+  ["Dropdown", "Dropdown.figma.ts", "ads-dropdown"],
   ["Language", "Language.figma.ts", "ads-language"],
   ["CalendarItem", "CalendarItem.figma.ts", "ads-calendar-item"]
 ];
@@ -228,7 +232,7 @@ for (const file of flagAssetFiles) {
     errors.push(`Flag asset must not be empty: ${file}`);
   }
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "language", "calendarItem", "input", "searchInput", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "input", "searchInput", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -253,6 +257,9 @@ if (
 }
 if (!parsedConfig.figma.components.dropdownList?.behaviors?.state) {
   errors.push("Missing approved DropdownList state behavior mapping.");
+}
+if (!parsedConfig.figma.components.dropdown?.behaviors?.state) {
+  errors.push("Missing approved Dropdown state behavior mapping.");
 }
 if (!parsedConfig.figma.components.language?.behaviors?.selection) {
   errors.push("Missing approved Language selection behavior mapping.");

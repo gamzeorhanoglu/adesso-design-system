@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 6,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 21,
-    "missingNonIconSetCount": 36
+    "implementedNonIconSetCount": 22,
+    "missingNonIconSetCount": 35
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -455,9 +455,9 @@
       "name": "Dropdown",
       "nodeType": "COMPONENT_SET",
       "variantCount": 6,
-      "status": "missing",
-      "phase": 2,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Dropdown/Dropdown.tsx"
     },
     {
       "page": "Dropdown",

@@ -11,6 +11,7 @@ import {
   Language,
   SearchInput,
   DropdownList,
+  Dropdown,
   ListItem,
   RadioButton,
   SelectionGroup,
@@ -133,6 +134,36 @@ export function App() {
             { label: "United States", value: "us" }
           ]}
         />
+      </section>
+
+      <section aria-labelledby="dropdown-title">
+        <h2 id="dropdown-title">Dropdown</h2>
+        <div className="input-grid">
+          <Dropdown
+            label="Country"
+            required
+            showInfo
+            supportingText="Choose one or more countries"
+            options={[
+              { label: "Turkey", value: "tr" },
+              { label: "Germany", value: "de" },
+              { label: "Spain", value: "es" },
+              { label: "Saudi Arabia", value: "sa" },
+              { label: "United States", value: "us" }
+            ]}
+          />
+          <Dropdown
+            label="Filled country"
+            multiple={false}
+            defaultValue={["de"]}
+            options={[
+              { label: "Turkey", value: "tr" },
+              { label: "Germany", value: "de" }
+            ]}
+          />
+          <Dropdown label="Disabled country" options={[]} disabled />
+          <Dropdown label="Country with error" options={[]} errorMessage="Error Text" />
+        </div>
       </section>
 
       <section aria-labelledby="language-title">

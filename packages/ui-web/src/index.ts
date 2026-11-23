@@ -22,6 +22,11 @@ export type {
   DropdownListOption,
   DropdownListProps
 } from "./components/DropdownList/DropdownList";
+export { Dropdown } from "./components/Dropdown/Dropdown";
+export type {
+  DropdownOption,
+  DropdownProps
+} from "./components/Dropdown/Dropdown";
 export { Language } from "./components/Language/Language";
 export type {
   LanguageOption,
