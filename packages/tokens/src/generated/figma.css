@@ -303,7 +303,7 @@
   --ads-component-color-navigation-background-inverse: var(--ads-color-color-background-tinted-inverse);
   --ads-component-color-navigation-background-strong: var(--ads-color-background-raised);
   --ads-component-color-navigation-border-default: var(--color-border-accent-primary);
-  --ads-component-color-navigation-border-secondary: var(--color-border-accent-primary);
+  --ads-component-color-navigation-border-secondary: var(--color-border-neutral-primary);
   --ads-component-color-navigation-icon-default: var(--color-icon-neutral-secondary);
   --ads-component-color-navigation-icon-disabled: var(--ads-color-color-icon-neutral-muted);
   --ads-component-color-navigation-icon-hover: var(--color-icon-accent-primary);

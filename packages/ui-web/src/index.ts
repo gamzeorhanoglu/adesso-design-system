@@ -57,6 +57,11 @@ export { CarouselDot } from "./components/CarouselDot/CarouselDot";
 export type { CarouselDotProps } from "./components/CarouselDot/CarouselDot";
 export { CarouselControl } from "./components/CarouselControl/CarouselControl";
 export type { CarouselControlProps } from "./components/CarouselControl/CarouselControl";
+export { NavigationItem } from "./components/NavigationItem/NavigationItem";
+export type {
+  NavigationItemDevice,
+  NavigationItemProps
+} from "./components/NavigationItem/NavigationItem";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

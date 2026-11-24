@@ -9,13 +9,13 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 29,
-      "missingNonIconSetCount": 28
+      "implementedNonIconSetCount": 30,
+      "missingNonIconSetCount": 27
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 318,
+      "parserlessTemplateCount": 319,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -33,6 +33,7 @@
       "breadcrumbItemTemplate": "code-connect/BreadcrumbItem.figma.ts",
       "carouselControlTemplate": "code-connect/CarouselControl.figma.ts",
       "carouselDotTemplate": "code-connect/CarouselDot.figma.ts",
+      "navigationItemTemplate": "code-connect/NavigationItem.figma.ts",
       "inputStatus": "approved-and-mapped",
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
     },
@@ -212,6 +213,14 @@
         "code": "packages/ui-web/src/components/CarouselDot/CarouselDot.tsx",
         "codeConnect": "code-connect/CarouselDot.figma.ts",
         "states": ["default", "hover", "selected"]
+      },
+      "navigationItem": {
+        "componentSetNodeId": "2334:5718",
+        "code": "packages/ui-web/src/components/NavigationItem/NavigationItem.tsx",
+        "codeConnect": "code-connect/NavigationItem.figma.ts",
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "hover", "selected"],
+        "primitives": ["CompassIcon"]
       },
       "input": {
         "componentSetNodeId": "228:2526",

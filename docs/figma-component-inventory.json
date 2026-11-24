@@ -20,14 +20,14 @@
   "summary": {
     "componentSetCount": 337,
     "standaloneComponentCount": 37,
-    "variantOrComponentCount": 2220,
+    "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
     "implementedStandaloneComponentCount": 9,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 29,
-    "missingNonIconSetCount": 28
+    "implementedNonIconSetCount": 30,
+    "missingNonIconSetCount": 27
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -630,10 +630,10 @@
       "nodeId": "2334:5718",
       "name": "Navigation-Item",
       "nodeType": "COMPONENT_SET",
-      "variantCount": 4,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "variantCount": 6,
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/NavigationItem/NavigationItem.tsx"
     },
     {
       "page": "Notification",

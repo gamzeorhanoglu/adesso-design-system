@@ -6,6 +6,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   CarouselControl,
+  NavigationItem,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -54,6 +55,34 @@ export function App() {
       <section aria-labelledby="carousel-control-title">
         <h2 id="carousel-control-title">Carousel Control</h2>
         <CarouselControl count={4} defaultSelectedIndex={1} />
+      </section>
+
+      <section aria-labelledby="navigation-item-title">
+        <h2 id="navigation-item-title">Navigation Item</h2>
+        <div className="showcase-row">
+          <NavigationItem href="#navigation-item-title">Lorem Ipsum</NavigationItem>
+          <NavigationItem href="#navigation-item-title" data-preview-state="hover">
+            Lorem Ipsum
+          </NavigationItem>
+          <NavigationItem href="#navigation-item-title" selected>
+            Lorem Ipsum
+          </NavigationItem>
+        </div>
+        <div className="showcase-row">
+          <NavigationItem href="#navigation-item-title" device="mobile">
+            Lorem Ipsum
+          </NavigationItem>
+          <NavigationItem
+            href="#navigation-item-title"
+            device="mobile"
+            data-preview-state="hover"
+          >
+            Lorem Ipsum
+          </NavigationItem>
+          <NavigationItem href="#navigation-item-title" device="mobile" selected>
+            Lorem Ipsum
+          </NavigationItem>
+        </div>
       </section>
 
       <section aria-labelledby="buttons-title">
