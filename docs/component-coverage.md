@@ -10,9 +10,9 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.220 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 27 (altı Button ailesi + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
-- Eksik non-icon set: 30
-- Kod kapsamındaki standalone component: 7 (`SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
+- Kod kapsamındaki non-icon set: 28 (altı Button ailesi + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
+- Eksik non-icon set: 29
+- Kod kapsamındaki standalone component: 8 (`Breadcrumb`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -25,7 +25,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Accordion | 1 | 0 | 6 | 0 | 1 |
 | Avatar | 1 | 0 | 12 | 1 | 0 |
 | Brand | 0 | 8 | 8 | 0 | 8 |
-| Breadcrumb | 1 | 1 | 5 | 0 | 2 |
+| Breadcrumb | 1 | 1 | 5 | 2 | 0 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
 | Cards | 4 | 1 | 15 | 0 | 5 |
@@ -55,7 +55,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
 
 ### 1. Temel primitives
 
@@ -67,7 +67,7 @@ Tamamlandı.
 
 ### 3. Navigasyon
 
-`Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Dots`, `Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Mobile/Top-Navigation`, `Navigation-Item`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+`Carousel Control`, `Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Dots`, `Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Mobile/Top-Navigation`, `Navigation-Item`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
 
 ### 4. Feedback ve overlays
 

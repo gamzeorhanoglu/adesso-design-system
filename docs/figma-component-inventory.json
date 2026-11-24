@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2220,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 7,
+    "implementedStandaloneComponentCount": 8,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 27,
-    "missingNonIconSetCount": 30
+    "implementedNonIconSetCount": 28,
+    "missingNonIconSetCount": 29
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -158,9 +158,9 @@
       "name": "Breadcrumb",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Breadcrumb/Breadcrumb.tsx"
     },
     {
       "page": "Breadcrumb",
@@ -169,9 +169,9 @@
       "name": "Breadcrumb-Item",
       "nodeType": "COMPONENT_SET",
       "variantCount": 4,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/BreadcrumbItem/BreadcrumbItem.tsx"
     },
     {
       "page": "Buttons",

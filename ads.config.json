@@ -9,13 +9,13 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 27,
-      "missingNonIconSetCount": 30
+      "implementedNonIconSetCount": 28,
+      "missingNonIconSetCount": 29
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 314,
+      "parserlessTemplateCount": 316,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -29,6 +29,8 @@
       "datePickerTemplate": "code-connect/DatePicker.figma.ts",
       "chipTemplate": "code-connect/Chip.figma.ts",
       "chipGroupTemplate": "code-connect/ChipGroup.figma.ts",
+      "breadcrumbTemplate": "code-connect/Breadcrumb.figma.ts",
+      "breadcrumbItemTemplate": "code-connect/BreadcrumbItem.figma.ts",
       "inputStatus": "approved-and-mapped",
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
     },
@@ -181,6 +183,18 @@
           "keyboardNavigation": "packages/ui-web/src/hooks/useChipGroupKeyboardNavigation.ts"
         },
         "primitives": ["Chip"]
+      },
+      "breadcrumb": {
+        "componentNodeId": "2332:3164",
+        "code": "packages/ui-web/src/components/Breadcrumb/Breadcrumb.tsx",
+        "codeConnect": "code-connect/Breadcrumb.figma.ts",
+        "primitives": ["BreadcrumbItem", "ChevronRightIcon"]
+      },
+      "breadcrumbItem": {
+        "componentSetNodeId": "2332:3233",
+        "code": "packages/ui-web/src/components/BreadcrumbItem/BreadcrumbItem.tsx",
+        "codeConnect": "code-connect/BreadcrumbItem.figma.ts",
+        "states": ["default", "hover", "active", "disabled"]
       },
       "input": {
         "componentSetNodeId": "228:2526",

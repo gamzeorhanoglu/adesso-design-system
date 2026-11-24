@@ -15,6 +15,7 @@
     "./list-item": "./src/components/list-item.css",
     "./input": "./src/components/input.css",
     "./textarea": "./src/components/textarea.css",
+    "./breadcrumb": "./src/components/breadcrumb.css",
     "./selection": "./src/components/selection.css",
     "./switch": "./src/components/switch.css",
     "./groups": "./src/components/groups.css",

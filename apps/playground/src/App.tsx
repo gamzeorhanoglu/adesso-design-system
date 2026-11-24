@@ -3,6 +3,8 @@ import { ChevronRightIcon, StarIcon } from "@ads/icons";
 import {
   Button,
   ButtonGroup,
+  Breadcrumb,
+  BreadcrumbItem,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -37,6 +39,16 @@ export function App() {
         <p>Adesso Design System</p>
         <h1>ADS component playground</h1>
       </header>
+
+      <section aria-labelledby="breadcrumb-title">
+        <h2 id="breadcrumb-title">Breadcrumb</h2>
+        <Breadcrumb aria-label="Page hierarchy">
+          <BreadcrumbItem href="#level-one">Lorem Ipsum</BreadcrumbItem>
+          <BreadcrumbItem href="#level-two">Lorem Ipsum</BreadcrumbItem>
+          <BreadcrumbItem href="#level-three">Lorem Ipsum</BreadcrumbItem>
+          <BreadcrumbItem current>Lorem Ipsum</BreadcrumbItem>
+        </Breadcrumb>
+      </section>
 
       <section aria-labelledby="buttons-title">
         <h2 id="buttons-title">Button</h2>
