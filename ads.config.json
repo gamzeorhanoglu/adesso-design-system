@@ -9,13 +9,13 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 25,
-      "missingNonIconSetCount": 32
+      "implementedNonIconSetCount": 26,
+      "missingNonIconSetCount": 31
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 312,
+      "parserlessTemplateCount": 313,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -25,6 +25,7 @@
       "languageTemplate": "code-connect/Language.figma.ts",
       "calendarItemTemplate": "code-connect/CalendarItem.figma.ts",
       "calendarTemplate": "code-connect/Calendar.figma.ts",
+      "datePickerTemplate": "code-connect/DatePicker.figma.ts",
       "chipTemplate": "code-connect/Chip.figma.ts",
       "chipGroupTemplate": "code-connect/ChipGroup.figma.ts",
       "inputStatus": "approved-and-mapped",
@@ -150,6 +151,16 @@
         },
         "periods": ["day", "month"],
         "primitives": ["Dropdown", "CalendarItem", "ChevronLeftIcon", "ChevronRightIcon"]
+      },
+      "datePicker": {
+        "componentSetNodeId": "5420:2631",
+        "code": "packages/ui-web/src/components/DatePicker/DatePicker.tsx",
+        "codeConnect": "code-connect/DatePicker.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useDatePickerState.ts"
+        },
+        "states": ["default", "disabled", "filled", "focus", "error", "open"],
+        "primitives": ["Calendar", "InfoIcon", "CalendarIcon", "AlertTriangleIcon"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",

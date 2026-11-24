@@ -1,0 +1,38 @@
+.ads-date-picker {
+  position: relative;
+}
+
+.ads-date-picker-action {
+  flex: 0 0 auto;
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: var(--ads-color-neutral-100);
+  background: transparent;
+  cursor: pointer;
+}
+
+.ads-date-picker-action:focus-visible {
+  outline: 2px solid var(--ads-color-action-primary-default);
+  outline-offset: 2px;
+}
+
+.ads-date-picker-action:disabled {
+  color: var(--ads-color-neutral-70);
+  cursor: not-allowed;
+}
+
+.ads-date-picker-calendar {
+  position: absolute;
+  top: calc(var(--ads-size-control-md) + var(--ads-size-icon-xs) + var(--ads-space-8));
+  left: 0;
+  z-index: 20;
+}
+
+.ads-date-picker:not([data-show-label]) .ads-date-picker-calendar {
+  top: calc(var(--ads-size-control-md) + var(--ads-space-4));
+}

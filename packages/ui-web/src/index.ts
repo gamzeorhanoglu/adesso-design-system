@@ -41,6 +41,8 @@ export type {
   CalendarRange,
   CalendarSelectionMode
 } from "./components/Calendar/Calendar";
+export { DatePicker } from "./components/DatePicker/DatePicker";
+export type { DatePickerProps } from "./components/DatePicker/DatePicker";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

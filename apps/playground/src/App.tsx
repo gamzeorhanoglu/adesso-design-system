@@ -5,6 +5,7 @@ import {
   ButtonGroup,
   Calendar,
   CalendarItem,
+  DatePicker,
   Chip,
   ChipGroup,
   Avatar,
@@ -208,6 +209,28 @@ export function App() {
             locale="tr-TR"
             defaultValue={new Date(2025, 7, 1)}
             defaultDisplayedMonth={new Date(2025, 7, 1)}
+          />
+        </div>
+      </section>
+
+      <section aria-labelledby="date-picker-title">
+        <h2 id="date-picker-title">DatePicker</h2>
+        <div className="input-grid">
+          <DatePicker
+            label="Label Text"
+            required
+            showInfo
+            supportingText="Supporting text"
+            defaultDisplayedMonth={new Date(2025, 8, 1)}
+          />
+          <DatePicker label="Filled date" defaultValue={new Date(2025, 8, 9)} />
+          <DatePicker label="Disabled date" disabled />
+          <DatePicker label="Date with error" errorMessage="Error Text" />
+          <DatePicker
+            label="Open date"
+            defaultOpen
+            defaultValue={new Date(2025, 8, 9)}
+            defaultDisplayedMonth={new Date(2025, 8, 1)}
           />
         </div>
       </section>
