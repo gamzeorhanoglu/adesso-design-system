@@ -115,6 +115,10 @@ for (const selector of requiredSelectors) {
   if (!styles.includes(selector)) errors.push(`Missing selector: ${selector}`);
 }
 
+if (/\.ads-field\[data-state="(?:focus|disabled)"\][^{]*\{[^}]*\bgap\s*:/s.test(input)) {
+  errors.push("ADS field focus and disabled states must preserve the default layout gap.");
+}
+
 const parsedConfig = JSON.parse(config);
 const parsedManifest = JSON.parse(figmaManifest);
 const parsedComponentInventory = JSON.parse(componentInventory);

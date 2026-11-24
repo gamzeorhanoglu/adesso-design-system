@@ -7,11 +7,6 @@
   font-family: var(--ads-font-family-primary);
 }
 
-.ads-field[data-state="focus"],
-.ads-field[data-state="disabled"] {
-  gap: var(--ads-space-8);
-}
-
 .ads-field-label {
   min-height: var(--ads-size-icon-xs);
   padding-left: var(--ads-space-16);
