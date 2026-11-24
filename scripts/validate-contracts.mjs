@@ -41,6 +41,9 @@ const requiredSelectors = [
   ".ads-field-control",
   ".ads-field-support",
   ".ads-field-error",
+  ".ads-textarea",
+  ".ads-textarea-control",
+  ".ads-textarea-resize-handle",
   ".ads-selection",
   ".ads-checkbox",
   ".ads-radio",
@@ -93,6 +96,7 @@ const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, 
 const flagStyles = await readFile(new URL("../packages/css/src/components/flag.css", import.meta.url), "utf8");
 const listItemStyles = await readFile(new URL("../packages/css/src/components/list-item.css", import.meta.url), "utf8");
 const searchInputStyles = await readFile(new URL("../packages/css/src/components/search-input.css", import.meta.url), "utf8");
+const textAreaStyles = await readFile(new URL("../packages/css/src/components/textarea.css", import.meta.url), "utf8");
 const dropdownListStyles = await readFile(new URL("../packages/css/src/components/dropdown-list.css", import.meta.url), "utf8");
 const dropdownStyles = await readFile(new URL("../packages/css/src/components/dropdown.css", import.meta.url), "utf8");
 const languageStyles = await readFile(new URL("../packages/css/src/components/language.css", import.meta.url), "utf8");
@@ -100,7 +104,7 @@ const calendarItemStyles = await readFile(new URL("../packages/css/src/component
 const calendarStyles = await readFile(new URL("../packages/css/src/components/calendar.css", import.meta.url), "utf8");
 const datePickerStyles = await readFile(new URL("../packages/css/src/components/date-picker.css", import.meta.url), "utf8");
 const chipStyles = await readFile(new URL("../packages/css/src/components/chip.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -152,8 +156,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 313) {
-  errors.push("ads.config.json must record 313 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 314) {
+  errors.push("ads.config.json must record 314 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -163,16 +167,16 @@ if (
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
   parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 7 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 26 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 31
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 27 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 30
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 26 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 31
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 27 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 30
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -213,6 +217,7 @@ const additionalButtonTemplateContracts = [
   ["Flag", "Flag.figma.ts", "ads-flag"],
   ["ListItem", "ListItem.figma.ts", "ads-list-item"],
   ["SearchInput", "SearchInput.figma.ts", "ads-search-input"],
+  ["TextArea", "TextArea.figma.ts", "ads-textarea"],
   ["DropdownList", "DropdownList.figma.ts", "ads-dropdown-list"],
   ["Dropdown", "Dropdown.figma.ts", "ads-dropdown"],
   ["Language", "Language.figma.ts", "ads-language"],
@@ -245,7 +250,18 @@ for (const file of flagAssetFiles) {
     errors.push(`Flag asset must not be empty: ${file}`);
   }
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "input", "searchInput", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+const textAreaResizeAsset = await readFile(
+  new URL("../packages/css/src/assets/textarea-resize-handle.svg", import.meta.url),
+  "utf8"
+);
+if (
+  !textAreaResizeAsset.includes('width="13"') ||
+  !textAreaResizeAsset.includes('height="13"') ||
+  !textAreaStyles.includes("textarea-resize-handle.svg")
+) {
+  errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
+}
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -254,6 +270,11 @@ for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", 
 for (const behavior of ["clear", "passwordVisibility", "countrySelection"]) {
   if (!parsedConfig.figma.components.input?.behaviors?.[behavior]) {
     errors.push(`Missing approved Input behavior mapping: ${behavior}`);
+  }
+}
+for (const behavior of ["state", "resize"]) {
+  if (!parsedConfig.figma.components.textArea?.behaviors?.[behavior]) {
+    errors.push(`Missing approved TextArea behavior mapping: ${behavior}`);
   }
 }
 if (!parsedConfig.figma.components.checkbox?.behaviors?.indeterminate) {

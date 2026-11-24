@@ -15,6 +15,8 @@ export type {
   InputProps,
   InputTypeVariant
 } from "./components/Input/Input";
+export { TextArea } from "./components/TextArea/TextArea";
+export type { TextAreaProps } from "./components/TextArea/TextArea";
 export { SearchInput } from "./components/SearchInput/SearchInput";
 export type { SearchInputProps } from "./components/SearchInput/SearchInput";
 export { DropdownList } from "./components/DropdownList/DropdownList";

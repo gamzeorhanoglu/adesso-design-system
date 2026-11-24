@@ -1,0 +1,70 @@
+.ads-textarea {
+  width: min(408px, 100%);
+  gap: var(--ads-space-4);
+}
+
+.ads-textarea-control {
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+}
+
+.ads-textarea-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  padding: 12px var(--ads-space-16);
+  border: 1px solid var(--ads-color-neutral-50);
+  border-radius: var(--ads-radius-none);
+  outline: 0;
+  color: var(--ads-color-neutral-100);
+  background: var(--ads-color-neutral-0);
+  font-family: var(--ads-font-family-primary);
+  font-size: var(--ads-font-size-label-md);
+  font-weight: var(--ads-font-weight-regular);
+  line-height: 1;
+  resize: none;
+}
+
+.ads-textarea-input::placeholder {
+  color: var(--ads-color-neutral-70);
+  opacity: 1;
+}
+
+.ads-textarea-resize-handle {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 13px;
+  height: 13px;
+  cursor: ns-resize;
+  touch-action: none;
+  background: url("../assets/textarea-resize-handle.svg") center / 13px 13px no-repeat;
+}
+
+.ads-textarea[data-state="focus"] .ads-textarea-input {
+  border-color: var(--ads-color-action-primary-default);
+  box-shadow: var(--ads-focus-ring);
+}
+
+.ads-textarea[data-state="disabled"] .ads-field-label,
+.ads-textarea[data-state="disabled"] .ads-textarea-input {
+  color: var(--ads-color-neutral-70);
+}
+
+.ads-textarea[data-state="disabled"] .ads-textarea-input {
+  border-color: var(--ads-color-neutral-20);
+  background: var(--ads-color-neutral-20);
+  cursor: not-allowed;
+}
+
+.ads-textarea[data-state="error"] .ads-textarea-input {
+  border-color: var(--ads-color-danger-pressed);
+  color: var(--ads-color-danger-default);
+  background: var(--ads-color-danger-surface);
+}
+
+.ads-textarea[data-state="error"] .ads-textarea-input::placeholder {
+  color: var(--ads-color-danger-default);
+}

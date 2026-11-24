@@ -12,6 +12,7 @@ import {
   Checkbox,
   Flag,
   Input,
+  TextArea,
   Language,
   SearchInput,
   DropdownList,
@@ -123,6 +124,28 @@ export function App() {
           <SearchInput aria-label="Search filled options" defaultValue="Search query" />
           <SearchInput aria-label="Search disabled options" placeholder="Placeholder" disabled />
           <SearchInput aria-label="Search with error" defaultValue="Invalid query" error />
+        </div>
+      </section>
+
+      <section aria-labelledby="textarea-title">
+        <h2 id="textarea-title">TextArea</h2>
+        <div className="input-grid">
+          <TextArea
+            label="Label Text"
+            required
+            showInfo
+            supportingText="Supporting text"
+            placeholder="Placeholder"
+          />
+          <TextArea label="Filled textarea" defaultValue="Filled text" />
+          <TextArea label="Disabled textarea" defaultValue="Disabled" disabled />
+          <TextArea
+            label="Textarea with error"
+            defaultValue="Invalid text"
+            supportingText="Supporting text"
+            errorMessage="Error Text"
+          />
+          <TextArea label="Fixed textarea" showResizeHandle={false} />
         </div>
       </section>
 

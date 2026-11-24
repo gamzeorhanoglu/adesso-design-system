@@ -9,16 +9,17 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 26,
-      "missingNonIconSetCount": 31
+      "implementedNonIconSetCount": 27,
+      "missingNonIconSetCount": 30
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 313,
+      "parserlessTemplateCount": 314,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
+      "textAreaTemplate": "code-connect/TextArea.figma.ts",
       "searchInputTemplate": "code-connect/SearchInput.figma.ts",
       "dropdownListTemplate": "code-connect/DropdownList.figma.ts",
       "dropdownTemplate": "code-connect/Dropdown.figma.ts",
@@ -191,6 +192,17 @@
           "passwordVisibility": "packages/ui-web/src/hooks/usePasswordVisibility.ts",
           "countrySelection": "packages/ui-web/src/hooks/useCountrySelection.ts"
         }
+      },
+      "textArea": {
+        "componentSetNodeId": "239:581",
+        "code": "packages/ui-web/src/components/TextArea/TextArea.tsx",
+        "codeConnect": "code-connect/TextArea.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useTextAreaState.ts",
+          "resize": "packages/ui-web/src/hooks/useTextAreaResize.ts"
+        },
+        "states": ["default", "focus", "filled", "disabled", "error"],
+        "primitives": ["InfoIcon", "AlertTriangleIcon"]
       },
       "searchInput": {
         "componentSetNodeId": "229:2793",
