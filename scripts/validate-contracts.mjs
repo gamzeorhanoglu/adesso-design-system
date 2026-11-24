@@ -39,6 +39,8 @@ const requiredSelectors = [
   ".ads-breadcrumb",
   ".ads-breadcrumb-item",
   ".ads-breadcrumb-separator",
+  ".ads-carousel-control",
+  ".ads-carousel-dot",
   ".ads-icon",
   ".ads-field",
   ".ads-field-control",
@@ -108,7 +110,8 @@ const calendarStyles = await readFile(new URL("../packages/css/src/components/ca
 const datePickerStyles = await readFile(new URL("../packages/css/src/components/date-picker.css", import.meta.url), "utf8");
 const chipStyles = await readFile(new URL("../packages/css/src/components/chip.css", import.meta.url), "utf8");
 const breadcrumbStyles = await readFile(new URL("../packages/css/src/components/breadcrumb.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const carouselControlStyles = await readFile(new URL("../packages/css/src/components/carousel-control.css", import.meta.url), "utf8");
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -164,8 +167,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 316) {
-  errors.push("ads.config.json must record 316 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 318) {
+  errors.push("ads.config.json must record 318 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -174,17 +177,17 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 8 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 28 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 29
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 9 ||
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 29 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 28
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 28 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 29
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 29 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 28
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -235,7 +238,9 @@ const additionalButtonTemplateContracts = [
   ["Chip", "Chip.figma.ts", "ads-chip"],
   ["ChipGroup", "ChipGroup.figma.ts", "ads-chip-group"],
   ["Breadcrumb", "Breadcrumb.figma.ts", "ads-breadcrumb"],
-  ["BreadcrumbItem", "BreadcrumbItem.figma.ts", "ads-breadcrumb-item"]
+  ["BreadcrumbItem", "BreadcrumbItem.figma.ts", "ads-breadcrumb-item"],
+  ["CarouselControl", "CarouselControl.figma.ts", "ads-carousel-control"],
+  ["CarouselDot", "CarouselDot.figma.ts", "ads-carousel-dot"]
 ];
 for (const [name, file, id] of additionalButtonTemplateContracts) {
   const template = await readFile(new URL(`../code-connect/${file}`, import.meta.url), "utf8");
@@ -271,7 +276,7 @@ if (
 ) {
   errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -319,6 +324,9 @@ if (!parsedConfig.figma.components.chip?.behaviors?.selection) {
 }
 if (!parsedConfig.figma.components.chipGroup?.behaviors?.keyboardNavigation) {
   errors.push("Missing approved ChipGroup keyboard behavior mapping.");
+}
+if (!parsedConfig.figma.components.carouselControl?.behaviors?.selection) {
+  errors.push("Missing approved CarouselControl selection behavior mapping.");
 }
 if (parsedConfig.name !== "Adesso Design System") {
   errors.push("ads.config.json must use the canonical Adesso Design System name.");

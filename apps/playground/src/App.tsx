@@ -5,6 +5,7 @@ import {
   ButtonGroup,
   Breadcrumb,
   BreadcrumbItem,
+  CarouselControl,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -48,6 +49,11 @@ export function App() {
           <BreadcrumbItem href="#level-three">Lorem Ipsum</BreadcrumbItem>
           <BreadcrumbItem current>Lorem Ipsum</BreadcrumbItem>
         </Breadcrumb>
+      </section>
+
+      <section aria-labelledby="carousel-control-title">
+        <h2 id="carousel-control-title">Carousel Control</h2>
+        <CarouselControl count={4} defaultSelectedIndex={1} />
       </section>
 
       <section aria-labelledby="buttons-title">

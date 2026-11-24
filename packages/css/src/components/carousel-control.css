@@ -1,0 +1,42 @@
+.ads-carousel-control {
+  width: max-content;
+  height: var(--ads-primitives-size-16);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--layout-space-2xs);
+}
+
+.ads-carousel-dot {
+  width: var(--ads-primitives-size-12);
+  height: var(--ads-primitives-size-12);
+  min-width: var(--ads-primitives-size-12);
+  min-height: var(--ads-primitives-size-12);
+  padding: 0;
+  display: block;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-component-color-carousel-background-default);
+  cursor: pointer;
+}
+
+.ads-carousel-dot:hover:not([data-state="selected"]) {
+  background: var(--ads-component-color-carousel-background-hover);
+}
+
+.ads-carousel-dot[data-state="selected"] {
+  width: var(--ads-primitives-size-16);
+  height: var(--ads-primitives-size-16);
+  min-width: var(--ads-primitives-size-16);
+  min-height: var(--ads-primitives-size-16);
+  border: 0.8px solid var(--ads-component-color-carousel-border-default);
+  background: var(--ads-component-color-carousel-background-selected);
+}
+
+.ads-carousel-dot:focus-visible {
+  outline: var(--ads-layout-layout-stroke-weight-md) solid
+    var(--ads-component-color-carousel-background-default);
+  outline-offset: var(--ads-layout-layout-stroke-weight-sm);
+}

@@ -15,7 +15,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Breadcrumb, BreadcrumbItem, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -25,9 +25,9 @@ The complete ADS Figma file has been inventoried across all component pages:
 337 component sets, 37 standalone components, and 2,220 variants or standalone
 items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
-Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Checkbox,
+Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Dots, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-and ListItem sets are implemented, leaving 29 component
+and ListItem sets are implemented, leaving 28 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -86,6 +86,7 @@ component sets are mapped to their named exports from `@ads/icons`.
 - DatePicker template: `code-connect/DatePicker.figma.ts`
 - Chip templates: `code-connect/Chip.figma.ts`, `code-connect/ChipGroup.figma.ts`
 - Breadcrumb templates: `code-connect/Breadcrumb.figma.ts`, `code-connect/BreadcrumbItem.figma.ts`
+- Carousel control templates: `code-connect/CarouselControl.figma.ts`, `code-connect/CarouselDot.figma.ts`
 - Checkbox template: `code-connect/Checkbox.figma.ts`
 - RadioButton template: `code-connect/RadioButton.figma.ts`
 - Desktop Switch template: `code-connect/DesktopSwitch.figma.ts`
@@ -139,6 +140,8 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Chip group component: `5112:2972`
 - Breadcrumb component: `2332:3164`
 - Breadcrumb-Item component set: `2332:3233`
+- Carousel Control component: `2497:239`
+- Dots component set: `2496:407`
 - Checkbox component set: `239:1178`
 - RadioButton component set: `239:1050`
 - Desktop Switch component set: `245:158`

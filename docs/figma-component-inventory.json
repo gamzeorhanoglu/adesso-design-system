@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2220,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 8,
+    "implementedStandaloneComponentCount": 9,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 28,
-    "missingNonIconSetCount": 29
+    "implementedNonIconSetCount": 29,
+    "missingNonIconSetCount": 28
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -532,9 +532,9 @@
       "name": "Carousel Control",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/CarouselControl/CarouselControl.tsx"
     },
     {
       "page": "Navigation",
@@ -576,9 +576,9 @@
       "name": "Dots",
       "nodeType": "COMPONENT_SET",
       "variantCount": 3,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/CarouselDot/CarouselDot.tsx"
     },
     {
       "page": "Navigation",

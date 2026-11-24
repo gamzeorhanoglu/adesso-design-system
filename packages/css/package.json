@@ -16,6 +16,7 @@
     "./input": "./src/components/input.css",
     "./textarea": "./src/components/textarea.css",
     "./breadcrumb": "./src/components/breadcrumb.css",
+    "./carousel-control": "./src/components/carousel-control.css",
     "./selection": "./src/components/selection.css",
     "./switch": "./src/components/switch.css",
     "./groups": "./src/components/groups.css",

@@ -9,13 +9,13 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 28,
-      "missingNonIconSetCount": 29
+      "implementedNonIconSetCount": 29,
+      "missingNonIconSetCount": 28
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 316,
+      "parserlessTemplateCount": 318,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -31,6 +31,8 @@
       "chipGroupTemplate": "code-connect/ChipGroup.figma.ts",
       "breadcrumbTemplate": "code-connect/Breadcrumb.figma.ts",
       "breadcrumbItemTemplate": "code-connect/BreadcrumbItem.figma.ts",
+      "carouselControlTemplate": "code-connect/CarouselControl.figma.ts",
+      "carouselDotTemplate": "code-connect/CarouselDot.figma.ts",
       "inputStatus": "approved-and-mapped",
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
     },
@@ -195,6 +197,21 @@
         "code": "packages/ui-web/src/components/BreadcrumbItem/BreadcrumbItem.tsx",
         "codeConnect": "code-connect/BreadcrumbItem.figma.ts",
         "states": ["default", "hover", "active", "disabled"]
+      },
+      "carouselControl": {
+        "componentNodeId": "2497:239",
+        "code": "packages/ui-web/src/components/CarouselControl/CarouselControl.tsx",
+        "codeConnect": "code-connect/CarouselControl.figma.ts",
+        "behaviors": {
+          "selection": "packages/ui-web/src/hooks/useCarouselControl.ts"
+        },
+        "primitives": ["CarouselDot"]
+      },
+      "carouselDot": {
+        "componentSetNodeId": "2496:407",
+        "code": "packages/ui-web/src/components/CarouselDot/CarouselDot.tsx",
+        "codeConnect": "code-connect/CarouselDot.figma.ts",
+        "states": ["default", "hover", "selected"]
       },
       "input": {
         "componentSetNodeId": "228:2526",
