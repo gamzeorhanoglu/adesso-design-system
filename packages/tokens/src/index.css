@@ -46,7 +46,8 @@
   --ads-size-icon-md: 24px;
   --ads-size-icon-lg: 32px;
 
-  --ads-font-family-primary: "Klavika", "Helvetica Neue", Arial, sans-serif;
+  --ads-font-family-primary: "Klavika", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  --ads-primitives-font-family-primary: var(--ads-font-family-primary);
   --ads-font-size-label-sm: 14px;
   --ads-font-size-label-md: 16px;
   --ads-font-size-label-lg: 20px;

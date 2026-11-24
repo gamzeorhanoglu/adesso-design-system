@@ -118,6 +118,17 @@ for (const token of requiredTokens) {
   if (!tokens.includes(token)) errors.push(`Missing token: ${token}`);
 }
 
+if (
+  !tokens.includes(
+    '--ads-font-family-primary: "Klavika", "Open Sans", "Helvetica Neue", Arial, sans-serif;'
+  ) ||
+  !tokens.includes(
+    "--ads-primitives-font-family-primary: var(--ads-font-family-primary);"
+  )
+) {
+  errors.push("ADS primary font stack must fall back from Klavika to Open Sans.");
+}
+
 for (const selector of requiredSelectors) {
   if (!styles.includes(selector)) errors.push(`Missing selector: ${selector}`);
 }

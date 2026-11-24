@@ -11,9 +11,10 @@ the browser, development server, and design tools after installation so they
 can detect the font.
 
 The font files are not distributed through this repository. If Klavika is not
-installed, ADS automatically falls back to `Helvetica Neue`, then Arial and
-the system sans-serif font. This fallback can change text measurements and
-line wrapping, so visual QA should be performed with Klavika installed.
+installed, ADS automatically falls back to `Open Sans`, then `Helvetica Neue`,
+Arial, and the system sans-serif font. This fallback can change text
+measurements and line wrapping, so visual QA should be performed with Klavika
+installed.
 
 ## Implementation guideline
 
