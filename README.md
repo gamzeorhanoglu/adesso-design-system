@@ -2,6 +2,19 @@
 
 Production code counterpart of the ADS Figma library.
 
+## Important: install Klavika before you start
+
+ADS uses the company-licensed Klavika font. Authorized Adesso users must
+[download the Klavika font family from the internal SharePoint folder](https://o365adessogroup.sharepoint.com/:f:/s/UXUI926/IgDyCycCjkODR5HOZH2LIqVIAXpvSKOF911RPjqycjhDDHE?e=i93c6b)
+and install it locally before developing or reviewing ADS interfaces. Restart
+the browser, development server, and design tools after installation so they
+can detect the font.
+
+The font files are not distributed through this repository. If Klavika is not
+installed, ADS automatically falls back to `Helvetica Neue`, then Arial and
+the system sans-serif font. This fallback can change text measurements and
+line wrapping, so visual QA should be performed with Klavika installed.
+
 ## Implementation guideline
 
 Product teams using Claude Code, Gemini CLI, or Codex should follow the private
