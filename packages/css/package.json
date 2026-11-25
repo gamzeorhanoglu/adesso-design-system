@@ -21,6 +21,8 @@
     "./logo": "./src/components/logo.css",
     "./footer": "./src/components/footer.css",
     "./top-navigation": "./src/components/top-navigation.css",
+    "./accordion": "./src/components/accordion.css",
+    "./navigation-group": "./src/components/navigation-group.css",
     "./selection": "./src/components/selection.css",
     "./switch": "./src/components/switch.css",
     "./groups": "./src/components/groups.css",

@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 14,
+    "implementedStandaloneComponentCount": 15,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 30,
-    "missingNonIconSetCount": 27
+    "implementedNonIconSetCount": 31,
+    "missingNonIconSetCount": 26
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -48,9 +48,9 @@
       "name": "Accordion",
       "nodeType": "COMPONENT_SET",
       "variantCount": 6,
-      "status": "missing",
-      "phase": 4,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Accordion/Accordion.tsx"
     },
     {
       "page": "Avatar",
@@ -554,9 +554,9 @@
       "name": "Desktop/navigationgroup/top_open",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/NavigationGroup/NavigationGroup.tsx"
     },
     {
       "page": "Navigation",

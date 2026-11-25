@@ -20,6 +20,8 @@
 @import "./components/logo.css";
 @import "./components/footer.css";
 @import "./components/top-navigation.css";
+@import "./components/accordion.css";
+@import "./components/navigation-group.css";
 @import "./components/selection.css";
 @import "./components/switch.css";
 @import "./components/groups.css";

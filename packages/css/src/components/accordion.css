@@ -1,0 +1,96 @@
+.ads-accordion {
+  width: 480.5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: var(--ads-component-color-accordion-text-primary);
+  background: var(--ads-component-color-accordion-background-default);
+  box-shadow: inset 0 -1px 0 var(--ads-component-color-accordion-border-default);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-accordion-trigger {
+  width: 100%;
+  min-width: 0;
+  height: 60px;
+  padding: var(--ads-space-8);
+  padding-bottom: var(--ads-space-12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ads-space-16);
+  box-sizing: border-box;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ads-accordion-title {
+  min-width: 0;
+  flex: 1 1 auto;
+  color: inherit;
+  font-size: var(--ads-primitives-size-28);
+  font-weight: 700;
+  line-height: 1;
+  overflow-wrap: anywhere;
+}
+
+.ads-accordion-icon {
+  width: var(--ads-size-icon-xl);
+  height: var(--ads-size-icon-xl);
+  display: inline-flex;
+  flex: 0 0 var(--ads-size-icon-xl);
+  align-items: center;
+  justify-content: center;
+  color: var(--ads-component-color-accordion-icon-default);
+}
+
+.ads-accordion-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ads-accordion:hover,
+.ads-accordion[data-preview-state="hover"] {
+  color: var(--ads-component-color-accordion-text-hover);
+  background: var(--ads-component-color-accordion-background-hover);
+}
+
+.ads-accordion[data-open="true"] {
+  color: var(--ads-component-color-accordion-text-primary);
+  background: var(--ads-component-color-accordion-background-selected);
+  box-shadow: inset 0 -1px 0 var(--ads-component-color-accordion-border-selected);
+}
+
+.ads-accordion-trigger:focus-visible {
+  outline: 2px solid var(--ads-color-focus-ring);
+  outline-offset: -2px;
+}
+
+.ads-accordion-panel {
+  padding: 0 var(--ads-space-8) var(--ads-space-12);
+  color: var(--ads-component-color-navigation-text-default);
+  font-size: var(--ads-primitives-size-16);
+  line-height: 1.2;
+}
+
+.ads-accordion[data-device="mobile"] {
+  width: 362px;
+}
+
+.ads-accordion[data-device="mobile"] .ads-accordion-trigger {
+  height: 44px;
+}
+
+.ads-accordion[data-device="mobile"] .ads-accordion-title {
+  font-size: var(--ads-primitives-size-20);
+}
+
+.ads-accordion[data-device="mobile"] .ads-accordion-icon {
+  width: var(--ads-size-icon-md);
+  height: var(--ads-size-icon-md);
+  flex-basis: var(--ads-size-icon-md);
+}

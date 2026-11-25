@@ -64,6 +64,11 @@ export type {
 } from "./components/NavigationItem/NavigationItem";
 export { Logo } from "./components/Logo/Logo";
 export type { LogoProps, LogoVariant } from "./components/Logo/Logo";
+export { Accordion } from "./components/Accordion/Accordion";
+export type {
+  AccordionDevice,
+  AccordionProps
+} from "./components/Accordion/Accordion";
 export { Footer } from "./components/Footer/Footer";
 export type {
   FooterDevice,
@@ -77,6 +82,12 @@ export type {
   TopNavigationDevice,
   TopNavigationProps
 } from "./components/TopNavigation/TopNavigation";
+export { NavigationGroup } from "./components/NavigationGroup/NavigationGroup";
+export type {
+  NavigationGroupDevice,
+  NavigationGroupItem,
+  NavigationGroupProps
+} from "./components/NavigationGroup/NavigationGroup";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

@@ -29,7 +29,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Footer, TopNavigation, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -104,6 +104,8 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Navigation item template: `code-connect/NavigationItem.figma.ts`
 - Logo templates: `code-connect/Logo.figma.ts`, `code-connect/LogoWhite.figma.ts`
 - Desktop Footer template: `code-connect/DesktopFooter.figma.ts`
+- Accordion template: `code-connect/Accordion.figma.ts`
+- Desktop Navigation Group template: `code-connect/DesktopNavigationGroupOpen.figma.ts`
 - Top Navigation templates: `code-connect/DesktopTopNavigation.figma.ts`, `code-connect/MobileTopNavigation.figma.ts`
 - Checkbox template: `code-connect/Checkbox.figma.ts`
 - RadioButton template: `code-connect/RadioButton.figma.ts`
@@ -164,6 +166,8 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Original logo component: `120:19`
 - White logo component: `120:37`
 - Desktop Footer component: `2334:6296`
+- Accordion component set: `2429:1223`
+- Desktop navigation group open component: `2434:895`
 - Desktop Top-Navigation component: `2334:5664`
 - Mobile Top-Navigation component: `2517:555`
 - Checkbox component set: `239:1178`

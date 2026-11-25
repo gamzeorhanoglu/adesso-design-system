@@ -9,13 +9,13 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 30,
-      "missingNonIconSetCount": 27
+      "implementedNonIconSetCount": 31,
+      "missingNonIconSetCount": 26
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 324,
+      "parserlessTemplateCount": 326,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -37,6 +37,8 @@
       "logoTemplate": "code-connect/Logo.figma.ts",
       "logoWhiteTemplate": "code-connect/LogoWhite.figma.ts",
       "desktopFooterTemplate": "code-connect/DesktopFooter.figma.ts",
+      "accordionTemplate": "code-connect/Accordion.figma.ts",
+      "desktopNavigationGroupOpenTemplate": "code-connect/DesktopNavigationGroupOpen.figma.ts",
       "desktopTopNavigationTemplate": "code-connect/DesktopTopNavigation.figma.ts",
       "mobileTopNavigationTemplate": "code-connect/MobileTopNavigation.figma.ts",
       "inputStatus": "approved-and-mapped",
@@ -257,6 +259,29 @@
           "YoutubeIcon",
           "ChevronUpIcon"
         ]
+      },
+      "accordion": {
+        "componentSetNodeId": "2429:1223",
+        "code": "packages/ui-web/src/components/Accordion/Accordion.tsx",
+        "codeConnect": "code-connect/Accordion.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useAccordionState.ts"
+        },
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "hover", "selected"],
+        "primitives": ["ChevronDownIcon", "ChevronUpIcon"]
+      },
+      "navigationGroup": {
+        "componentNodeId": "2434:895",
+        "desktopOpenComponentNodeId": "2434:895",
+        "code": "packages/ui-web/src/components/NavigationGroup/NavigationGroup.tsx",
+        "codeConnect": "code-connect/DesktopNavigationGroupOpen.figma.ts",
+        "behaviors": {
+          "disclosure": "packages/ui-web/src/hooks/useNavigationGroupDisclosure.ts"
+        },
+        "devices": ["desktop"],
+        "states": ["open"],
+        "primitives": ["TopNavigation", "Accordion", "Button", "XIcon", "ChevronUpIcon"]
       },
       "topNavigation": {
       "componentNodeId": "2334:5664",

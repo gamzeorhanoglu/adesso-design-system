@@ -6,10 +6,12 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   CarouselControl,
+  Accordion,
   NavigationItem,
   Logo,
   Footer,
   TopNavigation,
+  NavigationGroup,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -93,6 +95,25 @@ export function App() {
         <div className="top-navigation-showcase">
           <TopNavigation device="desktop" />
           <TopNavigation device="mobile" />
+        </div>
+      </section>
+
+      <section aria-labelledby="accordion-title">
+        <h2 id="accordion-title">Accordion</h2>
+        <div className="accordion-showcase">
+          <Accordion title="Lorem Ipsum" />
+          <Accordion title="Lorem Ipsum" data-preview-state="hover" />
+          <Accordion title="Lorem Ipsum" defaultOpen />
+          <Accordion title="Lorem Ipsum" device="mobile" />
+          <Accordion title="Lorem Ipsum" device="mobile" data-preview-state="hover" />
+          <Accordion title="Lorem Ipsum" device="mobile" defaultOpen />
+        </div>
+      </section>
+
+      <section aria-labelledby="navigation-group-title">
+        <h2 id="navigation-group-title">Desktop Navigation Group Open</h2>
+        <div className="navigation-group-showcase">
+          <NavigationGroup onBackToTop={() => undefined} />
         </div>
       </section>
 
