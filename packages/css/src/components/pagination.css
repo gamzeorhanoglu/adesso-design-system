@@ -1,0 +1,89 @@
+.ads-pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ads-space-8);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-pagination-list {
+  display: flex;
+  align-items: center;
+  gap: var(--ads-space-8);
+}
+
+.ads-pagination-item,
+.ads-pagination-controls {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--ads-layout-layout-radius-none);
+  font: inherit;
+  font-size: var(--ads-font-size-label-md);
+  font-weight: var(--ads-font-weight-regular);
+  color: var(--ads-component-color-pagination-text-default);
+  background: var(--ads-component-color-pagination-background-default);
+  cursor: pointer;
+}
+
+.ads-pagination-item {
+  width: 40px;
+  height: 40px;
+  padding: var(--ads-space-8);
+}
+
+.ads-pagination-controls {
+  min-height: 35px;
+  padding: var(--ads-space-8) var(--ads-space-12);
+  gap: var(--ads-space-8);
+}
+
+.ads-pagination-controls svg {
+  color: var(--ads-component-color-pagination-icon-default);
+}
+
+.ads-pagination-item:hover,
+.ads-pagination-item[data-preview-state="hover"],
+.ads-pagination-controls:hover:not(:disabled),
+.ads-pagination-controls[data-preview-state="hover"]:not(:disabled) {
+  color: var(--ads-component-color-pagination-text-hover);
+  background: var(--ads-component-color-pagination-background-hover);
+}
+
+.ads-pagination-item[data-state="active"] {
+  background: var(--ads-component-color-pagination-background-active);
+  color: var(--ads-component-color-pagination-text-selected);
+}
+
+.ads-pagination-item[data-state="active"]:hover,
+.ads-pagination-item[data-preview-state="active-hover"] {
+  background: var(--ads-component-color-pagination-background-active-hover);
+  color: var(--ads-component-color-pagination-text-selected);
+}
+
+.ads-pagination-controls:disabled {
+  background: var(--ads-component-color-pagination-background-disabled);
+  color: var(--ads-component-color-pagination-text-disabled);
+  cursor: not-allowed;
+}
+
+.ads-pagination-controls:disabled svg {
+  color: var(--ads-component-color-pagination-icon-disabled);
+}
+
+.ads-pagination-controls:hover:not(:disabled) svg {
+  color: var(--ads-component-color-pagination-icon-hover);
+}
+
+.ads-pagination-item:focus-visible,
+.ads-pagination-controls:focus-visible {
+  outline: 2px solid var(--ads-color-focus-ring);
+  outline-offset: 2px;
+}
+
+.ads-pagination-ellipsis {
+  width: 40px;
+  text-align: center;
+  color: var(--ads-component-color-pagination-text-default);
+}
