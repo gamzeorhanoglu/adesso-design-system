@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 31,
-      "missingNonIconSetCount": 26,
-      "implementedStandaloneComponentCount": 18
+      "implementedNonIconSetCount": 33,
+      "missingNonIconSetCount": 24,
+      "implementedStandaloneComponentCount": 19
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 329,
+      "parserlessTemplateCount": 332,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -528,6 +528,43 @@
         "componentSetNodeId": "2787:2475",
         "code": "packages/ui-web/src/components/ProgressBar/ProgressBar.tsx",
         "codeConnect": "code-connect/ProgressBar.figma.ts"
+      },
+      "pagination": {
+        "componentNodeId": "2181:10459",
+        "code": "packages/ui-web/src/components/Pagination/Pagination.tsx",
+        "codeConnect": "code-connect/Pagination.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/usePaginationState.ts"
+        },
+        "primitives": [
+          "PaginationItem",
+          "PaginationControls"
+        ]
+      },
+      "paginationItem": {
+        "componentSetNodeId": "2181:9317",
+        "code": "packages/ui-web/src/components/Pagination/PaginationItem.tsx",
+        "codeConnect": "code-connect/PaginationItem.figma.ts",
+        "states": [
+          "default",
+          "hover",
+          "active",
+          "active-hover"
+        ]
+      },
+      "paginationControls": {
+        "componentSetNodeId": "2181:10190",
+        "code": "packages/ui-web/src/components/Pagination/PaginationControls.tsx",
+        "codeConnect": "code-connect/PaginationControls.figma.ts",
+        "directions": [
+          "previous",
+          "next"
+        ],
+        "states": [
+          "default",
+          "hover",
+          "disabled"
+        ]
       }
     }
   },
