@@ -1,11 +1,13 @@
 import { ChevronUpIcon, XIcon } from "@ads/icons";
 import type { HTMLAttributes, ReactNode } from "react";
-import { useNavigationGroupDisclosure } from "../../hooks/useNavigationGroupDisclosure";
+import { useNavigationGroupDisclosure, useNavigationGroupMobileFocus } from "../../hooks/useNavigationGroupDisclosure";
 import { Accordion } from "../Accordion/Accordion";
+import { NavigationItem } from "../NavigationItem/NavigationItem";
 import { Button } from "../Button/Button";
 import { TopNavigation } from "../TopNavigation/TopNavigation";
 
-export type NavigationGroupDevice = "desktop";
+export type NavigationGroupDevice = "desktop" | "mobile";
+export type NavigationGroupMobileView = "top" | "detail";
 
 export interface NavigationGroupItem {
   content?: ReactNode;
@@ -19,6 +21,7 @@ export interface NavigationGroupProps
   closeLabel?: string;
   defaultOpen?: boolean;
   device?: NavigationGroupDevice;
+  mobileView?: NavigationGroupMobileView;
   items?: readonly NavigationGroupItem[];
   onBackToTop?: () => void;
   onOpenChange?: (open: boolean) => void;
@@ -40,6 +43,7 @@ export function NavigationGroup({
   defaultOpen = true,
   device = "desktop",
   items = defaultItems,
+  mobileView = "top",
   onBackToTop,
   onOpenChange,
   open,
@@ -52,6 +56,8 @@ export function NavigationGroup({
     open,
   });
 
+  useNavigationGroupMobileFocus(disclosure.rootRef, device === "mobile" && disclosure.open, disclosure.close);
+
   if (!disclosure.open) return null;
 
   const classes = ["ads-navigation-group", className].filter(Boolean).join(" ");
@@ -62,10 +68,14 @@ export function NavigationGroup({
       ref={disclosure.rootRef}
       className={classes}
       data-device={device}
-      onBlur={disclosure.handleBlur}
-      onPointerLeave={disclosure.handlePointerLeave}
+      data-mobile-view={device === "mobile" ? mobileView : undefined}
+      role={device === "mobile" ? "dialog" : undefined}
+      aria-modal={device === "mobile" ? true : undefined}
+      aria-label={device === "mobile" ? "Navigation menu" : undefined}
+      onBlur={device === "desktop" ? disclosure.handleBlur : undefined}
+      onPointerLeave={device === "desktop" ? disclosure.handlePointerLeave : undefined}
     >
-      {topNavigation ?? <TopNavigation device="desktop" />}
+      {topNavigation ?? <TopNavigation device={device} menuExpanded={device === "mobile"} onMenuClick={disclosure.close} />}
 
       <div className="ads-navigation-group-close-row">
         <button
@@ -78,15 +88,25 @@ export function NavigationGroup({
         </button>
       </div>
 
-      <div className="ads-navigation-group-accordions">
-        {items.map((item) => (
-          <Accordion key={item.id} title={item.label} device="desktop">
-            {item.content}
-          </Accordion>
-        ))}
-      </div>
+      {device === "mobile" && mobileView === "top" ? (
+        <nav className="ads-navigation-group-mobile-items" aria-label="Mobile navigation">
+          {items.slice(0, 3).map((item) => (
+            <NavigationItem key={item.id} href={`#${item.id}`} device="mobile">
+              {item.label}
+            </NavigationItem>
+          ))}
+        </nav>
+      ) : (
+        <div className="ads-navigation-group-accordions">
+          {items.map((item) => (
+            <Accordion key={item.id} title={item.label} device={device}>
+              {item.content}
+            </Accordion>
+          ))}
+        </div>
+      )}
 
-      <div className="ads-navigation-group-up-row">
+      {device === "desktop" ? <div className="ads-navigation-group-up-row">
         <Button
           className="ads-navigation-group-back-to-top"
           variant="icon-only"
@@ -96,7 +116,7 @@ export function NavigationGroup({
         >
           <ChevronUpIcon size="lg" />
         </Button>
-      </div>
+      </div> : null}
     </div>
   );
 }
