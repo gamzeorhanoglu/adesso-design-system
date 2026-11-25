@@ -68,6 +68,9 @@ const requiredSelectors = [
   ".ads-avatar",
   ".ads-tag",
   ".ads-tooltip",
+  ".ads-pagination",
+  ".ads-pagination-item",
+  ".ads-pagination-controls",
   ".ads-progress-bar"
 ];
 
@@ -192,8 +195,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 327) {
-  errors.push("ads.config.json must record 327 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 332) {
+  errors.push("ads.config.json must record 332 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -202,9 +205,9 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 16 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 31 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 26
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 19 ||
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 33 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 24
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }

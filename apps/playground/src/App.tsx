@@ -31,6 +31,7 @@ import {
   SelectionGroup,
   SelectionItem,
   ProgressBar,
+  Pagination,
   Switch,
   SwitchGroup,
   Tag,
@@ -107,6 +108,19 @@ export function App() {
           <Accordion title="Lorem Ipsum" device="mobile" />
           <Accordion title="Lorem Ipsum" device="mobile" data-preview-state="hover" />
           <Accordion title="Lorem Ipsum" device="mobile" defaultOpen />
+        </div>
+      </section>
+
+      <section aria-labelledby="pagination-title">
+        <h2 id="pagination-title">Pagination</h2>
+        <Pagination pageCount={20} defaultPage={4} />
+      </section>
+
+      <section aria-labelledby="mobile-navigation-group-title">
+        <h2 id="mobile-navigation-group-title">Mobile Navigation Group</h2>
+        <div className="navigation-group-showcase">
+          <NavigationGroup device="mobile" mobileView="top" />
+          <NavigationGroup device="mobile" mobileView="detail" />
         </div>
       </section>
 

@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 16,
+    "implementedStandaloneComponentCount": 19,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 31,
-    "missingNonIconSetCount": 26
+    "implementedNonIconSetCount": 33,
+    "missingNonIconSetCount": 24
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -598,9 +598,9 @@
       "name": "Mobile/navigationgroup/top_open",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 3,
-      "target": null
+      "target": "packages/ui-web/src/components/NavigationGroup/NavigationGroup.tsx"
     },
     {
       "page": "Navigation",
@@ -609,9 +609,9 @@
       "name": "Mobile/navigationgroup/top_open_detail",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 3,
-      "target": null
+      "target": "packages/ui-web/src/components/NavigationGroup/NavigationGroup.tsx"
     },
     {
       "page": "Navigation",
@@ -675,9 +675,9 @@
       "name": "Pagination",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 3,
-      "target": null
+      "target": "packages/ui-web/src/components/Pagination/Pagination.tsx"
     },
     {
       "page": "Pagination",
@@ -686,9 +686,9 @@
       "name": "PaginationControls",
       "nodeType": "COMPONENT_SET",
       "variantCount": 6,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 3,
-      "target": null
+      "target": "packages/ui-web/src/components/Pagination/PaginationControls.tsx"
     },
     {
       "page": "Pagination",
@@ -697,9 +697,9 @@
       "name": "PaginationItem",
       "nodeType": "COMPONENT_SET",
       "variantCount": 4,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 3,
-      "target": null
+      "target": "packages/ui-web/src/components/Pagination/PaginationItem.tsx"
     },
     {
       "page": "Partner Logo Grid",
@@ -1077,4 +1077,3 @@
     }
   ]
 }
-

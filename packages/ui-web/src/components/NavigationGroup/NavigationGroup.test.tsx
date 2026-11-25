@@ -30,4 +30,26 @@ describe("NavigationGroup", () => {
     fireEvent.click(screen.getByRole("button", { name: "Back to top" }));
     expect(onBackToTop).toHaveBeenCalledOnce();
   });
+  it("renders Figma mobile top-level destinations and closes through the menu action", () => {
+    const onOpenChange = vi.fn();
+    render(<NavigationGroup device="mobile" mobileView="top" onOpenChange={onOpenChange} />);
+    const dialog = screen.getByRole("dialog", { name: "Navigation menu" });
+    expect(dialog).toHaveAttribute("data-mobile-view", "top");
+    expect(dialog).toHaveAttribute("aria-modal", "true");
+    expect(screen.getByRole("navigation", { name: "Mobile navigation" }).querySelectorAll("a")).toHaveLength(3);
+    expect(dialog.querySelectorAll(".ads-accordion")).toHaveLength(0);
+    fireEvent.click(screen.getByRole("button", { name: "Close navigation" }));
+    expect(onOpenChange).toHaveBeenCalledWith(false);
+  });
+
+  it("renders mobile detail as four ADS accordions and supports Escape", () => {
+    const onOpenChange = vi.fn();
+    render(<NavigationGroup device="mobile" mobileView="detail" onOpenChange={onOpenChange} />);
+    const dialog = screen.getByRole("dialog", { name: "Navigation menu" });
+    expect(dialog).toHaveAttribute("data-mobile-view", "detail");
+    expect(dialog.querySelectorAll(".ads-accordion[data-device=mobile]")).toHaveLength(4);
+    fireEvent.keyDown(document, { key: "Escape" });
+    expect(onOpenChange).toHaveBeenCalledWith(false);
+  });
+
 });

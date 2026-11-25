@@ -10,9 +10,9 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.222 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 31 (altı Button ailesi + Accordion + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Dots + Navigation-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
-- Eksik non-icon set: 26
-- Kod kapsamındaki standalone component: 16 (`logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
+- Kod kapsamındaki non-icon set: 33 (altı Button ailesi + Accordion + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Dots + Navigation-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
+- Eksik non-icon set: 24
+- Kod kapsamındaki standalone component: 19 (`logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -36,9 +36,9 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Dropdown | 3 | 0 | 13 | 3 | 0 |
 | Icons | 1 | 0 | 10 | 1 | 0 |
 | Inputs | 3 | 0 | 20 | 3 | 0 |
-| Navigation | 2 | 8 | 17 | 8 | 2 |
+| Navigation | 2 | 8 | 17 | 10 | 0 |
 | Notification | 2 | 1 | 13 | 0 | 3 |
-| Pagination | 2 | 1 | 11 | 0 | 3 |
+| Pagination | 2 | 1 | 11 | 3 | 0 |
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
 | Progress Bar | 1 | 0 | 15 | 1 | 0 |
 | Selection | 2 | 2 | 16 | 4 | 0 |
@@ -67,7 +67,7 @@ Tamamlandı.
 
 ### 3. Navigasyon
 
-`Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+`Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
 
 ### 4. Feedback ve overlays
 
@@ -96,8 +96,7 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 
 ## İlk uygulama paketi
 
-Phase 1 ve Phase 2 tamamlandı. Sıradaki çalışma Phase 3 navigasyon
-komponentleridir.
+Phase 1 ve Phase 2 tamamlandı. Phase 3'te mobil navigation group kompozisyonları eklendi; sıradaki bileşen Sidebar'dır.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 
