@@ -74,3 +74,42 @@
 .ads-navigation-group .ads-navigation-group-back-to-top {
   background: var(--ads-component-color-button-background-icon-only-hover);
 }
+
+.ads-navigation-group[data-device="mobile"] {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 288px;
+  padding-bottom: var(--ads-layout-space-lg);
+  gap: var(--ads-space-16);
+}
+
+.ads-navigation-group[data-device="mobile"] > .ads-top-navigation {
+  flex-basis: 84px;
+}
+
+.ads-navigation-group[data-device="mobile"] .ads-navigation-group-close-row {
+  height: 32px;
+  align-items: center;
+}
+
+.ads-navigation-group-mobile-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.ads-navigation-group[data-device="mobile"] .ads-navigation-group-accordions {
+  width: calc(100% - 2 * var(--ads-space-16));
+  max-width: 361px;
+  gap: var(--ads-space-8);
+}
+
+.ads-navigation-group[data-device="mobile"] .ads-accordion {
+  width: 100%;
+}
+
+.ads-navigation-group[data-device="mobile"][data-mobile-view="detail"] {
+  min-height: 364px;
+}
