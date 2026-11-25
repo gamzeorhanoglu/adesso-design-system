@@ -4,6 +4,7 @@ import {
   useRef,
   useState,
   type FocusEvent,
+  type RefObject,
   type PointerEvent,
 } from "react";
 
@@ -57,7 +58,7 @@ export function useNavigationGroupDisclosure({
 
 /** Keep keyboard focus within the mobile navigation surface and restore it on exit. */
 export function useNavigationGroupMobileFocus(
-  rootRef: ReturnType<typeof useRef<HTMLDivElement>>,
+  rootRef: RefObject<HTMLDivElement | null>,
   active: boolean,
   onDismiss: () => void,
 ) {
