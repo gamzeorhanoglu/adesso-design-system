@@ -4,3 +4,9 @@
   display: block;
   object-fit: contain;
 }
+
+.ads-logo.variant-favicon-original,
+.ads-logo.variant-favicon-white {
+  width: 64.2462px;
+  height: 120px;
+}

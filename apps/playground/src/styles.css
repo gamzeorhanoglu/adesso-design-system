@@ -131,6 +131,29 @@ h2 {
   background: var(--ads-component-color-navigation-background-inverse);
 }
 
+.logo-showcase .variant-favicon-original,
+.logo-showcase .variant-favicon-white {
+  width: 32.1231px;
+  height: 60px;
+}
+
+.sidebar-item-showcase,
+.sidebar-showcase {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-md);
+  overflow-x: auto;
+}
+
+.sidebar-dark-showcase {
+  padding: var(--layout-space-sm);
+  background: var(--ads-component-color-sidebar-background-dark-default);
+}
+
+.sidebar-showcase {
+  margin-top: var(--ads-layout-space-lg);
+}
+
 .footer-showcase {
   width: 1440px;
   max-width: none;

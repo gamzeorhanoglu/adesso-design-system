@@ -124,3 +124,17 @@ export { PaginationItem } from "./components/Pagination/PaginationItem";
 export type { PaginationItemProps } from "./components/Pagination/PaginationItem";
 export { PaginationControls } from "./components/Pagination/PaginationControls";
 export type { PaginationControlsProps, PaginationDirection } from "./components/Pagination/PaginationControls";
+export { SidebarItem } from "./components/SidebarItem/SidebarItem";
+export type {
+  SidebarItemPreviewState,
+  SidebarItemProps,
+  SidebarTheme
+} from "./components/SidebarItem/SidebarItem";
+export { SidebarProfile } from "./components/SidebarProfile/SidebarProfile";
+export type { SidebarProfileProps } from "./components/SidebarProfile/SidebarProfile";
+export { Sidebar } from "./components/Sidebar/Sidebar";
+export type {
+  SidebarNavigationItem,
+  SidebarProfileData,
+  SidebarProps
+} from "./components/Sidebar/Sidebar";

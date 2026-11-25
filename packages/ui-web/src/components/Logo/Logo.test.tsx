@@ -30,4 +30,19 @@ describe("Logo", () => {
       /^(?:data:image\/svg\+xml|.*adesso-logo-white\.svg)/,
     );
   });
+
+  it.each(["favicon-original", "favicon-white"] as const)(
+    "renders the published %s brand asset",
+    (variant) => {
+      render(<Logo variant={variant} label={`${variant} mark`} />);
+
+      const logo = screen.getByRole("img", { name: `${variant} mark` });
+      expect(logo).toHaveClass(`variant-${variant}`);
+      expect(logo).toHaveAttribute("width", "64.2462");
+      expect(logo).toHaveAttribute("height", "120");
+      expect(logo.getAttribute("src")).toMatch(
+        new RegExp(`^(?:data:image/svg\\+xml|.*adesso-${variant}\\.svg)`),
+      );
+    },
+  );
 });

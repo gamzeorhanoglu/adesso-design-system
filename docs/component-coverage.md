@@ -10,9 +10,9 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.222 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 33 (altı Button ailesi + Accordion + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Dots + Navigation-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
-- Eksik non-icon set: 24
-- Kod kapsamındaki standalone component: 19 (`logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
+- Kod kapsamındaki non-icon set: 36 (önceki kapsam + `Sidebar`, `Sidebar-Item` ve `Sidebar-Item/Profile`)
+- Eksik non-icon set: 21
+- Kod kapsamındaki standalone component: 21 (önceki kapsam + `favicon/original` ve `favicon/white`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -24,7 +24,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Icons | 281 | 0 | 1.690 | 281 | 0 |
 | Accordion | 1 | 0 | 6 | 1 | 0 |
 | Avatar | 1 | 0 | 12 | 1 | 0 |
-| Brand | 0 | 8 | 8 | 2 | 6 |
+| Brand | 0 | 8 | 8 | 4 | 4 |
 | Breadcrumb | 1 | 1 | 5 | 2 | 0 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
@@ -42,7 +42,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
 | Progress Bar | 1 | 0 | 15 | 1 | 0 |
 | Selection | 2 | 2 | 16 | 4 | 0 |
-| Sidebar | 3 | 0 | 18 | 0 | 3 |
+| Sidebar | 3 | 0 | 18 | 3 | 0 |
 | Stepper | 3 | 1 | 14 | 0 | 4 |
 | Switch | 3 | 1 | 16 | 4 | 0 |
 | Tab | 2 | 2 | 26 | 0 | 4 |
@@ -55,7 +55,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Accordion`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Accordion`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `logo/original`, `logo/white`, `favicon/original`, `favicon/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`
 
 ### 1. Temel primitives
 
@@ -67,7 +67,7 @@ Tamamlandı.
 
 ### 3. Navigasyon
 
-`Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+`DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
 
 ### 4. Feedback ve overlays
 
@@ -79,7 +79,7 @@ Tamamlandı.
 
 ### 6. Brand ve shell
 
-`favicon/original`, `favicon/white`, `Footer`, `Header`, `lime/original`, `lime/white`
+`Footer`, `Header`, `lime/original`, `lime/white`
 
 ## Her komponent için zorunlu teslim kriteri
 
@@ -96,7 +96,7 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 
 ## İlk uygulama paketi
 
-Phase 1 ve Phase 2 tamamlandı. Phase 3'te mobil navigation group kompozisyonları eklendi; sıradaki bileşen Sidebar'dır.
+Phase 1 ve Phase 2 tamamlandı. Phase 3'te Sidebar ailesi ve bağımlı favicon assetleri eklendi; sıradaki aile Stepper'dır.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 

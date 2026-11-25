@@ -71,6 +71,9 @@ const requiredSelectors = [
   ".ads-pagination",
   ".ads-pagination-item",
   ".ads-pagination-controls",
+  ".ads-sidebar",
+  ".ads-sidebar-item",
+  ".ads-sidebar-profile",
   ".ads-progress-bar"
 ];
 
@@ -129,7 +132,8 @@ const accordionStyles = await readFile(new URL("../packages/css/src/components/a
 const navigationGroupStyles = await readFile(new URL("../packages/css/src/components/navigation-group.css", import.meta.url), "utf8");
 const topNavigationStyles = await readFile(new URL("../packages/css/src/components/top-navigation.css", import.meta.url), "utf8");
 const paginationStyles = await readFile(new URL("../packages/css/src/components/pagination.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const sidebarStyles = await readFile(new URL("../packages/css/src/components/sidebar.css", import.meta.url), "utf8");
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -196,8 +200,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 332) {
-  errors.push("ads.config.json must record 332 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 337) {
+  errors.push("ads.config.json must record 337 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -206,17 +210,17 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 19 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 33 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 24
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 21 ||
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 36 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 21
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 33 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 24
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 36 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 21
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -279,6 +283,11 @@ const additionalButtonTemplateContracts = [
   , ["DesktopNavigationGroupOpen", "DesktopNavigationGroupOpen.figma.ts", "ads-navigation-group-desktop-open"]
   , ["DesktopTopNavigation", "DesktopTopNavigation.figma.ts", "ads-top-navigation-desktop"]
   , ["MobileTopNavigation", "MobileTopNavigation.figma.ts", "ads-top-navigation-mobile"]
+  , ["FaviconOriginal", "FaviconOriginal.figma.ts", "ads-favicon-original"]
+  , ["FaviconWhite", "FaviconWhite.figma.ts", "ads-favicon-white"]
+  , ["Sidebar", "Sidebar.figma.ts", "ads-sidebar"]
+  , ["SidebarItem", "SidebarItem.figma.ts", "ads-sidebar-item"]
+  , ["SidebarProfile", "SidebarProfile.figma.ts", "ads-sidebar-profile"]
 ];
 for (const [name, file, id] of additionalButtonTemplateContracts) {
   const template = await readFile(new URL(`../code-connect/${file}`, import.meta.url), "utf8");
@@ -314,7 +323,7 @@ if (
 ) {
   errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar", "sidebar", "sidebarItem", "sidebarProfile"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -366,6 +375,9 @@ if (!parsedConfig.figma.components.chipGroup?.behaviors?.keyboardNavigation) {
 if (!parsedConfig.figma.components.carouselControl?.behaviors?.selection) {
   errors.push("Missing approved CarouselControl selection behavior mapping.");
 }
+if (!parsedConfig.figma.components.sidebar?.behaviors?.state) {
+  errors.push("Missing approved Sidebar state behavior mapping.");
+}
 if (parsedConfig.name !== "Adesso Design System") {
   errors.push("ads.config.json must use the canonical Adesso Design System name.");
 }
@@ -376,6 +388,14 @@ const logoAsset = await readFile(
 );
 const whiteLogoAsset = await readFile(
   new URL("../packages/ui-web/src/assets/brand/adesso-logo-white.svg", import.meta.url),
+  "utf8"
+);
+const faviconOriginalAsset = await readFile(
+  new URL("../packages/ui-web/src/assets/brand/adesso-favicon-original.svg", import.meta.url),
+  "utf8"
+);
+const faviconWhiteAsset = await readFile(
+  new URL("../packages/ui-web/src/assets/brand/adesso-favicon-white.svg", import.meta.url),
   "utf8"
 );
 const desktopNavigationShape = await readFile(
@@ -395,6 +415,15 @@ if (
   (whiteLogoAsset.match(/fill="white"/g) ?? []).length < 2
 ) {
   errors.push("Logo must preserve the exact white Figma SVG geometry and fills.");
+}
+if (
+  !faviconOriginalAsset.includes('width="64.2462"') ||
+  !faviconOriginalAsset.includes('height="120"') ||
+  !faviconWhiteAsset.includes('width="64.2462"') ||
+  !faviconWhiteAsset.includes('height="120"') ||
+  (faviconWhiteAsset.match(/fill="white"/g) ?? []).length < 2
+) {
+  errors.push("Logo must preserve both exact Figma favicon assets.");
 }
 if (
   !desktopNavigationShape.includes('width="1440"') ||

@@ -12,6 +12,9 @@ import {
   Footer,
   TopNavigation,
   NavigationGroup,
+  Sidebar,
+  SidebarItem,
+  SidebarProfile,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -136,6 +139,38 @@ export function App() {
         <div className="logo-showcase">
           <Logo />
           <span className="logo-white-showcase"><Logo variant="white" /></span>
+          <Logo variant="favicon-original" />
+          <span className="logo-white-showcase"><Logo variant="favicon-white" /></span>
+        </div>
+      </section>
+
+      <section aria-labelledby="sidebar-title">
+        <h2 id="sidebar-title">Sidebar</h2>
+        <div className="sidebar-item-showcase">
+          <div>
+            <SidebarItem>Default</SidebarItem>
+            <SidebarItem data-preview-state="hover">Hover</SidebarItem>
+            <SidebarItem active>Active</SidebarItem>
+            <SidebarItem active data-preview-state="active-hover">Active hover</SidebarItem>
+            <SidebarItem error>Error</SidebarItem>
+            <SidebarItem disabled>Disabled</SidebarItem>
+            <SidebarProfile />
+          </div>
+          <div className="sidebar-dark-showcase">
+            <SidebarItem theme="dark">Default</SidebarItem>
+            <SidebarItem theme="dark" data-preview-state="hover">Hover</SidebarItem>
+            <SidebarItem theme="dark" active>Active</SidebarItem>
+            <SidebarItem theme="dark" active data-preview-state="active-hover">Active hover</SidebarItem>
+            <SidebarItem theme="dark" error>Error</SidebarItem>
+            <SidebarItem theme="dark" disabled>Disabled</SidebarItem>
+            <SidebarProfile theme="dark" />
+          </div>
+        </div>
+        <div className="sidebar-showcase">
+          <Sidebar />
+          <Sidebar defaultOpen={false} />
+          <Sidebar theme="dark" />
+          <Sidebar theme="dark" defaultOpen={false} />
         </div>
       </section>
 

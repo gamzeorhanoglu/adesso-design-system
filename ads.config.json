@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 33,
-      "missingNonIconSetCount": 24,
-      "implementedStandaloneComponentCount": 19
+      "implementedNonIconSetCount": 36,
+      "missingNonIconSetCount": 21,
+      "implementedStandaloneComponentCount": 21
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 332,
+      "parserlessTemplateCount": 337,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -37,6 +37,8 @@
       "navigationItemTemplate": "code-connect/NavigationItem.figma.ts",
       "logoTemplate": "code-connect/Logo.figma.ts",
       "logoWhiteTemplate": "code-connect/LogoWhite.figma.ts",
+      "faviconOriginalTemplate": "code-connect/FaviconOriginal.figma.ts",
+      "faviconWhiteTemplate": "code-connect/FaviconWhite.figma.ts",
       "desktopFooterTemplate": "code-connect/DesktopFooter.figma.ts",
       "mobileFooterTemplate": "code-connect/MobileFooter.figma.ts",
       "accordionTemplate": "code-connect/Accordion.figma.ts",
@@ -47,6 +49,9 @@
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md",
       "mobileNavigationGroupOpenTemplate": "code-connect/MobileNavigationGroupOpen.figma.ts",
       "mobileNavigationGroupOpenDetailTemplate": "code-connect/MobileNavigationGroupOpenDetail.figma.ts"
+      , "sidebarTemplate": "code-connect/Sidebar.figma.ts"
+      , "sidebarItemTemplate": "code-connect/SidebarItem.figma.ts"
+      , "sidebarProfileTemplate": "code-connect/SidebarProfile.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -320,18 +325,26 @@
       "logo": {
         "componentNodeId": "120:19",
         "whiteComponentNodeId": "120:37",
+        "faviconOriginalComponentNodeId": "120:169",
+        "faviconWhiteComponentNodeId": "120:181",
         "code": "packages/ui-web/src/components/Logo/Logo.tsx",
         "codeConnect": [
           "code-connect/Logo.figma.ts",
-          "code-connect/LogoWhite.figma.ts"
+          "code-connect/LogoWhite.figma.ts",
+          "code-connect/FaviconOriginal.figma.ts",
+          "code-connect/FaviconWhite.figma.ts"
         ],
         "assets": [
           "packages/ui-web/src/assets/brand/adesso-logo-original.svg",
-          "packages/ui-web/src/assets/brand/adesso-logo-white.svg"
+          "packages/ui-web/src/assets/brand/adesso-logo-white.svg",
+          "packages/ui-web/src/assets/brand/adesso-favicon-original.svg",
+          "packages/ui-web/src/assets/brand/adesso-favicon-white.svg"
         ],
         "variants": [
           "original",
-          "white"
+          "white",
+          "favicon-original",
+          "favicon-white"
         ]
       },
       "footer": {
@@ -565,6 +578,32 @@
           "hover",
           "disabled"
         ]
+      },
+      "sidebar": {
+        "componentSetNodeId": "5301:998",
+        "code": "packages/ui-web/src/components/Sidebar/Sidebar.tsx",
+        "codeConnect": "code-connect/Sidebar.figma.ts",
+        "behaviors": {
+          "state": "packages/ui-web/src/hooks/useSidebarState.ts"
+        },
+        "themes": ["light", "dark"],
+        "states": ["open", "closed"],
+        "primitives": ["Logo", "SidebarItem", "SidebarProfile", "ChevronLeftIcon", "ChevronRightIcon"]
+      },
+      "sidebarItem": {
+        "componentSetNodeId": "5301:815",
+        "code": "packages/ui-web/src/components/SidebarItem/SidebarItem.tsx",
+        "codeConnect": "code-connect/SidebarItem.figma.ts",
+        "themes": ["light", "dark"],
+        "states": ["default", "hover", "active", "active-hover", "error", "disabled"],
+        "primitives": ["Tag", "LayersIcon", "ChevronDownIcon"]
+      },
+      "sidebarProfile": {
+        "componentSetNodeId": "5301:2928",
+        "code": "packages/ui-web/src/components/SidebarProfile/SidebarProfile.tsx",
+        "codeConnect": "code-connect/SidebarProfile.figma.ts",
+        "themes": ["light", "dark"],
+        "primitives": ["Avatar"]
       }
     }
   },

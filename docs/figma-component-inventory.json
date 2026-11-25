@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 19,
+    "implementedStandaloneComponentCount": 21,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 33,
-    "missingNonIconSetCount": 24
+    "implementedNonIconSetCount": 36,
+    "missingNonIconSetCount": 21
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -70,9 +70,9 @@
       "name": "favicon/original",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "asset-missing",
-      "phase": 6,
-      "target": "BrandAssets"
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Logo/Logo.tsx"
     },
     {
       "page": "Brand",
@@ -81,9 +81,9 @@
       "name": "favicon/white",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "asset-missing",
-      "phase": 6,
-      "target": "BrandAssets"
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Logo/Logo.tsx"
     },
     {
       "page": "Brand",
@@ -796,9 +796,9 @@
       "name": "Sidebar",
       "nodeType": "COMPONENT_SET",
       "variantCount": 4,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Sidebar/Sidebar.tsx"
     },
     {
       "page": "Sidebar",
@@ -807,9 +807,9 @@
       "name": "Sidebar-Item",
       "nodeType": "COMPONENT_SET",
       "variantCount": 12,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/SidebarItem/SidebarItem.tsx"
     },
     {
       "page": "Sidebar",
@@ -818,9 +818,9 @@
       "name": "Sidebar-Item/Profile",
       "nodeType": "COMPONENT_SET",
       "variantCount": 2,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/SidebarProfile/SidebarProfile.tsx"
     },
     {
       "page": "Stepper",

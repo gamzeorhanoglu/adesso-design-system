@@ -29,7 +29,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Sidebar, SidebarItem, SidebarProfile, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -41,7 +41,7 @@ items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
 Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Dots, Navigation-Item, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-and ListItem sets are implemented, leaving 26 component
+ListItem, Sidebar, Sidebar-Item, and Sidebar-Item/Profile sets are implemented, leaving 21 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -102,7 +102,8 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Breadcrumb templates: `code-connect/Breadcrumb.figma.ts`, `code-connect/BreadcrumbItem.figma.ts`
 - Carousel control templates: `code-connect/CarouselControl.figma.ts`, `code-connect/CarouselDot.figma.ts`
 - Navigation item template: `code-connect/NavigationItem.figma.ts`
-- Logo templates: `code-connect/Logo.figma.ts`, `code-connect/LogoWhite.figma.ts`
+- Logo templates: `code-connect/Logo.figma.ts`, `code-connect/LogoWhite.figma.ts`, `code-connect/FaviconOriginal.figma.ts`, `code-connect/FaviconWhite.figma.ts`
+- Sidebar templates: `code-connect/Sidebar.figma.ts`, `code-connect/SidebarItem.figma.ts`, `code-connect/SidebarProfile.figma.ts`
 - Footer templates: `code-connect/DesktopFooter.figma.ts`, `code-connect/MobileFooter.figma.ts`
 - Accordion template: `code-connect/Accordion.figma.ts`
 - Desktop Navigation Group template: `code-connect/DesktopNavigationGroupOpen.figma.ts`
@@ -165,6 +166,11 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Navigation-Item component set: `2334:5718`
 - Original logo component: `120:19`
 - White logo component: `120:37`
+- Original favicon component: `120:169`
+- White favicon component: `120:181`
+- Sidebar component set: `5301:998`
+- Sidebar Item component set: `5301:815`
+- Sidebar Profile component set: `5301:2928`
 - Desktop Footer component: `2334:6296`
 - Mobile Footer component: `2517:647`
 - Accordion component set: `2429:1223`
