@@ -20,4 +20,14 @@ describe("Logo", () => {
     render(<Logo label="Adesso home" />);
     expect(screen.getByRole("img", { name: "Adesso home" })).toBeInTheDocument();
   });
+
+  it("renders the published white logo variant", () => {
+    render(<Logo variant="white" />);
+
+    const logo = screen.getByRole("img", { name: "adesso" });
+    expect(logo).toHaveClass("variant-white");
+    expect(logo.getAttribute("src")).toMatch(
+      /^(?:data:image\/svg\+xml|.*adesso-logo-white\.svg)/,
+    );
+  });
 });

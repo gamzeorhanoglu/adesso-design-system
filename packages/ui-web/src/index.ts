@@ -63,7 +63,15 @@ export type {
   NavigationItemProps
 } from "./components/NavigationItem/NavigationItem";
 export { Logo } from "./components/Logo/Logo";
-export type { LogoProps } from "./components/Logo/Logo";
+export type { LogoProps, LogoVariant } from "./components/Logo/Logo";
+export { Footer } from "./components/Footer/Footer";
+export type {
+  FooterDevice,
+  FooterLegalLink,
+  FooterProps,
+  FooterSocialChannel,
+  FooterSocialLink
+} from "./components/Footer/Footer";
 export { TopNavigation } from "./components/TopNavigation/TopNavigation";
 export type {
   TopNavigationDevice,

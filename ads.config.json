@@ -15,7 +15,7 @@
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 322,
+      "parserlessTemplateCount": 324,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -35,6 +35,8 @@
       "carouselDotTemplate": "code-connect/CarouselDot.figma.ts",
       "navigationItemTemplate": "code-connect/NavigationItem.figma.ts",
       "logoTemplate": "code-connect/Logo.figma.ts",
+      "logoWhiteTemplate": "code-connect/LogoWhite.figma.ts",
+      "desktopFooterTemplate": "code-connect/DesktopFooter.figma.ts",
       "desktopTopNavigationTemplate": "code-connect/DesktopTopNavigation.figma.ts",
       "mobileTopNavigationTemplate": "code-connect/MobileTopNavigation.figma.ts",
       "inputStatus": "approved-and-mapped",
@@ -227,9 +229,34 @@
       },
       "logo": {
         "componentNodeId": "120:19",
+        "whiteComponentNodeId": "120:37",
         "code": "packages/ui-web/src/components/Logo/Logo.tsx",
-        "codeConnect": "code-connect/Logo.figma.ts",
-        "asset": "packages/ui-web/src/assets/brand/adesso-logo-original.svg"
+        "codeConnect": [
+          "code-connect/Logo.figma.ts",
+          "code-connect/LogoWhite.figma.ts"
+        ],
+        "assets": [
+          "packages/ui-web/src/assets/brand/adesso-logo-original.svg",
+          "packages/ui-web/src/assets/brand/adesso-logo-white.svg"
+        ],
+        "variants": ["original", "white"]
+      },
+      "footer": {
+        "componentNodeId": "2334:6296",
+        "desktopComponentNodeId": "2334:6296",
+        "code": "packages/ui-web/src/components/Footer/Footer.tsx",
+        "codeConnect": "code-connect/DesktopFooter.figma.ts",
+        "devices": ["desktop"],
+        "primitives": [
+          "Logo",
+          "Button",
+          "LinkedinIcon",
+          "InstagramIcon",
+          "TwitterIcon",
+          "FacebookIcon",
+          "YoutubeIcon",
+          "ChevronUpIcon"
+        ]
       },
       "topNavigation": {
       "componentNodeId": "2334:5664",

@@ -43,6 +43,7 @@ const requiredSelectors = [
   ".ads-carousel-dot",
   ".ads-navigation-item",
   ".ads-logo",
+  ".ads-footer",
   ".ads-top-navigation",
   ".ads-top-navigation-menu",
   ".ads-icon",
@@ -117,8 +118,9 @@ const breadcrumbStyles = await readFile(new URL("../packages/css/src/components/
 const carouselControlStyles = await readFile(new URL("../packages/css/src/components/carousel-control.css", import.meta.url), "utf8");
 const navigationItemStyles = await readFile(new URL("../packages/css/src/components/navigation-item.css", import.meta.url), "utf8");
 const logoStyles = await readFile(new URL("../packages/css/src/components/logo.css", import.meta.url), "utf8");
+const footerStyles = await readFile(new URL("../packages/css/src/components/footer.css", import.meta.url), "utf8");
 const topNavigationStyles = await readFile(new URL("../packages/css/src/components/top-navigation.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${topNavigationStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${topNavigationStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -185,8 +187,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 322) {
-  errors.push("ads.config.json must record 322 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 324) {
+  errors.push("ads.config.json must record 324 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -195,7 +197,7 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 12 ||
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 14 ||
   parsedComponentInventory.summary?.implementedNonIconSetCount !== 30 ||
   parsedComponentInventory.summary?.missingNonIconSetCount !== 27
 ) {
@@ -261,6 +263,8 @@ const additionalButtonTemplateContracts = [
   ["CarouselDot", "CarouselDot.figma.ts", "ads-carousel-dot"]
   , ["NavigationItem", "NavigationItem.figma.ts", "ads-navigation-item"]
   , ["Logo", "Logo.figma.ts", "ads-logo-original"]
+  , ["LogoWhite", "LogoWhite.figma.ts", "ads-logo-white"]
+  , ["DesktopFooter", "DesktopFooter.figma.ts", "ads-footer-desktop"]
   , ["DesktopTopNavigation", "DesktopTopNavigation.figma.ts", "ads-top-navigation-desktop"]
   , ["MobileTopNavigation", "MobileTopNavigation.figma.ts", "ads-top-navigation-mobile"]
 ];
@@ -298,7 +302,7 @@ if (
 ) {
   errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
@@ -358,6 +362,10 @@ const logoAsset = await readFile(
   new URL("../packages/ui-web/src/assets/brand/adesso-logo-original.svg", import.meta.url),
   "utf8"
 );
+const whiteLogoAsset = await readFile(
+  new URL("../packages/ui-web/src/assets/brand/adesso-logo-white.svg", import.meta.url),
+  "utf8"
+);
 const desktopNavigationShape = await readFile(
   new URL("../packages/ui-web/src/assets/navigation/top-navigation-desktop.svg", import.meta.url),
   "utf8"
@@ -368,6 +376,13 @@ const mobileNavigationShape = await readFile(
 );
 if (!logoAsset.includes('width="321.462"') || !logoAsset.includes('height="120"')) {
   errors.push("Logo must preserve the exact original Figma SVG geometry.");
+}
+if (
+  !whiteLogoAsset.includes('width="322"') ||
+  !whiteLogoAsset.includes('height="120"') ||
+  (whiteLogoAsset.match(/fill="white"/g) ?? []).length < 2
+) {
+  errors.push("Logo must preserve the exact white Figma SVG geometry and fills.");
 }
 if (
   !desktopNavigationShape.includes('width="1440"') ||

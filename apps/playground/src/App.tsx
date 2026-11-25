@@ -8,6 +8,7 @@ import {
   CarouselControl,
   NavigationItem,
   Logo,
+  Footer,
   TopNavigation,
   Calendar,
   CalendarItem,
@@ -97,7 +98,26 @@ export function App() {
 
       <section aria-labelledby="logo-title">
         <h2 id="logo-title">Logo</h2>
-        <Logo />
+        <div className="logo-showcase">
+          <Logo />
+          <span className="logo-white-showcase"><Logo variant="white" /></span>
+        </div>
+      </section>
+
+      <section aria-labelledby="footer-title">
+        <h2 id="footer-title">Desktop Footer</h2>
+        <div className="footer-showcase">
+          <Footer
+            socialLinks={[
+              { channel: "linkedin", href: "#linkedin", label: "LinkedIn" },
+              { channel: "instagram", href: "#instagram", label: "Instagram" },
+              { channel: "twitter", href: "#twitter", label: "Twitter" },
+              { channel: "facebook", href: "#facebook", label: "Facebook" },
+              { channel: "youtube", href: "#youtube", label: "YouTube" },
+            ]}
+            onBackToTop={() => undefined}
+          />
+        </div>
       </section>
 
       <section aria-labelledby="buttons-title">

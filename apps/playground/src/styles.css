@@ -106,6 +106,24 @@ h2 {
   flex: 0 0 auto;
 }
 
+.logo-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+}
+
+.logo-white-showcase {
+  padding: 24px;
+  display: inline-block;
+  background: var(--ads-component-color-navigation-background-inverse);
+}
+
+.footer-showcase {
+  width: 1440px;
+  max-width: none;
+}
+
 @media (max-width: 760px) {
   .input-grid,
   .component-grid {
