@@ -205,7 +205,7 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 18 ||
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 19 ||
   parsedComponentInventory.summary?.implementedNonIconSetCount !== 33 ||
   parsedComponentInventory.summary?.missingNonIconSetCount !== 24
 ) {
