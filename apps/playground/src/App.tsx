@@ -126,9 +126,22 @@ export function App() {
       </section>
 
       <section aria-labelledby="footer-title">
-        <h2 id="footer-title">Desktop Footer</h2>
+        <h2 id="footer-title">Footer</h2>
         <div className="footer-showcase">
           <Footer
+            socialLinks={[
+              { channel: "linkedin", href: "#linkedin", label: "LinkedIn" },
+              { channel: "instagram", href: "#instagram", label: "Instagram" },
+              { channel: "twitter", href: "#twitter", label: "Twitter" },
+              { channel: "facebook", href: "#facebook", label: "Facebook" },
+              { channel: "youtube", href: "#youtube", label: "YouTube" },
+            ]}
+            onBackToTop={() => undefined}
+          />
+        </div>
+        <div className="mobile-footer-showcase">
+          <Footer
+            device="mobile"
             socialLinks={[
               { channel: "linkedin", href: "#linkedin", label: "LinkedIn" },
               { channel: "instagram", href: "#instagram", label: "Instagram" },

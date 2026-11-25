@@ -15,7 +15,7 @@
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 326,
+      "parserlessTemplateCount": 327,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -37,6 +37,7 @@
       "logoTemplate": "code-connect/Logo.figma.ts",
       "logoWhiteTemplate": "code-connect/LogoWhite.figma.ts",
       "desktopFooterTemplate": "code-connect/DesktopFooter.figma.ts",
+      "mobileFooterTemplate": "code-connect/MobileFooter.figma.ts",
       "accordionTemplate": "code-connect/Accordion.figma.ts",
       "desktopNavigationGroupOpenTemplate": "code-connect/DesktopNavigationGroupOpen.figma.ts",
       "desktopTopNavigationTemplate": "code-connect/DesktopTopNavigation.figma.ts",
@@ -246,9 +247,13 @@
       "footer": {
         "componentNodeId": "2334:6296",
         "desktopComponentNodeId": "2334:6296",
+        "mobileComponentNodeId": "2517:647",
         "code": "packages/ui-web/src/components/Footer/Footer.tsx",
-        "codeConnect": "code-connect/DesktopFooter.figma.ts",
-        "devices": ["desktop"],
+        "codeConnect": [
+          "code-connect/DesktopFooter.figma.ts",
+          "code-connect/MobileFooter.figma.ts"
+        ],
+        "devices": ["desktop", "mobile"],
         "primitives": [
           "Logo",
           "Button",

@@ -23,7 +23,7 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 15,
+    "implementedStandaloneComponentCount": 16,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
     "implementedNonIconSetCount": 31,
@@ -587,9 +587,9 @@
       "name": "Mobile/Footer",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Footer/Footer.tsx"
     },
     {
       "page": "Navigation",

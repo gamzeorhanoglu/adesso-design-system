@@ -24,6 +24,16 @@ describe("Footer", () => {
     );
   });
 
+  it("renders the published mobile ADS composition", () => {
+    render(<Footer device="mobile" />);
+
+    const footer = screen.getByRole("contentinfo");
+    expect(footer).toHaveAttribute("data-device", "mobile");
+    expect(footer.querySelectorAll('.ads-footer-social .ads-icon[data-size="lg"]')).toHaveLength(5);
+    expect(within(footer).getAllByText(/Politikası|Politikalar|İletişim|Bilgi Toplumu/)).toHaveLength(4);
+    expect(within(footer).getByRole("button", { name: "Back to top" })).toBeVisible();
+  });
+
   it("exposes supplied social and legal destinations", () => {
     render(
       <Footer

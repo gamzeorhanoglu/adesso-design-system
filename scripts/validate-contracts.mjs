@@ -192,8 +192,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 326) {
-  errors.push("ads.config.json must record 326 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 327) {
+  errors.push("ads.config.json must record 327 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -202,7 +202,7 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 15 ||
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 16 ||
   parsedComponentInventory.summary?.implementedNonIconSetCount !== 31 ||
   parsedComponentInventory.summary?.missingNonIconSetCount !== 26
 ) {
@@ -270,6 +270,7 @@ const additionalButtonTemplateContracts = [
   , ["Logo", "Logo.figma.ts", "ads-logo-original"]
   , ["LogoWhite", "LogoWhite.figma.ts", "ads-logo-white"]
   , ["DesktopFooter", "DesktopFooter.figma.ts", "ads-footer-desktop"]
+  , ["MobileFooter", "MobileFooter.figma.ts", "ads-footer-mobile"]
   , ["Accordion", "Accordion.figma.ts", "ads-accordion"]
   , ["DesktopNavigationGroupOpen", "DesktopNavigationGroupOpen.figma.ts", "ads-navigation-group-desktop-open"]
   , ["DesktopTopNavigation", "DesktopTopNavigation.figma.ts", "ads-top-navigation-desktop"]

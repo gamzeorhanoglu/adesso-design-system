@@ -12,7 +12,7 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - İkonlar dışında 57 component seti
 - Kod kapsamındaki non-icon set: 31 (altı Button ailesi + Accordion + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Dots + Navigation-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
 - Eksik non-icon set: 26
-- Kod kapsamındaki standalone component: 15 (`logo/original`, `logo/white`, `Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
+- Kod kapsamındaki standalone component: 16 (`logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -36,7 +36,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Dropdown | 3 | 0 | 13 | 3 | 0 |
 | Icons | 1 | 0 | 10 | 1 | 0 |
 | Inputs | 3 | 0 | 20 | 3 | 0 |
-| Navigation | 2 | 8 | 17 | 7 | 3 |
+| Navigation | 2 | 8 | 17 | 8 | 2 |
 | Notification | 2 | 1 | 13 | 0 | 3 |
 | Pagination | 2 | 1 | 11 | 0 | 3 |
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
@@ -55,7 +55,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Accordion`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `logo/original`, `logo/white`, `Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Accordion`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `logo/original`, `logo/white`, `Desktop/Footer`, `Mobile/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
 
 ### 1. Temel primitives
 
@@ -67,7 +67,7 @@ Tamamlandı.
 
 ### 3. Navigasyon
 
-`Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+`Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
 
 ### 4. Feedback ve overlays
 

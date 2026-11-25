@@ -41,7 +41,7 @@ items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
 Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Dots, Navigation-Item, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-and ListItem sets are implemented, leaving 27 component
+and ListItem sets are implemented, leaving 26 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -103,7 +103,7 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Carousel control templates: `code-connect/CarouselControl.figma.ts`, `code-connect/CarouselDot.figma.ts`
 - Navigation item template: `code-connect/NavigationItem.figma.ts`
 - Logo templates: `code-connect/Logo.figma.ts`, `code-connect/LogoWhite.figma.ts`
-- Desktop Footer template: `code-connect/DesktopFooter.figma.ts`
+- Footer templates: `code-connect/DesktopFooter.figma.ts`, `code-connect/MobileFooter.figma.ts`
 - Accordion template: `code-connect/Accordion.figma.ts`
 - Desktop Navigation Group template: `code-connect/DesktopNavigationGroupOpen.figma.ts`
 - Top Navigation templates: `code-connect/DesktopTopNavigation.figma.ts`, `code-connect/MobileTopNavigation.figma.ts`
@@ -166,6 +166,7 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Original logo component: `120:19`
 - White logo component: `120:37`
 - Desktop Footer component: `2334:6296`
+- Mobile Footer component: `2517:647`
 - Accordion component set: `2429:1223`
 - Desktop navigation group open component: `2434:895`
 - Desktop Top-Navigation component: `2334:5664`

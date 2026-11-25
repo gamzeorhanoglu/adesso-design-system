@@ -1,4 +1,4 @@
-import type { HTMLAttributes, ReactNode } from "react";
+import type { HTMLAttributes } from "react";
 import {
   ChevronUpIcon,
   FacebookIcon,
@@ -10,7 +10,7 @@ import {
 import { Button } from "../Button/Button";
 import { Logo } from "../Logo/Logo";
 
-export type FooterDevice = "desktop";
+export type FooterDevice = "desktop" | "mobile";
 export type FooterSocialChannel =
   | "linkedin"
   | "instagram"
@@ -65,13 +65,22 @@ const defaultLegalLinks: readonly FooterLegalLink[] = [
   { label: "Bilgi Toplumu Hizmetleri" },
 ];
 
-const socialIcons: Record<FooterSocialChannel, ReactNode> = {
-  linkedin: <LinkedinIcon size="md" />,
-  instagram: <InstagramIcon size="md" />,
-  twitter: <TwitterIcon size="md" />,
-  facebook: <FacebookIcon size="md" />,
-  youtube: <YoutubeIcon size="md" />,
-};
+function renderSocialIcon(channel: FooterSocialChannel, device: FooterDevice) {
+  const size = device === "mobile" ? "lg" : "md";
+
+  switch (channel) {
+    case "linkedin":
+      return <LinkedinIcon size={size} />;
+    case "instagram":
+      return <InstagramIcon size={size} />;
+    case "twitter":
+      return <TwitterIcon size={size} />;
+    case "facebook":
+      return <FacebookIcon size={size} />;
+    case "youtube":
+      return <YoutubeIcon size={size} />;
+  }
+}
 
 function renderFooterLink(link: FooterLegalLink) {
   return link.href ? <a href={link.href}>{link.label}</a> : <span>{link.label}</span>;
@@ -102,7 +111,7 @@ export function Footer({
         </a>
         <nav className="ads-footer-social" aria-label="Social media">
           {socialLinks.map((link) => {
-            const icon = socialIcons[link.channel];
+            const icon = renderSocialIcon(link.channel, device);
             const label = link.label ?? link.channel;
             return link.href ? (
               <a key={link.channel} href={link.href} aria-label={label}>

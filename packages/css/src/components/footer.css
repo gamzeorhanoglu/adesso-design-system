@@ -109,7 +109,7 @@
   gap: var(--ads-space-16);
   color: var(--ads-component-color-navigation-text-inverse);
   font-size: var(--ads-primitives-size-20);
-  font-weight: var(--ads-font-weight-medium);
+  font-weight: 500;
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -130,4 +130,94 @@
 
 .ads-footer .ads-btn.icon-only {
   flex: 0 0 var(--ads-size-control-md);
+}
+
+.ads-footer[data-device="mobile"] {
+  width: 393px;
+  max-width: 100%;
+  height: 760px;
+  padding: var(--ads-layout-space-lg) var(--layout-space-sm);
+  align-items: center;
+  gap: var(--ads-layout-space-xl);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-brand-row,
+.ads-footer[data-device="mobile"] .ads-footer-content-row {
+  display: contents;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-logo {
+  order: 1;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-contact {
+  width: 254px;
+  height: 200px;
+  order: 2;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--layout-space-sm);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-address {
+  width: 254px;
+  height: 96px;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-contact-details {
+  width: 182px;
+  height: 88px;
+  gap: var(--layout-space-2xs);
+  justify-content: flex-start;
+  line-height: 1.2;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-social {
+  height: var(--ads-size-icon-lg);
+  order: 3;
+  gap: var(--layout-space-sm);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-social a,
+.ads-footer[data-device="mobile"] .ads-footer-social span,
+.ads-footer[data-device="mobile"] .ads-footer-social svg {
+  width: var(--ads-size-icon-lg);
+  height: var(--ads-size-icon-lg);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-menu-and-up {
+  width: 100%;
+  height: 272px;
+  order: 4;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ads-layout-space-lg);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-menu {
+  width: 100%;
+  height: 192px;
+  flex-direction: column;
+  gap: var(--layout-space-sm);
+  line-height: 1.2;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-menu-item {
+  width: 100%;
+  height: 36px;
+  padding-bottom: var(--layout-space-xs);
+  justify-content: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--ads-component-color-list-border-secondary);
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-menu-item:last-child {
+  border-bottom: 0;
+}
+
+.ads-footer[data-device="mobile"] .ads-footer-divider {
+  display: none;
 }

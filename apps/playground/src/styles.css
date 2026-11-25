@@ -136,6 +136,11 @@ h2 {
   max-width: none;
 }
 
+.mobile-footer-showcase {
+  width: 393px;
+  margin-top: var(--ads-layout-space-lg);
+}
+
 @media (max-width: 760px) {
   .input-grid,
   .component-grid {
