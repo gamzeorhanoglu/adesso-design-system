@@ -23,11 +23,11 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 21,
+    "implementedStandaloneComponentCount": 22,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 36,
-    "missingNonIconSetCount": 21
+    "implementedNonIconSetCount": 39,
+    "missingNonIconSetCount": 18
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -829,9 +829,9 @@
       "name": "DektoConnector",
       "nodeType": "COMPONENT_SET",
       "variantCount": 3,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/StepperConnector/StepperConnector.tsx"
     },
     {
       "page": "Stepper",
@@ -840,9 +840,9 @@
       "name": "Desktop/Steps",
       "nodeType": "COMPONENT_SET",
       "variantCount": 5,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Step/Step.tsx"
     },
     {
       "page": "Stepper",
@@ -851,9 +851,9 @@
       "name": "Mobile/Steps",
       "nodeType": "COMPONENT_SET",
       "variantCount": 5,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Step/Step.tsx"
     },
     {
       "page": "Stepper",
@@ -862,9 +862,9 @@
       "name": "Stepper",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Stepper/Stepper.tsx"
     },
     {
       "page": "Switch",

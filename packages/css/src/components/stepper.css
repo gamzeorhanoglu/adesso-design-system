@@ -1,0 +1,133 @@
+.ads-step {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--layout-space-sm);
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-step-marker {
+  box-sizing: border-box;
+  width: var(--ads-layout-layout-scale-xl);
+  height: var(--ads-layout-layout-scale-xl);
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: var(--layout-space-2xs);
+  border: var(--ads-layout-layout-stroke-weight-lg) solid
+    var(--ads-component-color-stepper-border-default);
+  border-radius: var(--ads-layout-layout-radius-full);
+  color: var(--ads-component-color-stepper-text-secondary);
+  background: var(--ads-component-color-stepper-background-default);
+}
+
+.ads-step-number {
+  font-size: var(--ads-primitives-size-28);
+  font-weight: var(--ads-primitives-font-weight-medium);
+  line-height: 1;
+}
+
+.ads-step-title {
+  color: var(--ads-component-color-stepper-text-primary);
+  font-family: var(--ads-typography-text-body-lg-regular-font);
+  font-size: var(--ads-typography-text-body-lg-regular-size);
+  font-weight: var(--ads-typography-text-body-lg-regular-weight);
+  letter-spacing: var(--ads-typography-text-body-lg-regular-letter-spacing);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.ads-step[data-state="active"] .ads-step-marker {
+  border-color: var(--ads-component-color-stepper-border-active);
+  color: var(--ads-component-color-stepper-text-active);
+  background: var(--ads-component-color-stepper-background-active);
+}
+
+.ads-step[data-state="active"] .ads-step-title,
+.ads-step[data-state="completed-active"] .ads-step-title {
+  color: var(--ads-component-color-stepper-text-secondary);
+}
+
+.ads-step:is([data-state="completed"], [data-state="completed-active"]) .ads-step-marker {
+  border-color: var(--ads-component-color-stepper-border-completed);
+  color: var(--ads-component-color-stepper-icon-completed);
+  background: var(--ads-component-color-stepper-background-completed);
+}
+
+.ads-step[data-state="disabled"] .ads-step-marker {
+  border-color: var(--ads-component-color-stepper-border-disabled);
+  color: var(--ads-component-color-stepper-text-disabled);
+  background: var(--ads-component-color-stepper-background-disabled);
+}
+
+.ads-step[data-state="disabled"] .ads-step-title {
+  color: var(--ads-component-color-stepper-text-disabled);
+}
+
+.ads-step[data-device="mobile"] {
+  gap: var(--layout-space-xs);
+}
+
+.ads-step[data-device="mobile"] .ads-step-marker {
+  width: var(--ads-layout-layout-scale-md);
+  height: var(--ads-layout-layout-scale-md);
+  border-width: var(--ads-layout-layout-stroke-weight-sm);
+}
+
+.ads-step[data-device="mobile"]:is([data-state="completed"], [data-state="completed-active"]) .ads-step-marker {
+  border-width: var(--ads-layout-layout-stroke-weight-lg);
+}
+
+.ads-step[data-device="mobile"] .ads-step-number {
+  font-size: var(--ads-typography-text-label-lg-standard-size);
+  font-weight: var(--ads-typography-text-label-lg-standard-weight);
+}
+
+.ads-step[data-device="mobile"] .ads-step-title {
+  font-family: var(--ads-typography-text-body-sm-regular-font);
+  font-size: var(--ads-typography-text-body-sm-regular-size);
+  font-weight: var(--ads-typography-text-body-sm-regular-weight);
+  letter-spacing: var(--ads-typography-text-body-sm-regular-letter-spacing);
+}
+
+.ads-stepper-connector {
+  width: 400px;
+  height: var(--ads-layout-layout-stroke-weight-2xl);
+  display: block;
+  background: var(--ads-component-color-stepper-border-default);
+}
+
+.ads-stepper-connector[data-state="completed"] {
+  background: var(--ads-component-color-stepper-border-completed);
+}
+
+.ads-stepper-connector[data-state="disabled"] {
+  background: var(--ads-component-color-stepper-border-disabled);
+}
+
+.ads-stepper {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+.ads-stepper-segment {
+  display: contents;
+}
+
+.ads-stepper-connector-wrap {
+  width: 180px;
+  display: flex;
+  flex: 0 0 180px;
+  align-items: flex-start;
+  align-self: stretch;
+  padding-top: var(--ads-layout-space-lg);
+  overflow: hidden;
+}
+
+.ads-stepper-connector-wrap .ads-stepper-connector {
+  width: 100%;
+}
+

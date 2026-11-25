@@ -145,6 +145,28 @@ h2 {
   overflow-x: auto;
 }
 
+.step-showcase {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--ads-layout-space-lg);
+  overflow-x: auto;
+}
+
+.step-showcase + .step-showcase,
+.stepper-connector-showcase,
+.stepper-showcase {
+  margin-top: var(--ads-layout-space-lg);
+}
+
+.stepper-connector-showcase,
+.stepper-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-sm);
+  overflow-x: auto;
+}
+
 .sidebar-dark-showcase {
   padding: var(--layout-space-sm);
   background: var(--ads-component-color-sidebar-background-dark-default);

@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 36,
-      "missingNonIconSetCount": 21,
-      "implementedStandaloneComponentCount": 21
+      "implementedNonIconSetCount": 39,
+      "missingNonIconSetCount": 18,
+      "implementedStandaloneComponentCount": 22
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 337,
+      "parserlessTemplateCount": 341,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -52,6 +52,10 @@
       , "sidebarTemplate": "code-connect/Sidebar.figma.ts"
       , "sidebarItemTemplate": "code-connect/SidebarItem.figma.ts"
       , "sidebarProfileTemplate": "code-connect/SidebarProfile.figma.ts"
+      , "stepperConnectorTemplate": "code-connect/StepperConnector.figma.ts"
+      , "desktopStepTemplate": "code-connect/DesktopStep.figma.ts"
+      , "mobileStepTemplate": "code-connect/MobileStep.figma.ts"
+      , "stepperTemplate": "code-connect/Stepper.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -604,6 +608,27 @@
         "codeConnect": "code-connect/SidebarProfile.figma.ts",
         "themes": ["light", "dark"],
         "primitives": ["Avatar"]
+      },
+      "stepperConnector": {
+        "componentSetNodeId": "2747:1570",
+        "code": "packages/ui-web/src/components/StepperConnector/StepperConnector.tsx",
+        "codeConnect": "code-connect/StepperConnector.figma.ts",
+        "states": ["default", "completed", "disabled"]
+      },
+      "step": {
+        "componentSetNodeId": "2747:1616",
+        "mobileComponentSetNodeId": "2751:917",
+        "code": "packages/ui-web/src/components/Step/Step.tsx",
+        "codeConnect": ["code-connect/DesktopStep.figma.ts", "code-connect/MobileStep.figma.ts"],
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "active", "completed", "completed-active", "disabled"],
+        "primitives": ["CheckIcon"]
+      },
+      "stepper": {
+        "componentNodeId": "2751:579",
+        "code": "packages/ui-web/src/components/Stepper/Stepper.tsx",
+        "codeConnect": "code-connect/Stepper.figma.ts",
+        "primitives": ["Step", "StepperConnector"]
       }
     }
   },

@@ -15,6 +15,9 @@ import {
   Sidebar,
   SidebarItem,
   SidebarProfile,
+  Step,
+  Stepper,
+  StepperConnector,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -171,6 +174,32 @@ export function App() {
           <Sidebar defaultOpen={false} />
           <Sidebar theme="dark" />
           <Sidebar theme="dark" defaultOpen={false} />
+        </div>
+      </section>
+
+      <section aria-labelledby="stepper-title">
+        <h2 id="stepper-title">Stepper</h2>
+        <div className="step-showcase">
+          <Step state="default" title="Default" />
+          <Step state="active" title="Active" />
+          <Step state="completed" title="Completed" />
+          <Step state="completed-active" title="Completed active" />
+          <Step state="disabled" title="Disabled" />
+        </div>
+        <div className="step-showcase">
+          <Step device="mobile" state="default" title="Default" />
+          <Step device="mobile" state="active" title="Active" />
+          <Step device="mobile" state="completed" title="Completed" />
+          <Step device="mobile" state="completed-active" title="Completed active" />
+          <Step device="mobile" state="disabled" title="Disabled" />
+        </div>
+        <div className="stepper-connector-showcase">
+          <StepperConnector />
+          <StepperConnector state="completed" />
+          <StepperConnector state="disabled" />
+        </div>
+        <div className="stepper-showcase">
+          <Stepper />
         </div>
       </section>
 

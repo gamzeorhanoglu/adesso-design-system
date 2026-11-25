@@ -74,6 +74,9 @@ const requiredSelectors = [
   ".ads-sidebar",
   ".ads-sidebar-item",
   ".ads-sidebar-profile",
+  ".ads-step",
+  ".ads-stepper-connector",
+  ".ads-stepper",
   ".ads-progress-bar"
 ];
 
@@ -133,7 +136,8 @@ const navigationGroupStyles = await readFile(new URL("../packages/css/src/compon
 const topNavigationStyles = await readFile(new URL("../packages/css/src/components/top-navigation.css", import.meta.url), "utf8");
 const paginationStyles = await readFile(new URL("../packages/css/src/components/pagination.css", import.meta.url), "utf8");
 const sidebarStyles = await readFile(new URL("../packages/css/src/components/sidebar.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const stepperStyles = await readFile(new URL("../packages/css/src/components/stepper.css", import.meta.url), "utf8");
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -200,8 +204,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 337) {
-  errors.push("ads.config.json must record 337 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 341) {
+  errors.push("ads.config.json must record 341 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -210,17 +214,17 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 21 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 36 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 21
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 22 ||
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 39 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 18
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 36 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 21
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 39 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 18
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -288,6 +292,10 @@ const additionalButtonTemplateContracts = [
   , ["Sidebar", "Sidebar.figma.ts", "ads-sidebar"]
   , ["SidebarItem", "SidebarItem.figma.ts", "ads-sidebar-item"]
   , ["SidebarProfile", "SidebarProfile.figma.ts", "ads-sidebar-profile"]
+  , ["StepperConnector", "StepperConnector.figma.ts", "ads-stepper-connector"]
+  , ["DesktopStep", "DesktopStep.figma.ts", "ads-step-desktop"]
+  , ["MobileStep", "MobileStep.figma.ts", "ads-step-mobile"]
+  , ["Stepper", "Stepper.figma.ts", "ads-stepper"]
 ];
 for (const [name, file, id] of additionalButtonTemplateContracts) {
   const template = await readFile(new URL(`../code-connect/${file}`, import.meta.url), "utf8");
@@ -323,7 +331,7 @@ if (
 ) {
   errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar", "sidebar", "sidebarItem", "sidebarProfile"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar", "sidebar", "sidebarItem", "sidebarProfile", "stepperConnector", "step", "stepper"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
