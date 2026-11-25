@@ -18,6 +18,8 @@
     "./breadcrumb": "./src/components/breadcrumb.css",
     "./carousel-control": "./src/components/carousel-control.css",
     "./navigation-item": "./src/components/navigation-item.css",
+    "./logo": "./src/components/logo.css",
+    "./top-navigation": "./src/components/top-navigation.css",
     "./selection": "./src/components/selection.css",
     "./switch": "./src/components/switch.css",
     "./groups": "./src/components/groups.css",

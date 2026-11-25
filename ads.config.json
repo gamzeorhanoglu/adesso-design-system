@@ -15,7 +15,7 @@
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 319,
+      "parserlessTemplateCount": 322,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -34,6 +34,9 @@
       "carouselControlTemplate": "code-connect/CarouselControl.figma.ts",
       "carouselDotTemplate": "code-connect/CarouselDot.figma.ts",
       "navigationItemTemplate": "code-connect/NavigationItem.figma.ts",
+      "logoTemplate": "code-connect/Logo.figma.ts",
+      "desktopTopNavigationTemplate": "code-connect/DesktopTopNavigation.figma.ts",
+      "mobileTopNavigationTemplate": "code-connect/MobileTopNavigation.figma.ts",
       "inputStatus": "approved-and-mapped",
       "inputDecisionDocument": "code-connect/INPUT-GAPS.md"
     },
@@ -221,6 +224,28 @@
         "devices": ["desktop", "mobile"],
         "states": ["default", "hover", "selected"],
         "primitives": ["CompassIcon"]
+      },
+      "logo": {
+        "componentNodeId": "120:19",
+        "code": "packages/ui-web/src/components/Logo/Logo.tsx",
+        "codeConnect": "code-connect/Logo.figma.ts",
+        "asset": "packages/ui-web/src/assets/brand/adesso-logo-original.svg"
+      },
+      "topNavigation": {
+      "componentNodeId": "2334:5664",
+        "desktopComponentNodeId": "2334:5664",
+        "mobileComponentNodeId": "2517:555",
+        "code": "packages/ui-web/src/components/TopNavigation/TopNavigation.tsx",
+        "codeConnect": [
+          "code-connect/DesktopTopNavigation.figma.ts",
+          "code-connect/MobileTopNavigation.figma.ts"
+        ],
+        "primitives": [
+          "Logo",
+          "NavigationItem",
+          "Language",
+          "MenuIcon"
+        ]
       },
       "input": {
         "componentSetNodeId": "228:2526",

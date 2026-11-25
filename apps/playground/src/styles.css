@@ -15,14 +15,14 @@ main {
   padding: 64px 0 96px;
 }
 
-header,
+main > header,
 section {
   padding: 32px;
   border: 1px solid var(--ads-color-neutral-40);
   background: var(--ads-color-neutral-0);
 }
 
-header + section,
+main > header + section,
 section + section {
   margin-top: 24px;
 }
@@ -87,6 +87,23 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: var(--layout-space-md);
+}
+
+.top-navigation-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-space-md);
+  overflow-x: auto;
+}
+
+.top-navigation-showcase .ads-top-navigation[data-device="desktop"] {
+  width: 1440px;
+  flex: 0 0 auto;
+}
+
+.top-navigation-showcase .ads-top-navigation[data-device="mobile"] {
+  width: 393px;
+  flex: 0 0 auto;
 }
 
 @media (max-width: 760px) {

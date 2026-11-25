@@ -62,6 +62,13 @@ export type {
   NavigationItemDevice,
   NavigationItemProps
 } from "./components/NavigationItem/NavigationItem";
+export { Logo } from "./components/Logo/Logo";
+export type { LogoProps } from "./components/Logo/Logo";
+export { TopNavigation } from "./components/TopNavigation/TopNavigation";
+export type {
+  TopNavigationDevice,
+  TopNavigationProps
+} from "./components/TopNavigation/TopNavigation";
 export { Checkbox } from "./components/Checkbox/Checkbox";
 export type { CheckboxProps } from "./components/Checkbox/Checkbox";
 export { RadioButton } from "./components/RadioButton/RadioButton";

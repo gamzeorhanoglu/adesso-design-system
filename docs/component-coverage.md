@@ -12,7 +12,7 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - İkonlar dışında 57 component seti
 - Kod kapsamındaki non-icon set: 30 (altı Button ailesi + Input + Input/Search + Input/TextArea + DropdownList + Dropdown + Language + Calendar + Calendar-Item + DatePicker + Chips-Filter + Breadcrumb-Item + Dots + Navigation-Item + Checkbox + RadioButton + Desktop/Mobile Switch + Avatar + Soft/Solid Tags + Tooltip + ProgressBar + ListItem)
 - Eksik non-icon set: 27
-- Kod kapsamındaki standalone component: 9 (`Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
+- Kod kapsamındaki standalone component: 12 (`logo/original`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Breadcrumb`, `Carousel Control`, `SelectionItem`, `SelectionGroup`, `SwitchGroup`, `chipsgroup/filter` ve üç Button Group kompozisyonu)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -24,7 +24,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Icons | 281 | 0 | 1.690 | 281 | 0 |
 | Accordion | 1 | 0 | 6 | 0 | 1 |
 | Avatar | 1 | 0 | 12 | 1 | 0 |
-| Brand | 0 | 8 | 8 | 0 | 8 |
+| Brand | 0 | 8 | 8 | 1 | 7 |
 | Breadcrumb | 1 | 1 | 5 | 2 | 0 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
@@ -36,7 +36,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Dropdown | 3 | 0 | 13 | 3 | 0 |
 | Icons | 1 | 0 | 10 | 1 | 0 |
 | Inputs | 3 | 0 | 20 | 3 | 0 |
-| Navigation | 2 | 8 | 17 | 3 | 7 |
+| Navigation | 2 | 8 | 17 | 5 | 5 |
 | Notification | 2 | 1 | 13 | 0 | 3 |
 | Pagination | 2 | 1 | 11 | 0 | 3 |
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
@@ -55,7 +55,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 
 ### 0. Hazır kapsam
 
-`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
+`Destructive-Button`, `Ghost-Button`, `IconOnly-Button`, `Outline-Button`, `Primary-Button`, `Secondary-Button`, `buttongroup/icon+button`, `buttongroup/stack_horizontal`, `buttongroup/stack_vertical`, `flag`, `Input`, `Input/Search`, `Input/TextArea`, `DropdownList`, `Dropdown`, `Language`, `Calendar`, `Calendar-Item`, `DatePicker`, `Chips-Filter`, `chipsgroup/filter`, `Breadcrumb`, `Breadcrumb-Item`, `Carousel Control`, `Dots`, `Navigation-Item`, `logo/original`, `Desktop/Top-Navigation`, `Mobile/Top-Navigation`, `Checkbox`, `RadioButton`, `ListItem`, `selectiongroup/label`, `selectiongroup/listing`, `Desktop/Switch Button`, `Mobile/Switch Button`, `switchgroup/label`, `Avatar`, `Tags/Soft`, `Tags/Solid`, `Tooltip`, `ProgressBar`
 
 ### 1. Temel primitives
 
@@ -67,7 +67,7 @@ Tamamlandı.
 
 ### 3. Navigasyon
 
-`Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Desktop/Top-Navigation`, `Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Mobile/Top-Navigation`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
+`Desktop/Footer`, `Desktop/navigationgroup/top_open`, `Mobile/Footer`, `Mobile/navigationgroup/top_open`, `Mobile/navigationgroup/top_open_detail`, `Pagination`, `PaginationControls`, `PaginationItem`, `Sidebar`, `Sidebar-Item`, `Sidebar-Item/Profile`, `DektoConnector`, `Desktop/Steps`, `Mobile/Steps`, `Stepper`, `Primary Tab`, `Secondary Tab`, `tabgroup/primary`, `tabgroup/secondary`
 
 ### 4. Feedback ve overlays
 
@@ -79,7 +79,7 @@ Tamamlandı.
 
 ### 6. Brand ve shell
 
-`favicon/original`, `favicon/white`, `Footer`, `Header`, `lime/original`, `lime/white`, `logo/original`, `logo/white`
+`favicon/original`, `favicon/white`, `Footer`, `Header`, `lime/original`, `lime/white`, `logo/white`
 
 ## Her komponent için zorunlu teslim kriteri
 
@@ -96,7 +96,8 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 
 ## İlk uygulama paketi
 
-Phase 1 tamamlandı. Sıradaki çalışma Phase 2 form kontrolleridir.
+Phase 1 ve Phase 2 tamamlandı. Sıradaki çalışma Phase 3 navigasyon
+komponentleridir.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 

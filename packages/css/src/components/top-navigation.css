@@ -1,0 +1,104 @@
+.ads-top-navigation {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.ads-top-navigation-shape {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ads-top-navigation-logo,
+.ads-top-navigation-items,
+.ads-top-navigation-menu {
+  position: relative;
+  z-index: 1;
+}
+
+.ads-top-navigation-logo {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  text-decoration: none;
+}
+
+.ads-top-navigation-logo .ads-logo {
+  width: 128.585px;
+  height: 48px;
+}
+
+.ads-top-navigation-logo:focus-visible,
+.ads-top-navigation-menu:focus-visible {
+  outline: var(--ads-layout-layout-stroke-weight-md) solid
+    var(--ads-component-color-navigation-border-default);
+  outline-offset: var(--ads-layout-layout-stroke-weight-sm);
+}
+
+.ads-top-navigation[data-device="desktop"] {
+  height: 100px;
+  padding-inline: var(--ads-primitives-size-32);
+}
+
+.ads-top-navigation[data-device="desktop"] .ads-top-navigation-logo {
+  height: 100px;
+}
+
+.ads-top-navigation-items {
+  height: 79px;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  gap: var(--ads-primitives-size-32);
+}
+
+.ads-top-navigation-tabs {
+  height: 79px;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-sm);
+}
+
+.ads-top-navigation-tabs .ads-navigation-item {
+  width: auto;
+  min-height: 79px;
+}
+
+.ads-top-navigation-language {
+  height: 79px;
+  padding-block: var(--layout-space-2xs);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ads-top-navigation[data-device="mobile"] {
+  max-width: 393px;
+  height: 84px;
+  padding-inline: var(--layout-space-sm);
+}
+
+.ads-top-navigation[data-device="mobile"] .ads-top-navigation-logo {
+  padding-top: var(--layout-space-md);
+}
+
+.ads-top-navigation-menu {
+  width: var(--ads-size-icon-lg);
+  height: calc(var(--ads-size-icon-lg) + var(--layout-space-sm));
+  padding: var(--layout-space-sm) 0 0;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  border: 0;
+  color: var(--ads-component-color-navigation-icon-default);
+  background: transparent;
+  cursor: pointer;
+}

@@ -15,12 +15,17 @@ const state = instance.getEnum("State", {
   hover: "hover",
   selected: "selected"
 }) ?? "default";
+const icons = instance.findConnectedInstances((node) =>
+  node.name.startsWith("icon/")
+);
+const icon = icons[0]?.executeTemplate().example;
 
 export default {
   example: figma.code`<NavigationItem
   href="#"
   device="${device}"
   ${state === "selected" ? "selected" : ""}
+  ${icon ? figma.code`icon={${icon}}` : ""}
 >
   ${label}
 </NavigationItem>`,

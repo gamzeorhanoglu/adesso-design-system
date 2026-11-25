@@ -23,7 +23,7 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 9,
+    "implementedStandaloneComponentCount": 12,
     "nonIconInventoryItemCount": 94,
     "nonIconComponentSetCount": 57,
     "implementedNonIconSetCount": 30,
@@ -136,9 +136,9 @@
       "name": "logo/original",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "asset-missing",
-      "phase": 6,
-      "target": "BrandAssets"
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/Logo/Logo.tsx"
     },
     {
       "page": "Brand",
@@ -565,9 +565,9 @@
       "name": "Desktop/Top-Navigation",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/TopNavigation/TopNavigation.tsx"
     },
     {
       "page": "Navigation",
@@ -620,9 +620,9 @@
       "name": "Mobile/Top-Navigation",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
-      "phase": 3,
-      "target": null
+      "status": "implemented-connected",
+      "phase": 0,
+      "target": "packages/ui-web/src/components/TopNavigation/TopNavigation.tsx"
     },
     {
       "page": "Navigation",

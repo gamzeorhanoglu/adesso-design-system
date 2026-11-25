@@ -7,6 +7,8 @@ import {
   BreadcrumbItem,
   CarouselControl,
   NavigationItem,
+  Logo,
+  TopNavigation,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -83,6 +85,19 @@ export function App() {
             Lorem Ipsum
           </NavigationItem>
         </div>
+      </section>
+
+      <section aria-labelledby="top-navigation-title">
+        <h2 id="top-navigation-title">Top Navigation</h2>
+        <div className="top-navigation-showcase">
+          <TopNavigation device="desktop" />
+          <TopNavigation device="mobile" />
+        </div>
+      </section>
+
+      <section aria-labelledby="logo-title">
+        <h2 id="logo-title">Logo</h2>
+        <Logo />
       </section>
 
       <section aria-labelledby="buttons-title">

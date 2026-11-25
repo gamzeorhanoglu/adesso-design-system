@@ -29,7 +29,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, TopNavigation, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -102,6 +102,8 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Breadcrumb templates: `code-connect/Breadcrumb.figma.ts`, `code-connect/BreadcrumbItem.figma.ts`
 - Carousel control templates: `code-connect/CarouselControl.figma.ts`, `code-connect/CarouselDot.figma.ts`
 - Navigation item template: `code-connect/NavigationItem.figma.ts`
+- Logo template: `code-connect/Logo.figma.ts`
+- Top Navigation templates: `code-connect/DesktopTopNavigation.figma.ts`, `code-connect/MobileTopNavigation.figma.ts`
 - Checkbox template: `code-connect/Checkbox.figma.ts`
 - RadioButton template: `code-connect/RadioButton.figma.ts`
 - Desktop Switch template: `code-connect/DesktopSwitch.figma.ts`
@@ -158,6 +160,9 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Carousel Control component: `2497:239`
 - Dots component set: `2496:407`
 - Navigation-Item component set: `2334:5718`
+- Original logo component: `120:19`
+- Desktop Top-Navigation component: `2334:5664`
+- Mobile Top-Navigation component: `2517:555`
 - Checkbox component set: `239:1178`
 - RadioButton component set: `239:1050`
 - Desktop Switch component set: `245:158`
