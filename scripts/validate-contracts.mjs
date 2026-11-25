@@ -128,7 +128,8 @@ const footerStyles = await readFile(new URL("../packages/css/src/components/foot
 const accordionStyles = await readFile(new URL("../packages/css/src/components/accordion.css", import.meta.url), "utf8");
 const navigationGroupStyles = await readFile(new URL("../packages/css/src/components/navigation-group.css", import.meta.url), "utf8");
 const topNavigationStyles = await readFile(new URL("../packages/css/src/components/top-navigation.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const paginationStyles = await readFile(new URL("../packages/css/src/components/pagination.css", import.meta.url), "utf8");
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -214,8 +215,8 @@ if (
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 31 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 26
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 33 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 24
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
