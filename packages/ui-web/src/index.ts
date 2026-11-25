@@ -117,3 +117,4 @@ export type {
   ProgressBarType
 } from "./components/ProgressBar/ProgressBar";
 
+export type { NavigationGroupMobileView } from "./components/NavigationGroup/NavigationGroup";
