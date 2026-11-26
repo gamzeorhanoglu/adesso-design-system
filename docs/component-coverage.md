@@ -10,8 +10,8 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.222 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 48 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog` ve `Notification/List`)
-- Eksik non-icon set: 9
+- Kod kapsamındaki non-icon set: 49 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Notification/List` ve `Notification/Message`)
+- Eksik non-icon set: 8
 - Kod kapsamındaki standalone component: 25 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary` ve `Card-Stats`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
@@ -37,7 +37,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Icons | 1 | 0 | 10 | 1 | 0 |
 | Inputs | 3 | 0 | 20 | 3 | 0 |
 | Navigation | 2 | 8 | 17 | 10 | 0 |
-| Notification | 2 | 1 | 13 | 1 | 2 |
+| Notification | 2 | 1 | 13 | 2 | 1 |
 | Pagination | 2 | 1 | 11 | 3 | 0 |
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
 | Progress Bar | 1 | 0 | 15 | 1 | 0 |
@@ -98,6 +98,10 @@ caption.
 `Notification/List` is implemented as `NotificationList` with desktop/mobile
 devices, default/open/read/read-open states, optional icon, description and ghost
 action. Open state and the mobile swipe are handled by `useNotificationListActions`.
+
+`Notification/Message` is implemented as `NotificationMessage` with desktop/mobile
+devices, default/hover states, optional description, a dismiss control and an ADS
+Ghost Button action.
 
 ### 6. Brand ve shell
 

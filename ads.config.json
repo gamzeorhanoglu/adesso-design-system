@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 48,
-      "missingNonIconSetCount": 9,
+      "implementedNonIconSetCount": 49,
+      "missingNonIconSetCount": 8,
       "implementedStandaloneComponentCount": 25
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 353,
+      "parserlessTemplateCount": 354,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -68,6 +68,7 @@
       , "cardNewsBlogTemplate": "code-connect/CardNewsBlog.figma.ts"
       , "cardStatsTemplate": "code-connect/CardStats.figma.ts"
       , "notificationListTemplate": "code-connect/NotificationList.figma.ts"
+      , "notificationMessageTemplate": "code-connect/NotificationMessage.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -357,6 +358,19 @@
         },
         "primitives": ["Button"],
         "hooks": ["useNotificationListActions"]
+      },
+      "notificationMessage": {
+        "componentSetNodeId": "2739:180",
+        "code": "packages/ui-web/src/components/NotificationMessage/NotificationMessage.tsx",
+        "codeConnect": "code-connect/NotificationMessage.figma.ts",
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "hover"],
+        "properties": {
+          "Device": ["desktop", "mobile"],
+          "State": ["default", "hover"],
+          "Show Description": "boolean"
+        },
+        "primitives": ["Button"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",

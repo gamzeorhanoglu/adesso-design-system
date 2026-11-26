@@ -1,0 +1,125 @@
+.ads-notification-message {
+  box-sizing: border-box;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  background: var(--ads-component-color-notification-background-primary);
+  border: var(--ads-layout-layout-stroke-weight-sm) solid var(--ads-component-color-notification-border-default);
+  box-shadow: 0 var(--ads-layout-layout-blur-default) var(--ads-layout-layout-blur-focus) 0 rgb(0 0 0 / 8%);
+}
+
+.ads-notification-message.device-desktop {
+  gap: var(--layout-space-sm);
+  width: 400px;
+  height: 150px;
+  padding: var(--layout-space-sm);
+}
+
+.ads-notification-message.device-mobile {
+  gap: var(--layout-space-xs);
+  width: 320px;
+  padding: var(--layout-space-xs);
+}
+
+.ads-notification-message.state-hover,
+.ads-notification-message:hover {
+  border-color: var(--ads-component-color-notification-border-hover);
+}
+
+.ads-notification-message-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  width: 100%;
+}
+
+.device-mobile .ads-notification-message-row {
+  gap: var(--layout-space-2xs);
+}
+
+.ads-notification-message-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--ads-component-color-notification-icon-primary);
+}
+
+.ads-notification-message-copy {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--ads-layout-space-3xs);
+  min-width: 1px;
+  padding-top: var(--ads-layout-space-3xs);
+}
+
+.device-mobile .ads-notification-message-copy {
+  gap: var(--ads-layout-space-4xs);
+  padding-top: var(--ads-layout-space-4xs);
+}
+
+.ads-notification-message-copy p {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+}
+
+.ads-notification-message-title {
+  max-height: 48px;
+  color: var(--ads-component-color-toasts-text-primary);
+  font-family: var(--ads-typography-text-body-lg-medium-font);
+  font-size: var(--ads-typography-text-body-lg-medium-size);
+  font-weight: 500;
+}
+
+.device-mobile .ads-notification-message-title {
+  max-height: 38px;
+  font-size: var(--ads-typography-text-body-md-medium-size);
+}
+
+.ads-notification-message-description {
+  max-height: 38px;
+  color: var(--ads-component-color-toasts-text-secondary);
+  font-family: var(--ads-typography-text-body-md-regular-font);
+  font-size: var(--ads-typography-text-body-md-regular-size);
+  font-weight: 400;
+}
+
+.device-mobile .ads-notification-message-description {
+  max-height: 34px;
+  font-size: var(--ads-typography-text-body-sm-regular-size);
+}
+
+.ads-notification-message-dismiss {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--ads-component-color-toasts-text-primary);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.ads-notification-message-dismiss:focus-visible {
+  outline: var(--ads-layout-layout-stroke-weight-sm) solid var(--ads-component-color-notification-border-hover);
+  outline-offset: var(--ads-layout-space-4xs);
+}
+
+.ads-notification-message-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-inline-start: var(--ads-layout-space-lg);
+}
+
+.device-mobile .ads-notification-message-button {
+  padding-inline-start: var(--layout-space-md);
+}

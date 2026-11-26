@@ -50,7 +50,8 @@ import {
   CardKpi,
   CardNewsBlog,
   CardStats,
-  NotificationList
+  NotificationList,
+  NotificationMessage
 } from "@ads/ui-web";
 
 export function App() {
@@ -673,6 +674,16 @@ export function App() {
             <NotificationList device="mobile" read />
             <NotificationList defaultOpen device="mobile" read />
           </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="notification-message-title">
+        <h2 id="notification-message-title">Notification Message</h2>
+        <div className="card-content-showcase">
+          <NotificationMessage />
+          <NotificationMessage state="hover" />
+          <NotificationMessage device="mobile" />
+          <NotificationMessage device="mobile" state="hover" />
         </div>
       </section>
 

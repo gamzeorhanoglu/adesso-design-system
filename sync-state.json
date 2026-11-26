@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Notification/Message",
+  "next": "notificationgroup",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -58,6 +58,14 @@
       "implementation": ["packages/ui-web/src/components/NotificationList/NotificationList.tsx", "packages/ui-web/src/hooks/useNotificationListActions.ts", "packages/css/src/components/notification-list.css"],
       "codeConnect": ["code-connect/NotificationList.figma.ts"],
       "remaining": "Verified with npm run build, full npm run check (177 tests), ADS audit on source folders, and playground geometry/visual comparison against the Figma screenshot. Figma MCP call limit was reached before the unread-dot layer could be inspected: the dot (8px, top-right of the bell) is estimated from the screenshot. Known repo issue: generated typography tokens (line-height as px, font-weight as strings like \"Bold\") are invalid CSS; Card-KPI, Card-News&Blog, Card-Stats and Notification/List use unitless line-height and numeric weights instead. Card-Content and Card-ExternalLink now use the same literal values; the root cause (invalid generated tokens) still needs a fix in the token build."
+    },
+    "Notification/Message": {
+      "status": "completed",
+      "figma": ["2739:180"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/NotificationMessage/NotificationMessage.tsx", "packages/css/src/components/notification-message.css"],
+      "codeConnect": ["code-connect/NotificationMessage.figma.ts"],
+      "remaining": "Verified with npm run build, full npm run check (180 tests), ADS audit on source folders, and playground size/visual comparison against the Figma screenshot (desktop 400x150, mobile 320). Design was fetched with the adesso.com.tr Figma connector; the other Figma connector is signed in with a View-seat account that hit the MCP call limit."
     },
     "inventoryPending": {
       "status": "pending",
