@@ -51,6 +51,8 @@ export { CardContent } from "./components/CardContent/CardContent";
 export type { CardContentDevice, CardContentProps, CardContentState } from "./components/CardContent/CardContent";
 export { CardExternalLink } from "./components/CardExternalLink/CardExternalLink";
 export type { CardExternalLinkProps, CardExternalLinkState } from "./components/CardExternalLink/CardExternalLink";
+export { CardKpi } from "./components/CardKpi/CardKpi";
+export type { CardKpiAmount, CardKpiMetric, CardKpiProps } from "./components/CardKpi/CardKpi";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

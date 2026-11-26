@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Card-KPI",
+  "next": "Card-News&Blog",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -26,6 +26,14 @@
       "implementation": ["packages/ui-web/src/components/CardExternalLink/CardExternalLink.tsx", "packages/css/src/components/card-external-link.css"],
       "codeConnect": ["code-connect/CardExternalLink.figma.ts"],
       "remaining": "Verified with focused tests, full npm run check, and ADS audit."
+    },
+    "Card-KPI": {
+      "status": "completed",
+      "figma": ["5423:3401"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/CardKpi/CardKpi.tsx", "packages/css/src/components/card-kpi.css"],
+      "codeConnect": ["code-connect/CardKpi.figma.ts"],
+      "remaining": "Verified with npm run build and full npm run check (168 tests). ADS audit skipped by user decision: audit-ads.mjs is outside the repo and no dist/ exists."
     },
     "inventoryPending": {
       "status": "pending",

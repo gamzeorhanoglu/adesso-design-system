@@ -46,7 +46,8 @@ import {
   Tooltip,
   Dialog,
   CardContent,
-  CardExternalLink
+  CardExternalLink,
+  CardKpi
 } from "@ads/ui-web";
 
 export function App() {
@@ -626,6 +627,14 @@ export function App() {
             title="External resources for your business"
             bodyText="Find related information and services on our partner websites."
           />
+        </div>
+      </section>
+
+      <section aria-labelledby="card-kpi-title">
+        <h2 id="card-kpi-title">Card KPI</h2>
+        <div className="card-kpi-showcase">
+          <CardKpi />
+          <CardKpi amount="multiple" />
         </div>
       </section>
 

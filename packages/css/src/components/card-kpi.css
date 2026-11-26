@@ -1,0 +1,148 @@
+.ads-card-kpi {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  padding: var(--layout-space-sm);
+  background: var(--ads-component-color-card-background-default);
+  box-shadow: 0 var(--ads-layout-layout-blur-default) var(--ads-layout-layout-blur-focus) 0 rgb(0 0 0 / 8%);
+}
+
+.ads-card-kpi.amount-single {
+  flex-direction: column;
+  width: 361px;
+}
+
+.ads-card-kpi.amount-multiple {
+  gap: var(--layout-space-sm);
+  width: 1200px;
+}
+
+.ads-card-kpi-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--ads-layout-space-lg);
+  width: 100%;
+}
+
+.ads-card-kpi.amount-multiple .ads-card-kpi-item {
+  flex: 1 0 0;
+  min-width: 1px;
+  padding-inline-end: var(--layout-space-sm);
+  border-inline-end: var(--ads-layout-layout-stroke-weight-sm) solid var(--color-border-neutral-primary);
+}
+
+.ads-card-kpi.amount-multiple .ads-card-kpi-item:last-child {
+  padding-inline-end: 0;
+  border-inline-end: 0;
+}
+
+.ads-card-kpi-header {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-space-sm);
+  width: 100%;
+}
+
+.ads-card-kpi-label {
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  gap: var(--layout-space-2xs);
+  min-width: 1px;
+}
+
+.ads-card-kpi-label p {
+  flex: 1 0 0;
+  min-width: 1px;
+  margin: 0;
+  color: var(--ads-component-color-card-text-tertiary);
+  font-family: var(--ads-typography-text-label-md-standard-font);
+  font-size: var(--ads-typography-text-label-md-standard-size);
+  font-weight: var(--ads-typography-text-label-md-standard-weight);
+  line-height: var(--ads-typography-text-label-md-standard-line-height);
+  letter-spacing: var(--ads-typography-text-label-md-standard-letter-spacing);
+  overflow-wrap: anywhere;
+}
+
+.ads-card-kpi-more {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.ads-card-kpi-more:focus-visible {
+  outline: var(--ads-layout-layout-stroke-weight-sm) solid var(--ads-component-color-card-text-secondary);
+  outline-offset: var(--ads-layout-space-4xs);
+}
+
+.ads-card-kpi-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--ads-layout-space-3xs);
+  width: 100%;
+}
+
+.ads-card-kpi.amount-multiple .ads-card-kpi-body {
+  max-width: 164.5px;
+}
+
+.ads-card-kpi-value {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  color: var(--ads-component-color-card-text-secondary);
+  font-family: var(--ads-typography-text-heading-sm-font);
+  font-size: var(--ads-typography-text-heading-sm-size);
+  font-weight: var(--ads-typography-text-heading-sm-weight);
+  line-height: var(--ads-typography-text-heading-sm-line-height);
+  letter-spacing: var(--ads-typography-text-heading-sm-letter-spacing);
+  text-overflow: ellipsis;
+}
+
+.ads-card-kpi-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-space-2xs);
+  width: 100%;
+}
+
+.ads-card-kpi-description {
+  margin: 0;
+  color: var(--ads-component-color-card-text-primary);
+  font-family: var(--ads-typography-text-body-md-regular-font);
+  font-size: var(--ads-typography-text-body-md-regular-size);
+  font-weight: var(--ads-typography-text-body-md-regular-weight);
+  line-height: var(--ads-typography-text-body-md-regular-line-height);
+  letter-spacing: var(--ads-typography-text-body-md-regular-letter-spacing);
+  white-space: nowrap;
+}
+
+.ads-card-kpi-change {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: var(--ads-layout-space-4xs);
+  font-family: var(--ads-typography-text-label-md-standard-font);
+  font-size: var(--ads-typography-text-label-md-standard-size);
+  font-weight: var(--ads-typography-text-label-md-standard-weight);
+  line-height: var(--ads-typography-text-label-md-standard-line-height);
+  white-space: nowrap;
+}
+
+.ads-card-kpi-change.is-increase {
+  color: var(--color-text-success-primary);
+}
+
+.ads-card-kpi-change.is-decrease {
+  color: var(--color-text-error-primary);
+}

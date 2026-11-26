@@ -192,6 +192,14 @@ h2 {
   margin-top: var(--ads-layout-space-lg);
 }
 
+.card-kpi-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-md);
+  overflow-x: auto;
+}
+
 .card-content-showcase {
   display: flex;
   align-items: flex-start;

@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 24,
     "nonIconInventoryItemCount": 96,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 45,
-    "missingNonIconSetCount": 12
+    "implementedNonIconSetCount": 46,
+    "missingNonIconSetCount": 11
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -345,9 +345,9 @@
       "name": "Card-KPI",
       "nodeType": "COMPONENT_SET",
       "variantCount": 2,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 5,
-      "target": null
+      "target": "packages/ui-web/src/components/CardKpi/CardKpi.tsx"
     },
     {
       "page": "Cards",

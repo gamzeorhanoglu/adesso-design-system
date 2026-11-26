@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 45,
-      "missingNonIconSetCount": 12,
+      "implementedNonIconSetCount": 46,
+      "missingNonIconSetCount": 11,
       "implementedStandaloneComponentCount": 24
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 349,
+      "parserlessTemplateCount": 350,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -64,6 +64,7 @@
       , "mobileDialogTemplate": "code-connect/MobileDialog.figma.ts"
       , "cardContentTemplate": "code-connect/CardContent.figma.ts"
       , "cardExternalLinkTemplate": "code-connect/CardExternalLink.figma.ts"
+      , "cardKpiTemplate": "code-connect/CardKpi.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -297,6 +298,19 @@
           "State": ["default", "hover"]
         },
         "primitives": ["Button"]
+      },
+      "cardKpi": {
+        "componentSetNodeId": "5423:3401",
+        "code": "packages/ui-web/src/components/CardKpi/CardKpi.tsx",
+        "codeConnect": "code-connect/CardKpi.figma.ts",
+        "amounts": ["single", "multiple"],
+        "properties": {
+          "Amount": ["single", "multiple"],
+          "Show More": "boolean",
+          "Show Increase": "boolean",
+          "Show Decrease": "boolean"
+        },
+        "primitives": []
       },
       "chip": {
         "componentSetNodeId": "2334:6047",
