@@ -47,7 +47,8 @@ import {
   Dialog,
   CardContent,
   CardExternalLink,
-  CardKpi
+  CardKpi,
+  CardNewsBlog
 } from "@ads/ui-web";
 
 export function App() {
@@ -635,6 +636,16 @@ export function App() {
         <div className="card-kpi-showcase">
           <CardKpi />
           <CardKpi amount="multiple" />
+        </div>
+      </section>
+
+      <section aria-labelledby="card-news-blog-title">
+        <h2 id="card-news-blog-title">Card News &amp; Blog</h2>
+        <div className="card-content-showcase">
+          <CardNewsBlog type="blog" />
+          <CardNewsBlog type="news" />
+          <CardNewsBlog state="hover" type="blog" />
+          <CardNewsBlog state="hover" type="news" />
         </div>
       </section>
 

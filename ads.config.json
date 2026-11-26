@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 46,
-      "missingNonIconSetCount": 11,
+      "implementedNonIconSetCount": 47,
+      "missingNonIconSetCount": 10,
       "implementedStandaloneComponentCount": 24
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 350,
+      "parserlessTemplateCount": 351,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -65,6 +65,7 @@
       , "cardContentTemplate": "code-connect/CardContent.figma.ts"
       , "cardExternalLinkTemplate": "code-connect/CardExternalLink.figma.ts"
       , "cardKpiTemplate": "code-connect/CardKpi.figma.ts"
+      , "cardNewsBlogTemplate": "code-connect/CardNewsBlog.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -309,6 +310,20 @@
           "Show More": "boolean",
           "Show Increase": "boolean",
           "Show Decrease": "boolean"
+        },
+        "primitives": []
+      },
+      "cardNewsBlog": {
+        "componentSetNodeId": "3315:867",
+        "code": "packages/ui-web/src/components/CardNewsBlog/CardNewsBlog.tsx",
+        "codeConnect": "code-connect/CardNewsBlog.figma.ts",
+        "states": ["default", "hover"],
+        "types": ["blog", "news"],
+        "properties": {
+          "Type": ["blog", "news"],
+          "State": ["default", "hover"],
+          "Title": "string",
+          "Show Text": "boolean"
         },
         "primitives": []
       },

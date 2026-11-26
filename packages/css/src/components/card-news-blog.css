@@ -1,0 +1,88 @@
+.ads-card-news-blog {
+  box-sizing: border-box;
+  width: 361px;
+  overflow: hidden;
+}
+
+.ads-card-news-blog.type-blog {
+  color: var(--ads-component-color-card-text-secondary);
+  background: var(--ads-component-color-card-background-secondary);
+}
+
+.ads-card-news-blog.type-news {
+  color: var(--ads-component-color-card-text-inverse);
+  background: var(--ads-component-color-card-background-tertiary);
+}
+
+.ads-card-news-blog-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: var(--layout-space-sm) var(--layout-space-2xs);
+}
+
+.ads-card-news-blog-copy {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--ads-layout-space-lg);
+  width: 100%;
+  padding-inline: var(--layout-space-2xs);
+}
+
+.ads-card-news-blog-meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--ads-typography-text-body-sm-regular-font);
+  font-size: var(--ads-typography-text-body-sm-regular-size);
+  font-weight: var(--ads-typography-text-body-sm-regular-weight);
+  line-height: var(--ads-typography-text-body-sm-regular-line-height);
+  letter-spacing: var(--ads-typography-text-body-sm-regular-letter-spacing);
+  white-space: nowrap;
+}
+
+.ads-card-news-blog-date {
+  margin-inline-start: auto;
+}
+
+.ads-card-news-blog h2 {
+  display: -webkit-box;
+  width: 100%;
+  max-height: 72px;
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--ads-typography-text-body-lg-bold-font);
+  font-size: var(--ads-typography-text-body-lg-bold-size);
+  font-weight: var(--ads-typography-text-body-lg-bold-weight);
+  line-height: var(--ads-typography-text-body-lg-bold-line-height);
+  letter-spacing: var(--ads-typography-text-body-lg-bold-letter-spacing);
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.ads-card-news-blog.state-hover .ads-card-news-blog-copy,
+.ads-card-news-blog:hover .ads-card-news-blog-copy {
+  gap: var(--layout-space-md);
+}
+
+.ads-card-news-blog.state-hover,
+.ads-card-news-blog:hover {
+  overflow: visible;
+  box-shadow: -2px -4px 6px rgb(24 22 20 / 8%), 4px 8px 6px rgb(24 22 20 / 8%);
+}
+
+.ads-card-news-blog.type-blog.state-hover,
+.ads-card-news-blog.type-blog:hover {
+  background: var(--ads-component-color-card-background-hover);
+}
+
+.ads-card-news-blog.type-news.state-hover,
+.ads-card-news-blog.type-news:hover {
+  background: var(--ads-component-color-card-background-tertiary-hover);
+}

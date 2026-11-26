@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Card-News&Blog",
+  "next": "Card-Stats",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -34,6 +34,14 @@
       "implementation": ["packages/ui-web/src/components/CardKpi/CardKpi.tsx", "packages/css/src/components/card-kpi.css"],
       "codeConnect": ["code-connect/CardKpi.figma.ts"],
       "remaining": "Verified with npm run build and full npm run check (168 tests). ADS audit skipped by user decision: audit-ads.mjs is outside the repo and no dist/ exists."
+    },
+    "Card-News&Blog": {
+      "status": "completed",
+      "figma": ["3315:867"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/CardNewsBlog/CardNewsBlog.tsx", "packages/css/src/components/card-news-blog.css"],
+      "codeConnect": ["code-connect/CardNewsBlog.figma.ts"],
+      "remaining": "Verified with npm run build, full npm run check (170 tests), and ADS audit on packages/ui-web/src, packages/css/src and apps/playground/src (audit-ads.mjs lives in ../.agents and dist/ does not exist)."
     },
     "inventoryPending": {
       "status": "pending",
