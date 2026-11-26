@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
+  "next": "Dialog",
+  "components": {
+    "Dialog": {
+      "status": "in_progress",
+      "figma": ["2322:1675", "2322:2002"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/Dialog/Dialog.tsx", "packages/ui-web/src/components/Dialog/Dialog.test.tsx", "packages/ui-web/src/hooks/useDialogBehavior.ts", "packages/css/src/components/dialog.css"],
+      "codeConnect": ["code-connect/DesktopDialog.figma.ts", "code-connect/MobileDialog.figma.ts"],
+      "remaining": "Review current diff, close implementation gaps, run required audit; then mark completed."
+    },
+    "inventoryPending": {
+      "status": "pending",
+      "source": "docs/figma-component-inventory.json",
+      "remaining": "Process inventory items with status=missing by phase after Dialog; keep item-level status in inventory."
+    }
+  },
+  "policy": "Use cached inventory; inspect only tracked incomplete items. Update this file after each implementation."
+}
