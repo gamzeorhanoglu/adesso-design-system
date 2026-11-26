@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Card-Stats",
+  "next": "Notification/List",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -42,6 +42,14 @@
       "implementation": ["packages/ui-web/src/components/CardNewsBlog/CardNewsBlog.tsx", "packages/css/src/components/card-news-blog.css"],
       "codeConnect": ["code-connect/CardNewsBlog.figma.ts"],
       "remaining": "Verified with npm run build, full npm run check (170 tests), and ADS audit on packages/ui-web/src, packages/css/src and apps/playground/src (audit-ads.mjs lives in ../.agents and dist/ does not exist)."
+    },
+    "Card-Stats": {
+      "status": "completed",
+      "figma": ["2332:2146"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/CardStats/CardStats.tsx", "packages/css/src/components/card-stats.css"],
+      "codeConnect": ["code-connect/CardStats.figma.ts"],
+      "remaining": "Verified with npm run build, full npm run check (172 tests), and ADS audit on packages/ui-web/src, packages/css/src and apps/playground/src. All Cards page items are done; next is the first missing phase 4 item in the inventory."
     },
     "inventoryPending": {
       "status": "pending",

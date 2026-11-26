@@ -23,7 +23,7 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 24,
+    "implementedStandaloneComponentCount": 25,
     "nonIconInventoryItemCount": 96,
     "nonIconComponentSetCount": 57,
     "implementedNonIconSetCount": 47,
@@ -367,9 +367,9 @@
       "name": "Card-Stats",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 5,
-      "target": null
+      "target": "packages/ui-web/src/components/CardStats/CardStats.tsx"
     },
     {
       "page": "Carousel",

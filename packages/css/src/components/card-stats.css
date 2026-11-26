@@ -1,0 +1,40 @@
+.ads-card-stats {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--layout-space-sm);
+  text-align: center;
+}
+
+.ads-card-stats p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ads-card-stats-label {
+  color: var(--ads-component-color-card-text-primary);
+  font-family: var(--ads-typography-text-body-md-medium-font);
+  font-size: var(--ads-typography-text-body-md-medium-size);
+  font-weight: var(--ads-typography-text-body-md-medium-weight);
+  line-height: var(--ads-typography-text-body-md-medium-line-height);
+  letter-spacing: var(--ads-typography-text-body-md-medium-letter-spacing);
+}
+
+.ads-card-stats-value {
+  color: var(--ads-component-color-card-text-secondary);
+  font-family: var(--ads-typography-text-heading-lg-font);
+  font-size: var(--ads-typography-text-heading-lg-size);
+  font-weight: var(--ads-typography-text-heading-lg-weight);
+  line-height: var(--ads-typography-text-heading-lg-line-height);
+  letter-spacing: var(--ads-typography-text-heading-lg-letter-spacing);
+}
+
+.ads-card-stats-caption {
+  color: var(--ads-component-color-card-text-tertiary);
+  font-family: var(--ads-typography-text-body-md-bold-font);
+  font-size: var(--ads-typography-text-body-md-bold-size);
+  font-weight: var(--ads-typography-text-body-md-bold-weight);
+  line-height: var(--ads-typography-text-body-md-bold-line-height);
+  letter-spacing: var(--ads-typography-text-body-md-bold-letter-spacing);
+}

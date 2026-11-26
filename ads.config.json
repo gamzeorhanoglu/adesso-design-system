@@ -11,12 +11,12 @@
       "implementedIconSetCount": 281,
       "implementedNonIconSetCount": 47,
       "missingNonIconSetCount": 10,
-      "implementedStandaloneComponentCount": 24
+      "implementedStandaloneComponentCount": 25
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 351,
+      "parserlessTemplateCount": 352,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -66,6 +66,7 @@
       , "cardExternalLinkTemplate": "code-connect/CardExternalLink.figma.ts"
       , "cardKpiTemplate": "code-connect/CardKpi.figma.ts"
       , "cardNewsBlogTemplate": "code-connect/CardNewsBlog.figma.ts"
+      , "cardStatsTemplate": "code-connect/CardStats.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -324,6 +325,17 @@
           "State": ["default", "hover"],
           "Title": "string",
           "Show Text": "boolean"
+        },
+        "primitives": []
+      },
+      "cardStats": {
+        "componentNodeId": "2332:2146",
+        "code": "packages/ui-web/src/components/CardStats/CardStats.tsx",
+        "codeConnect": "code-connect/CardStats.figma.ts",
+        "properties": {
+          "Label": "string",
+          "Value": "string",
+          "Caption": "string"
         },
         "primitives": []
       },

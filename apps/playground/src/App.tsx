@@ -48,7 +48,8 @@ import {
   CardContent,
   CardExternalLink,
   CardKpi,
-  CardNewsBlog
+  CardNewsBlog,
+  CardStats
 } from "@ads/ui-web";
 
 export function App() {
@@ -646,6 +647,13 @@ export function App() {
           <CardNewsBlog type="news" />
           <CardNewsBlog state="hover" type="blog" />
           <CardNewsBlog state="hover" type="news" />
+        </div>
+      </section>
+
+      <section aria-labelledby="card-stats-title">
+        <h2 id="card-stats-title">Card Stats</h2>
+        <div className="card-content-showcase">
+          <CardStats />
         </div>
       </section>
 

@@ -12,7 +12,7 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - İkonlar dışında 57 component seti
 - Kod kapsamındaki non-icon set: 47 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI` ve `Card-News&Blog`)
 - Eksik non-icon set: 10
-- Kod kapsamındaki standalone component: 24 (önceki kapsam + `tabgroup/primary` ve `tabgroup/secondary`)
+- Kod kapsamındaki standalone component: 25 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary` ve `Card-Stats`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -28,7 +28,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Breadcrumb | 1 | 1 | 5 | 2 | 0 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
-| Cards | 4 | 1 | 15 | 4 | 1 |
+| Cards | 4 | 1 | 15 | 5 | 0 |
 | Carousel | 0 | 2 | 2 | 0 | 2 |
 | Chips | 1 | 1 | 13 | 2 | 0 |
 | Date Picker | 1 | 0 | 6 | 1 | 0 |
@@ -92,6 +92,9 @@ decrease indicators, composed from ADS icons.
 `Card-News&Blog` is implemented as `CardNewsBlog` with blog/news types,
 default/hover states, editable date and title, and an optional category label.
 
+`Card-Stats` is implemented as `CardStats` with editable label, value and
+caption.
+
 ### 6. Brand ve shell
 
 `Footer`, `Header`, `lime/original`, `lime/white`
@@ -112,8 +115,8 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 ## İlk uygulama paketi
 
 Phase 1, Phase 2 ve Phase 3 tamamlandı. Phase 4'te Dialog tamamlandı. Phase 5'te
-`Card-Content`, `Card-ExternalLink`, `Card-KPI` ve `Card-News&Blog` tamamlandı;
-sıradaki Card varyantı `Card-Stats`.
+Tüm Card bileşenleri (`Card-Content`, `Card-ExternalLink`, `Card-KPI`,
+`Card-News&Blog`, `Card-Stats`) tamamlandı.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 

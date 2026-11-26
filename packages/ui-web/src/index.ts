@@ -55,6 +55,8 @@ export { CardKpi } from "./components/CardKpi/CardKpi";
 export type { CardKpiAmount, CardKpiMetric, CardKpiProps } from "./components/CardKpi/CardKpi";
 export { CardNewsBlog } from "./components/CardNewsBlog/CardNewsBlog";
 export type { CardNewsBlogProps, CardNewsBlogState, CardNewsBlogType } from "./components/CardNewsBlog/CardNewsBlog";
+export { CardStats } from "./components/CardStats/CardStats";
+export type { CardStatsProps } from "./components/CardStats/CardStats";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

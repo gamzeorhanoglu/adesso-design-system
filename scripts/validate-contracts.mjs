@@ -50,6 +50,8 @@ const requiredSelectors = [
   ".ads-card-news-blog",
   ".ads-card-news-blog-content",
   ".ads-card-news-blog-copy",
+  ".ads-card-stats",
+  ".ads-card-stats-value",
   ".ads-chip",
   ".ads-chip-group",
   ".ads-breadcrumb",
@@ -98,7 +100,7 @@ const requiredSelectors = [
   ".ads-progress-bar"
 ];
 
-const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, dialogStyles, cardStyles, externalLinkStyles, kpiStyles, newsBlogStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
+const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, dialogStyles, cardStyles, externalLinkStyles, kpiStyles, newsBlogStyles, statsStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
   readFile(new URL("../packages/tokens/src/index.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/icon.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/button.css", import.meta.url), "utf8"),
@@ -116,6 +118,7 @@ const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, 
   readFile(new URL("../packages/css/src/components/card-external-link.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/card-kpi.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/card-news-blog.css", import.meta.url), "utf8"),
+  readFile(new URL("../packages/css/src/components/card-stats.css", import.meta.url), "utf8"),
   readFile(new URL("../ads.config.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/figma.tokens.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/generated/figma.css", import.meta.url), "utf8"),
@@ -161,7 +164,7 @@ const paginationStyles = await readFile(new URL("../packages/css/src/components/
 const sidebarStyles = await readFile(new URL("../packages/css/src/components/sidebar.css", import.meta.url), "utf8");
 const stepperStyles = await readFile(new URL("../packages/css/src/components/stepper.css", import.meta.url), "utf8");
 const tabStyles = await readFile(new URL("../packages/css/src/components/tab.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${dialogStyles}\n${cardStyles}\n${externalLinkStyles}\n${kpiStyles}\n${newsBlogStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${dialogStyles}\n${cardStyles}\n${externalLinkStyles}\n${kpiStyles}\n${newsBlogStyles}\n${statsStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -228,8 +231,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 351) {
-  errors.push("ads.config.json must record 351 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 352) {
+  errors.push("ads.config.json must record 352 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -238,7 +241,7 @@ if (
   parsedComponentInventory.summary?.componentSetCount !== 337 ||
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
-  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 24 ||
+  parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 25 ||
   parsedComponentInventory.summary?.implementedNonIconSetCount !== 47 ||
   parsedComponentInventory.summary?.missingNonIconSetCount !== 10
 ) {
@@ -302,6 +305,7 @@ const additionalButtonTemplateContracts = [
   ["CardExternalLink", "CardExternalLink.figma.ts", "ads-card-external-link"],
   ["CardKpi", "CardKpi.figma.ts", "ads-card-kpi"],
   ["CardNewsBlog", "CardNewsBlog.figma.ts", "ads-card-news-blog"],
+  ["CardStats", "CardStats.figma.ts", "ads-card-stats"],
   ["Chip", "Chip.figma.ts", "ads-chip"],
   ["ChipGroup", "ChipGroup.figma.ts", "ads-chip-group"],
   ["Breadcrumb", "Breadcrumb.figma.ts", "ads-breadcrumb"],
