@@ -41,16 +41,16 @@
 .ads-card-external-link h2 {
   max-height: 48px;
   font-size: var(--ads-typography-text-body-lg-medium-size);
-  font-weight: var(--ads-typography-text-body-lg-medium-weight);
-  line-height: var(--ads-typography-text-body-lg-medium-line-height);
+  font-weight: 500;
+  line-height: 1.2;
   -webkit-line-clamp: 2;
 }
 
 .ads-card-external-link p {
   max-height: 96px;
   font-size: var(--ads-typography-text-body-md-regular-size);
-  font-weight: var(--ads-typography-text-body-md-regular-weight);
-  line-height: var(--ads-typography-text-body-md-regular-line-height);
+  font-weight: 400;
+  line-height: 1.2;
   -webkit-line-clamp: 5;
 }
 

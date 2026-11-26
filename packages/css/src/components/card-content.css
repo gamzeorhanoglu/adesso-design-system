@@ -64,16 +64,16 @@
   color: var(--ads-component-color-card-text-secondary);
   font-family: var(--ads-typography-text-heading-md-font);
   font-size: var(--ads-typography-text-heading-md-size);
-  font-weight: var(--ads-typography-text-heading-md-weight);
-  line-height: var(--ads-typography-text-heading-md-line-height);
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .ads-card-content p {
   color: var(--ads-component-color-card-text-primary);
   font-family: var(--ads-typography-text-body-md-regular-font);
   font-size: var(--ads-typography-text-body-md-regular-size);
-  font-weight: var(--ads-typography-text-body-md-regular-weight);
-  line-height: var(--ads-typography-text-body-md-regular-line-height);
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .ads-card-content-action {
@@ -93,15 +93,15 @@
 .ads-card-content.device-mobile h2 {
   font-family: var(--ads-typography-text-heading-xs-font);
   font-size: var(--ads-typography-text-heading-xs-size);
-  font-weight: var(--ads-typography-text-heading-xs-weight);
-  line-height: var(--ads-typography-text-heading-xs-line-height);
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .ads-card-content.device-mobile p {
   font-family: var(--ads-typography-text-body-sm-regular-font);
   font-size: var(--ads-typography-text-body-sm-regular-size);
-  font-weight: var(--ads-typography-text-body-sm-regular-weight);
-  line-height: var(--ads-typography-text-body-sm-regular-line-height);
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .ads-card-content.state-hover,
