@@ -1,5 +1,16 @@
 # Adesso Design System Rules
 
+## Shared AI workflow
+
+- `AGENTS.md` is the sole source of project instructions. Tool-specific files are short adapters that point here; do not copy project rules into them.
+- Before starting a task, run `git pull --ff-only origin main`. If the remote cannot be reached or the pull cannot fast-forward, stop before editing and report the blocker.
+- Then read `sync-state.json` and continue the unfinished item in `next`. Resume any `in_progress` component before selecting a new one.
+- Reuse the checked-in Figma cache. Fetch Figma data only when the needed information is missing from the cache.
+- After each implementation, update `sync-state.json` with verified progress. Use only `completed`, `in_progress`, `pending`, `blocked`, or `unknown`.
+- Validate the changes before committing. Never commit API keys, access tokens, credentials, or sensitive configuration. Commit and push directly to `main` only after validation succeeds.
+- Keep context small: inspect only the active item, its implementation and required references; do not rescan completed components.
+- When switching AI tools, continue in this same repository and branch. Read this file and `sync-state.json`; use the same tracked Figma cache. Do not create tool-specific copies of progress or instructions.
+
 - Figma ADS is the visual and component source of truth.
 - Do not introduce or change tokens, component variants, states, typography,
   spacing, radii, or iconography without explicit design approval.
