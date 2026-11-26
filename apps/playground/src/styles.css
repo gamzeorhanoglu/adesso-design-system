@@ -158,6 +158,12 @@ h2 {
   margin-top: var(--ads-layout-space-lg);
 }
 
+.tab-showcase {
+  display: grid;
+  gap: 24px;
+  justify-items: start;
+}
+
 .stepper-connector-showcase,
 .stepper-showcase {
   display: flex;

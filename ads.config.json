@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 39,
-      "missingNonIconSetCount": 18,
-      "implementedStandaloneComponentCount": 22
+      "implementedNonIconSetCount": 41,
+      "missingNonIconSetCount": 16,
+      "implementedStandaloneComponentCount": 24
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 341,
+      "parserlessTemplateCount": 345,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -56,6 +56,10 @@
       , "desktopStepTemplate": "code-connect/DesktopStep.figma.ts"
       , "mobileStepTemplate": "code-connect/MobileStep.figma.ts"
       , "stepperTemplate": "code-connect/Stepper.figma.ts"
+      , "primaryTabTemplate": "code-connect/PrimaryTab.figma.ts"
+      , "secondaryTabTemplate": "code-connect/SecondaryTab.figma.ts"
+      , "primaryTabGroupTemplate": "code-connect/PrimaryTabGroup.figma.ts"
+      , "secondaryTabGroupTemplate": "code-connect/SecondaryTabGroup.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -629,6 +633,27 @@
         "code": "packages/ui-web/src/components/Stepper/Stepper.tsx",
         "codeConnect": "code-connect/Stepper.figma.ts",
         "primitives": ["Step", "StepperConnector"]
+      },
+      "tab": {
+        "componentSetNodeId": "246:916",
+        "primaryComponentSetNodeId": "246:916",
+        "secondaryComponentSetNodeId": "246:1122",
+        "code": "packages/ui-web/src/components/Tab/Tab.tsx",
+        "codeConnect": ["code-connect/PrimaryTab.figma.ts", "code-connect/SecondaryTab.figma.ts"],
+        "variants": ["primary", "secondary"],
+        "sizes": ["large", "medium", "small"],
+        "states": ["default", "hover", "selected", "disabled"]
+      },
+      "tabGroup": {
+        "componentNodeId": "246:1187",
+        "primaryComponentNodeId": "246:1187",
+        "secondaryComponentNodeId": "246:1229",
+        "code": "packages/ui-web/src/components/TabGroup/TabGroup.tsx",
+        "codeConnect": ["code-connect/PrimaryTabGroup.figma.ts", "code-connect/SecondaryTabGroup.figma.ts"],
+        "behaviors": {
+          "selection": "packages/ui-web/src/hooks/useTabSelection.ts"
+        },
+        "primitives": ["Tab"]
       }
     }
   },

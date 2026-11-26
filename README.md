@@ -29,7 +29,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Sidebar, SidebarItem, SidebarProfile, Step, StepperConnector, Stepper, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Sidebar, SidebarItem, SidebarProfile, Step, StepperConnector, Stepper, Tab, TabGroup, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -41,7 +41,7 @@ items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
 Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Dots, Navigation-Item, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-ListItem, Sidebar, Sidebar-Item, Sidebar-Item/Profile, DektoConnector, Desktop/Steps, and Mobile/Steps sets are implemented, leaving 18 component
+ListItem, Sidebar, Sidebar-Item, Sidebar-Item/Profile, DektoConnector, Desktop/Steps, Mobile/Steps, Primary Tab, and Secondary Tab sets are implemented, leaving 16 component
 sets to build.
 
 The three published Button Group compositions are implemented as one ADS
@@ -105,6 +105,7 @@ component sets are mapped to their named exports from `@ads/icons`.
 - Logo templates: `code-connect/Logo.figma.ts`, `code-connect/LogoWhite.figma.ts`, `code-connect/FaviconOriginal.figma.ts`, `code-connect/FaviconWhite.figma.ts`
 - Sidebar templates: `code-connect/Sidebar.figma.ts`, `code-connect/SidebarItem.figma.ts`, `code-connect/SidebarProfile.figma.ts`
 - Stepper templates: `code-connect/StepperConnector.figma.ts`, `code-connect/DesktopStep.figma.ts`, `code-connect/MobileStep.figma.ts`, `code-connect/Stepper.figma.ts`
+- Tab templates: `code-connect/PrimaryTab.figma.ts`, `code-connect/SecondaryTab.figma.ts`, `code-connect/PrimaryTabGroup.figma.ts`, `code-connect/SecondaryTabGroup.figma.ts`
 - Footer templates: `code-connect/DesktopFooter.figma.ts`, `code-connect/MobileFooter.figma.ts`
 - Accordion template: `code-connect/Accordion.figma.ts`
 - Desktop Navigation Group template: `code-connect/DesktopNavigationGroupOpen.figma.ts`
@@ -176,6 +177,10 @@ accessible, and visual decisions remain in ADS components and token CSS.
 - Desktop Step component set: `2747:1616`
 - Mobile Step component set: `2751:917`
 - Stepper component: `2751:579`
+- Primary Tab component set: `246:916`
+- Secondary Tab component set: `246:1122`
+- Primary Tab Group component: `246:1187`
+- Secondary Tab Group component: `246:1229`
 - Desktop Footer component: `2334:6296`
 - Mobile Footer component: `2517:647`
 - Accordion component set: `2429:1223`

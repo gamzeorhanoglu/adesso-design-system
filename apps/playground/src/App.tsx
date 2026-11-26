@@ -18,6 +18,8 @@ import {
   Step,
   Stepper,
   StepperConnector,
+  Tab,
+  TabGroup,
   Calendar,
   CalendarItem,
   DatePicker,
@@ -200,6 +202,30 @@ export function App() {
         </div>
         <div className="stepper-showcase">
           <Stepper />
+        </div>
+      </section>
+
+      <section aria-labelledby="tab-title">
+        <h2 id="tab-title">Tabs</h2>
+        <div className="tab-showcase">
+          {(["large", "medium", "small"] as const).map((size) => (
+            <div className="showcase-row" key={`primary-${size}`}>
+              <Tab size={size}>Option Text</Tab>
+              <Tab size={size} data-preview-state="hover">Option Text</Tab>
+              <Tab size={size} selected>Option Text</Tab>
+              <Tab size={size} disabled>Option Text</Tab>
+            </div>
+          ))}
+          {(["large", "medium", "small"] as const).map((size) => (
+            <div className="showcase-row" key={`secondary-${size}`}>
+              <Tab variant="secondary" size={size}>Option Text</Tab>
+              <Tab variant="secondary" size={size} data-preview-state="hover">Option Text</Tab>
+              <Tab variant="secondary" size={size} selected>Option Text</Tab>
+              <Tab variant="secondary" size={size} disabled>Option Text</Tab>
+            </div>
+          ))}
+          <TabGroup />
+          <TabGroup variant="secondary" />
         </div>
       </section>
 

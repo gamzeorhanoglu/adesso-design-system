@@ -1,0 +1,115 @@
+.ads-tab {
+  width: 101px;
+  height: var(--ads-layout-layout-scale-md);
+  padding: 0 var(--layout-space-sm);
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0;
+  color: var(--ads-component-color-tab-text-primary-default);
+  background: var(--ads-component-color-tab-background-primary-default);
+  font-family: var(--ads-typography-text-body-md-regular-font);
+  font-size: var(--ads-typography-text-body-md-regular-size);
+  font-weight: var(--ads-typography-text-body-md-regular-weight);
+  letter-spacing: var(--ads-typography-text-body-md-regular-letter-spacing);
+  line-height: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.ads-tab[data-size="large"] {
+  width: 128px;
+  height: var(--ads-primitives-size-40);
+  font-family: var(--ads-typography-text-body-lg-regular-font);
+  font-size: var(--ads-typography-text-body-lg-regular-size);
+  font-weight: var(--ads-typography-text-body-lg-regular-weight);
+  letter-spacing: var(--ads-typography-text-body-lg-regular-letter-spacing);
+}
+
+.ads-tab[data-size="small"] {
+  width: 83px;
+  height: var(--ads-layout-layout-scale-sm);
+  font-family: var(--ads-typography-text-body-sm-regular-font);
+  font-size: var(--ads-typography-text-body-sm-regular-size);
+  font-weight: var(--ads-typography-text-body-sm-regular-weight);
+  letter-spacing: var(--ads-typography-text-body-sm-regular-letter-spacing);
+}
+
+.ads-tab[data-variant="primary"] {
+  border-bottom: var(--ads-layout-layout-stroke-weight-lg) solid
+    var(--ads-component-color-tab-border-primary-default);
+}
+
+.ads-tab[data-variant="primary"]:hover:not(:disabled):not([aria-selected="true"]),
+.ads-tab[data-variant="primary"][data-preview-state="hover"]:not(:disabled):not([aria-selected="true"]) {
+  border-color: var(--ads-component-color-tab-border-primary-hover);
+  color: var(--ads-component-color-tab-text-primary-hover);
+  background: var(--ads-component-color-tab-background-primary-hover);
+}
+
+.ads-tab[data-variant="primary"][aria-selected="true"] {
+  border-color: var(--ads-component-color-tab-border-primary-selected);
+  color: var(--ads-component-color-tab-text-primary-selected);
+  background: var(--ads-component-color-tab-background-primary-selected);
+}
+
+.ads-tab[data-variant="primary"]:disabled {
+  border-color: var(--ads-component-color-tab-border-primary-disabled);
+  color: var(--ads-component-color-tab-text-primary-disabled);
+  background: var(--ads-component-color-tab-background-primary-disabled);
+}
+
+.ads-tab[data-variant="secondary"] {
+  border-radius: var(--ads-layout-layout-radius-full);
+  color: var(--ads-component-color-tab-text-secondary-default);
+  background: var(--ads-component-color-tab-background-secondary-default);
+}
+
+.ads-tab[data-variant="secondary"][data-size="large"] {
+  height: var(--ads-layout-layout-scale-lg);
+}
+
+.ads-tab[data-variant="secondary"]:hover:not(:disabled):not([aria-selected="true"]),
+.ads-tab[data-variant="secondary"][data-preview-state="hover"]:not(:disabled):not([aria-selected="true"]) {
+  color: var(--ads-component-color-tab-text-secondary-hover);
+  background: var(--ads-component-color-tab-background-secondary-hover);
+}
+
+.ads-tab[data-variant="secondary"][aria-selected="true"] {
+  color: var(--ads-component-color-tab-text-secondary-selected);
+  background: var(--ads-component-color-tab-background-secondary-selected);
+}
+
+.ads-tab[data-variant="secondary"]:disabled {
+  color: var(--ads-component-color-tab-text-secondary-disabled);
+  background: var(--ads-component-color-tab-background-secondary-disabled);
+}
+
+.ads-tab:disabled {
+  cursor: not-allowed;
+}
+
+.ads-tab:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: var(--ads-layout-layout-stroke-weight-lg) solid var(--ads-color-focus-ring);
+  outline-offset: calc(-1 * var(--ads-layout-layout-stroke-weight-lg));
+}
+
+.ads-tab-group {
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: var(--ads-font-family-primary);
+}
+
+.ads-tab-group[data-variant="secondary"] {
+  padding: var(--layout-space-2xs);
+  border-radius: var(--ads-layout-layout-radius-full);
+  background: var(--ads-component-color-tab-background-secondary-hover);
+}

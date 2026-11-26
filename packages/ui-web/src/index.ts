@@ -147,3 +147,7 @@ export type {
 } from "./components/StepperConnector/StepperConnector";
 export { Stepper } from "./components/Stepper/Stepper";
 export type { StepperItem, StepperProps } from "./components/Stepper/Stepper";
+export { Tab } from "./components/Tab/Tab";
+export type { TabProps, TabSize, TabVariant } from "./components/Tab/Tab";
+export { TabGroup } from "./components/TabGroup/TabGroup";
+export type { TabGroupItem, TabGroupProps } from "./components/TabGroup/TabGroup";
