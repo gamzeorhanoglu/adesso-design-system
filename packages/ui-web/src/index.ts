@@ -49,6 +49,8 @@ export { Dialog } from "./components/Dialog/Dialog";
 export type { DialogDevice, DialogProps, DialogState, DialogType } from "./components/Dialog/Dialog";
 export { CardContent } from "./components/CardContent/CardContent";
 export type { CardContentDevice, CardContentProps, CardContentState } from "./components/CardContent/CardContent";
+export { CardExternalLink } from "./components/CardExternalLink/CardExternalLink";
+export type { CardExternalLinkProps, CardExternalLinkState } from "./components/CardExternalLink/CardExternalLink";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

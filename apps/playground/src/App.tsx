@@ -45,7 +45,8 @@ import {
   Tag,
   Tooltip,
   Dialog,
-  CardContent
+  CardContent,
+  CardExternalLink
 } from "@ads/ui-web";
 
 export function App() {
@@ -609,6 +610,21 @@ export function App() {
             title="Our services"
             bodyText="Explore the services that support your business at every stage."
             buttonLabel="Discover services"
+          />
+        </div>
+      </section>
+
+      <section aria-labelledby="card-external-link-title">
+        <h2 id="card-external-link-title">Card External Link</h2>
+        <div className="card-content-showcase">
+          <CardExternalLink
+            title="External resources for your business"
+            bodyText="Find related information and services on our partner websites."
+          />
+          <CardExternalLink
+            state="hover"
+            title="External resources for your business"
+            bodyText="Find related information and services on our partner websites."
           />
         </div>
       </section>

@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 44,
-      "missingNonIconSetCount": 13,
+      "implementedNonIconSetCount": 45,
+      "missingNonIconSetCount": 12,
       "implementedStandaloneComponentCount": 24
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 348,
+      "parserlessTemplateCount": 349,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -63,6 +63,7 @@
       , "desktopDialogTemplate": "code-connect/DesktopDialog.figma.ts"
       , "mobileDialogTemplate": "code-connect/MobileDialog.figma.ts"
       , "cardContentTemplate": "code-connect/CardContent.figma.ts"
+      , "cardExternalLinkTemplate": "code-connect/CardExternalLink.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -282,6 +283,18 @@
           "Show Button": "boolean",
           "State": ["default", "hover", "disabled"],
           "Device": ["desktop", "mobile"]
+        },
+        "primitives": ["Button"]
+      },
+      "cardExternalLink": {
+        "componentSetNodeId": "5561:427",
+        "code": "packages/ui-web/src/components/CardExternalLink/CardExternalLink.tsx",
+        "codeConnect": "code-connect/CardExternalLink.figma.ts",
+        "states": ["default", "hover"],
+        "properties": {
+          "Title": "string",
+          "Show Button": "boolean",
+          "State": ["default", "hover"]
         },
         "primitives": ["Button"]
       },

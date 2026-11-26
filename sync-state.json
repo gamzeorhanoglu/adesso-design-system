@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Card-ExternalLink",
+  "next": "Card-KPI",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -18,6 +18,14 @@
       "implementation": ["packages/ui-web/src/components/CardContent/CardContent.tsx", "packages/css/src/components/card-content.css"],
       "codeConnect": ["code-connect/CardContent.figma.ts"],
       "remaining": "None. Verified with focused tests (3 passed), Code Connect check, TypeScript check, full npm run check, and ADS audit."
+    },
+    "Card-ExternalLink": {
+      "status": "completed",
+      "figma": ["5561:427"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/CardExternalLink/CardExternalLink.tsx", "packages/css/src/components/card-external-link.css"],
+      "codeConnect": ["code-connect/CardExternalLink.figma.ts"],
+      "remaining": "Verified with focused tests, full npm run check, and ADS audit."
     },
     "inventoryPending": {
       "status": "pending",
