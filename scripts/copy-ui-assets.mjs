@@ -6,4 +6,4 @@ const target = new URL("../packages/ui-web/dist/assets/", import.meta.url);
 await mkdir(target, { recursive: true });
 await cp(source, target, { recursive: true });
 
-console.log("ADS UI assets copied: flags, brand, and navigation shapes.");
+console.log("ADS UI assets copied: flags, brand, navigation shapes, and card imagery.");

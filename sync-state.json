@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Dialog",
+  "next": "Card-ExternalLink",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -10,6 +10,14 @@
       "implementation": ["packages/ui-web/src/components/Dialog/Dialog.tsx", "packages/ui-web/src/components/Dialog/Dialog.test.tsx", "packages/ui-web/src/hooks/useDialogBehavior.ts", "packages/css/src/components/dialog.css"],
       "codeConnect": ["code-connect/DesktopDialog.figma.ts", "code-connect/MobileDialog.figma.ts"],
       "remaining": "None. Verified with npm run check (160 tests passed) and ADS audit."
+    },
+    "Card-Content": {
+      "status": "completed",
+      "figma": ["2332:1701"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/CardContent/CardContent.tsx", "packages/css/src/components/card-content.css"],
+      "codeConnect": ["code-connect/CardContent.figma.ts"],
+      "remaining": "None. Verified with focused tests (3 passed), Code Connect check, TypeScript check, full npm run check, and ADS audit."
     },
     "inventoryPending": {
       "status": "pending",

@@ -44,7 +44,8 @@ import {
   SwitchGroup,
   Tag,
   Tooltip,
-  Dialog
+  Dialog,
+  CardContent
 } from "@ads/ui-web";
 
 export function App() {
@@ -593,6 +594,23 @@ export function App() {
             onClose={() => setMobileDialogOpen(false)}
           />
         ) : null}
+      </section>
+
+      <section aria-labelledby="card-content-title">
+        <h2 id="card-content-title">Card Content</h2>
+        <div className="card-content-showcase">
+          <CardContent
+            title="Our services"
+            bodyText="Explore the services that support your business at every stage."
+            buttonLabel="Discover services"
+          />
+          <CardContent
+            device="mobile"
+            title="Our services"
+            bodyText="Explore the services that support your business at every stage."
+            buttonLabel="Discover services"
+          />
+        </div>
       </section>
 
       <section aria-labelledby="feedback-primitives-title">

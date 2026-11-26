@@ -192,6 +192,13 @@ h2 {
   margin-top: var(--ads-layout-space-lg);
 }
 
+.card-content-showcase {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-md);
+  overflow-x: auto;
+}
+
 @media (max-width: 760px) {
   .input-grid,
   .component-grid {

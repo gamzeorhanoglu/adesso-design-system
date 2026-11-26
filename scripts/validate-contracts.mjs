@@ -38,6 +38,9 @@ const requiredSelectors = [
   ".ads-dialog-content",
   ".ads-dialog-close",
   ".ads-dialog-actions",
+  ".ads-card-content",
+  ".ads-card-content-image",
+  ".ads-card-content-body",
   ".ads-chip",
   ".ads-chip-group",
   ".ads-breadcrumb",
@@ -86,7 +89,7 @@ const requiredSelectors = [
   ".ads-progress-bar"
 ];
 
-const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, dialogStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
+const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, dialogStyles, cardStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
   readFile(new URL("../packages/tokens/src/index.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/icon.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/button.css", import.meta.url), "utf8"),
@@ -100,6 +103,7 @@ const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, 
   readFile(new URL("../packages/css/src/components/tooltip.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/progress-bar.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/dialog.css", import.meta.url), "utf8"),
+  readFile(new URL("../packages/css/src/components/card-content.css", import.meta.url), "utf8"),
   readFile(new URL("../ads.config.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/figma.tokens.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/generated/figma.css", import.meta.url), "utf8"),
@@ -145,7 +149,7 @@ const paginationStyles = await readFile(new URL("../packages/css/src/components/
 const sidebarStyles = await readFile(new URL("../packages/css/src/components/sidebar.css", import.meta.url), "utf8");
 const stepperStyles = await readFile(new URL("../packages/css/src/components/stepper.css", import.meta.url), "utf8");
 const tabStyles = await readFile(new URL("../packages/css/src/components/tab.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${dialogStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${dialogStyles}\n${cardStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -212,8 +216,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 347) {
-  errors.push("ads.config.json must record 347 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 348) {
+  errors.push("ads.config.json must record 348 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -223,16 +227,16 @@ if (
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
   parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 24 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 43 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 14
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 44 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 13
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 43 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 14
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 44 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 13
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -282,6 +286,7 @@ const additionalButtonTemplateContracts = [
   ["DatePicker", "DatePicker.figma.ts", "ads-date-picker"],
   ["DesktopDialog", "DesktopDialog.figma.ts", "ads-dialog-desktop"],
   ["MobileDialog", "MobileDialog.figma.ts", "ads-dialog-mobile"],
+  ["CardContent", "CardContent.figma.ts", "ads-card-content"],
   ["Chip", "Chip.figma.ts", "ads-chip"],
   ["ChipGroup", "ChipGroup.figma.ts", "ads-chip-group"],
   ["Breadcrumb", "Breadcrumb.figma.ts", "ads-breadcrumb"],

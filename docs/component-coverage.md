@@ -10,8 +10,8 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.222 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 43 (önceki kapsam + `Primary Tab`, `Secondary Tab`, `Desktop/Dialog` ve `Mobile/Dialog`)
-- Eksik non-icon set: 14
+- Kod kapsamındaki non-icon set: 44 (önceki kapsam + `Card-Content`)
+- Eksik non-icon set: 13
 - Kod kapsamındaki standalone component: 24 (önceki kapsam + `tabgroup/primary` ve `tabgroup/secondary`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
@@ -28,7 +28,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Breadcrumb | 1 | 1 | 5 | 2 | 0 |
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
-| Cards | 4 | 1 | 15 | 0 | 5 |
+| Cards | 4 | 1 | 15 | 1 | 4 |
 | Carousel | 0 | 2 | 2 | 0 | 2 |
 | Chips | 1 | 1 | 13 | 2 | 0 |
 | Date Picker | 1 | 0 | 6 | 1 | 0 |
@@ -75,7 +75,11 @@ Tamamlandı.
 
 ### 5. Data ve composites
 
-`Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Card-Stats`, `Desktop/Carousel`, `Mobile/Carousel`, `Logo Asset / Akbank`, `Logo Tile`, `Partner Logo Grid/6`, `Header`, `Table`, `Table/Cell`, `Table/Empty`, `Table/Footer`, `Table/Header Cell`, `Table/Row`
+`Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Card-Stats`, `Desktop/Carousel`, `Mobile/Carousel`, `Logo Asset / Akbank`, `Logo Tile`, `Partner Logo Grid/6`, `Header`, `Table`, `Table/Cell`, `Table/Empty`, `Table/Footer`, `Table/Header Cell`, `Table/Row`
+
+`Card-Content` is implemented as `CardContent` with desktop/mobile layouts,
+default/hover/disabled states, optional image/text/action slots, and an ADS
+Ghost Button action.
 
 ### 6. Brand ve shell
 
@@ -96,7 +100,9 @@ Bir komponent ancak aşağıdakilerin tamamı bittikten sonra “hazır” sayı
 
 ## İlk uygulama paketi
 
-Phase 1, Phase 2 ve Phase 3 tamamlandı. Phase 4'te Dialog tamamlandı; sıradaki bekleyen grup Notification'dır.
+Phase 1, Phase 2 ve Phase 3 tamamlandı. Phase 4'te Dialog tamamlandı. Phase 5'te
+`Card-Content` tamamlandı; sıradaki Card varyantları `Card-ExternalLink`,
+`Card-KPI`, `Card-News&Blog` ve `Card-Stats`.
 
 Makine-okunur kaynak: `docs/figma-component-inventory.json`.
 
