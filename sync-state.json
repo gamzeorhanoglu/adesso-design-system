@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "notificationgroup",
+  "next": "Messages",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -66,6 +66,14 @@
       "implementation": ["packages/ui-web/src/components/NotificationMessage/NotificationMessage.tsx", "packages/css/src/components/notification-message.css"],
       "codeConnect": ["code-connect/NotificationMessage.figma.ts"],
       "remaining": "Verified with npm run build, full npm run check (180 tests), ADS audit on source folders, and playground size/visual comparison against the Figma screenshot (desktop 400x150, mobile 320). Design was fetched with the adesso.com.tr Figma connector; the other Figma connector is signed in with a View-seat account that hit the MCP call limit."
+    },
+    "notificationgroup": {
+      "status": "completed",
+      "figma": ["5374:4141"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/NotificationGroup/NotificationGroup.tsx", "packages/css/src/components/notification-group.css"],
+      "codeConnect": ["code-connect/NotificationGroup.figma.ts"],
+      "remaining": "Verified with npm run build, full npm run check (183 tests), ADS audit on source folders, and playground comparison against the Figma screenshot (602px panel). Composes ADS Button, TabGroup and NotificationList; items are passed as children. Figma Code Connect mentions BellIcon showBadge, which does not exist in @ads/icons; the unread dot remains the estimated CSS dot from Notification/List. Note: the playground serves @ads/ui-web from the build output, so run npm run build before previewing component changes. Next is the first missing phase 4 item (Toasts: Messages)."
     },
     "inventoryPending": {
       "status": "pending",

@@ -51,7 +51,9 @@ import {
   CardNewsBlog,
   CardStats,
   NotificationList,
-  NotificationMessage
+  NotificationMessage,
+  NotificationGroup,
+  NotificationGroupHeading
 } from "@ads/ui-web";
 
 export function App() {
@@ -684,6 +686,19 @@ export function App() {
           <NotificationMessage state="hover" />
           <NotificationMessage device="mobile" />
           <NotificationMessage device="mobile" state="hover" />
+        </div>
+      </section>
+
+      <section aria-labelledby="notification-group-title">
+        <h2 id="notification-group-title">Notification Group</h2>
+        <div className="card-content-showcase">
+          <NotificationGroup>
+            <NotificationGroupHeading>Bugün</NotificationGroupHeading>
+            <NotificationList />
+            <NotificationList read />
+            <NotificationGroupHeading>Dün</NotificationGroupHeading>
+            <NotificationList defaultOpen />
+          </NotificationGroup>
         </div>
       </section>
 

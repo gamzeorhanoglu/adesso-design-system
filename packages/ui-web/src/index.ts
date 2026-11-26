@@ -69,6 +69,11 @@ export type {
   NotificationMessageProps,
   NotificationMessageState
 } from "./components/NotificationMessage/NotificationMessage";
+export { NotificationGroup, NotificationGroupHeading } from "./components/NotificationGroup/NotificationGroup";
+export type {
+  NotificationGroupHeadingProps,
+  NotificationGroupProps
+} from "./components/NotificationGroup/NotificationGroup";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

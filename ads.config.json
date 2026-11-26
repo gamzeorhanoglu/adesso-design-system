@@ -11,12 +11,12 @@
       "implementedIconSetCount": 281,
       "implementedNonIconSetCount": 49,
       "missingNonIconSetCount": 8,
-      "implementedStandaloneComponentCount": 25
+      "implementedStandaloneComponentCount": 26
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 354,
+      "parserlessTemplateCount": 355,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -69,6 +69,7 @@
       , "cardStatsTemplate": "code-connect/CardStats.figma.ts"
       , "notificationListTemplate": "code-connect/NotificationList.figma.ts"
       , "notificationMessageTemplate": "code-connect/NotificationMessage.figma.ts"
+      , "notificationGroupTemplate": "code-connect/NotificationGroup.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -371,6 +372,16 @@
           "Show Description": "boolean"
         },
         "primitives": ["Button"]
+      },
+      "notificationGroup": {
+        "componentNodeId": "5374:4141",
+        "code": "packages/ui-web/src/components/NotificationGroup/NotificationGroup.tsx",
+        "codeConnect": "code-connect/NotificationGroup.figma.ts",
+        "properties": {
+          "Show Tab": "boolean",
+          "Show Unread Information": "boolean"
+        },
+        "primitives": ["Button", "TabGroup", "NotificationList"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",

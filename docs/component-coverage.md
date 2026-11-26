@@ -12,7 +12,7 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - İkonlar dışında 57 component seti
 - Kod kapsamındaki non-icon set: 49 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Notification/List` ve `Notification/Message`)
 - Eksik non-icon set: 8
-- Kod kapsamındaki standalone component: 25 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary` ve `Card-Stats`)
+- Kod kapsamındaki standalone component: 26 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary`, `Card-Stats` ve `notificationgroup`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -37,7 +37,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Icons | 1 | 0 | 10 | 1 | 0 |
 | Inputs | 3 | 0 | 20 | 3 | 0 |
 | Navigation | 2 | 8 | 17 | 10 | 0 |
-| Notification | 2 | 1 | 13 | 2 | 1 |
+| Notification | 2 | 1 | 13 | 3 | 0 |
 | Pagination | 2 | 1 | 11 | 3 | 0 |
 | Partner Logo Grid | 1 | 2 | 4 | 0 | 3 |
 | Progress Bar | 1 | 0 | 15 | 1 | 0 |
@@ -80,6 +80,11 @@ Tamamlandı.
 `Card-Content` is implemented as `CardContent` with desktop/mobile layouts,
 default/hover/disabled states, optional image/text/action slots, and an ADS
 Ghost Button action.
+
+`notificationgroup` is implemented as `NotificationGroup` (plus
+`NotificationGroupHeading`): header with dismiss control, unread information with
+an ADS Outline Button, an ADS primary TabGroup, a free `children` slot for
+`NotificationList` items and a ghost footer action.
 
 `Card-ExternalLink` is implemented as `CardExternalLink` with default/hover
 states, editable title and description, and an optional ADS Secondary Button
