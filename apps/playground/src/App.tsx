@@ -43,11 +43,14 @@ import {
   Switch,
   SwitchGroup,
   Tag,
-  Tooltip
+  Tooltip,
+  Dialog
 } from "@ads/ui-web";
 
 export function App() {
   const [name, setName] = useState("");
+  const [desktopDialogOpen, setDesktopDialogOpen] = useState(false);
+  const [mobileDialogOpen, setMobileDialogOpen] = useState(false);
 
   return (
     <main>
@@ -559,6 +562,37 @@ export function App() {
             <Tag variant="solid" color="red">Error</Tag>
           </div>
         </div>
+      </section>
+
+      <section aria-labelledby="dialog-title">
+        <h2 id="dialog-title">Dialog</h2>
+        <div className="showcase-row">
+          <Button variant="outline" onClick={() => setDesktopDialogOpen(true)}>Open desktop dialog</Button>
+          <Button variant="outline" onClick={() => setMobileDialogOpen(true)}>Open mobile error dialog</Button>
+        </div>
+        {desktopDialogOpen ? (
+          <Dialog
+            device="desktop"
+            title="Changes saved"
+            bodyText="Your updates are ready to use."
+            secondaryLabel="Dismiss"
+            onSecondaryAction={() => setDesktopDialogOpen(false)}
+            onClose={() => setDesktopDialogOpen(false)}
+          />
+        ) : null}
+        {mobileDialogOpen ? (
+          <Dialog
+            device="mobile"
+            state="error"
+            title="Unable to save"
+            bodyText="Check your connection and try again."
+            primaryLabel="Try again"
+            secondaryLabel="Dismiss"
+            onPrimaryAction={() => setMobileDialogOpen(false)}
+            onSecondaryAction={() => setMobileDialogOpen(false)}
+            onClose={() => setMobileDialogOpen(false)}
+          />
+        ) : null}
       </section>
 
       <section aria-labelledby="feedback-primitives-title">

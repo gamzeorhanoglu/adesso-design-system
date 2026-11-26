@@ -29,7 +29,7 @@ Product teams using Claude Code, Gemini CLI, or Codex should follow the private
 - `@ads/ui-web`: accessible React components mapped to Figma components.
 
 The first implementation set covers Button, ButtonGroup, Flag, Input, SearchInput, TextArea,
-DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Sidebar, SidebarItem, SidebarProfile, Step, StepperConnector, Stepper, Tab, TabGroup, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
+DropdownList, Dropdown, Language, Calendar, CalendarItem, DatePicker, Dialog, Chip, ChipGroup, Accordion, Breadcrumb, BreadcrumbItem, CarouselControl, CarouselDot, NavigationItem, Logo, Sidebar, SidebarItem, SidebarProfile, Step, StepperConnector, Stepper, Tab, TabGroup, Footer, TopNavigation, NavigationGroup, Checkbox, RadioButton, Switch, ListItem, SelectionGroup, SelectionItem,
 SwitchGroup, Avatar, Tag, Tooltip, and ProgressBar. Component APIs intentionally model
 runtime behavior rather than exposing Figma-only states as application props.
 
@@ -39,10 +39,32 @@ The complete ADS Figma file has been inventoried across all component pages:
 337 component sets, 37 standalone components, and 2,222 variants or standalone
 items. All 281 icon sets are implemented: 280 canonical ADS icons plus the
 country `Flag` component set.
-Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Chips-Filter, Breadcrumb-Item, Dots, Navigation-Item, Checkbox,
+Outside icons, six Button families, Input, Input/Search, Input/TextArea, DropdownList, Dropdown, Language, Calendar, Calendar-Item, DatePicker, Desktop/Mobile Dialog, Chips-Filter, Breadcrumb-Item, Dots, Navigation-Item, Checkbox,
 RadioButton, Desktop/Mobile Switch, Avatar, Soft/Solid Tag, Tooltip, ProgressBar,
-ListItem, Sidebar, Sidebar-Item, Sidebar-Item/Profile, DektoConnector, Desktop/Steps, Mobile/Steps, Primary Tab, and Secondary Tab sets are implemented, leaving 16 component
+ListItem, Sidebar, Sidebar-Item, Sidebar-Item/Profile, DektoConnector, Desktop/Steps, Mobile/Steps, Primary Tab, and Secondary Tab sets are implemented, leaving 14 component
 sets to build.
+
+## Dialog
+
+`Dialog` maps to the published `Desktop/Dialog` and `Mobile/Dialog` sets. Use
+`device` to select the layout, `type` for pop-up or sticky placement, and
+`state="error"` for destructive feedback. The component composes ADS Buttons
+and ButtonGroup, and keeps Escape dismissal and focus management in
+`useDialogBehavior`.
+
+```tsx
+<Dialog
+  device="desktop"
+  state="error"
+  title="Discard changes?"
+  bodyText="Your unsaved changes will be lost."
+  primaryLabel="Discard"
+  secondaryLabel="Keep editing"
+  onPrimaryAction={discardChanges}
+  onSecondaryAction={closeDialog}
+  onClose={closeDialog}
+/>
+```
 
 The three published Button Group compositions are implemented as one ADS
 `ButtonGroup` primitive. They compose only canonical ADS Button variants and

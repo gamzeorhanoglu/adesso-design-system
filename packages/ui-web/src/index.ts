@@ -45,6 +45,8 @@ export type {
 } from "./components/Calendar/Calendar";
 export { DatePicker } from "./components/DatePicker/DatePicker";
 export type { DatePickerProps } from "./components/DatePicker/DatePicker";
+export { Dialog } from "./components/Dialog/Dialog";
+export type { DialogDevice, DialogProps, DialogState, DialogType } from "./components/Dialog/Dialog";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

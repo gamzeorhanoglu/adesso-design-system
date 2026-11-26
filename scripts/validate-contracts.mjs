@@ -34,6 +34,10 @@ const requiredSelectors = [
   ".ads-calendar-nav",
   ".ads-date-picker",
   ".ads-date-picker-calendar",
+  ".ads-dialog",
+  ".ads-dialog-content",
+  ".ads-dialog-close",
+  ".ads-dialog-actions",
   ".ads-chip",
   ".ads-chip-group",
   ".ads-breadcrumb",
@@ -82,7 +86,7 @@ const requiredSelectors = [
   ".ads-progress-bar"
 ];
 
-const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
+const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, groupStyles, avatarStyles, tagStyles, tooltipStyles, progressBarStyles, dialogStyles, config, figmaManifest, generatedCss, generatedIconIndex, figmaConfig, buttonTemplate, inputTemplate, checkboxTemplate, radioButtonTemplate, desktopSwitchTemplate, mobileSwitchTemplate, selectionItemTemplate, selectionGroupTemplate, switchGroupTemplate, avatarTemplate, tagSoftTemplate, tagSolidTemplate, tooltipTemplate, progressBarTemplate, componentInventory] = await Promise.all([
   readFile(new URL("../packages/tokens/src/index.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/icon.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/button.css", import.meta.url), "utf8"),
@@ -95,6 +99,7 @@ const [tokens, icon, button, buttonGroupStyles, input, selection, switchStyles, 
   readFile(new URL("../packages/css/src/components/tag.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/tooltip.css", import.meta.url), "utf8"),
   readFile(new URL("../packages/css/src/components/progress-bar.css", import.meta.url), "utf8"),
+  readFile(new URL("../packages/css/src/components/dialog.css", import.meta.url), "utf8"),
   readFile(new URL("../ads.config.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/figma.tokens.json", import.meta.url), "utf8"),
   readFile(new URL("../packages/tokens/src/generated/figma.css", import.meta.url), "utf8"),
@@ -140,7 +145,7 @@ const paginationStyles = await readFile(new URL("../packages/css/src/components/
 const sidebarStyles = await readFile(new URL("../packages/css/src/components/sidebar.css", import.meta.url), "utf8");
 const stepperStyles = await readFile(new URL("../packages/css/src/components/stepper.css", import.meta.url), "utf8");
 const tabStyles = await readFile(new URL("../packages/css/src/components/tab.css", import.meta.url), "utf8");
-const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
+const styles = `${icon}\n${button}\n${buttonGroupStyles}\n${flagStyles}\n${listItemStyles}\n${input}\n${searchInputStyles}\n${textAreaStyles}\n${dropdownListStyles}\n${dropdownStyles}\n${languageStyles}\n${calendarItemStyles}\n${calendarStyles}\n${datePickerStyles}\n${dialogStyles}\n${chipStyles}\n${breadcrumbStyles}\n${carouselControlStyles}\n${navigationItemStyles}\n${logoStyles}\n${footerStyles}\n${accordionStyles}\n${navigationGroupStyles}\n${topNavigationStyles}\n${paginationStyles}\n${sidebarStyles}\n${stepperStyles}\n${tabStyles}\n${selection}\n${switchStyles}\n${groupStyles}\n${avatarStyles}\n${tagStyles}\n${tooltipStyles}\n${progressBarStyles}`;
 const errors = [];
 
 for (const token of requiredTokens) {
@@ -207,8 +212,8 @@ if (
 ) {
   errors.push("figma.config.json must target the parserless ADS React templates.");
 }
-if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 345) {
-  errors.push("ads.config.json must record 345 parserless Code Connect templates.");
+if (parsedConfig.figma.codeConnect?.parserlessTemplateCount !== 347) {
+  errors.push("ads.config.json must record 347 parserless Code Connect templates.");
 }
 if (!buttonTemplate.includes("figma.code") || buttonTemplate.includes("figma.connect(")) {
   errors.push("Button Code Connect must use a parserless figma.code template.");
@@ -218,16 +223,16 @@ if (
   parsedComponentInventory.summary?.standaloneComponentCount !== 37 ||
   parsedComponentInventory.summary?.implementedIconSetCount !== 281 ||
   parsedComponentInventory.summary?.implementedStandaloneComponentCount !== 24 ||
-  parsedComponentInventory.summary?.implementedNonIconSetCount !== 41 ||
-  parsedComponentInventory.summary?.missingNonIconSetCount !== 16
+  parsedComponentInventory.summary?.implementedNonIconSetCount !== 43 ||
+  parsedComponentInventory.summary?.missingNonIconSetCount !== 14
 ) {
   errors.push("Figma component inventory counts are incomplete or stale.");
 }
 if (
   parsedConfig.figma.inventory?.componentSetCount !== 337 ||
   parsedConfig.figma.inventory?.implementedIconSetCount !== 281 ||
-  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 41 ||
-  parsedConfig.figma.inventory?.missingNonIconSetCount !== 16
+  parsedConfig.figma.inventory?.implementedNonIconSetCount !== 43 ||
+  parsedConfig.figma.inventory?.missingNonIconSetCount !== 14
 ) {
   errors.push("ads.config.json must record the ADS component coverage counts.");
 }
@@ -275,6 +280,8 @@ const additionalButtonTemplateContracts = [
   ["CalendarItem", "CalendarItem.figma.ts", "ads-calendar-item"],
   ["Calendar", "Calendar.figma.ts", "ads-calendar"],
   ["DatePicker", "DatePicker.figma.ts", "ads-date-picker"],
+  ["DesktopDialog", "DesktopDialog.figma.ts", "ads-dialog-desktop"],
+  ["MobileDialog", "MobileDialog.figma.ts", "ads-dialog-mobile"],
   ["Chip", "Chip.figma.ts", "ads-chip"],
   ["ChipGroup", "ChipGroup.figma.ts", "ads-chip-group"],
   ["Breadcrumb", "Breadcrumb.figma.ts", "ads-breadcrumb"],
@@ -338,11 +345,14 @@ if (
 ) {
   errors.push("TextArea must preserve the exact 13px Figma resize-handle asset.");
 }
-for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar", "sidebar", "sidebarItem", "sidebarProfile", "stepperConnector", "step", "stepper", "tab", "tabGroup"]) {
+for (const key of ["button", "buttonGroup", "flag", "listItem", "dropdownList", "dropdown", "language", "calendarItem", "calendar", "datePicker", "dialog", "chip", "chipGroup", "breadcrumb", "breadcrumbItem", "carouselControl", "carouselDot", "navigationItem", "logo", "footer", "accordion", "navigationGroup", "topNavigation", "input", "searchInput", "textArea", "checkbox", "radioButton", "switch", "selectionItem", "selectionGroup", "switchGroup", "avatar", "tag", "tooltip", "progressBar", "sidebar", "sidebarItem", "sidebarProfile", "stepperConnector", "step", "stepper", "tab", "tabGroup"]) {
   const mapping = parsedConfig.figma.components[key];
   if (!mapping?.componentSetNodeId && !mapping?.componentNodeId && !mapping?.primaryComponentSetNodeId && !mapping?.primaryComponentNodeId) {
     errors.push(`Missing Figma component mapping: ${key}`);
   }
+}
+if (!parsedConfig.figma.components.dialog?.behaviors?.focusAndDismiss) {
+  errors.push("Missing approved Dialog focus and dismissal behavior mapping.");
 }
 for (const behavior of ["clear", "passwordVisibility", "countrySelection"]) {
   if (!parsedConfig.figma.components.input?.behaviors?.[behavior]) {

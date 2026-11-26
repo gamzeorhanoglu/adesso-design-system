@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 41,
-      "missingNonIconSetCount": 16,
+      "implementedNonIconSetCount": 43,
+      "missingNonIconSetCount": 14,
       "implementedStandaloneComponentCount": 24
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 345,
+      "parserlessTemplateCount": 347,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -60,6 +60,8 @@
       , "secondaryTabTemplate": "code-connect/SecondaryTab.figma.ts"
       , "primaryTabGroupTemplate": "code-connect/PrimaryTabGroup.figma.ts"
       , "secondaryTabGroupTemplate": "code-connect/SecondaryTabGroup.figma.ts"
+      , "desktopDialogTemplate": "code-connect/DesktopDialog.figma.ts"
+      , "mobileDialogTemplate": "code-connect/MobileDialog.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -241,6 +243,29 @@
           "CalendarIcon",
           "AlertTriangleIcon"
         ]
+      },
+      "dialog": {
+        "componentSetNodeId": "2322:1675",
+        "desktopComponentSetNodeId": "2322:1675",
+        "mobileComponentSetNodeId": "2322:2002",
+        "code": "packages/ui-web/src/components/Dialog/Dialog.tsx",
+        "codeConnect": [
+          "code-connect/DesktopDialog.figma.ts",
+          "code-connect/MobileDialog.figma.ts"
+        ],
+        "behaviors": {
+          "focusAndDismiss": "packages/ui-web/src/hooks/useDialogBehavior.ts"
+        },
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "error"],
+        "types": ["pop-up", "sticky"],
+        "properties": {
+          "Show Icon": "boolean",
+          "State": ["default", "error"],
+          "Type": ["pop-up", "sticky"]
+        },
+        "actionGroupProperties": ["Show Secondary-Button", "Show Ghost-Button"],
+        "primitives": ["Button", "ButtonGroup", "AlertTriangleIcon", "XIcon"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",
