@@ -4,12 +4,12 @@
   "next": "Dialog",
   "components": {
     "Dialog": {
-      "status": "in_progress",
+      "status": "completed",
       "figma": ["2322:1675", "2322:2002"],
       "cache": "docs/figma-component-inventory.json",
       "implementation": ["packages/ui-web/src/components/Dialog/Dialog.tsx", "packages/ui-web/src/components/Dialog/Dialog.test.tsx", "packages/ui-web/src/hooks/useDialogBehavior.ts", "packages/css/src/components/dialog.css"],
       "codeConnect": ["code-connect/DesktopDialog.figma.ts", "code-connect/MobileDialog.figma.ts"],
-      "remaining": "Review current diff, close implementation gaps, run required audit; then mark completed."
+      "remaining": "None. Verified with npm run check (160 tests passed) and ADS audit."
     },
     "inventoryPending": {
       "status": "pending",
