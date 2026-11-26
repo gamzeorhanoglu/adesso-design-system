@@ -57,6 +57,12 @@ export { CardNewsBlog } from "./components/CardNewsBlog/CardNewsBlog";
 export type { CardNewsBlogProps, CardNewsBlogState, CardNewsBlogType } from "./components/CardNewsBlog/CardNewsBlog";
 export { CardStats } from "./components/CardStats/CardStats";
 export type { CardStatsProps } from "./components/CardStats/CardStats";
+export { NotificationList } from "./components/NotificationList/NotificationList";
+export type {
+  NotificationListDevice,
+  NotificationListProps,
+  NotificationListState
+} from "./components/NotificationList/NotificationList";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

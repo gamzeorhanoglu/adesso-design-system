@@ -200,6 +200,11 @@ h2 {
   overflow-x: auto;
 }
 
+.notification-list-showcase {
+  display: flex;
+  flex-direction: column;
+}
+
 .card-content-showcase {
   display: flex;
   align-items: flex-start;

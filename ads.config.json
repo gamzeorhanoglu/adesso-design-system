@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 47,
-      "missingNonIconSetCount": 10,
+      "implementedNonIconSetCount": 48,
+      "missingNonIconSetCount": 9,
       "implementedStandaloneComponentCount": 25
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 352,
+      "parserlessTemplateCount": 353,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -67,6 +67,7 @@
       , "cardKpiTemplate": "code-connect/CardKpi.figma.ts"
       , "cardNewsBlogTemplate": "code-connect/CardNewsBlog.figma.ts"
       , "cardStatsTemplate": "code-connect/CardStats.figma.ts"
+      , "notificationListTemplate": "code-connect/NotificationList.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -338,6 +339,24 @@
           "Caption": "string"
         },
         "primitives": []
+      },
+      "notificationList": {
+        "componentSetNodeId": "5371:1513",
+        "code": "packages/ui-web/src/components/NotificationList/NotificationList.tsx",
+        "codeConnect": "code-connect/NotificationList.figma.ts",
+        "devices": ["desktop", "mobile"],
+        "states": ["default", "open", "read", "read-open"],
+        "properties": {
+          "Device": ["desktop", "mobile"],
+          "State": ["default", "open", "read", "read-open"],
+          "Show Icon": "boolean",
+          "Show Description": "boolean",
+          "Show Button": "boolean",
+          "Show Date": "string",
+          "Notification Type": "slot"
+        },
+        "primitives": ["Button"],
+        "hooks": ["useNotificationListActions"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",

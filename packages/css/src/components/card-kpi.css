@@ -61,8 +61,8 @@
   color: var(--ads-component-color-card-text-tertiary);
   font-family: var(--ads-typography-text-label-md-standard-font);
   font-size: var(--ads-typography-text-label-md-standard-size);
-  font-weight: var(--ads-typography-text-label-md-standard-weight);
-  line-height: var(--ads-typography-text-label-md-standard-line-height);
+  font-weight: 400;
+  line-height: 1;
   letter-spacing: var(--ads-typography-text-label-md-standard-letter-spacing);
   overflow-wrap: anywhere;
 }
@@ -103,8 +103,8 @@
   color: var(--ads-component-color-card-text-secondary);
   font-family: var(--ads-typography-text-heading-sm-font);
   font-size: var(--ads-typography-text-heading-sm-size);
-  font-weight: var(--ads-typography-text-heading-sm-weight);
-  line-height: var(--ads-typography-text-heading-sm-line-height);
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-heading-sm-letter-spacing);
   text-overflow: ellipsis;
 }
@@ -121,8 +121,8 @@
   color: var(--ads-component-color-card-text-primary);
   font-family: var(--ads-typography-text-body-md-regular-font);
   font-size: var(--ads-typography-text-body-md-regular-size);
-  font-weight: var(--ads-typography-text-body-md-regular-weight);
-  line-height: var(--ads-typography-text-body-md-regular-line-height);
+  font-weight: 400;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-body-md-regular-letter-spacing);
   white-space: nowrap;
 }
@@ -134,8 +134,8 @@
   gap: var(--ads-layout-space-4xs);
   font-family: var(--ads-typography-text-label-md-standard-font);
   font-size: var(--ads-typography-text-label-md-standard-size);
-  font-weight: var(--ads-typography-text-label-md-standard-weight);
-  line-height: var(--ads-typography-text-label-md-standard-line-height);
+  font-weight: 400;
+  line-height: 1;
   white-space: nowrap;
 }
 

@@ -16,8 +16,8 @@
   color: var(--ads-component-color-card-text-primary);
   font-family: var(--ads-typography-text-body-md-medium-font);
   font-size: var(--ads-typography-text-body-md-medium-size);
-  font-weight: var(--ads-typography-text-body-md-medium-weight);
-  line-height: var(--ads-typography-text-body-md-medium-line-height);
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-body-md-medium-letter-spacing);
 }
 
@@ -25,8 +25,8 @@
   color: var(--ads-component-color-card-text-secondary);
   font-family: var(--ads-typography-text-heading-lg-font);
   font-size: var(--ads-typography-text-heading-lg-size);
-  font-weight: var(--ads-typography-text-heading-lg-weight);
-  line-height: var(--ads-typography-text-heading-lg-line-height);
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-heading-lg-letter-spacing);
 }
 
@@ -34,7 +34,7 @@
   color: var(--ads-component-color-card-text-tertiary);
   font-family: var(--ads-typography-text-body-md-bold-font);
   font-size: var(--ads-typography-text-body-md-bold-size);
-  font-weight: var(--ads-typography-text-body-md-bold-weight);
-  line-height: var(--ads-typography-text-body-md-bold-line-height);
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-body-md-bold-letter-spacing);
 }

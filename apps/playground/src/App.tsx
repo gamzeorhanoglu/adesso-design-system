@@ -49,7 +49,8 @@ import {
   CardExternalLink,
   CardKpi,
   CardNewsBlog,
-  CardStats
+  CardStats,
+  NotificationList
 } from "@ads/ui-web";
 
 export function App() {
@@ -654,6 +655,24 @@ export function App() {
         <h2 id="card-stats-title">Card Stats</h2>
         <div className="card-content-showcase">
           <CardStats />
+        </div>
+      </section>
+
+      <section aria-labelledby="notification-list-title">
+        <h2 id="notification-list-title">Notification List</h2>
+        <div className="card-content-showcase">
+          <div className="notification-list-showcase">
+            <NotificationList />
+            <NotificationList defaultOpen />
+            <NotificationList read />
+            <NotificationList defaultOpen read />
+          </div>
+          <div className="notification-list-showcase">
+            <NotificationList device="mobile" />
+            <NotificationList defaultOpen device="mobile" />
+            <NotificationList device="mobile" read />
+            <NotificationList defaultOpen device="mobile" read />
+          </div>
         </div>
       </section>
 

@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 25,
     "nonIconInventoryItemCount": 96,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 47,
-    "missingNonIconSetCount": 10
+    "implementedNonIconSetCount": 48,
+    "missingNonIconSetCount": 9
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -642,9 +642,9 @@
       "name": "Notification/List",
       "nodeType": "COMPONENT_SET",
       "variantCount": 8,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 4,
-      "target": null
+      "target": "packages/ui-web/src/components/NotificationList/NotificationList.tsx"
     },
     {
       "page": "Notification",

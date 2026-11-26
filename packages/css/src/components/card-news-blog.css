@@ -40,8 +40,8 @@
   width: 100%;
   font-family: var(--ads-typography-text-body-sm-regular-font);
   font-size: var(--ads-typography-text-body-sm-regular-size);
-  font-weight: var(--ads-typography-text-body-sm-regular-weight);
-  line-height: var(--ads-typography-text-body-sm-regular-line-height);
+  font-weight: 400;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-body-sm-regular-letter-spacing);
   white-space: nowrap;
 }
@@ -58,8 +58,8 @@
   overflow: hidden;
   font-family: var(--ads-typography-text-body-lg-bold-font);
   font-size: var(--ads-typography-text-body-lg-bold-size);
-  font-weight: var(--ads-typography-text-body-lg-bold-weight);
-  line-height: var(--ads-typography-text-body-lg-bold-line-height);
+  font-weight: 700;
+  line-height: 1.2;
   letter-spacing: var(--ads-typography-text-body-lg-bold-letter-spacing);
   overflow-wrap: anywhere;
   -webkit-box-orient: vertical;

@@ -1,0 +1,232 @@
+.ads-notification-list {
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  background: var(--ads-component-color-notification-background-primary);
+  border-bottom: var(--ads-layout-layout-stroke-weight-sm) solid var(--ads-component-color-notification-border-default);
+}
+
+.ads-notification-list.device-desktop {
+  width: 600px;
+  padding: var(--layout-space-sm);
+}
+
+.ads-notification-list.device-mobile {
+  width: 320px;
+}
+
+.ads-notification-list.device-mobile.state-default,
+.ads-notification-list.device-mobile.state-read {
+  padding: var(--layout-space-xs);
+}
+
+.ads-notification-list.device-mobile.state-open,
+.ads-notification-list.device-mobile.state-read-open {
+  gap: var(--layout-space-2xs);
+  padding: 0 0 0 var(--layout-space-xs);
+}
+
+.ads-notification-list-content {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-sm);
+  min-width: 1px;
+}
+
+.device-mobile .ads-notification-list-content {
+  gap: var(--layout-space-xs);
+}
+
+.device-mobile.state-open .ads-notification-list-content,
+.device-mobile.state-read-open .ads-notification-list-content {
+  padding-block: var(--layout-space-xs);
+}
+
+.ads-notification-list-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  width: 100%;
+}
+
+.device-mobile .ads-notification-list-row {
+  gap: var(--layout-space-2xs);
+}
+
+.ads-notification-list-icon {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--ads-component-color-notification-icon-primary);
+}
+
+.is-read .ads-notification-list-icon {
+  color: var(--ads-component-color-notification-icon-disabled);
+}
+
+.ads-notification-list-dot {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 8px;
+  height: 8px;
+  background: var(--ads-color-color-icon-error-primary);
+  border-radius: var(--ads-layout-layout-radius-full);
+}
+
+.ads-notification-list-body {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  min-width: 1px;
+}
+
+.device-mobile .ads-notification-list-body {
+  gap: var(--layout-space-2xs);
+}
+
+.ads-notification-list-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--layout-space-2xs);
+  width: 100%;
+}
+
+.ads-notification-list-copy {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  gap: var(--ads-layout-space-3xs);
+  min-width: 1px;
+}
+
+.ads-notification-list-copy p {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
+}
+
+.ads-notification-list-title {
+  max-height: 48px;
+  color: var(--ads-component-color-notification-text-primary);
+  font-family: var(--ads-typography-text-body-lg-medium-font);
+  font-size: var(--ads-typography-text-body-lg-medium-size);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: var(--ads-typography-text-body-lg-medium-letter-spacing);
+}
+
+.device-mobile .ads-notification-list-title {
+  max-height: 38px;
+  font-size: var(--ads-typography-text-body-md-medium-size);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.is-read .ads-notification-list-title {
+  color: var(--ads-component-color-notification-text-secondary);
+}
+
+.ads-notification-list-description {
+  color: var(--ads-component-color-notification-text-secondary);
+  font-family: var(--ads-typography-text-body-md-regular-font);
+  font-size: var(--ads-typography-text-body-md-regular-size);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: var(--ads-typography-text-body-md-regular-letter-spacing);
+}
+
+.device-mobile .ads-notification-list-description {
+  font-size: var(--ads-typography-text-body-sm-regular-size);
+  line-height: 1.2;
+}
+
+.is-read .ads-notification-list-description {
+  color: var(--ads-component-color-notification-text-disabled);
+}
+
+.ads-notification-list-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--layout-space-2xs);
+  max-height: var(--ads-size-control-sm);
+}
+
+.ads-notification-list-action.is-pressed {
+  background: var(--ads-color-action-primary-disabled);
+}
+
+.ads-notification-list-action.is-primary,
+.ads-notification-list-action.is-primary:hover:not(:disabled) {
+  color: var(--ads-component-color-notification-icon-inverse);
+  background: var(--ads-component-color-notification-background-action);
+}
+
+.ads-notification-list-action.is-danger,
+.ads-notification-list-action.is-danger:hover:not(:disabled) {
+  color: var(--ads-component-color-notification-icon-inverse);
+  background: var(--ads-component-color-notification-background-error);
+}
+
+.ads-notification-list-date {
+  display: flex;
+  align-items: center;
+  gap: var(--ads-layout-space-3xs);
+  color: var(--ads-component-color-notification-text-disabled);
+  font-family: var(--ads-typography-text-label-md-standard-font);
+  font-size: var(--ads-typography-text-label-md-standard-size);
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.device-mobile .ads-notification-list-date {
+  font-size: var(--ads-typography-text-label-sm-standard-size);
+}
+
+.ads-notification-list-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-inline-start: var(--layout-space-md);
+}
+
+.ads-notification-list-slides {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: stretch;
+}
+
+.ads-notification-list-slide {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--layout-space-2xs) var(--layout-space-xs);
+  color: var(--ads-component-color-notification-icon-inverse);
+  border: 0;
+  cursor: pointer;
+}
+
+.ads-notification-list-slide.is-primary {
+  background: var(--ads-component-color-notification-background-action);
+}
+
+.ads-notification-list-slide.is-danger {
+  background: var(--ads-component-color-notification-background-error);
+}
+
+.ads-notification-list:focus-visible {
+  outline: var(--ads-layout-layout-stroke-weight-sm) solid var(--ads-component-color-notification-border-hover);
+  outline-offset: calc(-1 * var(--ads-layout-layout-stroke-weight-sm));
+}
