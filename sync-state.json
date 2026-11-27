@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Messages",
+  "next": "Desktop/Carousel",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -74,6 +74,14 @@
       "implementation": ["packages/ui-web/src/components/NotificationGroup/NotificationGroup.tsx", "packages/css/src/components/notification-group.css"],
       "codeConnect": ["code-connect/NotificationGroup.figma.ts"],
       "remaining": "Verified with npm run build, full npm run check (183 tests), ADS audit on source folders, and playground comparison against the Figma screenshot (602px panel). Composes ADS Button, TabGroup and NotificationList; items are passed as children. Figma Code Connect mentions BellIcon showBadge, which does not exist in @ads/icons; the unread dot remains the estimated CSS dot from Notification/List. Note: the playground serves @ads/ui-web from the build output, so run npm run build before previewing component changes. Next is the first missing phase 4 item (Toasts: Messages)."
+    },
+    "Messages": {
+      "status": "completed",
+      "figma": ["2714:49"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/ToastMessage/ToastMessage.tsx", "packages/css/src/components/toast-message.css"],
+      "codeConnect": ["code-connect/ToastMessage.figma.ts"],
+      "remaining": "Verified with npm run build, full npm run check (189 tests), ADS audit on source folders, and playground comparison against the Figma screenshot (4 types x desktop 400px / mobile 320px). Implemented as ToastMessage. All phase 4 items are done; next is the first missing phase 5 item (Carousel: Desktop/Carousel)."
     },
     "inventoryPending": {
       "status": "pending",

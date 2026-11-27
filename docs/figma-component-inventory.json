@@ -26,8 +26,8 @@
     "implementedStandaloneComponentCount": 26,
     "nonIconInventoryItemCount": 96,
     "nonIconComponentSetCount": 57,
-    "implementedNonIconSetCount": 49,
-    "missingNonIconSetCount": 8
+    "implementedNonIconSetCount": 50,
+    "missingNonIconSetCount": 7
   },
   "iconFamily": {
     "pageId": "2020:844",
@@ -1060,9 +1060,9 @@
       "name": "Messages",
       "nodeType": "COMPONENT_SET",
       "variantCount": 8,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 4,
-      "target": null
+      "target": "packages/ui-web/src/components/ToastMessage/ToastMessage.tsx"
     },
     {
       "page": "Tooltip",

@@ -205,6 +205,13 @@ h2 {
   flex-direction: column;
 }
 
+.toast-message-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--layout-space-md);
+}
+
 .card-content-showcase {
   display: flex;
   align-items: flex-start;

@@ -10,8 +10,8 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - 2.222 varyant veya standalone öğe
 - 281 icon seti kodda hazır: 280 ADS ikonu + 10 varyantlı `Flag` component seti
 - İkonlar dışında 57 component seti
-- Kod kapsamındaki non-icon set: 49 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Notification/List` ve `Notification/Message`)
-- Eksik non-icon set: 8
+- Kod kapsamındaki non-icon set: 50 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Notification/List`, `Notification/Message` ve `Messages`)
+- Eksik non-icon set: 7
 - Kod kapsamındaki standalone component: 26 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary`, `Card-Stats` ve `notificationgroup`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
@@ -48,7 +48,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Tab | 2 | 2 | 26 | 4 | 0 |
 | Table | 6 | 1 | 23 | 0 | 7 |
 | Tags | 2 | 0 | 30 | 2 | 0 |
-| Toasts | 1 | 0 | 8 | 0 | 1 |
+| Toasts | 1 | 0 | 8 | 1 | 0 |
 | Tooltip | 1 | 0 | 8 | 1 | 0 |
 
 ## Aktarım sırası
@@ -85,6 +85,10 @@ Ghost Button action.
 `NotificationGroupHeading`): header with dismiss control, unread information with
 an ADS Outline Button, an ADS primary TabGroup, a free `children` slot for
 `NotificationList` items and a ghost footer action.
+
+`Messages` is implemented as `ToastMessage` with success/warning/error/info
+types, desktop/mobile devices, optional description and an ADS Ghost Button
+action, plus a dismiss control.
 
 `Card-ExternalLink` is implemented as `CardExternalLink` with default/hover
 states, editable title and description, and an optional ADS Secondary Button

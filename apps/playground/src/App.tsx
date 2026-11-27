@@ -53,7 +53,8 @@ import {
   NotificationList,
   NotificationMessage,
   NotificationGroup,
-  NotificationGroupHeading
+  NotificationGroupHeading,
+  ToastMessage
 } from "@ads/ui-web";
 
 export function App() {
@@ -699,6 +700,20 @@ export function App() {
             <NotificationGroupHeading>Dün</NotificationGroupHeading>
             <NotificationList defaultOpen />
           </NotificationGroup>
+        </div>
+      </section>
+
+      <section aria-labelledby="toast-message-title">
+        <h2 id="toast-message-title">Toast Message</h2>
+        <div className="toast-message-showcase">
+          <ToastMessage type="success" />
+          <ToastMessage type="warning" />
+          <ToastMessage type="error" />
+          <ToastMessage type="info" />
+          <ToastMessage device="mobile" type="success" />
+          <ToastMessage device="mobile" type="warning" />
+          <ToastMessage device="mobile" type="error" />
+          <ToastMessage device="mobile" type="info" />
         </div>
       </section>
 

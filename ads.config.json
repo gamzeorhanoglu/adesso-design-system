@@ -9,14 +9,14 @@
       "componentSetCount": 337,
       "standaloneComponentCount": 37,
       "implementedIconSetCount": 281,
-      "implementedNonIconSetCount": 49,
-      "missingNonIconSetCount": 8,
+      "implementedNonIconSetCount": 50,
+      "missingNonIconSetCount": 7,
       "implementedStandaloneComponentCount": 26
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 355,
+      "parserlessTemplateCount": 356,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -70,6 +70,7 @@
       , "notificationListTemplate": "code-connect/NotificationList.figma.ts"
       , "notificationMessageTemplate": "code-connect/NotificationMessage.figma.ts"
       , "notificationGroupTemplate": "code-connect/NotificationGroup.figma.ts"
+      , "toastMessageTemplate": "code-connect/ToastMessage.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -382,6 +383,20 @@
           "Show Unread Information": "boolean"
         },
         "primitives": ["Button", "TabGroup", "NotificationList"]
+      },
+      "toastMessage": {
+        "componentSetNodeId": "2714:49",
+        "code": "packages/ui-web/src/components/ToastMessage/ToastMessage.tsx",
+        "codeConnect": "code-connect/ToastMessage.figma.ts",
+        "devices": ["desktop", "mobile"],
+        "types": ["success", "warning", "error", "info"],
+        "properties": {
+          "Type": ["success", "warning", "error", "info"],
+          "Device": ["desktop", "mobile"],
+          "Show Description": "boolean",
+          "Show Button": "boolean"
+        },
+        "primitives": ["Button"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",
