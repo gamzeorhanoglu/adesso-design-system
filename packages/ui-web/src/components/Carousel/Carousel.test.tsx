@@ -30,10 +30,13 @@ describe("Carousel", () => {
     expect(onButtonClick).toHaveBeenCalledOnce();
   });
 
-  it("hides the action and renders without an image", () => {
-    const { container } = render(<Carousel showButton={false} />);
+  it("hides the action and uses the bundled slide image unless one is supplied", () => {
+    const { container, rerender } = render(<Carousel showButton={false} />);
 
     expect(screen.queryByRole("button", { name: "Lorem Ipsum" })).not.toBeInTheDocument();
-    expect(container.querySelector("img")).not.toBeInTheDocument();
+    expect(container.querySelector("img")).toHaveAttribute("src");
+
+    rerender(<Carousel imageSrc="/custom.png" showButton={false} />);
+    expect(container.querySelector("img")).toHaveAttribute("src", "/custom.png");
   });
 });

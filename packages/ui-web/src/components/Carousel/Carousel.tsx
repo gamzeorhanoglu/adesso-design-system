@@ -1,4 +1,5 @@
 import type { HTMLAttributes } from "react";
+import carouselImage from "../../assets/carousel-image-1.jpeg";
 import { Button } from "../Button/Button";
 import { CarouselControl } from "../CarouselControl/CarouselControl";
 
@@ -28,7 +29,7 @@ export function Carousel({
   device = "desktop",
   getItemLabel,
   imageAlt = "",
-  imageSrc,
+  imageSrc = carouselImage,
   onButtonClick,
   onSelectedIndexChange,
   selectedIndex,
