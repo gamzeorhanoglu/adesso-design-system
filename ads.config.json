@@ -11,12 +11,12 @@
       "implementedIconSetCount": 281,
       "implementedNonIconSetCount": 50,
       "missingNonIconSetCount": 7,
-      "implementedStandaloneComponentCount": 26
+      "implementedStandaloneComponentCount": 28
     },
     "codeConnect": {
       "config": "figma.config.json",
       "label": "React",
-      "parserlessTemplateCount": 356,
+      "parserlessTemplateCount": 358,
       "iconMappingCount": 280,
       "buttonTemplate": "code-connect/Button.figma.ts",
       "inputTemplate": "code-connect/Input.figma.ts",
@@ -71,6 +71,8 @@
       , "notificationMessageTemplate": "code-connect/NotificationMessage.figma.ts"
       , "notificationGroupTemplate": "code-connect/NotificationGroup.figma.ts"
       , "toastMessageTemplate": "code-connect/ToastMessage.figma.ts"
+      , "carouselTemplate": "code-connect/Carousel.figma.ts"
+      , "carouselMobileTemplate": "code-connect/CarouselMobile.figma.ts"
     },
     "variables": {
       "manifest": "packages/tokens/src/figma.tokens.json",
@@ -397,6 +399,17 @@
           "Show Button": "boolean"
         },
         "primitives": ["Button"]
+      },
+      "carousel": {
+        "componentNodeId": "2497:1153",
+        "mobileComponentNodeId": "2526:837",
+        "code": "packages/ui-web/src/components/Carousel/Carousel.tsx",
+        "codeConnect": ["code-connect/Carousel.figma.ts", "code-connect/CarouselMobile.figma.ts"],
+        "devices": ["desktop", "mobile"],
+        "properties": {
+          "Show Button": "boolean"
+        },
+        "primitives": ["Button", "CarouselControl"]
       },
       "chip": {
         "componentSetNodeId": "2334:6047",

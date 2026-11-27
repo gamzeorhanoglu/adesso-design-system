@@ -23,7 +23,7 @@
     "variantOrComponentCount": 2222,
     "iconComponentSetCount": 281,
     "implementedIconSetCount": 281,
-    "implementedStandaloneComponentCount": 26,
+    "implementedStandaloneComponentCount": 28,
     "nonIconInventoryItemCount": 96,
     "nonIconComponentSetCount": 57,
     "implementedNonIconSetCount": 50,
@@ -378,9 +378,9 @@
       "name": "Desktop/Carousel",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 5,
-      "target": null
+      "target": "packages/ui-web/src/components/Carousel/Carousel.tsx"
     },
     {
       "page": "Carousel",
@@ -389,9 +389,9 @@
       "name": "Mobile/Carousel",
       "nodeType": "COMPONENT",
       "variantCount": 1,
-      "status": "missing",
+      "status": "implemented-connected",
       "phase": 5,
-      "target": null
+      "target": "packages/ui-web/src/components/Carousel/Carousel.tsx"
     },
     {
       "page": "Chips",

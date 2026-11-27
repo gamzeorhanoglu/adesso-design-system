@@ -12,7 +12,7 @@ taramasıdır. İki `--` sayfası dosya ayıracıdır ve ürün komponenti içer
 - İkonlar dışında 57 component seti
 - Kod kapsamındaki non-icon set: 50 (önceki kapsam + `Card-Content`, `Card-ExternalLink`, `Card-KPI`, `Card-News&Blog`, `Notification/List`, `Notification/Message` ve `Messages`)
 - Eksik non-icon set: 7
-- Kod kapsamındaki standalone component: 26 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary`, `Card-Stats` ve `notificationgroup`)
+- Kod kapsamındaki standalone component: 28 (önceki kapsam + `tabgroup/primary`, `tabgroup/secondary`, `Card-Stats`, `notificationgroup`, `Desktop/Carousel` ve `Mobile/Carousel`)
 
 Button ailesindeki altı ayrı Figma seti tek `Button` React API'sine karşılık
 gelir. Input, Search ve TextArea form kontrolleri hazırdır.
@@ -29,7 +29,7 @@ gelir. Input, Search ve TextArea form kontrolleri hazırdır.
 | Buttons | 6 | 5 | 197 | 9 | 0 |
 | Calendar | 2 | 0 | 8 | 2 | 0 |
 | Cards | 4 | 1 | 15 | 5 | 0 |
-| Carousel | 0 | 2 | 2 | 0 | 2 |
+| Carousel | 0 | 2 | 2 | 2 | 0 |
 | Chips | 1 | 1 | 13 | 2 | 0 |
 | Date Picker | 1 | 0 | 6 | 1 | 0 |
 | Dialog | 2 | 0 | 8 | 2 | 0 |
@@ -89,6 +89,10 @@ an ADS Outline Button, an ADS primary TabGroup, a free `children` slot for
 `Messages` is implemented as `ToastMessage` with success/warning/error/info
 types, desktop/mobile devices, optional description and an ADS Ghost Button
 action, plus a dismiss control.
+
+`Desktop/Carousel` and `Mobile/Carousel` are implemented as one `Carousel` with a
+`device` prop: a full-bleed slide (image via `imageSrc`, accent gradient overlay),
+title, subtitle, ADS Secondary Button and the existing `CarouselControl`.
 
 `Card-ExternalLink` is implemented as `CardExternalLink` with default/hover
 states, editable title and description, and an optional ADS Secondary Button

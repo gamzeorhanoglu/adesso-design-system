@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs/figma-component-inventory.json (cached; no Figma fetch)",
-  "next": "Desktop/Carousel",
+  "next": "Logo Asset / Akbank",
   "components": {
     "Dialog": {
       "status": "completed",
@@ -82,6 +82,14 @@
       "implementation": ["packages/ui-web/src/components/ToastMessage/ToastMessage.tsx", "packages/css/src/components/toast-message.css"],
       "codeConnect": ["code-connect/ToastMessage.figma.ts"],
       "remaining": "Verified with npm run build, full npm run check (189 tests), ADS audit on source folders, and playground comparison against the Figma screenshot (4 types x desktop 400px / mobile 320px). Implemented as ToastMessage. All phase 4 items are done; next is the first missing phase 5 item (Carousel: Desktop/Carousel)."
+    },
+    "Carousel": {
+      "status": "completed",
+      "figma": ["2497:1153", "2526:837"],
+      "cache": "docs/figma-component-inventory.json",
+      "implementation": ["packages/ui-web/src/components/Carousel/Carousel.tsx", "packages/css/src/components/carousel.css"],
+      "codeConnect": ["code-connect/Carousel.figma.ts", "code-connect/CarouselMobile.figma.ts"],
+      "remaining": "Desktop/Carousel and Mobile/Carousel implemented as one Carousel with a device prop. Verified with npm run build, full npm run check (192 tests), ADS audit on source folders, and playground size/typography check against Figma (1440x720, 393x720). The Figma sample slide image was NOT downloaded (file downloads need explicit approval): the image is supplied via imageSrc, so the playground shows only the accent background and gradient. Next is the Partner Logo Grid group (Logo Asset / Akbank, Logo Tile, Partner Logo Grid/6)."
     },
     "inventoryPending": {
       "status": "pending",

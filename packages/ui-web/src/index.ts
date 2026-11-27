@@ -76,6 +76,8 @@ export type {
 } from "./components/NotificationGroup/NotificationGroup";
 export { ToastMessage } from "./components/ToastMessage/ToastMessage";
 export type { ToastMessageDevice, ToastMessageProps, ToastMessageType } from "./components/ToastMessage/ToastMessage";
+export { Carousel } from "./components/Carousel/Carousel";
+export type { CarouselDevice, CarouselProps } from "./components/Carousel/Carousel";
 export { Chip } from "./components/Chip/Chip";
 export type { ChipProps, ChipSize } from "./components/Chip/Chip";
 export { ChipGroup } from "./components/ChipGroup/ChipGroup";

@@ -1,0 +1,107 @@
+.ads-carousel {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--ads-layout-space-lg);
+  height: 720px;
+  overflow: hidden;
+  background: var(--ads-component-color-card-background-tertiary);
+}
+
+.ads-carousel.device-desktop {
+  width: 1440px;
+  padding: var(--layout-space-sm) var(--ads-primitives-size-64);
+}
+
+.ads-carousel.device-mobile {
+  width: 393px;
+  padding: var(--layout-space-sm);
+}
+
+.ads-carousel-backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.ads-carousel-backdrop img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ads-carousel.device-mobile .ads-carousel-backdrop img {
+  object-position: 65% center;
+}
+
+.ads-carousel-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    195deg,
+    transparent 17.446%,
+    var(--color-background-accent-primary) 61.06%
+  );
+}
+
+.ads-carousel.device-mobile .ads-carousel-overlay {
+  background-image: linear-gradient(
+    224.474deg,
+    transparent 17.446%,
+    var(--color-background-accent-primary) 61.06%
+  );
+}
+
+.ads-carousel-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-space-xs);
+  width: 100%;
+}
+
+.ads-carousel.device-mobile .ads-carousel-content {
+  gap: var(--layout-space-2xs);
+}
+
+.ads-carousel-title,
+.ads-carousel-subtitle {
+  max-width: 840px;
+  margin: 0;
+  color: var(--ads-color-color-fixed-white);
+  font-family: var(--ads-typography-text-heading-xl-font);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.ads-carousel-title {
+  font-size: var(--ads-typography-text-heading-xl-size);
+  font-weight: 700;
+}
+
+.ads-carousel-subtitle {
+  font-size: var(--ads-typography-text-heading-sm-size);
+  font-weight: 700;
+}
+
+.ads-carousel.device-mobile .ads-carousel-title {
+  max-width: none;
+  font-size: var(--ads-typography-text-heading-sm-size);
+}
+
+.ads-carousel.device-mobile .ads-carousel-subtitle {
+  max-width: none;
+  font-size: var(--ads-typography-text-body-lg-medium-size);
+  font-weight: 500;
+}
+
+.ads-carousel .ads-carousel-control {
+  position: relative;
+}

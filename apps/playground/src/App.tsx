@@ -54,7 +54,8 @@ import {
   NotificationMessage,
   NotificationGroup,
   NotificationGroupHeading,
-  ToastMessage
+  ToastMessage,
+  Carousel
 } from "@ads/ui-web";
 
 export function App() {
@@ -714,6 +715,14 @@ export function App() {
           <ToastMessage device="mobile" type="warning" />
           <ToastMessage device="mobile" type="error" />
           <ToastMessage device="mobile" type="info" />
+        </div>
+      </section>
+
+      <section aria-labelledby="carousel-title">
+        <h2 id="carousel-title">Carousel</h2>
+        <div className="card-content-showcase">
+          <Carousel />
+          <Carousel device="mobile" />
         </div>
       </section>
 
